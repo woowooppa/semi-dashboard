@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-07-19T23:52:26+09:00",
+  "generated_at_utc": "2026-07-19T14:52:26+00:00",
+  "prices": {},
+  "fred": {
+    "PCU3344133344131": {
+      "desc": "반도체·관련소자 제조 PPI — IC 패키지",
+      "value": 20.932,
+      "date": "2026-06-01",
+      "yoy_pct": null,
+      "source": "FRED / BLS"
+    },
+    "PCU334413334413": {
+      "desc": "반도체·관련소자 제조 PPI",
+      "value": 29.695,
+      "date": "2026-06-01",
+      "yoy_pct": -0.63,
+      "source": "FRED / BLS"
+    }
+  },
+  "news": [
+    {
+      "title": "디노티시아, VDPU 성능평가…벡터 DB와 융합해 'AI 데이터 인프라 기업' 도전",
+      "link": "https://www.etnews.com/20260719000060",
+      "published": "Sun, 19 Jul 2026 17:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "새마을금고, 자체 AI 플랫폼 구축한다",
+      "link": "https://www.etnews.com/20260719000034",
+      "published": "Sun, 19 Jul 2026 17:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "[전화성의 기술창업 Targeting] 〈403〉 [AC협회장 주간록113] AI·딥테크 시대, 국가 성장전략 중심에 선 스타트업",
+      "link": "https://www.etnews.com/20260716000182",
+      "published": "Sun, 19 Jul 2026 17:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "TCL코리아, 메모리 대란에 TV·냉장고·세탁기 가격 내달 인상",
+      "link": "https://www.etnews.com/20260715000420",
+      "published": "Sun, 19 Jul 2026 16:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "전북도, 연구·교육·실증·인증 한 데 묶은 '피지컬AI 허브' 조성 박차",
+      "link": "https://www.etnews.com/20260715000002",
+      "published": "Sun, 19 Jul 2026 09:30:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "충남, 반도체·디스플레이 등 중소 제조 AX 지원 시동…공정 데이터 자산화·표준화 지원",
+      "link": "https://www.etnews.com/20260716000293",
+      "published": "Sun, 19 Jul 2026 09:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "대전시, 'AI 육성계획' 수립 착수…민선 9기 핵심 공약 시동",
+      "link": "https://www.etnews.com/20260715000234",
+      "published": "Sun, 19 Jul 2026 09:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "[차이나 브리프] SK하이닉스의 웨이퍼 캐파 확대…공급과잉 우려 없다",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=58126",
+      "published": "2026-07-10 08:51:21",
+      "source": "디일렉"
+    },
+    {
+      "title": "[차이나 브리프] 화웨이 반도체는 앞만 보고 달린다",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=57499",
+      "published": "2026-06-26 08:30:20",
+      "source": "디일렉"
+    },
+    {
+      "title": "[차이나 브리프] TSMC, CoPoS 협력사 통제 강화",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=56702",
+      "published": "2026-06-05 07:44:35",
+      "source": "디일렉"
+    },
+    {
+      "title": "[차이나 브리프] SK하이닉스 지원으로 급성장하는 중국 메모리 기업",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=43133",
+      "published": "2025-11-26 09:35:13",
+      "source": "디일렉"
+    },
+    {
+      "title": "[차이나 브리프] TSMC, 미국에 대규모 투자 논의",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=33034",
+      "published": "2025-03-18 09:44:11",
+      "source": "디일렉"
+    },
+    {
+      "title": "[차이나 브리프] TSMC, 2나노 고객사로 애플·엔비디아 이미 확보",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=26018",
+      "published": "2024-03-18 09:37:32",
+      "source": "디일렉"
+    },
+    {
+      "title": "[차이나 브리프] TSMC 미국 공장 난항 원인",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=25357",
+      "published": "2024-02-20 09:32:32",
+      "source": "디일렉"
+    },
+    {
+      "title": "[차이나 브리프] TSMC도 중국 장비 수출 허가",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=23466",
+      "published": "2023-11-17 12:05:18",
+      "source": "디일렉"
+    },
+    {
+      "title": "[차이나 브리프] 삼성전자의 AMD 파운드리 수주",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=22711",
+      "published": "2023-09-25 09:02:53",
+      "source": "디일렉"
+    }
+  ],
+  "errors": [
+    "price:005930.KS — 빈 응답 — 티커 확인 필요",
+    "price:000660.KS — 빈 응답 — 티커 확인 필요",
+    "price:MU — 빈 응답 — 티커 확인 필요",
+    "price:SOXX — 빈 응답 — 티커 확인 필요",
+    "news:Reuters Technology — HTTP Error 404: Not Found"
+  ],
+  "notes": {
+    "manual_fields": [
+      "SOXX 후행 P/E — iShares 공식, 주 1회 수기",
+      "SOXX 선행 P/E — 증권사 리포트, 분기 1회 수기",
+      "DRAM 현물가·계약가·DXI — TrendForce, 재배포 불가로 수기",
+      "3사 Bit Growth·ASP — 각 사 IR, 분기 1회 수기"
+    ]
+  }
+}
