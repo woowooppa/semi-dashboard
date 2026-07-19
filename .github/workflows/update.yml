@@ -1,0 +1,47 @@
+name: 데이터 갱신
+
+on:
+  schedule:
+    # 21:00 UTC = 06:00 KST (다음날). 평일 기준으로 넉넉히 매일 실행
+    - cron: "0 21 * * *"
+  workflow_dispatch:        # 저장소 Actions 탭에서 수동 실행 가능
+  push:
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 준비
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 데이터 수집
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python scripts/fetch_data.py
+
+      - name: 변경분 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/data.json
+          if git diff --staged --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "데이터 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')"
+            git push
+          fi
