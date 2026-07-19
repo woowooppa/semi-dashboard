@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>병목 — 반도체·AI 투자 대시보드</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0A0D14; --ink2:#111624; --ink3:#19203020; --panel:#0F1420;
+  --line:#232C40; --line2:#323D56;
+  --si:#C9D3E6; --dim:#7B89A6; --faint:#535F79;
+  --teal:#3FD6BC; --violet:#9B87F5; --amber:#F5A623; --crim:#F0555B;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+  --sans:'Gothic A1',-apple-system,'Apple SD Gothic Neo',sans-serif;
+  --rail:196px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--ink); color:var(--si); font-family:var(--sans);
+  font-size:15px; line-height:1.72; -webkit-font-smoothing:antialiased;
+  background-image:
+    radial-gradient(ellipse 900px 500px at 80% -10%, rgba(155,135,245,.10), transparent 60%),
+    radial-gradient(ellipse 700px 400px at 5% 20%, rgba(63,214,188,.06), transparent 60%);
+  background-attachment:fixed;
+}
+::selection{background:var(--violet);color:#0A0D14}
+
+/* ---------- 레이아웃 ---------- */
+.shell{display:grid;grid-template-columns:var(--rail) minmax(0,1fr);max-width:1320px;margin:0 auto}
+.rail{
+  position:sticky; top:0; height:100vh; padding:34px 0 34px 22px;
+  border-right:1px solid var(--line); display:flex; flex-direction:column; gap:2px;
+}
+.rail .mark{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--faint);text-transform:uppercase;margin-bottom:22px}
+.rail a{
+  display:flex;gap:11px;align-items:baseline;text-decoration:none;color:var(--dim);
+  padding:7px 12px 7px 0;font-size:12.5px;font-weight:500;border-left:2px solid transparent;
+  margin-left:-22px;padding-left:20px;transition:color .18s,border-color .18s;
+}
+.rail a i{font-family:var(--mono);font-size:10px;font-style:normal;color:var(--faint);min-width:15px}
+.rail a:hover{color:var(--si)}
+.rail a.on{color:var(--teal);border-left-color:var(--teal)}
+.rail a.on i{color:var(--teal)}
+.rail .foot{margin-top:auto;font-family:var(--mono);font-size:9.5px;color:var(--faint);line-height:1.7;padding-right:16px}
+main{padding:0 clamp(20px,4vw,58px) 120px;min-width:0}
+
+/* ---------- 히어로 ---------- */
+.hero{padding:76px 0 40px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--teal);margin-bottom:26px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.eyebrow s{width:34px;height:1px;background:var(--teal);display:block;text-decoration:none}
+h1{
+  font-size:clamp(34px,5.6vw,62px);font-weight:900;line-height:1.08;letter-spacing:-.035em;
+  color:#EEF3FC;margin-bottom:22px;
+}
+h1 em{
+  font-style:normal;
+  background:linear-gradient(100deg,var(--teal),var(--violet) 62%,var(--amber));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.lede{font-size:16.5px;color:var(--dim);max-width:62ch;line-height:1.8}
+.lede b{color:var(--si);font-weight:700}
+
+/* ---------- 시그니처: 예배 보드 ---------- */
+.liturgy{
+  margin:44px 0 0;border:1px solid var(--line2);background:linear-gradient(160deg,rgba(155,135,245,.05),rgba(63,214,188,.03));
+  border-radius:3px;display:grid;grid-template-columns:150px minmax(0,1fr);
+}
+.lit-gauge{border-right:1px solid var(--line);padding:24px 18px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
+.lit-gauge svg{display:block}
+.lit-gauge .pct{font-family:var(--mono);font-size:21px;font-weight:600;color:var(--teal);letter-spacing:-.02em}
+.lit-gauge .cap{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);text-align:center}
+.lit-body{padding:22px 24px}
+.lit-body h3{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);margin-bottom:4px;font-family:var(--mono)}
+.lit-body p.sub{font-size:12.5px;color:var(--faint);margin-bottom:16px}
+.lit-list{display:grid;gap:2px}
+.lit-list label{
+  display:flex;gap:11px;align-items:flex-start;padding:7px 9px;cursor:pointer;border-radius:2px;
+  font-size:13.5px;color:var(--dim);transition:background .15s,color .15s;
+}
+.lit-list label:hover{background:rgba(255,255,255,.035);color:var(--si)}
+.lit-list input{appearance:none;width:14px;height:14px;border:1px solid var(--line2);border-radius:1px;margin-top:4px;flex:none;position:relative;cursor:pointer;transition:.15s}
+.lit-list input:checked{background:var(--teal);border-color:var(--teal)}
+.lit-list input:checked::after{content:"";position:absolute;left:4px;top:1px;width:4px;height:8px;border:solid var(--ink);border-width:0 2px 2px 0;transform:rotate(42deg)}
+.lit-list input:focus-visible{outline:2px solid var(--violet);outline-offset:2px}
+.lit-list label:has(input:checked){color:var(--faint)}
+.lit-list label:has(input:checked) span{text-decoration:line-through;text-decoration-color:var(--line2)}
+.lit-reset{margin-top:14px;background:none;border:1px solid var(--line);color:var(--faint);font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:6px 12px;border-radius:2px;cursor:pointer;transition:.15s}
+.lit-reset:hover{border-color:var(--line2);color:var(--si)}
+
+/* ---------- 섹션 ---------- */
+section{padding:72px 0 12px;border-bottom:1px solid var(--line);scroll-margin-top:20px}
+section:last-of-type{border-bottom:none}
+.shead{display:flex;gap:16px;align-items:baseline;margin-bottom:8px}
+.snum{font-family:var(--mono);font-size:11px;color:var(--teal);letter-spacing:.14em;padding-top:6px}
+h2{font-size:clamp(23px,3vw,32px);font-weight:900;letter-spacing:-.028em;color:#E9EFFA;line-height:1.2}
+.sdesc{color:var(--dim);font-size:14px;max-width:64ch;margin:0 0 34px 0}
+h3.blk{font-size:15px;font-weight:700;color:#E4EBF7;margin:34px 0 12px;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+h3.blk::before{content:"";width:3px;height:14px;background:var(--violet);flex:none;border-radius:2px}
+h4.min{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);margin:26px 0 10px}
+p{margin-bottom:13px;color:var(--dim)}
+p strong,li strong{color:var(--si);font-weight:700}
+a.lnk{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(63,214,188,.3)}
+a.lnk:hover{border-bottom-color:var(--teal)}
+
+/* ---------- 카드/그리드 ---------- */
+.grid{display:grid;gap:12px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(212px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:19px 20px}
+.card h5{font-size:13.5px;font-weight:700;color:#E4EBF7;margin-bottom:9px;letter-spacing:-.01em}
+.card p{font-size:13px;margin-bottom:0;line-height:1.7}
+.card.accent{border-left:2px solid var(--amber)}
+.card.teal{border-left:2px solid var(--teal)}
+.card.violet{border-left:2px solid var(--violet)}
+
+.metric{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:17px 18px}
+.metric .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-bottom:9px}
+.metric .v{font-family:var(--mono);font-size:25px;font-weight:600;color:#F0F5FF;letter-spacing:-.03em;line-height:1.1}
+.metric .v small{font-size:14px;color:var(--dim);font-weight:400;margin-left:2px}
+.metric .d{font-family:var(--mono);font-size:11px;margin-top:7px;color:var(--dim)}
+.up{color:var(--teal)} .down{color:var(--crim)} .warn{color:var(--amber)}
+.metric .src{font-size:10px;color:var(--faint);margin-top:9px;font-family:var(--mono)}
+
+/* ---------- 인용/경고 ---------- */
+blockquote{
+  border-left:2px solid var(--violet);padding:2px 0 2px 18px;margin:18px 0;
+  color:var(--si);font-size:14.5px;line-height:1.78;
+}
+blockquote cite{display:block;font-family:var(--mono);font-size:10.5px;color:var(--faint);font-style:normal;margin-top:8px;letter-spacing:.06em}
+.callout{border:1px solid rgba(245,166,35,.32);background:rgba(245,166,35,.055);border-radius:3px;padding:16px 18px;margin:20px 0}
+.callout .tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);margin-bottom:7px}
+.callout p{font-size:13.5px;margin-bottom:0;color:var(--si)}
+
+/* ---------- 표 ---------- */
+.tw{overflow-x:auto;margin:16px 0;border:1px solid var(--line);border-radius:3px}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:520px}
+th{
+  text-align:left;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--faint);font-weight:500;padding:11px 14px;background:rgba(255,255,255,.022);border-bottom:1px solid var(--line);white-space:nowrap;
+}
+td{padding:11px 14px;border-bottom:1px solid rgba(35,44,64,.55);color:var(--dim);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.num{font-family:var(--mono);color:var(--si);white-space:nowrap}
+td strong{color:#EAF0FB}
+tbody tr:hover td{background:rgba(255,255,255,.018)}
+
+/* ---------- 리스트 ---------- */
+ul.clean{list-style:none;display:grid;gap:9px;margin:12px 0}
+ul.clean li{display:flex;gap:11px;font-size:13.5px;color:var(--dim);line-height:1.7}
+ul.clean li::before{content:"";width:4px;height:4px;border-radius:50%;background:var(--line2);flex:none;margin-top:9px}
+ul.clean li.hi::before{background:var(--amber)}
+
+/* ---------- 소스 링크 ---------- */
+.srcgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:9px;margin:14px 0}
+.src-a{
+  display:block;text-decoration:none;background:var(--panel);border:1px solid var(--line);
+  border-radius:3px;padding:14px 15px;transition:border-color .16s,transform .16s;
+}
+.src-a:hover{border-color:var(--line2);transform:translateY(-1px)}
+.src-a .nm{font-size:13px;font-weight:700;color:#E7EDF9;margin-bottom:3px;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.src-a .nm em{font-style:normal;font-family:var(--mono);font-size:9px;letter-spacing:.1em;padding:2px 6px;border-radius:2px;flex:none}
+.t1{background:rgba(63,214,188,.14);color:var(--teal)}
+.t2{background:rgba(155,135,245,.14);color:var(--violet)}
+.t3{background:rgba(245,166,35,.14);color:var(--amber)}
+.src-a .ds{font-size:11.5px;color:var(--faint);line-height:1.6}
+.src-a .fq{font-family:var(--mono);font-size:9.5px;color:var(--dim);margin-top:7px;letter-spacing:.08em}
+
+/* ---------- 차트 ---------- */
+.chart{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:20px}
+.chart .ct{font-size:13px;font-weight:700;color:#E4EBF7;margin-bottom:2px}
+.chart .cs{font-family:var(--mono);font-size:10px;color:var(--faint);margin-bottom:16px;letter-spacing:.06em}
+.chart svg{width:100%;height:auto;display:block;overflow:visible}
+.axis{stroke:var(--line);stroke-width:1}
+.gl{stroke:rgba(35,44,64,.7);stroke-width:1;stroke-dasharray:2 4}
+.lbl{font-family:var(--mono);font-size:9.5px;fill:var(--faint)}
+.val{font-family:var(--mono);font-size:10.5px;fill:var(--si);font-weight:500}
+
+/* ---------- 상태 스트립 ---------- */
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:3px;overflow:hidden;margin:18px 0}
+.strip div{background:var(--panel);padding:14px 15px}
+.strip .sl{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:7px}
+.strip .sv{font-size:13px;font-weight:700;display:flex;align-items:center;gap:7px}
+.dot{width:6px;height:6px;border-radius:50%;flex:none}
+.dot.g{background:var(--teal);box-shadow:0 0 7px var(--teal)}
+.dot.a{background:var(--amber);box-shadow:0 0 7px var(--amber)}
+.dot.r{background:var(--crim);box-shadow:0 0 7px var(--crim)}
+
+footer{padding:44px 0 0;color:var(--faint);font-size:12px;line-height:1.8}
+footer strong{color:var(--dim)}
+
+@media(max-width:860px){
+  .shell{grid-template-columns:1fr}
+  .rail{position:static;height:auto;flex-direction:row;overflow-x:auto;padding:14px 18px;border-right:none;border-bottom:1px solid var(--line);gap:4px;align-items:center}
+  .rail .mark,.rail .foot{display:none}
+  .rail a{margin-left:0;padding:7px 13px;border-left:none;border-bottom:2px solid transparent;white-space:nowrap}
+  .rail a.on{border-left-color:transparent;border-bottom-color:var(--teal)}
+  .liturgy{grid-template-columns:1fr}
+  .lit-gauge{border-right:none;border-bottom:1px solid var(--line);flex-direction:row;gap:18px}
+  main{padding:0 20px 80px}
+  .hero{padding:44px 0 34px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<nav class="rail">
+  <div class="mark">Dashboard</div>
+  <a href="#s1" class="on"><i>01</i><span>투자철학과 방법</span></a>
+  <a href="#s2"><i>02</i><span>AI와 특이점</span></a>
+  <a href="#s3"><i>03</i><span>반도체 실시간 데이터</span></a>
+  <a href="#s4"><i>04</i><span>AI·반도체 뉴스</span></a>
+  <a href="#s5"><i>05</i><span>종목별 컨센서스</span></a>
+  <a href="#s6"><i>06</i><span>주가·펀더멘탈</span></a>
+  <a href="#s7"><i>—</i><span>갱신 운영</span></a>
+  <div class="foot">스냅샷 2026-07-19<br>수치는 원출처 재확인 필요</div>
+</nav>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="eyebrow"><s></s>반도체 · AI 투자 대시보드</div>
+  <h1>승자는 못 맞힌다.<br>대신 <em>병목을 소유한다.</em></h1>
+  <p class="lede">
+    신박한 서비스를 가진 업체가 어디서 나올지는 알 수 없다. 다만 그 업체는 투자받은 돈으로
+    <b>엄청난 양의 데이터센터를 갖게 된다.</b> 닷컴 시절 통신망의 시스코가 그랬듯, 이번 사이클의 원천은 칩이다.
+    이 대시보드는 그 전제를 <b>지속적으로 반증하기 위해</b> 존재한다.
+  </p>
+
+  <!-- 시그니처: 예배 보드 -->
+  <div class="liturgy">
+    <div class="lit-gauge">
+      <svg width="82" height="82" viewBox="0 0 82 82" aria-hidden="true">
+        <circle cx="41" cy="41" r="33" fill="none" stroke="#232C40" stroke-width="6"/>
+        <circle id="ring" cx="41" cy="41" r="33" fill="none" stroke="#3FD6BC" stroke-width="6"
+                stroke-linecap="round" stroke-dasharray="207.3" stroke-dashoffset="207.3"
+                transform="rotate(-90 41 41)" style="transition:stroke-dashoffset .5s cubic-bezier(.4,0,.2,1)"/>
+      </svg>
+      <div class="pct" id="pct">0 / 6</div>
+      <div class="cap">오늘의 규율</div>
+    </div>
+    <div class="lit-body">
+      <h3>매매 전 점검</h3>
+      <p class="sub">손가락이 움직이기 전에 통과해야 하는 여섯 개의 문. 하나라도 걸리면 오늘은 아무것도 하지 않는다.</p>
+      <div class="lit-list" id="lit">
+        <label><input type="checkbox"><span>지금 판단은 <b>스냅샷</b>이 아니라 장기 가정에 근거하는가</span></label>
+        <label><input type="checkbox"><span>장기 가정(AI·반도체 구조 전환)이 실제로 바뀌었는가 — 아니면 매도 사유 없음</span></label>
+        <label><input type="checkbox"><span>레버리지를 쓰고 있는가, 그 돈에 <b>기한</b>이 있는가</span></label>
+        <label><input type="checkbox"><span>손가락이 근질거리는가 — 그렇다면 한 번 참는다</span></label>
+        <label><input type="checkbox"><span>SOXX PER 28 트리거에 도달했는가 — 도달 시 <b>일부</b> 매도, 전량 아님</span></label>
+        <label><input type="checkbox"><span>반증 신호가 <b>3개 이상</b> 동시에 켜졌는가 — 1개는 노이즈</span></label>
+      </div>
+      <button class="lit-reset" id="reset">초기화</button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= 01 ================= -->
+<section id="s1">
+  <div class="shead"><span class="snum">01</span><h2>투자철학과 방법</h2></div>
+  <p class="sdesc">격언을 세 개의 독립 과제로 분해하면, 실패의 원인이 어디에 있는지가 드러난다.</p>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>구절</th><th>요구하는 능력</th><th>진단</th></tr></thead>
+      <tbody>
+        <tr><td><strong>좋은 기업을</strong></td><td>비즈니스 모델·아이디어 판별</td><td>대부분 여기에만 집중</td></tr>
+        <tr><td><strong>싼 가격에 사서</strong></td><td>밸류에이션, 페어밸류 측정</td><td class="down">잘 안 됨</td></tr>
+        <tr><td><strong>오래 보유하라</strong></td><td>시장에 대한 믿음 — 기본</td><td class="down">잘 안 됨</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout">
+    <div class="tag">핵심 진단</div>
+    <p>1번을 잘하는 것이 투자 실력으로 여겨지지만, 실패의 진짜 원인은 2·3번의 부재 — 즉 <strong>투자철학의 부재</strong>다.</p>
+  </div>
+
+  <h3 class="blk">철학을 세우는 세 질문</h3>
+  <div class="grid g3">
+    <div class="card teal"><h5>시장을 어떻게 보는가</h5><p>시장은 결국 가치에 수렴하고 단기 변동성은 예측 불가능하다. 시장은 나보다 훨씬 많이 알고 있다.</p></div>
+    <div class="card teal"><h5>왜 하는가</h5><p>짤짤이가 아니라 <strong>사업을 한다</strong>는 것. 지분을 보유하는 행위다.</p></div>
+    <div class="card teal"><h5>능력범위는 어디까지인가</h5><p>AI의 최종 승자는 못 맞힌다. 그러므로 승자를 맞히는 게임을 하지 않는다.</p></div>
+  </div>
+
+  <h3 class="blk">실력의 재정의 — 이건 바둑이 아니다</h3>
+  <blockquote>
+    이세돌과 100번 붙으면 100번 진다. 그런데 주식 1등 버핏은 매년 수익률 대결을 하면 상위 40% 정도일 것이다.
+    수많은 인덱스로 경제를 예측하는 사람보다, 무지성 ETF를 사고 변동성을 견디며 10년 20년 가는 사람이 더 실력 있는 것이다.
+    <cite>— 프로젝트 대화록</cite>
+  </blockquote>
+  <p>그래서 <strong>철학보다 기질이 위에 있다.</strong> 사람마다 철학이 있고, 그 철학은 각자의 기질이 만들어낸다. 필요한 것은 자기 철학을 일관되게 지킬 수 있는 기질 — 버핏이 말하는 인내와 참을성이다. 이것이 분석 능력보다 중요하다.</p>
+
+  <h3 class="blk">매도 원칙</h3>
+  <ul class="clean">
+    <li>안 파는 것이 가장 확률 높다. 타이밍을 맞추는 건 어렵지만 <strong>타이밍을 포기하면 쉬운 게임</strong>이 된다.</li>
+    <li class="hi">매도를 유발하는 전형적 소음: <em>"현물가 떨어지는데요"</em>, <em>"유가 오르는데요"</em>. 결국 다 판다.</li>
+    <li>10배가 9배 되는 건 견딜 만하다. 흔들리는 곳은 <strong>수익과 손실이 갈리는 구간</strong>이다.</li>
+    <li class="hi">가장 위험한 순간은 <strong>초과이익 실현 후 재투입 결정</strong>. 스냅샷이 장기 기대수익을 이겨버릴 때.</li>
+  </ul>
+
+  <h3 class="blk">포트폴리오 · 레버리지</h3>
+  <div class="grid g2">
+    <div class="card"><h5>구성 (2026 논의 기준)</h5>
+      <p>삼전+하이닉스 약 50% · ETF 약 30% · 현금 약 5% · 나머지 현대차, SKT 및 소액 ETF.<br>
+      <span style="color:var(--faint)">미해결 논쟁: 개별종목 비중을 줄이고 ETF 80~90%로 갈 것인가.</span></p></div>
+    <div class="card accent"><h5>레버리지 — 명시적 금지 조항</h5>
+      <p>하락 국면의 레버리지 물타기 <strong>절대 금지</strong>. 특히 <strong>기한이 있는 돈</strong>은 금지. 6개월 기한 자금에 레버리지를 태우면 사팔사팔이 강요되고, 그건 도박이다.</p></div>
+  </div>
+
+  <h4 class="min">밸류에이션 기준선</h4>
+  <div class="grid g3">
+    <div class="metric"><div class="k">매도 트리거</div><div class="v">28<small> ×</small></div><div class="d">SOXX 기준 PER — 도달 시 일부 매도 구간</div><div class="src">기준값: iShares 공식 P/E</div></div>
+    <div class="metric"><div class="k">참고 지표 · A안</div><div class="v" style="font-size:20px">PER</div><div class="d">기업 펀더멘털만 본다. 시장은 주어지는 것</div></div>
+    <div class="metric"><div class="k">참고 지표 · B안</div><div class="v" style="font-size:20px">휴먼인덱스</div><div class="d warn">반박: 철저히 사후적 지표</div></div>
+  </div>
+
+  <h3 class="blk">부동산 vs 주식 — 목적 정렬</h3>
+  <div class="grid g2">
+    <div class="card"><h5>목적이 계층 <em>방어</em>라면</h5><p>서울 아파트가 맞다. 2015→2025 원화 M2 2배 증가 ≈ 노도강 실거래가 2배. 변두리 부동산은 통화량 증가 속도를 따라간다.</p></div>
+    <div class="card violet"><h5>목적이 계층 <em>상승</em>이라면</h5><p>영끌 부동산은 답이 아니다. 상환으로 현금흐름이 막히고, 상급지가 더 오르니 이사도 못 한다. <strong>상방이 닫힌다.</strong></p></div>
+  </div>
+  <p style="margin-top:14px"><strong>내가 원하는 목적과 나의 행동양식, 이 둘이 얼라인만 되면 된다.</strong></p>
+</section>
+
+<!-- ================= 02 ================= -->
+<section id="s2">
+  <div class="shead"><span class="snum">02</span><h2>AI와 특이점에 대한 인사이트</h2></div>
+  <p class="sdesc">가설과 반박을 함께 싣는다. 한쪽만 남기면 대시보드가 아니라 확증편향 장치가 된다.</p>
+
+  <h3 class="blk">가설 — AI 지능의 범용재화</h3>
+  <div class="grid g2">
+    <div class="card teal"><h5>범용재화 논리</h5><p>에이전트가 난도·비용·속도·보안에 따라 모델을 자동 선택하게 되면 개별 LLM의 브랜드 가치와 교체비용이 무너진다. 오픈웨이트가 프런티어를 증류하며 따라잡고, 사용료를 브레이크다운하면 결국 <strong>전기세 + 반도체 원가</strong>가 남는다.</p></div>
+    <div class="card teal"><h5>폐쇄루프 논리</h5><p>모델은 개방되지만 결과를 생산하는 시스템은 폐쇄된다. 자율주행 모델은 무료여도 <strong>검증된 서비스는 유료</strong>이고, 단백질 구조 모델은 무료여도 <strong>승인된 신약은 비싸다.</strong></p></div>
+  </div>
+  <p style="margin-top:14px">중요한 단서 하나: AI PC의 핵심 변화는 판매대수 폭증이 아니라 <strong>PC 한 대당 실리콘 콘텐츠(CPU·GPU·NPU·DRAM·NAND·PMIC) 가치의 구조적 상승</strong>이다. 유닛 슈퍼사이클이 아니라 콘텐츠 사이클.</p>
+
+  <h3 class="blk">반박 — 값이 빠지는 곳은 중간층이다</h3>
+  <div class="grid g2">
+    <div class="card accent"><h5>① 프런티어는 계속 이동한다</h5><p>사전학습 비용은 내려가도 후처리(RL·독점 데이터·검증)와 대규모 학습 컴퓨트는 소수에 집중된다. <strong>추론은 범용재화되지만 학습은 오히려 과점화</strong>된다. 프리미엄은 사라지지 않고 "가장 어려운 5%"에 응축된다.</p></div>
+    <div class="card accent"><h5>② 초크포인트 과소평가</h5><p>설계는 내재화해도 첨단 공정 제조·EUV·HBM 공급은 극소수에 수렴한다. 수직통합이 진행될수록 <strong>그 아래 수평 초크포인트를 쥔 쪽의 협상력이 독점화</strong>된다. AI 병목은 로직보다 <strong>메모리</strong> 쪽이다.</p></div>
+    <div class="card violet"><h5>③ 제번스 역설</h5><p>지능이 싸질수록 총수요가 폭발한다. 단가가 0으로 수렴해도 컴퓨트 <strong>총지출은 늘어난다.</strong> 범용재화와 반도체 슈퍼사이클은 모순이 아니라 함께 간다.</p></div>
+    <div class="card violet"><h5>④ 유틸리티 비유의 함정</h5><p>AI가 전기 같은 인프라가 된다는 그림은 맞다. 그러나 전기 사업은 무마진 사업이 아니다. "인프라가 된다 = 이익이 사라진다"가 아니라 <strong>이익의 성격이 규제된 자본집약적 과점으로 바뀐다.</strong></p></div>
+  </div>
+  <blockquote>
+    질문은 "무엇이 범용재화되는가"가 아니라 <strong>"어느 층이 범용재화되고 어느 층이 집중되는가"</strong>다.
+    답: 프런티어 학습 · 첨단 제조 · 사용자 관계 — <strong>양 끝단이 집중된다.</strong> 스마일 커브.
+    <cite>— 프로젝트 대화록, 2026-07-11</cite>
+  </blockquote>
+
+  <h3 class="blk">시차 논쟁 — 투자 관점의 진짜 쟁점</h3>
+  <ul class="clean">
+    <li>바둑은 20년 걸린 것을 막판 1년에 해냈다. 2013년엔 동네 아저씨도 못 이겼고 2016년엔 이세돌을 갖고 놀았다.</li>
+    <li class="hi">반론: 99%는 쉽고 마지막 1%가 어렵다. <strong>재반론: 1%가 채워지기 전에 시장이 커져서 990이 된다.</strong> 기술 진보보다 산업 융합으로 파생되는 쪽이 먼저다.</li>
+    <li>거시적으로는 순식간이어도, 생애 단위에서는 정치·물리적 시스템 교체에 시간이 걸린다. <strong>기존 시스템의 붕괴는 훨씬 뒤의 일.</strong></li>
+  </ul>
+
+  <h3 class="blk">버블 논쟁</h3>
+  <div class="strip">
+    <div><div class="sl">사이클 위치</div><div class="sv"><span class="dot a"></span>1998 수준 (주장)</div></div>
+    <div><div class="sl">휴먼인덱스</div><div class="sv"><span class="dot r"></span>발동 — 식당·카페</div></div>
+    <div><div class="sl">닷컴과의 차이</div><div class="sv"><span class="dot g"></span>실체가 무겁다</div></div>
+    <div><div class="sl">공통 결론</div><div class="sv"><span class="dot a"></span>버블은 온다, 지금은 초입</div></div>
+  </div>
+  <div class="callout">
+    <div class="tag">해소되지 않은 자기 반박</div>
+    <p>"이번 버블의 시스코 = 반도체"라는 비유는 상승 논리인 동시에 <strong>최종 붕괴 시나리오</strong>이기도 하다. 시스코는 닷컴 정점에서 고점을 찍고 20년간 회복하지 못했다. 대화록에서 명시적으로 해소되지 않은 지점.</p>
+  </div>
+
+  <h3 class="blk">가설 검증 계기판</h3>
+  <div class="tw">
+    <table>
+      <thead><tr><th>가설</th><th>검증 지표</th><th>반증 조건</th></tr></thead>
+      <tbody>
+        <tr><td>AI 지능 범용재화</td><td>오픈웨이트 vs 프런티어 성능 갭, 토큰 단가</td><td class="num warn">갭 재확대</td></tr>
+        <tr><td>제번스 역설</td><td>빅테크 CapEx 가이던스, DC 전력 계약</td><td class="num warn">가이던스 하향</td></tr>
+        <tr><td>메모리가 진짜 병목</td><td>DRAM/HBM 계약가·현물가, 3사 가동률·재고</td><td class="num warn">현물 급락 + 재고 급증 동시</td></tr>
+        <tr><td>PC당 실리콘 콘텐츠 상승</td><td>PC 대당 DRAM 탑재량(GB), NPU 비중</td><td class="num warn">탑재량 정체</td></tr>
+        <tr><td>폐쇄루프 데이터 해자</td><td>자율주행 누적 주행거리, 로봇 배치 대수</td><td class="num warn">후발주자가 시뮬레이션만으로 추격</td></tr>
+        <tr><td>버블 초입 (1998 vs 1999)</td><td>SOXX PER, 이익 증가율 대비 주가 상승률</td><td class="num warn">PER 28 초과 + 이익 증가율 둔화</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ================= 03 ================= -->
+<section id="s3">
+  <div class="shead"><span class="snum">03</span><h2>반도체 실시간 데이터</h2></div>
+  <p class="sdesc">수치는 1차 출처에서 직접 조회한다. 아래는 최근 확인된 스냅샷이며, 카드를 눌러 원출처로 이동한다.</p>
+
+  <h4 class="min">메모리 가격 스냅샷</h4>
+  <div class="grid g3">
+    <div class="metric"><div class="k">DXI 주간</div><div class="v up">+7.2<small>%</small></div><div class="d">DRAMeXchange Index</div><div class="src">2026-01-05 · 확인 필요</div></div>
+    <div class="metric"><div class="k">DRAM 계약가 MoM</div><div class="v up">+21<small>%</small></div><div class="d">품목별 +21% / +7%</div><div class="src">2025-12 · 확인 필요</div></div>
+    <div class="metric"><div class="k">DRAM 계약가 QoQ</div><div class="v up">+40<small>%</small></div><div class="d">4Q25, 3Q25 대비 추정</div><div class="src">증권사 추정</div></div>
+    <div class="metric"><div class="k">DDR4 스팟 프리미엄</div><div class="v warn">90<small>%+</small></div><div class="d">계약가 추가 인상 압력</div><div class="src">2026-01 · 확인 필요</div></div>
+    <div class="metric"><div class="k">IC 패키지 PPI</div><div class="v">19.94</div><div class="d">Index Dec 1998=100</div><div class="src">FRED PCU3344133344131 · 2026-01</div></div>
+    <div class="metric"><div class="k">SOXX PER</div><div class="v" style="color:var(--faint)">—</div><div class="d warn">미확인 — 매도 트리거의 기준값</div><div class="src">iShares 공식 팩트시트에서 확인</div></div>
+  </div>
+
+  <div class="callout">
+    <div class="tag">데이터 공백</div>
+    <p>3사 <strong>Bit Growth·ASP 실측치</strong>와 <strong>SOXX 현재 P/E</strong>는 아직 채워지지 않았다. 전자는 각 사 IR 분기 자료, 후자는 iShares 공식 페이지에서 직접 확인해야 한다. 서드파티마다 TTM/Forward 기준이 달라 숫자가 달라지므로 <strong>기준값 출처를 하나로 고정</strong>한다.</p>
+  </div>
+
+  <h4 class="min">가격 데이터 경로</h4>
+  <div class="srcgrid">
+    <a class="src-a" href="https://www.dramexchange.com/intelligence/historical_price_dxi" target="_blank" rel="noopener">
+      <div class="nm">DXI 지수 <em class="t1">1차</em></div><div class="ds">메모리 사이클의 단일 최고 대표지표. 2021-01-04 산출모델 변경 이력 있음</div><div class="fq">매일 · 무료 요약 / 유료 다운로드</div></a>
+    <a class="src-a" href="https://www.trendforce.com/price/dram/dram_spot" target="_blank" rel="noopener">
+      <div class="nm">DRAM 현물가 <em class="t1">1차</em></div><div class="ds">DDR5 16G 등 메인스트림 품목 현물 시세</div><div class="fq">매일 · 무료</div></a>
+    <a class="src-a" href="https://datatrack.trendforce.com/" target="_blank" rel="noopener">
+      <div class="nm">DRAM 계약가 <em class="t1">1차</em></div><div class="ds">실적에 직결되는 실질적 최중요 지표</div><div class="fq">월간 · 유료</div></a>
+    <a class="src-a" href="https://www.dramexchange.com/" target="_blank" rel="noopener">
+      <div class="nm">NAND · LPDDR · GDDR <em class="t1">1차</em></div><div class="ds">Flash / eMMC / Wafer 별도 현물 페이지</div><div class="fq">주간~월간 · 무료 요약</div></a>
+    <a class="src-a" href="https://fred.stlouisfed.org/series/PCU3344133344131" target="_blank" rel="noopener">
+      <div class="nm">FRED 반도체 PPI <em class="t1">1차</em></div><div class="ds">BLS 생산자물가. <strong>완전 무료 API</strong> — 자동화 1순위</div><div class="fq">월간 · 무료 API</div></a>
+    <a class="src-a" href="https://www.semiconductors.org/" target="_blank" rel="noopener">
+      <div class="nm">SIA / WSTS <em class="t1">1차</em></div><div class="ds">글로벌 반도체 월간 매출. 공신력 최상</div><div class="fq">월간 · 무료</div></a>
+    <a class="src-a" href="https://www.semi.org/" target="_blank" rel="noopener">
+      <div class="nm">SEMI 장비 빌링 <em class="t1">1차</em></div><div class="ds">북미 반도체 장비 출하 — 설비투자 선행</div><div class="fq">월간 · 무료</div></a>
+    <a class="src-a" href="https://data.krx.co.kr/" target="_blank" rel="noopener">
+      <div class="nm">KRX 정보데이터시스템 <em class="t1">1차</em></div><div class="ds">삼성전자·SK하이닉스 시세, OPEN API 제공</div><div class="fq">실시간~일 · 무료 API</div></a>
+  </div>
+
+  <h4 class="min">신뢰도 등급 원칙</h4>
+  <ul class="clean">
+    <li><strong>1차</strong> — 거래소, 기업 IR, 통계기관(FRED·SIA·SEMI), ETF 발행사</li>
+    <li><strong>2차</strong> — 증권사 리포트, TrendForce·Omdia, 로이터·블룸버그</li>
+    <li class="hi"><strong>배제</strong> — AI 자동생성 주가예측 사이트, 개인 블로그의 목표주가 재가공, 커뮤니티 Q&amp;A. <strong>컨센서스 수치를 이런 곳에서 인용하지 않는다.</strong></li>
+  </ul>
+</section>
+
+<!-- ================= 04 ================= -->
+<section id="s4">
+  <div class="shead"><span class="snum">04</span><h2>AI·반도체 뉴스</h2></div>
+  <p class="sdesc">속보를 모으는 것이 목적이 아니다. <strong>가설을 반증할 수 있는 소스</strong>만 남긴다.</p>
+
+  <h4 class="min">Tier 1 — 반드시 구독</h4>
+  <div class="srcgrid">
+    <a class="src-a" href="https://www.reuters.com/technology/" target="_blank" rel="noopener"><div class="nm">Reuters Technology <em class="t1">T1</em></div><div class="ds">속보·팩트 확인의 기준선</div><div class="fq">RSS · 무료</div></a>
+    <a class="src-a" href="https://semianalysis.com/" target="_blank" rel="noopener"><div class="nm">SemiAnalysis <em class="t1">T1</em></div><div class="ds">반도체 공급망·데이터센터 최고 심층. 초크포인트 가설 검증에 필수</div><div class="fq">무료 + 유료</div></a>
+    <a class="src-a" href="https://www.theinformation.com/" target="_blank" rel="noopener"><div class="nm">The Information <em class="t1">T1</em></div><div class="ds">빅테크 CapEx·칩 수요 독점 스쿱</div><div class="fq">유료</div></a>
+    <a class="src-a" href="https://www.thelec.kr/" target="_blank" rel="noopener"><div class="nm">디일렉 THELEC <em class="t1">T1</em></div><div class="ds">국내 반도체 공급망 취재 1위</div><div class="fq">무료</div></a>
+    <a class="src-a" href="https://www.etnews.com/" target="_blank" rel="noopener"><div class="nm">전자신문 <em class="t1">T1</em></div><div class="ds">국내 3사 동향</div><div class="fq">RSS · 무료</div></a>
+    <a class="src-a" href="https://www.bloomberg.com/technology" target="_blank" rel="noopener"><div class="nm">Bloomberg Technology <em class="t1">T1</em></div><div class="ds">심층·독점</div><div class="fq">유료</div></a>
+  </div>
+
+  <h4 class="min">Tier 2 — 보조</h4>
+  <div class="srcgrid">
+    <a class="src-a" href="https://www.trendforce.com/presscenter/" target="_blank" rel="noopener"><div class="nm">TrendForce Press <em class="t2">T2</em></div><div class="ds">가격·점유율 보도자료 원문</div><div class="fq">수시 · 무료</div></a>
+    <a class="src-a" href="https://m.blog.naver.com/ranto28" target="_blank" rel="noopener"><div class="nm">메르 (ranto28) <em class="t2">T2</em></div><div class="ds">대화록에서 반복 인용된 소스. 산업 맥락 정리에 유용하나 <strong>팩트는 원출처 교차확인</strong></div><div class="fq">수시 · 무료</div></a>
+    <a class="src-a" href="https://www.investchosun.com/" target="_blank" rel="noopener"><div class="nm">인베스트조선 <em class="t2">T2</em></div><div class="ds">국내 자금·딜 흐름</div><div class="fq">수시</div></a>
+    <a class="src-a" href="https://www.tomshardware.com/" target="_blank" rel="noopener"><div class="nm">Tom's Hardware <em class="t2">T2</em></div><div class="ds">제품·스펙 레벨 검증</div><div class="fq">수시 · 무료</div></a>
+  </div>
+
+  <h4 class="min">Tier 3 — AI 트랙 (가설 검증 전용)</h4>
+  <div class="srcgrid">
+    <a class="src-a" href="https://artificialanalysis.ai/" target="_blank" rel="noopener"><div class="nm">Artificial Analysis <em class="t3">T3</em></div><div class="ds">모델별 성능·가격·속도 지수. <strong>오픈웨이트 vs 프런티어 갭</strong> 추적 — 범용재화 가설의 핵심 검증</div><div class="fq">수시 · 무료</div></a>
+    <a class="src-a" href="https://epoch.ai/" target="_blank" rel="noopener"><div class="nm">Epoch AI <em class="t3">T3</em></div><div class="ds">학습 컴퓨트 추이 — 제번스 역설 검증</div><div class="fq">수시 · 무료</div></a>
+    <a class="src-a" href="https://lmarena.ai/" target="_blank" rel="noopener"><div class="nm">LMArena <em class="t3">T3</em></div><div class="ds">사용자 선호 기반 모델 랭킹</div><div class="fq">실시간 · 무료</div></a>
+    <a class="src-a" href="https://consensus.hankyung.com/" target="_blank" rel="noopener"><div class="nm">한경 컨센서스 <em class="t3">리서치</em></div><div class="ds">국내 증권사 리포트 원문 아카이브</div><div class="fq">수시 · 무료</div></a>
+  </div>
+</section>
+
+<!-- ================= 05 ================= -->
+<section id="s5">
+  <div class="shead"><span class="snum">05</span><h2>종목별 컨센서스</h2></div>
+  <p class="sdesc">스냅샷 2026-07-19. 집계처마다 애널리스트 수와 기준일이 달라 수치가 다르다 — <strong>집계일이 명시되지 않은 컨센서스는 쓰지 않는다.</strong></p>
+
+  <h3 class="blk">삼성전자 · 005930</h3>
+  <div class="grid g3">
+    <div class="metric"><div class="k">2Q26 매출 (잠정)</div><div class="v">171<small>조원</small></div><div class="d up">QoQ +27.7% · YoY +129.3%</div><div class="src">삼성전자 뉴스룸 2026-07-07</div></div>
+    <div class="metric"><div class="k">2Q26 영업이익 (잠정)</div><div class="v">89.4<small>조원</small></div><div class="d up">QoQ +56.2% · YoY +1,810%</div><div class="src">컨센서스 85~86조 상회</div></div>
+    <div class="metric"><div class="k">충당금 제외 실질</div><div class="v warn">~110<small>조원</small></div><div class="d">성과급 충당금 약 19~20조 반영분</div><div class="src">증권가 추정</div></div>
+  </div>
+  <div class="callout">
+    <div class="tag">대화록 대조 — 중요</div>
+    <p>컨센서스(85~86조)는 상회했으나, 대화록 내 강세론이 보합 기준으로 잡았던 <strong>130조에는 크게 미달</strong>했다. 발표 직후 <strong>"뉴스에 팔기"</strong> 조정이 나온 배경. 같은 숫자가 누구에게는 서프라이즈, 누구에게는 실망이다.</p>
+  </div>
+  <ul class="clean">
+    <li>이익의 대부분은 <strong>DS(반도체)</strong>. 증권가 추정 DS 80조원대, 그중 메모리 90조원대라는 추정도 있음.</li>
+    <li class="hi">시스템LSI + 파운드리 <strong>약 2조원 영업손실</strong> 추정.</li>
+    <li class="hi">MX(스마트폰) — 메모리 가격 급등 원가 충격으로 <strong>사상 첫 분기 적자</strong> 전망. VD/가전도 적자 전환 추정.</li>
+    <li>목표주가: SK증권 <strong>50만원</strong>(2026-05-07, 기존 40만원). 증권가 대체 범위 55~65만원. 26E OP 338조 / 27E 494조, 12M Fwd PER 약 6배.</li>
+  </ul>
+
+  <h3 class="blk">SK하이닉스 · 000660</h3>
+  <div class="grid g3">
+    <div class="metric"><div class="k">1Q26 매출</div><div class="v">52.6<small>조원</small></div><div class="d">분기 사상 최대</div><div class="src">증권사 집계</div></div>
+    <div class="metric"><div class="k">1Q26 영업이익</div><div class="v">37.6<small>조원</small></div><div class="d up">영업이익률 72%</div><div class="src">증권사 집계</div></div>
+    <div class="metric"><div class="k">12M 평균 목표주가</div><div class="v">317<small>만원</small></div><div class="d">주가 220.1만원 (2026-07-07) 대비 +44%</div><div class="src">Investing.com 집계</div></div>
+  </div>
+  <div class="chart" style="margin-top:12px">
+    <div class="ct">컨센서스 분산 — 목표주가 레인지</div>
+    <div class="cs">단위: 만원 / 하이닉스 · 2026-07 기준</div>
+    <svg viewBox="0 0 700 118" role="img" aria-label="SK하이닉스 목표주가 레인지 103만원에서 470만원, 평균 317만원, 현재 220만원">
+      <line class="axis" x1="40" y1="92" x2="670" y2="92"/>
+      <g class="lbl">
+        <text x="40" y="108">100</text><text x="197" y="108">200</text><text x="354" y="108">300</text>
+        <text x="511" y="108">400</text><text x="655" y="108">500</text>
+      </g>
+      <line class="gl" x1="197" y1="26" x2="197" y2="92"/><line class="gl" x1="354" y1="26" x2="354" y2="92"/><line class="gl" x1="511" y1="26" x2="511" y2="92"/>
+      <rect x="44" y="44" width="536" height="14" rx="7" fill="url(#rg)"/>
+      <defs><linearGradient id="rg" x1="0" x2="1"><stop offset="0" stop-color="#F0555B" stop-opacity=".5"/><stop offset="1" stop-color="#3FD6BC" stop-opacity=".5"/></linearGradient></defs>
+      <line x1="44" y1="38" x2="44" y2="64" stroke="#F0555B" stroke-width="2"/>
+      <text class="val" x="44" y="30" fill="#F0555B">최저 103</text>
+      <line x1="580" y1="38" x2="580" y2="64" stroke="#3FD6BC" stroke-width="2"/>
+      <text class="val" x="540" y="30" fill="#3FD6BC">최고 470</text>
+      <circle cx="384" cy="51" r="5" fill="#9B87F5"/><text class="val" x="360" y="82" fill="#9B87F5">평균 317</text>
+      <polygon points="228,42 234,51 222,51" fill="#F5A623"/><text class="val" x="196" y="38" fill="#F5A623">현재 220</text>
+    </svg>
+  </div>
+  <div class="callout">
+    <div class="tag">가장 중요한 관찰</div>
+    <p>상단 470만원 / 하단 103만원 — <strong>4.5배 차이.</strong> 하단이 현재 주가를 크게 밑돈다는 것은 애널리스트들이 사업은 긍정하면서도 <strong>이미 많은 기대가 주가에 반영됐다고 본다</strong>는 신호일 수 있다. 낙관론의 전제는 "2027년에도 수급 불균형 지속". 핵심 변수는 <strong>HBM4 수율과 수급</strong>이다. 목표 달성 시점도 증권사별로 6개월/12개월로 달라 <strong>단순 평균 비교는 왜곡</strong>된다.</p>
+  </div>
+
+  <h3 class="blk">마이크론 · MU</h3>
+  <div class="tw">
+    <table>
+      <thead><tr><th>집계처</th><th>애널리스트</th><th>평균 목표주가</th><th>최저</th><th>최고</th><th>기준</th></tr></thead>
+      <tbody>
+        <tr><td><strong>S&amp;P Global</strong> (stockanalysis)</td><td class="num">45</td><td class="num">$1,486</td><td class="num down">$361</td><td class="num up">$2,200</td><td class="num">2026-07-17</td></tr>
+        <tr><td>Investing.com</td><td class="num">42</td><td class="num">$1,491.95</td><td class="num down">$361</td><td class="num up">$2,200</td><td class="num">2026-07</td></tr>
+        <tr><td>Benzinga</td><td class="num">29</td><td class="num">$1,316.79</td><td class="num down">$385</td><td class="num up">$2,000</td><td class="num">2026-07</td></tr>
+        <tr><td>최근 3건 평균</td><td class="num">3</td><td class="num">$1,750</td><td class="num">—</td><td class="num">—</td><td class="num">KeyBanc 07-14</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="grid g3">
+    <div class="metric"><div class="k">직전 분기 EPS</div><div class="v">$25.11</div><div class="d up">예상 $20.86 → +20.4% 서프라이즈</div><div class="src">2026-07 집계</div></div>
+    <div class="metric"><div class="k">직전 분기 매출</div><div class="v">$41.5<small>B</small></div><div class="d up">예상 $35.91B 상회</div><div class="src">2026-07 집계</div></div>
+    <div class="metric"><div class="k">베타</div><div class="v warn">3.13</div><div class="d">지수 대비 변동성 3배 — 포지션 사이징 필수</div><div class="src">TradingView</div></div>
+  </div>
+  <ul class="clean">
+    <li>등급 <strong>Strong Buy</strong>. 역대 최고가 $1,255 (2026-06-25). 다음 실적 발표 <strong>2026-09-29</strong>.</li>
+    <li>컨센서스 목표주가 리비전: $614 → $965 → <strong>$1,486</strong> 연속 상향.</li>
+    <li>CapEx: GlobalWafers $500M 금융지원 포함 미국 내 최대 <strong>$3B 투자</strong>, 10년 웨이퍼 공급계약. 궁극적으로 <strong>DRAM의 40%를 미국 생산</strong> 목표.</li>
+    <li class="hi">검색 결과에 $132.89(Zacks), $129.36(MarketBeat) 같은 목표주가가 섞여 나오는데 이는 <strong>2023~2025년 시점의 오래된 캐시</strong>다. 혼동 금지.</li>
+  </ul>
+</section>
+
+<!-- ================= 06 ================= -->
+<section id="s6">
+  <div class="shead"><span class="snum">06</span><h2>주가 및 펀더멘탈 추이</h2></div>
+  <p class="sdesc">사이클 기업의 낮은 PER은 저평가가 아니라 이익 정점의 신호일 수 있다. 이익의 <strong>레벨</strong>이 아니라 <strong>2차 미분</strong>을 본다.</p>
+
+  <div class="grid g2">
+    <div class="chart">
+      <div class="ct">삼성전자 분기 영업이익</div>
+      <div class="cs">단위: 조원 · 2Q26은 잠정치 (충당금 약 19조 포함)</div>
+      <svg viewBox="0 0 340 190" role="img" aria-label="삼성전자 분기 영업이익 2025년 2분기 4.7조, 2026년 1분기 57.2조, 2026년 2분기 89.4조">
+        <line class="axis" x1="34" y1="160" x2="330" y2="160"/>
+        <g class="lbl"><text x="6" y="34">100</text><text x="10" y="97">50</text><text x="20" y="163">0</text></g>
+        <line class="gl" x1="34" y1="30" x2="330" y2="30"/><line class="gl" x1="34" y1="95" x2="330" y2="95"/>
+        <rect x="58" y="154" width="52" height="6" fill="#535F79" rx="1"/>
+        <text class="val" x="62" y="148" fill="#7B89A6">4.7</text>
+        <rect x="140" y="86" width="52" height="74" fill="#9B87F5" rx="1" opacity=".8"/>
+        <text class="val" x="146" y="80" fill="#9B87F5">57.2</text>
+        <rect x="222" y="44" width="52" height="116" fill="#3FD6BC" rx="1" opacity=".85"/>
+        <text class="val" x="228" y="38" fill="#3FD6BC">89.4</text>
+        <line x1="222" y1="20" x2="274" y2="20" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="3 3"/>
+        <text class="val" x="278" y="24" fill="#F5A623">~110 실질</text>
+        <g class="lbl"><text x="70" y="176">2Q25</text><text x="152" y="176">1Q26</text><text x="234" y="176">2Q26P</text></g>
+      </svg>
+    </div>
+    <div class="chart">
+      <div class="ct">마이크론 매출 컨센서스</div>
+      <div class="cs">단위: 십억 달러 · FY26·FY27은 애널리스트 추정</div>
+      <svg viewBox="0 0 340 190" role="img" aria-label="마이크론 매출 FY25 37.4B, FY26 추정 129.7B, FY27 추정 234.1B">
+        <line class="axis" x1="34" y1="160" x2="330" y2="160"/>
+        <g class="lbl"><text x="2" y="34">250</text><text x="6" y="97">125</text><text x="20" y="163">0</text></g>
+        <line class="gl" x1="34" y1="30" x2="330" y2="30"/><line class="gl" x1="34" y1="95" x2="330" y2="95"/>
+        <rect x="58" y="141" width="52" height="19" fill="#535F79" rx="1"/>
+        <text class="val" x="62" y="135" fill="#7B89A6">37.4</text>
+        <rect x="140" y="95" width="52" height="65" fill="#9B87F5" rx="1" opacity=".8"/>
+        <text class="val" x="142" y="89" fill="#9B87F5">129.7</text>
+        <rect x="222" y="42" width="52" height="118" fill="#3FD6BC" rx="1" opacity=".55" stroke="#3FD6BC" stroke-dasharray="3 3"/>
+        <text class="val" x="224" y="36" fill="#3FD6BC">234.1</text>
+        <g class="lbl"><text x="72" y="176">FY25</text><text x="150" y="176">FY26E</text><text x="232" y="176">FY27E</text></g>
+      </svg>
+    </div>
+  </div>
+
+  <h3 class="blk">3사 비교</h3>
+  <div class="tw">
+    <table>
+      <thead><tr><th></th><th>삼성전자</th><th>SK하이닉스</th><th>마이크론</th></tr></thead>
+      <tbody>
+        <tr><td>최근 분기 매출</td><td class="num">171조 (2Q26P)</td><td class="num">52.6조 (1Q26)</td><td class="num">$41.5B</td></tr>
+        <tr><td>최근 분기 영업이익</td><td class="num">89.4조 (실질 ~110조)</td><td class="num">37.6조</td><td class="num">—</td></tr>
+        <tr><td>영업이익률</td><td class="num">52.3%</td><td class="num up">72%</td><td class="num">—</td></tr>
+        <tr><td>12M Fwd PER</td><td class="num">약 6배</td><td class="num">약 5.2배</td><td class="num">—</td></tr>
+        <tr><td>컨센 상승여력</td><td class="num">—</td><td class="num">약 +44%</td><td class="num">약 +75%</td></tr>
+        <tr><td>컨센 분산</td><td class="num">낮음</td><td class="num warn">매우 높음 (4.5배)</td><td class="num warn">매우 높음 (6.1배)</td></tr>
+        <tr><td>사업 순수성</td><td class="num down">낮음 (MX/VD 적자)</td><td class="num up">높음 (메모리 순수)</td><td class="num up">높음</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="blk">구조적 관찰 세 가지</h3>
+  <div class="grid g3">
+    <div class="card violet"><h5>영업이익률이 성격을 가른다</h5><p>하이닉스 72% vs 삼성 52%. 삼성은 메모리 호황이 <strong>자사 세트사업의 원가 부담으로 되돌아오는 자기잠식 구조</strong>다. 다운사이클에서는 반대로 세트가 완충한다. 하이닉스·마이크론은 순수 베타, <strong>삼성은 완충된 베타.</strong></p></div>
+    <div class="card accent"><h5>PER 5~6배의 함정</h5><p>사이클 기업은 이익이 정점일 때 PER이 가장 낮게 보인다. <strong>낮은 PER 자체가 저평가 근거가 되지 않는다.</strong> PER을 참고하되 사이클 기업에는 PBR·EV/CapEx를 병행해야 한다.</p></div>
+    <div class="card teal"><h5>분산 자체가 정보다</h5><p>컨센서스가 4~6배로 갈린다는 것은, 시장이 <strong>"구조적 재평가인가 여전히 사이클인가"</strong>에 합의하지 못했다는 뜻이다. 합의가 만들어지는 방향이 다음 국면을 결정한다.</p></div>
+  </div>
+
+  <h3 class="blk">사이클 위치 — 반증 신호 보드</h3>
+  <div class="tw">
+    <table>
+      <thead><tr><th>신호</th><th>현재</th><th>반증 조건</th></tr></thead>
+      <tbody>
+        <tr><td>DRAM 계약가</td><td class="num up">급등 지속</td><td>MoM 상승률 둔화 → 보합 → 하락 전환</td></tr>
+        <tr><td>스팟 프리미엄</td><td class="num up">90%+</td><td>프리미엄 축소 = 현물이 먼저 식는 중</td></tr>
+        <tr><td>컨센서스 리비전</td><td class="num up">연속 상향</td><td><strong>상향 중단 = 첫 경고</strong></td></tr>
+        <tr><td>빅테크 CapEx 가이던스</td><td class="num up">확대</td><td>가이던스 하향</td></tr>
+        <tr><td>SOXX PER</td><td class="num" style="color:var(--faint)">미확인</td><td>28 도달 → 일부 매도 트리거</td></tr>
+        <tr><td>세트 수요</td><td class="num warn">위축 중 ⚠</td><td>이미 진행 중 — 지속 관찰</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout">
+    <div class="tag">매도 시그널의 함정</div>
+    <p>항목 01은 <em>"현물가 떨어지는데요"</em>가 전형적인 조기 매도 유발 소음이라고 경고한다. 위 신호는 <strong>즉시 매도 신호가 아니라 가설 재검토 트리거</strong>다. <strong>1개는 노이즈, 3개 이상 동시 발생이 의미 있다.</strong> 그리고 지금 이미 하나는 켜져 있다 — 메모리 가격 급등이 IT 세트기기 성장률 전망을 끌어내리는 <strong>수요 파괴</strong> 초기 징후. 삼성 MX 첫 적자가 그 증거다.</p>
+  </div>
+</section>
+
+<!-- ================= 07 ================= -->
+<section id="s7">
+  <div class="shead"><span class="snum">—</span><h2>갱신 운영</h2></div>
+  <p class="sdesc">대시보드가 죽는 방식은 하나다. 갱신되지 않는 것.</p>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>주기</th><th>대상</th><th>방식</th></tr></thead>
+      <tbody>
+        <tr><td class="num">실시간~일</td><td>삼전·하닉·MU 주가, SOXX, 환율</td><td class="up">자동</td></tr>
+        <tr><td class="num">일</td><td>DRAM 현물가, DXI</td><td>자동/반자동</td></tr>
+        <tr><td class="num">주 (월)</td><td>Memory Watch, DXI 주간 등락, 스팟 프리미엄</td><td>리포트 확인</td></tr>
+        <tr><td class="num">월</td><td>WSTS 매출, SEMI 빌링, FRED PPI, 한국 반도체 수출, DRAM 계약가</td><td>FRED 자동 + 수동</td></tr>
+        <tr><td class="num">분기</td><td><strong>3사 실적·ASP·Bit Growth·CapEx 가이던스</strong>, 컨센 리비전, SOXX PER</td><td class="warn">수동 정독</td></tr>
+        <tr><td class="num">수시</td><td>뉴스, 목표주가 변경</td><td>RSS</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="blk">자동화 우선순위</h3>
+  <ul class="clean">
+    <li><strong>1순위 · FRED API</strong> — 유일하게 완전 무료·안정. 즉시 자동화 가능</li>
+    <li><strong>2순위 · KRX OPEN API</strong> — 국내 주가</li>
+    <li><strong>3순위 · RSS 수집</strong> — Reuters, 전자신문, THELEC</li>
+    <li class="hi">나머지는 <strong>딥링크 + 최종확인일 표기</strong> 방식 유지 — 라이선스 리스크 회피</li>
+  </ul>
+
+  <h3 class="blk">구현 단계</h3>
+  <div class="grid g2">
+    <div class="card"><h5>v1 — 현재</h5><p>정적 HTML. 소스별 딥링크 + 수동 입력 스냅샷 + 최종 갱신일 표기. 클릭 한 번으로 원출처 확인.</p></div>
+    <div class="card teal"><h5>v2 — 권장</h5><p>GitHub Actions 또는 Cloudflare Worker가 하루 1회 FRED·KRX·RSS를 수집해 <code style="font-family:var(--mono);font-size:12px;color:var(--teal)">data.json</code>으로 커밋 → 대시보드가 그 파일만 fetch. <strong>API 키는 서버에 보관.</strong></p></div>
+  </div>
+
+  <div class="callout">
+    <div class="tag">라이선스</div>
+    <p>유료 데이터(TrendForce 계약가, Bloomberg 등)는 <strong>자동 스크래핑 금지</strong>. 링크와 요약만 싣는다.</p>
+  </div>
+
+  <footer>
+    <strong>스냅샷 기준일 2026-07-19.</strong> 항목 01·02는 프로젝트 대화록을 재구성한 것이고, 03~06의 수치는 공개 웹에서 수집한 것으로 수집 시점이 항목마다 다릅니다.
+    투자 판단 전 각 사 IR·에프앤가이드·iShares 등 원출처에서 반드시 재확인하세요.
+    본 문서는 정보 정리이며 투자 자문이 아닙니다.
+  </footer>
+</section>
+
+</main>
+</div>
+
+<script>
+(function(){
+  // 규율 체크리스트 — 저장 가능하면 저장, 아니면 세션 내에서만 유지
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('#lit input'));
+  var ring = document.getElementById('ring');
+  var pct  = document.getElementById('pct');
+  var C = 2 * Math.PI * 33;
+  var KEY = 'liturgy:' + new Date().toISOString().slice(0,10);
+
+  function paint(){
+    var n = boxes.filter(function(b){return b.checked;}).length;
+    ring.setAttribute('stroke-dashoffset', C - (C * n / boxes.length));
+    ring.setAttribute('stroke', n === boxes.length ? '#F5A623' : '#3FD6BC');
+    pct.textContent = n + ' / ' + boxes.length;
+    pct.style.color = n === boxes.length ? '#F5A623' : '#3FD6BC';
+  }
+  function save(){
+    if (!window.storage) return;
+    try { window.storage.set(KEY, JSON.stringify(boxes.map(function(b){return b.checked;}))); } catch(e){}
+  }
+  async function load(){
+    if (!window.storage) return;
+    try {
+      var r = await window.storage.get(KEY);
+      if (r && r.value) {
+        JSON.parse(r.value).forEach(function(v,i){ if(boxes[i]) boxes[i].checked = v; });
+        paint();
+      }
+    } catch(e){}
+  }
+  boxes.forEach(function(b){ b.addEventListener('change', function(){ paint(); save(); }); });
+  document.getElementById('reset').addEventListener('click', function(){
+    boxes.forEach(function(b){ b.checked = false; }); paint(); save();
+  });
+  paint(); load();
+
+  // 좌측 레일 현재 위치 표시
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+  var secs  = links.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (!e.isIntersecting) return;
+        links.forEach(function(a){ a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id); });
+      });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    secs.forEach(function(s){ io.observe(s); });
+  }
+})();
+</script>
+</body>
+</html>
