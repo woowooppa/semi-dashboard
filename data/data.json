@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T23:53:01+09:00",
-  "generated_at_utc": "2026-07-19T14:53:01+00:00",
+  "generated_at": "2026-07-20T09:16:29+09:00",
+  "generated_at_utc": "2026-07-20T00:16:29+00:00",
   "prices": {},
   "fred": {
     "PCU3344133344131": {
@@ -19,6 +19,18 @@
     }
   },
   "news": [
+    {
+      "title": "문샷 AI, 6개월 내 홍콩 상장 추진…'키미 K3' 흥행으로 동력",
+      "link": "https://www.etnews.com/20260720000002",
+      "published": "Mon, 20 Jul 2026 06:40:38 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "미 CIA, UAE G42 '중국 끊기' 공작…화웨이 버리고 엔비디아 칩 받았다",
+      "link": "https://www.etnews.com/20260720000001",
+      "published": "Mon, 20 Jul 2026 06:18:38 +0900",
+      "source": "전자신문"
+    },
     {
       "title": "디노티시아, VDPU 성능평가…벡터 DB와 융합해 'AI 데이터 인프라 기업' 도전",
       "link": "https://www.etnews.com/20260719000060",
@@ -44,22 +56,10 @@
       "source": "전자신문"
     },
     {
-      "title": "전북도, 연구·교육·실증·인증 한 데 묶은 '피지컬AI 허브' 조성 박차",
-      "link": "https://www.etnews.com/20260715000002",
-      "published": "Sun, 19 Jul 2026 09:30:00 +0900",
-      "source": "전자신문"
-    },
-    {
-      "title": "충남, 반도체·디스플레이 등 중소 제조 AX 지원 시동…공정 데이터 자산화·표준화 지원",
-      "link": "https://www.etnews.com/20260716000293",
-      "published": "Sun, 19 Jul 2026 09:00:00 +0900",
-      "source": "전자신문"
-    },
-    {
-      "title": "대전시, 'AI 육성계획' 수립 착수…민선 9기 핵심 공약 시동",
-      "link": "https://www.etnews.com/20260715000234",
-      "published": "Sun, 19 Jul 2026 09:00:00 +0900",
-      "source": "전자신문"
+      "title": "[차이나 브리프] TSMC, 대만 7개 협력사와 선단공정 및 패키징 협력",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=58522",
+      "published": "2026-07-20 07:26:14",
+      "source": "디일렉"
     },
     {
       "title": "[차이나 브리프] SK하이닉스의 웨이퍼 캐파 확대…공급과잉 우려 없다",
