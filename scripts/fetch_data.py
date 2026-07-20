@@ -58,6 +58,10 @@ KEYWORDS = [
 ]
 MAX_NEWS = 40
 
+# 시계열 보존 길이
+HISTORY_DAYS = 260    # 주가: 약 1년치 영업일
+FRED_MONTHS = 61      # FRED: 약 5년치 월별 (YoY 계산에 13개 필요)
+
 
 # ---------------------------------------------------------------- 공통 유틸
 
@@ -94,6 +98,14 @@ def get_prices(errors):
             prev = float(rows[-2]["Close"]) if len(rows) > 1 else close
             chg = ((close - prev) / prev * 100) if prev else 0.0
 
+            # 최근 HISTORY_DAYS 영업일만 보존 (파일 크기 관리)
+            hist = []
+            for r in rows[-HISTORY_DAYS:]:
+                try:
+                    hist.append({"d": r["Date"], "c": round(float(r["Close"]), 2)})
+                except Exception:
+                    continue
+
             out[key] = {
                 "label": meta["label"],
                 "unit": meta["unit"],
@@ -102,6 +114,7 @@ def get_prices(errors):
                 "chg_pct": round(chg, 2),
                 "date": last.get("Date"),
                 "source": "Stooq",
+                "history": hist,
             }
         except Exception as e:
             errors.append("price:{} — {}".format(key, e))
@@ -122,8 +135,8 @@ def get_fred(errors):
             url = (
                 "https://api.stlouisfed.org/fred/series/observations"
                 "?series_id={}&api_key={}&file_type=json"
-                "&sort_order=desc&limit=13"
-            ).format(sid, key)
+                "&sort_order=desc&limit={limit}"
+            ).format(sid, key, limit=FRED_MONTHS)
             data = json.loads(fetch(url).decode("utf-8"))
             obs = [o for o in data.get("observations", []) if o.get("value") not in (".", "", None)]
             if not obs:
@@ -140,12 +153,15 @@ def get_fred(errors):
                 except Exception:
                     pass
 
+            hist = [{"d": o["date"], "c": float(o["value"])} for o in reversed(obs)]
+
             out[sid] = {
                 "desc": desc,
                 "value": value,
                 "date": latest["date"],
                 "yoy_pct": yoy,
                 "source": "FRED / BLS",
+                "history": hist,
             }
         except Exception as e:
             errors.append("fred:{} — {}".format(sid, e))
