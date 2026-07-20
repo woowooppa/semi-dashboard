@@ -27,6 +27,7 @@ from xml.etree import ElementTree as ET
 KST = timezone(timedelta(hours=9))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_PATH = os.path.join(ROOT, "data", "data.json")
+MANUAL_PATH = os.path.join(ROOT, "data", "manual.json")
 UA = "Mozilla/5.0 (compatible; semi-dashboard/1.0)"
 TIMEOUT = 25
 
@@ -226,6 +227,59 @@ def get_news(errors):
     return filtered[:MAX_NEWS]
 
 
+# ---------------------------------------------------------------- 4) 수기 로그
+
+def get_manual(errors, prices):
+    """manual.json을 읽어 시계열로 정리하고 파생지표를 계산한다.
+
+    파생지표
+      fwd_over_ttm : 선행 P/E ÷ 후행 P/E — '약속의 크기'. 낮을수록 이익 성장 기대가 큼
+      rel_ttm      : SOXX 후행 ÷ 나스닥 후행 — 섹터 프리미엄(후행)
+      rel_fwd      : SOXX 선행 ÷ 나스닥 선행 — 섹터 프리미엄(선행)
+      implied_eps  : SOXX 종가 ÷ 후행 P/E — 지수 내재 EPS. 실현 이익의 성장 속도를 본다
+    비율은 반드시 같은 entry(같은 시점) 안에서만 만든다.
+    """
+    try:
+        with open(MANUAL_PATH, encoding="utf-8") as f:
+            raw = json.load(f)
+    except FileNotFoundError:
+        errors.append("manual — manual.json 없음, 건너뜀")
+        return {}
+    except Exception as e:
+        errors.append("manual — 파싱 실패: {}".format(e))
+        return {}
+
+    # SOXX 종가를 날짜로 찾기 위한 색인
+    soxx = {}
+    for r in ((prices.get("SOXX") or {}).get("history") or []):
+        soxx[r["d"]] = r["c"]
+
+    def near_close(d):
+        """해당 일자 이하의 가장 가까운 종가(휴장일 대응)."""
+        cands = [k for k in soxx if k <= d]
+        return soxx[max(cands)] if cands else None
+
+    rows = []
+    for e in sorted(raw.get("entries", []), key=lambda x: x.get("date", "")):
+        d = e.get("date")
+        if not d:
+            continue
+        st, sf = e.get("soxx_pe_trailing"), e.get("soxx_pe_forward")
+        nt, nf = e.get("ndx_pe_trailing"), e.get("ndx_pe_forward")
+
+        row = dict(e)
+        row["fwd_over_ttm"] = round(sf / st, 3) if (st and sf) else None
+        row["rel_ttm"] = round(st / nt, 2) if (st and nt) else None
+        row["rel_fwd"] = round(sf / nf, 2) if (sf and nf) else None
+
+        px = near_close(d)
+        row["soxx_close"] = px
+        row["implied_eps"] = round(px / st, 2) if (px and st) else None
+        rows.append(row)
+
+    return {"entries": rows, "fields": raw.get("_readme", [])}
+
+
 # ---------------------------------------------------------------- 병합 · 저장
 
 def carry_over(new, prev, section):
@@ -246,6 +300,7 @@ def main():
     prices = carry_over(get_prices(errors), prev, "prices")
     fred = carry_over(get_fred(errors), prev, "fred")
     news = get_news(errors) or (prev.get("news") or [])
+    manual = get_manual(errors, prices)
 
     payload = {
         "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
@@ -253,12 +308,12 @@ def main():
         "prices": prices,
         "fred": fred,
         "news": news,
+        "manual": manual,
         "errors": errors,
         "notes": {
             "manual_fields": [
-                "SOXX 후행 P/E — iShares 공식, 주 1회 수기",
-                "SOXX 선행 P/E — 증권사 리포트, 분기 1회 수기",
-                "DRAM 현물가·계약가·DXI — TrendForce, 재배포 불가로 수기",
+                "밸류에이션·메모리 가격은 data/manual.json에 수기로 누적한다",
+                "선행 P/E는 애널리스트 컨센서스(유료)라 자동 수집이 구조적으로 불가",
                 "3사 Bit Growth·ASP — 각 사 IR, 분기 1회 수기",
             ]
         },
@@ -269,7 +324,8 @@ def main():
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     print("생성: {}".format(OUT_PATH))
-    print("  주가 {}건 / FRED {}건 / 뉴스 {}건".format(len(prices), len(fred), len(news)))
+    print("  주가 {}건 / FRED {}건 / 뉴스 {}건 / 수기 {}건".format(
+        len(prices), len(fred), len(news), len(manual.get("entries", []))))
     if errors:
         print("  경고 {}건:".format(len(errors)))
         for e in errors:
