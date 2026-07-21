@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T14:17:34+09:00",
-  "generated_at_utc": "2026-07-20T05:17:34+00:00",
+  "generated_at": "2026-07-21T09:14:38+09:00",
+  "generated_at_utc": "2026-07-21T00:14:38+00:00",
   "prices": {},
   "fred": {
     "PCU3344133344131": {
@@ -456,33 +456,63 @@
   },
   "news": [
     {
-      "title": "알리바바, 2.4조 파라미터 '큐원3.8' 공개…中 프론티어 AI 경쟁 점화",
-      "link": "https://www.etnews.com/20260720000219",
-      "published": "Mon, 20 Jul 2026 13:40:05 +0900",
+      "title": "[HCT 2.0, 대한민국 미래 전략산업 기술 파트너](3)AI 시대 필수 에너지원, 원전의 안전과 신뢰를 완성하다",
+      "link": "https://www.etnews.com/20260721000017",
+      "published": "Tue, 21 Jul 2026 08:52:03 +0900",
       "source": "전자신문"
     },
     {
-      "title": "올해 상반기 반도체 신입 채용 공고 47% 증가",
-      "link": "https://www.etnews.com/20260720000170",
-      "published": "Mon, 20 Jul 2026 12:47:57 +0900",
+      "title": "구글, 제미나이 맞춤형 AI칩 개발…2028년 서버 배치 목표",
+      "link": "https://www.etnews.com/20260721000006",
+      "published": "Tue, 21 Jul 2026 08:15:57 +0900",
       "source": "전자신문"
     },
     {
-      "title": "삼성SDS, 퓨리오사AI '레니게이드' 기반 NPUaaS 선봬",
-      "link": "https://www.etnews.com/20260720000019",
-      "published": "Mon, 20 Jul 2026 09:01:31 +0900",
+      "title": "中 문샷·알리바바 새 AI 모델에 긴장한 美…“접근 제한 검토”",
+      "link": "https://www.etnews.com/20260721000002",
+      "published": "Tue, 21 Jul 2026 06:51:20 +0900",
       "source": "전자신문"
     },
     {
-      "title": "문샷 AI, 6개월 내 홍콩 상장 추진…'키미 K3' 흥행으로 동력",
-      "link": "https://www.etnews.com/20260720000002",
-      "published": "Mon, 20 Jul 2026 06:40:38 +0900",
+      "title": "ESG 공시 의무 강화에…삼성D “협력사와 공동 프로그램”·LGD “AI 데이터 플랫폼”",
+      "link": "https://www.etnews.com/20260720000346",
+      "published": "Mon, 20 Jul 2026 16:03:55 +0900",
       "source": "전자신문"
     },
     {
-      "title": "미 CIA, UAE G42 '중국 끊기' 공작…화웨이 버리고 엔비디아 칩 받았다",
-      "link": "https://www.etnews.com/20260720000001",
-      "published": "Mon, 20 Jul 2026 06:18:38 +0900",
+      "title": "강민구 변호사 'AI, 그 길을 묻다' 출간…“AI는 국가 생존 걸린 전략자산”",
+      "link": "https://www.etnews.com/20260720000273",
+      "published": "Mon, 20 Jul 2026 16:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "챗GPT로 가전도 조작…LG 씽큐, AI홈 창구 넓힌다",
+      "link": "https://www.etnews.com/20260720000255",
+      "published": "Mon, 20 Jul 2026 16:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "배경훈 부총리 “베라루빈 1만장 추가 확보 총력”…AI 토큰 수출 국가 전환 의지",
+      "link": "https://www.etnews.com/20260720000238",
+      "published": "Mon, 20 Jul 2026 16:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "배경훈 부총리, 유네스코 사무총장 면담…AI 윤리 확산 논의",
+      "link": "https://www.etnews.com/20260720000059",
+      "published": "Mon, 20 Jul 2026 15:30:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "NH투자증권 “1000조원 이익 체력…반도체 피크아웃 우려 과도”",
+      "link": "https://www.etnews.com/20260720000295",
+      "published": "Mon, 20 Jul 2026 14:41:41 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "오세훈 시장, 글로벌 빅테크와 키운 AI 인재 만나 “성장 사다리 만들 것”",
+      "link": "https://www.etnews.com/20260720000280",
+      "published": "Mon, 20 Jul 2026 14:30:00 +0900",
       "source": "전자신문"
     },
     {
