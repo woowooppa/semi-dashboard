@@ -272,6 +272,10 @@ def get_manual(errors, prices):
         row["rel_ttm"] = round(st / nt, 2) if (st and nt) else None
         row["rel_fwd"] = round(sf / nf, 2) if (sf and nf) else None
 
+        # 스팟 프리미엄: 같은 entry에 현물가와 계약가가 모두 있을 때만 계산
+        ct, sp = e.get("dram_contract_usd"), e.get("dram_spot_usd")
+        row["spot_premium_calc"] = round((sp / ct - 1) * 100, 1) if (ct and sp) else None
+
         px = near_close(d)
         row["soxx_close"] = px
         row["implied_eps"] = round(px / st, 2) if (px and st) else None

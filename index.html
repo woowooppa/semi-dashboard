@@ -621,6 +621,42 @@ footer strong{color:var(--dim)}
     <div class="tsnote">지수(Index). 절대 수준보다 방향과 기울기를 본다. 메모리 계약가와 시차를 두고 연동된다.</div>
   </div>
 
+  <div class="tsbox" id="mem-dxi-box">
+    <div class="tshead">
+      <div>
+        <div class="ct">DXI 지수</div>
+        <div class="cs">DRAMeXchange · 수기 입력 · data/manual.json</div>
+      </div>
+    </div>
+    <svg id="mem-dxi" viewBox="0 0 700 200" role="img" aria-label="DXI 지수 추이"></svg>
+    <div class="lgd" id="mem-dxi-lgd"></div>
+    <div class="tsnote">메모리 사이클의 단일 최고 대표지표. 2021-01-04에 산출모델이 바뀌었으므로 그 이전 값과 이어붙이지 않는다.</div>
+  </div>
+
+  <div class="tsbox" id="mem-px-box">
+    <div class="tshead">
+      <div>
+        <div class="ct">DRAM 계약가 · 현물가</div>
+        <div class="cs">DDR5 16Gb (2Gx8) · USD · TrendForce</div>
+      </div>
+    </div>
+    <svg id="mem-px" viewBox="0 0 700 220" role="img" aria-label="DRAM 계약가와 현물가 추이"></svg>
+    <div class="lgd" id="mem-px-lgd"></div>
+    <div class="tsnote"><strong>두 선의 간격이 스팟 프리미엄이다.</strong> 현물이 계약가를 크게 웃돌면 계약가 추가 인상 압력, 좁혀지면 현물이 먼저 식고 있다는 신호. 규격(SKU)이 바뀌면 시계열이 끊기므로 같은 품목으로만 이어붙인다.</div>
+  </div>
+
+  <div class="tsbox" id="mem-prem-box">
+    <div class="tshead">
+      <div>
+        <div class="ct">스팟 프리미엄</div>
+        <div class="cs">(현물가 ÷ 계약가 − 1) · 자동 계산</div>
+      </div>
+    </div>
+    <svg id="mem-prem" viewBox="0 0 700 180" role="img" aria-label="DRAM 스팟 프리미엄 추이"></svg>
+    <div class="lgd" id="mem-prem-lgd"></div>
+    <div class="tsnote">항목 06의 반증 신호 중 하나. <strong>프리미엄 축소 = 현물이 먼저 식는 중</strong>으로, 계약가 하락에 선행한다.</div>
+  </div>
+
   <h4 class="min">메모리 가격 스냅샷 — 수기 입력</h4>
   <div class="grid g3">
     <div class="metric"><div class="k">DXI 주간</div><div class="v up">+7.2<small>%</small></div><div class="d">DRAMeXchange Index</div><div class="src">2026-01-05 · 확인 필요</div></div>
@@ -1403,6 +1439,54 @@ footer strong{color:var(--dim)}
     document.getElementById('ts-fred-lgd').innerHTML = lgd;
   }
 
+  // 수기 로그에서 시계열 하나를 뽑는다
+  function pick(rows, key){
+    return rows.filter(function(r){ return r[key] !== null && r[key] !== undefined; })
+               .map(function(r){ return {x: ymd(r.date), y: r[key]}; });
+  }
+
+  function memChart(boxId, svgId, lgdId, series, opts, guide){
+    var box = document.getElementById(boxId);
+    var svg = document.getElementById(svgId);
+    var lgd = document.getElementById(lgdId);
+    var n = series.reduce(function(a, s){ return a + s.pts.length; }, 0);
+
+    if (n === 0){
+      svg.innerHTML = '';
+      lgd.innerHTML = '<span style="color:var(--faint)">입력값 없음 — ' + guide + '</span>';
+      return;
+    }
+    if (!series.some(function(s){ return s.pts.length >= 2; })){
+      svg.innerHTML = '';
+      lgd.innerHTML = '<span style="color:var(--amber)">측정 ' + n
+        + '회 — 2회 이상 쌓이면 추이가 그려집니다. ' + guide + '</span>';
+      return;
+    }
+    drawLines(svg, series, opts);
+    lgd.innerHTML = series.filter(function(s){ return s.pts.length; }).map(function(s){
+      var last = s.pts[s.pts.length - 1];
+      return '<span><i style="background:' + s.color + '"></i>' + s.name
+           + ' <b style="color:var(--si)">' + last.y + (s.suffix || '') + '</b></span>';
+    }).join('');
+  }
+
+  function renderMemory(){
+    var rows = ((TS.data.manual || {}).entries) || [];
+
+    memChart('mem-dxi-box', 'mem-dxi', 'mem-dxi-lgd',
+      [{color:'#6941C6', name:'DXI', pts: pick(rows, 'dxi')}],
+      {h:200}, 'manual.json의 dxi 필드를 채우세요');
+
+    memChart('mem-px-box', 'mem-px', 'mem-px-lgd', [
+      {color:'#0B8A7A', name:'계약가', suffix:' USD', pts: pick(rows, 'dram_contract_usd')},
+      {color:'#B54708', name:'현물가', suffix:' USD', pts: pick(rows, 'dram_spot_usd')}
+    ], {h:220}, 'dram_contract_usd · dram_spot_usd 필드를 채우세요');
+
+    memChart('mem-prem-box', 'mem-prem', 'mem-prem-lgd',
+      [{color:'#D92D20', name:'스팟 프리미엄', suffix:'%', pts: pick(rows, 'spot_premium_calc')}],
+      {h:180}, '계약가와 현물가를 같은 날짜에 함께 입력하면 자동 계산됩니다');
+  }
+
   function renderValLog(){
     var d = TS.data; if (!d) return;
     var box = document.getElementById('val-box');
@@ -1464,6 +1548,7 @@ footer strong{color:var(--dim)}
       renderPriceTS();
       renderFredTS();
       renderValLog();
+      renderMemory();
       var when = (d.generated_at || '').replace('T', ' ').slice(0, 16);
       var errN = (d.errors || []).length;
       var suffix = errN ? ' · 경고 ' + errN + '건' : '';
