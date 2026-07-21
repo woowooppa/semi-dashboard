@@ -35,10 +35,10 @@ TIMEOUT = 25
 # ---------------------------------------------------------------- 수집 대상 정의
 
 TICKERS = {
-    "005930.KS": {"stooq": "005930.kr", "label": "삼성전자",   "unit": "KRW"},
-    "000660.KS": {"stooq": "000660.kr", "label": "SK하이닉스", "unit": "KRW"},
-    "MU":        {"stooq": "mu.us",     "label": "마이크론",   "unit": "USD"},
-    "SOXX":      {"stooq": "soxx.us",   "label": "SOXX",       "unit": "USD"},
+    "005930.KS": {"yahoo": "005930.KS", "stooq": "005930.kr", "label": "삼성전자",   "unit": "KRW"},
+    "000660.KS": {"yahoo": "000660.KS", "stooq": "000660.kr", "label": "SK하이닉스", "unit": "KRW"},
+    "MU":        {"yahoo": "MU",        "stooq": "mu.us",     "label": "마이크론",   "unit": "USD"},
+    "SOXX":      {"yahoo": "SOXX",      "stooq": "soxx.us",   "label": "SOXX",       "unit": "USD"},
 }
 
 FRED_SERIES = {
@@ -46,10 +46,18 @@ FRED_SERIES = {
     "PCU334413334413":  "반도체·관련소자 제조 PPI",
 }
 
+# Reuters는 2026년 기준 공개 RSS를 폐기했다(404). Google News 검색 피드로 대체한다.
+# Google News는 Reuters·Bloomberg 등의 헤드라인을 간접적으로 포함하며 매우 안정적이다.
 FEEDS = [
-    ("Reuters Technology", "https://www.reuters.com/arc/outboundfeeds/technology/?outputType=xml"),
-    ("전자신문",           "https://rss.etnews.com/Section901.xml"),
-    ("디일렉",             "https://www.thelec.kr/rss/S1N1.xml"),
+    ("Google News",  "https://news.google.com/rss/search"
+                     "?q=%EB%B0%98%EB%8F%84%EC%B2%B4+OR+HBM+OR+D%EB%9E%A8+OR+%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%A0"
+                     "&hl=ko&gl=KR&ceid=KR:ko"),
+    ("Google News",  "https://news.google.com/rss/search"
+                     "?q=semiconductor+OR+DRAM+OR+HBM+OR+Micron&hl=en-US&gl=US&ceid=US:en"),
+    ("전자신문",      "https://rss.etnews.com/Section901.xml"),
+    ("디일렉",        "https://www.thelec.kr/rss/S1N1.xml"),
+    ("SemiAnalysis", "https://semianalysis.com/feed/"),
+    ("Tom's Hardware", "https://www.tomshardware.com/feeds/all"),
 ]
 
 # 뉴스는 전량이 아니라 관심 키워드가 걸린 것만 남긴다
@@ -83,43 +91,75 @@ def load_previous():
 
 # ---------------------------------------------------------------- 1) 주가
 
+def from_yahoo(sym):
+    """Yahoo Finance 차트 API. 키 불필요, 데이터센터 IP에서도 동작한다."""
+    url = ("https://query1.finance.yahoo.com/v8/finance/chart/{}"
+           "?range=2y&interval=1d").format(sym)
+    d = json.loads(fetch(url).decode("utf-8"))
+    res = (d.get("chart") or {}).get("result") or []
+    if not res:
+        err = (d.get("chart") or {}).get("error")
+        raise ValueError("Yahoo 응답 없음: {}".format(err))
+    r = res[0]
+    ts = r.get("timestamp") or []
+    closes = ((r.get("indicators") or {}).get("quote") or [{}])[0].get("close") or []
+    rows = []
+    for t, c in zip(ts, closes):
+        if c is None:
+            continue
+        rows.append({"d": datetime.fromtimestamp(t, timezone.utc).strftime("%Y-%m-%d"),
+                     "c": round(float(c), 2)})
+    if not rows:
+        raise ValueError("Yahoo 종가 배열이 비어 있음")
+    return rows
+
+
+def from_stooq(sym):
+    """폴백. 로컬에서는 잘 되지만 CI 러너 IP는 차단되는 경우가 있다."""
+    raw = fetch("https://stooq.com/q/d/l/?s={}&i=d".format(sym)).decode("utf-8", "replace")
+    rows = [r for r in csv.DictReader(io.StringIO(raw))
+            if r.get("Close") not in (None, "", "N/A")]
+    if not rows:
+        # 무엇이 왔는지 남긴다. 대개 "Exceeded the daily hits limit" 같은 평문이다.
+        raise ValueError("빈 응답: {!r}".format(raw.strip()[:80]))
+    return [{"d": r["Date"], "c": round(float(r["Close"]), 2)} for r in rows]
+
+
 def get_prices(errors):
-    """Stooq 일별 CSV에서 최근 2영업일을 읽어 종가와 등락률을 만든다."""
+    """Yahoo를 주 소스로, 실패 시 Stooq로 폴백한다."""
     out = {}
     for key, meta in TICKERS.items():
+        rows, used, why = None, None, []
+        for name, fn, sym in (("Yahoo", from_yahoo, meta["yahoo"]),
+                              ("Stooq", from_stooq, meta["stooq"])):
+            try:
+                rows = fn(sym)
+                used = name
+                break
+            except Exception as e:
+                why.append("{}({})={}".format(name, sym, e))
+        if not rows:
+            errors.append("price:{} — {}".format(key, " / ".join(why)))
+            continue
         try:
-            url = "https://stooq.com/q/d/l/?s={}&i=d".format(meta["stooq"])
-            raw = fetch(url).decode("utf-8", "replace")
-            rows = list(csv.DictReader(io.StringIO(raw)))
-            rows = [r for r in rows if r.get("Close") not in (None, "", "N/A")]
-            if not rows:
-                raise ValueError("빈 응답 — 티커 확인 필요")
 
-            last = rows[-1]
-            close = float(last["Close"])
-            prev = float(rows[-2]["Close"]) if len(rows) > 1 else close
+            hist = rows[-HISTORY_DAYS:]
+            close = hist[-1]["c"]
+            prev = hist[-2]["c"] if len(hist) > 1 else close
             chg = ((close - prev) / prev * 100) if prev else 0.0
-
-            # 최근 HISTORY_DAYS 영업일만 보존 (파일 크기 관리)
-            hist = []
-            for r in rows[-HISTORY_DAYS:]:
-                try:
-                    hist.append({"d": r["Date"], "c": round(float(r["Close"]), 2)})
-                except Exception:
-                    continue
 
             out[key] = {
                 "label": meta["label"],
                 "unit": meta["unit"],
-                "close": round(close, 2),
-                "prev_close": round(prev, 2),
+                "close": close,
+                "prev_close": prev,
                 "chg_pct": round(chg, 2),
-                "date": last.get("Date"),
-                "source": "Stooq",
+                "date": hist[-1]["d"],
+                "source": used,
                 "history": hist,
             }
         except Exception as e:
-            errors.append("price:{} — {}".format(key, e))
+            errors.append("price:{} — 가공 실패: {}".format(key, e))
     return out
 
 
@@ -211,6 +251,13 @@ def get_news(errors):
             collected.extend(parse_feed(name, url))
         except Exception as e:
             errors.append("news:{} — {}".format(name, e))
+
+    # Google News 제목은 "헤드라인 - 매체명" 형식이므로 매체명을 출처로 올린다
+    for it in collected:
+        if it["source"] == "Google News" and " - " in it["title"]:
+            head, _, tail = it["title"].rpartition(" - ")
+            if head and len(tail) < 30:
+                it["title"], it["source"] = head, tail
 
     # 키워드 필터 + 중복 제거
     seen, filtered = set(), []
