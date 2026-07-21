@@ -7,6 +7,8 @@ on:
   workflow_dispatch:        # 저장소 Actions 탭에서 수동 실행 가능
   push:
     paths:
+      - "data/manual.json"          # 수기 입력 시 즉시 재빌드
+      - "data/dram_spot_history.json"
       - "scripts/**"
       - ".github/workflows/update.yml"
 

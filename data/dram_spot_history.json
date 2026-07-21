@@ -1,0 +1,445 @@
+{
+ "_readme": [
+  "DRAM 현물가 과거 시계열 — 외부 데이터베이스에서 1회 임포트한 아카이브.",
+  "이 파일은 원칙적으로 수정하지 않는다. 새 관측은 manual.json에 추가한다.",
+  "",
+  "[규격별 필드 — 절대 서로 이어붙이거나 평균하지 않는다]",
+  "ddr4_8gb_spot_usd  : DDR4 8Gb (1Gx8) 3200 현물 평균, USD/chip. A등급, 61건. 주력 시계열.",
+  "ddr5_16gb_spot_usd : DDR5 16Gb (2Gx8) 현물, USD/chip. 산발적 관측 3건.",
+  "ddr4_16gb_spot_usd : DDR4 16Gb (2Gx8) 3200 현물, USD/chip. 산발적 관측 4건.",
+  "samsung_ddr5_32gb_module_usd : 서버 모듈 계약가, USD/module.",
+  "  ⚠ 단위가 USD/module로 현물(USD/chip)과 다르다. 스팟 프리미엄 계산에 쓰지 않는다.",
+  "",
+  "[신뢰도] A=TrendForce/DRAMeXchange 원문 · B=주요 매체가 원자료 인용 · B-=커뮤니티 전재",
+  "출처: TrendForce Press Center Daily Express, Tom's Hardware(Digitimes 인용), Reuters"
+ ],
+ "entries": [
+  {
+   "date": "2025-07-21",
+   "ddr4_8gb_spot_usd": 5.203,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "공급이 빠듯한 가운데 DDR5 문의가 산발적으로 나타남"
+  },
+  {
+   "date": "2025-07-30",
+   "ddr4_8gb_spot_usd": 5.123,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-08-28",
+   "ddr4_8gb_spot_usd": 4.875,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-08-29",
+   "ddr4_8gb_spot_usd": 4.859,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-08-31",
+   "ddr4_16gb_spot_usd": 9.17,
+   "grade_16gb": "B",
+   "ddr5_16gb_spot_usd": 5.99
+  },
+  {
+   "date": "2025-09-01",
+   "samsung_ddr5_32gb_module_usd": 149.0,
+   "src_contract": "Reuters (B+)"
+  },
+  {
+   "date": "2025-09-16",
+   "ddr4_8gb_spot_usd": 5.431,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-09-30",
+   "ddr4_8gb_spot_usd": 6.359,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-10-08",
+   "ddr4_16gb_spot_usd": 15.26,
+   "grade_16gb": "B-"
+  },
+  {
+   "date": "2025-10-14",
+   "ddr4_8gb_spot_usd": 7.059,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-10-31",
+   "ddr4_8gb_spot_usd": 10.07,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-11-01",
+   "samsung_ddr5_32gb_module_usd": 239.0,
+   "src_contract": "Reuters (B+)"
+  },
+  {
+   "date": "2025-11-11",
+   "ddr4_8gb_spot_usd": 11.857,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-11-26",
+   "ddr4_8gb_spot_usd": 14.914,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "제한적 공급과 견조한 DDR4 8Gb 수요"
+  },
+  {
+   "date": "2025-11-27",
+   "ddr4_8gb_spot_usd": 15.429,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "구매자 가격 추격, 공급 물량 제한"
+  },
+  {
+   "date": "2025-11-28",
+   "ddr4_8gb_spot_usd": 15.9,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-12-01",
+   "ddr4_8gb_spot_usd": 16.314,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "낮은 가격대 일부 DDR5·DDR4 구매 활동"
+  },
+  {
+   "date": "2025-12-02",
+   "ddr4_8gb_spot_usd": 16.514,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "초기 입고 이후 구매활동 둔화"
+  },
+  {
+   "date": "2025-12-03",
+   "ddr4_8gb_spot_usd": 16.729,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "매수자 관망, 거래 부진"
+  },
+  {
+   "date": "2025-12-04",
+   "ddr4_8gb_spot_usd": 16.943,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "공급자 협상 여지에도 구매자 신중"
+  },
+  {
+   "date": "2025-12-05",
+   "ddr4_8gb_spot_usd": 17.05,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "가격 인하 제시에도 거래량 제한"
+  },
+  {
+   "date": "2025-12-08",
+   "ddr4_8gb_spot_usd": 17.064,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "수요 약세와 관망세"
+  },
+  {
+   "date": "2025-12-09",
+   "ddr4_8gb_spot_usd": 17.064,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "가격 탐색 위주의 산발적 문의"
+  },
+  {
+   "date": "2025-12-10",
+   "ddr4_8gb_spot_usd": 17.246,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "DDR4 1Gx8-3200 중심 일부 실제 주문"
+  },
+  {
+   "date": "2025-12-11",
+   "ddr4_8gb_spot_usd": 17.8,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "DDR4 1Gx8-3200 구매 의지 강화"
+  },
+  {
+   "date": "2025-12-12",
+   "ddr4_8gb_spot_usd": 18.6,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "제한된 공급 물량이 빠르게 소진"
+  },
+  {
+   "date": "2025-12-15",
+   "ddr4_8gb_spot_usd": 19.0,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "가격 대체로 안정, 거래 모멘텀 약함"
+  },
+  {
+   "date": "2025-12-16",
+   "ddr4_8gb_spot_usd": 19.4,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "수요 모멘텀 약세, 매수·매도 가격차 지속"
+  },
+  {
+   "date": "2025-12-31",
+   "ddr4_8gb_spot_usd": 24.183,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-01-22",
+   "ddr4_8gb_spot_usd": 30.3,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-01-30",
+   "ddr4_8gb_spot_usd": 30.76,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-02-03",
+   "ddr4_8gb_spot_usd": 30.88,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "ddr4_16gb_spot_usd": 77.21,
+   "grade_16gb": "B",
+   "ddr5_16gb_spot_usd": 38.0
+  },
+  {
+   "date": "2026-02-13",
+   "ddr4_8gb_spot_usd": 31.4,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "춘절 연휴 진입, 가격 대체로 안정"
+  },
+  {
+   "date": "2026-02-23",
+   "ddr4_8gb_spot_usd": 31.5,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "일부 지역 휴일, 시장 활동 조용"
+  },
+  {
+   "date": "2026-02-24",
+   "ddr4_8gb_spot_usd": 31.9,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "공급 견적 재개, 매수자는 관망"
+  },
+  {
+   "date": "2026-02-25",
+   "ddr4_8gb_spot_usd": 32.34,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "공급자 견적 소폭 인상"
+  },
+  {
+   "date": "2026-02-26",
+   "ddr4_8gb_spot_usd": 32.8,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-03-02",
+   "ddr4_8gb_spot_usd": 33.02,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "수요 약세, 거래 제한"
+  },
+  {
+   "date": "2026-03-03",
+   "ddr4_8gb_spot_usd": 33.02,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "DDR5·DDR4 약세 흐름"
+  },
+  {
+   "date": "2026-03-04",
+   "ddr4_8gb_spot_usd": 32.98,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "제한적 문의와 신중한 시장 분위기"
+  },
+  {
+   "date": "2026-03-25",
+   "ddr4_8gb_spot_usd": 34.0,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-03-31",
+   "ddr4_8gb_spot_usd": 33.96,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-04-07",
+   "ddr4_8gb_spot_usd": 33.5,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-04-21",
+   "ddr4_8gb_spot_usd": 33.0,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-04-30",
+   "ddr4_8gb_spot_usd": 32.48,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "DDR5 브랜드 칩 문의 집중, 거래량 제한"
+  },
+  {
+   "date": "2026-05-04",
+   "ddr4_8gb_spot_usd": 32.4,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "일부 지역 휴일로 거래 부진"
+  },
+  {
+   "date": "2026-05-05",
+   "ddr4_8gb_spot_usd": 32.4,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "휴일 영향, 좁은 범위 등락"
+  },
+  {
+   "date": "2026-05-06",
+   "ddr4_8gb_spot_usd": 32.0,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "DDR4 8Gx16·16Gx16 일부 문의"
+  },
+  {
+   "date": "2026-05-07",
+   "ddr4_8gb_spot_usd": 32.0,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "DDR4 512x16 문의와 소규모 거래"
+  },
+  {
+   "date": "2026-05-08",
+   "ddr4_8gb_spot_usd": 32.1,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "DDR5·DDR4 브랜드 부품 구매 관심 회복"
+  },
+  {
+   "date": "2026-05-11",
+   "ddr4_8gb_spot_usd": 32.3,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "공급자 견적 소폭 상승"
+  },
+  {
+   "date": "2026-05-29",
+   "ddr4_8gb_spot_usd": 34.1,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-06-01",
+   "ddr4_8gb_spot_usd": 34.5,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-06-18",
+   "ddr4_8gb_spot_usd": 35.9,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "낮은 가격 문의, 공급자 가격 방어"
+  },
+  {
+   "date": "2026-06-22",
+   "ddr4_8gb_spot_usd": 35.9,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "고가 칩 인수 의지 부족"
+  },
+  {
+   "date": "2026-06-23",
+   "ddr4_8gb_spot_usd": 35.9,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "소량 문의, 가격 추격 없음"
+  },
+  {
+   "date": "2026-06-24",
+   "ddr4_8gb_spot_usd": 35.9,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "일부 밀도 문의, 거래 약세"
+  },
+  {
+   "date": "2026-06-25",
+   "ddr4_8gb_spot_usd": 36.0,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "특정 DDR5 칩 가격 탐색"
+  },
+  {
+   "date": "2026-06-26",
+   "ddr4_8gb_spot_usd": 36.0,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-07-10",
+   "ddr4_8gb_spot_usd": 37.8,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-07-14",
+   "ddr4_8gb_spot_usd": 39.2,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-07-15",
+   "ddr4_8gb_spot_usd": 39.8,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-07-16",
+   "ddr4_8gb_spot_usd": 39.9,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-07-20",
+   "ddr4_8gb_spot_usd": 40.8,
+   "grade": "A",
+   "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-07-21",
+   "ddr4_8gb_spot_usd": 41.1,
+   "grade": "A",
+   "src": "TrendForce Daily Express",
+   "note": "TrendForce 공식 현물가격 페이지 최신값",
+   "ddr4_16gb_spot_usd": 81.2,
+   "ddr5_16gb_spot_usd": 50.0
+  }
+ ]
+}

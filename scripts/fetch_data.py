@@ -28,6 +28,7 @@ KST = timezone(timedelta(hours=9))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_PATH = os.path.join(ROOT, "data", "data.json")
 MANUAL_PATH = os.path.join(ROOT, "data", "manual.json")
+HISTORY_PATH = os.path.join(ROOT, "data", "dram_spot_history.json")
 UA = "Mozilla/5.0 (compatible; semi-dashboard/1.0)"
 TIMEOUT = 25
 
@@ -239,15 +240,37 @@ def get_manual(errors, prices):
       implied_eps  : SOXX 종가 ÷ 후행 P/E — 지수 내재 EPS. 실현 이익의 성장 속도를 본다
     비율은 반드시 같은 entry(같은 시점) 안에서만 만든다.
     """
-    try:
-        with open(MANUAL_PATH, encoding="utf-8") as f:
-            raw = json.load(f)
-    except FileNotFoundError:
-        errors.append("manual — manual.json 없음, 건너뜀")
-        return {}
-    except Exception as e:
-        errors.append("manual — 파싱 실패: {}".format(e))
-        return {}
+    def read(path, label, required=False):
+        try:
+            with open(path, encoding="utf-8") as f:
+                return json.load(f).get("entries", [])
+        except FileNotFoundError:
+            errors.append("{} — 파일 없음, 건너뜀".format(label))
+        except json.JSONDecodeError as e:
+            # 사람이 직접 쓰는 파일이므로 문법 오류를 조용히 넘기면 데이터가 통째로 사라진다.
+            msg = "{} JSON 문법 오류 — {}행 {}열: {}".format(label, e.lineno, e.colno, e.msg)
+            if required:
+                raise SystemExit(
+                    "\n[중단] " + msg +
+                    "\n  쉼표 누락, 마지막 항목 뒤 쉼표, 따옴표 짝을 확인하세요."
+                    "\n  VS Code에서 해당 줄에 빨간 밑줄이 표시됩니다.\n")
+            errors.append(msg)
+        except Exception as e:
+            errors.append("{} — 읽기 실패: {}".format(label, e))
+        return []
+
+    # 아카이브(과거 임포트) + 수기 로그(현재 진행형)를 날짜 기준으로 병합.
+    # 같은 날짜에 같은 필드가 있으면 manual.json이 우선한다.
+    merged = {}
+    for e in read(HISTORY_PATH, "history") + read(MANUAL_PATH, "manual", required=True):
+        d = e.get("date")
+        if not d:
+            continue
+        tgt = merged.setdefault(d, {"date": d})
+        for k, v in e.items():
+            if v is not None:
+                tgt[k] = v
+    raw = {"entries": list(merged.values())}
 
     # SOXX 종가를 날짜로 찾기 위한 색인
     soxx = {}
@@ -281,7 +304,7 @@ def get_manual(errors, prices):
         row["implied_eps"] = round(px / st, 2) if (px and st) else None
         rows.append(row)
 
-    return {"entries": rows, "fields": raw.get("_readme", [])}
+    return {"entries": rows}
 
 
 # ---------------------------------------------------------------- 병합 · 저장

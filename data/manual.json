@@ -25,6 +25,15 @@
     "dram_asp_gb_usd     : DRAM ASP, GB당 달러. 밸류에이션 판단용.",
     "",
     "src               : 각 값의 출처를 짧게. 나중에 이 값을 의심할 때 유일한 단서다.",
+    "note              : 숫자로 안 잡히는 정성 관측. TrendForce 주간 코멘트 등. 대시보드에 타임라인으로 표시된다.",
+    "",
+    "[가격 시계열] 과거분은 data/dram_spot_history.json에 아카이브되어 있다(임포트 1회, 수정 금지).",
+    "       새 관측은 이 파일에 추가한다. 두 파일은 날짜 기준으로 자동 병합되며 이 파일이 우선한다.",
+    "ddr4_8gb_spot_usd  : DDR4 8Gb (1Gx8) 3200 현물, USD/chip — 가장 연속적인 공개 시계열. 주력.",
+    "ddr5_16gb_spot_usd : DDR5 16Gb (2Gx8) 현물, USD/chip.",
+    "ddr4_16gb_spot_usd : DDR4 16Gb (2Gx8) 3200 현물, USD/chip.",
+    "grade             : 신뢰도 A/B+/B/B-/C. 출처 등급을 반드시 남긴다.",
+    "  ⚠ 규격이 다른 가격은 절대 이어붙이거나 평균하지 않는다. 모듈 계약가(USD/module)와도 섞지 않는다.",
     "",
     "[주기] 주1회: dxi, dram_spot_usd, soxx_pe_trailing / 월1회: dram_contract_usd",
     "       분기1회: soxx_pe_forward, ndx_pe_*, dram_asp_gb_usd",
@@ -33,6 +42,23 @@
     "       시점이 다른 값끼리 비율을 만들지 않기 위해서다."
   ],
   "entries": [
+    {
+      "date": "2025-12-31",
+      "soxx_pe_trailing": null,
+      "soxx_pe_forward": null,
+      "ndx_pe_trailing": null,
+      "ndx_pe_forward": null,
+      "ndxc_pe_forward": null,
+      "dxi": null,
+      "dram_contract_usd": null,
+      "dram_spot_usd": null,
+      "nand_contract_usd": null,
+      "dram_contract_mom": 21.0,
+      "dram_spot_premium": null,
+      "dram_asp_gb_usd": null,
+      "src": "증권사 집계 · TrendForce 인용",
+      "note": "DRAM 계약가 전월비 품목별 +21%/+7%. 4Q25 계약가는 3Q25 대비 약 +40%."
+    },
     {
       "date": "2026-01-01",
       "soxx_pe_trailing": null,
@@ -47,7 +73,76 @@
       "dram_contract_mom": 21.0,
       "dram_spot_premium": 90.0,
       "dram_asp_gb_usd": null,
-      "src": "나스닥100=Siblis Research(2026-01-01) / DRAM=2025-12 계약가, DDR4 스팟프리미엄"
+      "src": "나스닥100=Siblis Research(2026-01-01) / DRAM=2025-12 계약가, DDR4 스팟프리미엄",
+      "note": null
+    },
+    {
+      "date": "2026-01-05",
+      "soxx_pe_trailing": null,
+      "soxx_pe_forward": null,
+      "ndx_pe_trailing": null,
+      "ndx_pe_forward": null,
+      "ndxc_pe_forward": null,
+      "dxi": null,
+      "dram_contract_usd": null,
+      "dram_spot_usd": null,
+      "nand_contract_usd": null,
+      "dram_contract_mom": null,
+      "dram_spot_premium": 90.0,
+      "dram_asp_gb_usd": null,
+      "src": "TrendForce / 증권사",
+      "note": "DXI 주간 +7.2%. DDR4 스팟 프리미엄 90% 초과 지속 — 계약가 추가 인상 압력."
+    },
+    {
+      "date": "2026-04-01",
+      "soxx_pe_trailing": null,
+      "soxx_pe_forward": null,
+      "ndx_pe_trailing": null,
+      "ndx_pe_forward": null,
+      "ndxc_pe_forward": null,
+      "dxi": null,
+      "dram_contract_usd": null,
+      "dram_spot_usd": null,
+      "nand_contract_usd": null,
+      "dram_contract_mom": null,
+      "dram_spot_premium": null,
+      "dram_asp_gb_usd": null,
+      "src": "TrendForce Insights 2026-04-01",
+      "note": "⚠ 전환점. DDR4·DDR5 현물 모멘텀 모두 약세. 실수요가 높아진 가격을 흡수하지 못함. 2Q26 계약가 미발표."
+    },
+    {
+      "date": "2026-05-06",
+      "soxx_pe_trailing": null,
+      "soxx_pe_forward": null,
+      "ndx_pe_trailing": null,
+      "ndx_pe_forward": null,
+      "ndxc_pe_forward": null,
+      "dxi": null,
+      "dram_contract_usd": null,
+      "dram_spot_usd": null,
+      "nand_contract_usd": null,
+      "dram_contract_mom": null,
+      "dram_spot_premium": null,
+      "dram_asp_gb_usd": null,
+      "src": "TrendForce Insights 2026-05-06",
+      "note": "매수세는 공급사 DDR5에 집중. 주력 DDR4는 보합, DDR4 1Gx8 3200MT/s 주간 −0.25%. NAND 현물은 한 달 누적 −30~40%."
+    },
+    {
+      "date": "2026-06-10",
+      "soxx_pe_trailing": null,
+      "soxx_pe_forward": null,
+      "ndx_pe_trailing": null,
+      "ndx_pe_forward": null,
+      "ndxc_pe_forward": null,
+      "dxi": null,
+      "dram_contract_usd": null,
+      "dram_spot_usd": null,
+      "nand_contract_usd": null,
+      "dram_contract_mom": null,
+      "dram_spot_premium": null,
+      "dram_asp_gb_usd": null,
+      "src": "TrendForce Insights 2026-06-10",
+      "note": "DDR5 현물 강세 지속. DDR4 타이트가 DDR3로 전이 — 고가에 밀린 다운그레이드 수요. NAND는 2Q26 계약가 인상 후 하락 멈춤."
     },
     {
       "date": "2026-06-17",
@@ -63,7 +158,25 @@
       "dram_contract_mom": null,
       "dram_spot_premium": null,
       "dram_asp_gb_usd": 20.0,
-      "src": "SOXX 선행=Seeking Alpha 추정(단일 애널리스트, 신뢰도 낮음) / ASP=TD Cowen 추정"
+      "src": "SOXX 선행=Seeking Alpha 추정(단일 애널리스트, 신뢰도 낮음) / ASP=TD Cowen 추정",
+      "note": null
+    },
+    {
+      "date": "2026-06-30",
+      "soxx_pe_trailing": null,
+      "soxx_pe_forward": null,
+      "ndx_pe_trailing": null,
+      "ndx_pe_forward": null,
+      "ndxc_pe_forward": null,
+      "dxi": null,
+      "dram_contract_usd": null,
+      "dram_spot_usd": null,
+      "nand_contract_usd": null,
+      "dram_contract_mom": null,
+      "dram_spot_premium": null,
+      "dram_asp_gb_usd": null,
+      "src": "TrendForce DRAM Price Trends 2026-06-30",
+      "note": "6월 계약가 갱신. 공급 타이트와 생산 역성장 전망으로 계약가 상승 지속. 다만 현물시장은 서버 수요 의존도가 커지는 중."
     },
     {
       "date": "2026-07-17",
@@ -79,7 +192,8 @@
       "dram_contract_mom": null,
       "dram_spot_premium": null,
       "dram_asp_gb_usd": null,
-      "src": "iShares 공식 P/E Ratio (직전 회계연도 EPS 기준 — 대화록 '28'과 동일 방법론)"
+      "src": "iShares 공식 P/E Ratio (직전 회계연도 EPS 기준 — 대화록 '28'과 동일 방법론)",
+      "note": null
     },
     {
       "date": "2026-07-24",
@@ -95,7 +209,10 @@
       "dram_contract_mom": null,
       "dram_spot_premium": null,
       "dram_asp_gb_usd": null,
-      "src": "← 템플릿. 값을 채우고 date를 실제 기준일로 바꾼 뒤 사용. 안 쓰면 이 줄을 지운다."
+      "src": "← 템플릿. TrendForce에서 잰 값을 채우고 date를 바꾼다. 안 쓰면 이 줄을 지운다.",
+      "note": "주간 관측 메모. 숫자로 안 잡히는 정성 정보를 남긴다.",
+      "ddr4_8gb_spot_usd": null,
+      "grade": null
     }
   ]
 }

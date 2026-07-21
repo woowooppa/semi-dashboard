@@ -225,6 +225,14 @@ body.locked{overflow:hidden}
 .tsnote{font-family:var(--sans);font-size:12.5px;line-height:1.6;color:var(--dim);margin-top:12px}
 .spark{display:block;width:100%;height:30px;margin-top:9px;overflow:visible}
 
+.tl{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:3px;overflow:hidden;margin:14px 0}
+.tl .row{display:grid;grid-template-columns:104px minmax(0,1fr);gap:16px;background:var(--panel);padding:14px 16px}
+.tl .dt{font-family:var(--mono);font-size:11.5px;color:var(--dim);padding-top:2px}
+.tl .bd{font-size:14px;line-height:1.68;color:var(--si)}
+.tl .sc{display:block;font-family:var(--mono);font-size:11px;color:var(--faint);margin-top:6px}
+.tl .row.mark{background:rgba(217,45,32,.045)}
+.tl .row.mark .dt{color:var(--crim);font-weight:600}
+
 /* ---------- 라이브 데이터 ---------- */
 .live-bar{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin-bottom:12px}
 .live-bar .pulse{width:6px;height:6px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 2px rgba(11,138,122,.2);animation:pulse 2.4s ease-in-out infinite}
@@ -636,26 +644,72 @@ footer strong{color:var(--dim)}
   <div class="tsbox" id="mem-px-box">
     <div class="tshead">
       <div>
-        <div class="ct">DRAM 계약가 · 현물가</div>
-        <div class="cs">DDR5 16Gb (2Gx8) · USD · TrendForce</div>
+        <div class="ct">DDR4 8Gb (1Gx8) 3200 현물가</div>
+        <div class="cs">USD/chip · TrendForce Daily Express · A등급 61건</div>
+      </div>
+      <div class="rng" id="mem-range">
+        <button data-d="90">3M</button>
+        <button data-d="180">6M</button>
+        <button data-d="400" class="on">1Y</button>
       </div>
     </div>
-    <svg id="mem-px" viewBox="0 0 700 220" role="img" aria-label="DRAM 계약가와 현물가 추이"></svg>
+    <svg id="mem-px" viewBox="0 0 700 240" role="img" aria-label="DDR4 8Gb 현물가 1년 추이"></svg>
     <div class="lgd" id="mem-px-lgd"></div>
-    <div class="tsnote"><strong>두 선의 간격이 스팟 프리미엄이다.</strong> 현물이 계약가를 크게 웃돌면 계약가 추가 인상 압력, 좁혀지면 현물이 먼저 식고 있다는 신호. 규격(SKU)이 바뀌면 시계열이 끊기므로 같은 품목으로만 이어붙인다.</div>
+    <div class="tsnote">공개 자료로 이어붙일 수 있는 <strong>가장 연속적인 시계열</strong>. 규격이 다른 가격과는 절대 섞지 않는다.</div>
   </div>
 
-  <div class="tsbox" id="mem-prem-box">
+  <div class="tsbox" id="mem-16-box">
     <div class="tshead">
       <div>
-        <div class="ct">스팟 프리미엄</div>
-        <div class="cs">(현물가 ÷ 계약가 − 1) · 자동 계산</div>
+        <div class="ct">16Gb 현물가 — 산발 관측</div>
+        <div class="cs">USD/chip · 확정 수치가 공개된 지점만</div>
       </div>
     </div>
-    <svg id="mem-prem" viewBox="0 0 700 180" role="img" aria-label="DRAM 스팟 프리미엄 추이"></svg>
-    <div class="lgd" id="mem-prem-lgd"></div>
-    <div class="tsnote">항목 06의 반증 신호 중 하나. <strong>프리미엄 축소 = 현물이 먼저 식는 중</strong>으로, 계약가 하락에 선행한다.</div>
+    <svg id="mem-16" viewBox="0 0 700 200" role="img" aria-label="DDR5 및 DDR4 16Gb 현물가 관측치"></svg>
+    <div class="lgd" id="mem-16-lgd"></div>
+    <div class="tsnote">관측 지점이 드물어 <strong>선은 추세가 아니라 두 점을 잇는 보조선</strong>이다. 사이에 무슨 일이 있었는지는 이 차트로 알 수 없다.</div>
   </div>
+
+  <h4 class="min">월말 대표가격 · MoM</h4>
+  <div class="tw">
+    <table>
+      <thead><tr><th>월</th><th>가격 (USD/chip)</th><th>MoM</th><th>누적</th><th>국면</th></tr></thead>
+      <tbody>
+        <tr><td class="num">2025-07</td><td class="num">5.123</td><td class="num">—</td><td class="num">—</td><td>바닥권</td></tr>
+        <tr><td class="num">2025-08</td><td class="num">4.859</td><td class="num down">−5.2%</td><td class="num">−5.2%</td><td>바닥권</td></tr>
+        <tr><td class="num">2025-09</td><td class="num">6.359</td><td class="num up">+30.9%</td><td class="num up">+24.1%</td><td>점화</td></tr>
+        <tr><td class="num">2025-10</td><td class="num">10.070</td><td class="num up">+58.4%</td><td class="num up">+96.6%</td><td><strong>폭등</strong></td></tr>
+        <tr><td class="num">2025-11</td><td class="num">15.900</td><td class="num up">+57.9%</td><td class="num up">+210.4%</td><td><strong>폭등</strong></td></tr>
+        <tr><td class="num">2025-12</td><td class="num">24.183</td><td class="num up">+52.1%</td><td class="num up">+372.0%</td><td><strong>폭등</strong></td></tr>
+        <tr><td class="num">2026-01</td><td class="num">30.760</td><td class="num up">+27.2%</td><td class="num up">+500.4%</td><td>둔화</td></tr>
+        <tr><td class="num">2026-02</td><td class="num">32.800</td><td class="num">+6.6%</td><td class="num up">+540.2%</td><td>둔화</td></tr>
+        <tr><td class="num">2026-03</td><td class="num">33.960</td><td class="num">+3.5%</td><td class="num up">+562.9%</td><td>정체</td></tr>
+        <tr><td class="num">2026-04</td><td class="num">32.480</td><td class="num down"><strong>−4.4%</strong></td><td class="num up">+534.0%</td><td class="down"><strong>조정</strong></td></tr>
+        <tr><td class="num">2026-05</td><td class="num">34.100</td><td class="num up">+5.0%</td><td class="num up">+565.6%</td><td>재상승</td></tr>
+        <tr><td class="num">2026-06</td><td class="num">36.000</td><td class="num up">+5.6%</td><td class="num up">+602.7%</td><td>재상승</td></tr>
+        <tr><td class="num">2026-07</td><td class="num"><strong>41.100</strong></td><td class="num up"><strong>+14.2%</strong></td><td class="num up"><strong>+702.3%</strong></td><td class="up"><strong>재가속</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout" style="border-color:rgba(217,45,32,.3);background:rgba(217,45,32,.04)">
+    <div class="tag" style="color:var(--crim)">주가와 현물가가 갈라섰다</div>
+    <p>1년간 <strong>5.12 → 41.10 USD, 8배(+702%)</strong>. 그런데 최근 구간의 방향이 엇갈린다.<br><br>
+    <strong>SOXX는 6월 기록적 고점 대비 20% 이상 하락</strong>해 베어마켓에 진입했다. 같은 기간 <strong>현물가는 6월 +5.6%, 7월 +14.2%로 오히려 재가속</strong>했다.<br><br>
+    해석은 둘 중 하나다. ① 주식시장이 <strong>가격 정점을 선반영</strong>하고 있다 — 현물이 아무리 올라도 캐파 증설이 2027년 중반이면 그 뒤가 보인다는 판단. ② 주식시장이 <strong>과민 반응</strong>했고 현물가가 실체를 말하고 있다.<br><br>
+    항목 01의 매도 원칙은 <em>"현물가 떨어지는데요"</em>를 소음으로 경계했다. <strong>지금은 정반대 상황 — 현물가는 오르는데 주가가 빠진다.</strong> 같은 원칙을 뒤집어 적용하면, 주가 하락 역시 그 자체로는 매도 사유가 아니다.</p>
+  </div>
+
+  <div class="callout">
+    <div class="tag">앞선 판단 정정</div>
+    <p>TrendForce 주간 코멘트만 보고 <strong>"4월이 전환점이고 수요 파괴가 시작됐다"</strong>고 읽었다. 실제 숫자로는 <strong>절반만 맞았다.</strong><br><br>
+    4월에 <strong>−4.4% 조정이 실제로 있었다.</strong> 그러나 그것으로 끝이 아니라 5~7월에 재가속했다. 정성 코멘트("실수요가 가격을 흡수 못 함")는 <strong>거래량의 이야기였지 가격의 이야기가 아니었다.</strong> 물량이 안 붙어도 공급이 더 부족하면 가격은 오른다 — 항목 06-B의 "비트는 안 늘고 ASP만 오른다"와 정확히 같은 구조다.<br><br>
+    <strong>교훈: 서술형 코멘트로 수치를 추론하지 않는다.</strong></p>
+  </div>
+
+  <h4 class="min">메모리 가격 관측 기록</h4>
+  <p style="font-size:13.5px;color:var(--dim);margin-bottom:6px">가격 시계열과 함께 남은 <strong>당일 시장 코멘트</strong>. 숫자가 왜 그렇게 움직였는지는 여기에 있다. 새 관측은 <code style="font-family:var(--mono);font-size:12px;color:var(--teal)">manual.json</code>의 note 필드에 추가한다.</p>
+  <div class="tl" id="mem-notes"></div>
 
   <h4 class="min">메모리 가격 스냅샷 — 수기 입력</h4>
   <div class="grid g3">
@@ -1115,18 +1169,53 @@ footer strong{color:var(--dim)}
     </table>
   </div>
 
-  <h3 class="blk">자동화 우선순위</h3>
+  <h3 class="blk">주 1회 5분 루틴</h3>
+  <p>손대는 파일은 하나다 — <code style="font-family:var(--mono);font-size:13px;color:var(--teal)">data/manual.json</code>. 나머지는 자동이다.</p>
+  <div class="grid g2">
+    <div class="card teal"><h5>① pull 먼저 · ② 값 재기</h5>
+      <p><code style="font-family:var(--mono);font-size:12.5px">git pull --rebase</code> — Actions가 매일 커밋하므로 이걸 빼면 충돌한다.<br><br>
+      <strong>현물가</strong> TrendForce → DDR4 8Gb (1Gx8) 3200<br>
+      <strong>SOXX P/E</strong> iShares → <code style="font-family:var(--mono);font-size:12.5px">P/E Ratio</code><br>
+      <span style="color:var(--crim)">⚠ Number of Holdings(약 30)와 혼동 금지</span></p></div>
+    <div class="card teal"><h5>③ 한 줄 추가 · ④ 푸시</h5>
+      <p><code style="font-family:var(--mono);font-size:12px;line-height:1.9;display:block;color:var(--dim)">{ "date": "2026-07-27",<br>&nbsp;&nbsp;"ddr4_8gb_spot_usd": 42.5,<br>&nbsp;&nbsp;"soxx_pe_trailing": 65.2,<br>&nbsp;&nbsp;"src": "TrendForce / iShares" }</code><br>
+      푸시하면 <strong>Actions가 자동 재실행</strong>된다. 2분 뒤 반영.</p></div>
+  </div>
   <ul class="clean">
-    <li><strong>1순위 · FRED API</strong> — 유일하게 완전 무료·안정. 즉시 자동화 가능</li>
-    <li><strong>2순위 · KRX OPEN API</strong> — 국내 주가</li>
-    <li><strong>3순위 · RSS 수집</strong> — Reuters, 전자신문, THELEC</li>
-    <li class="hi">나머지는 <strong>딥링크 + 최종확인일 표기</strong> 방식 유지 — 라이선스 리스크 회피</li>
+    <li><code style="font-family:var(--mono);font-size:12.5px">date</code>는 조회한 날이 아니라 <strong>데이터 기준일(as of)</strong></li>
+    <li>모르는 값은 <strong>쓰지 않는다.</strong> 추정치를 레벨 필드에 넣으면 시계열이 영구히 오염된다</li>
+    <li class="hi">JSON 문법 오류는 <strong>Actions가 즉시 중단</strong>하고 몇 행인지 알려준다. 조용히 사라지지 않는다</li>
   </ul>
 
-  <h3 class="blk">구현 단계</h3>
-  <div class="grid g2">
-    <div class="card"><h5>v1 — 현재</h5><p>정적 HTML. 소스별 딥링크 + 수동 입력 스냅샷 + 최종 갱신일 표기. 클릭 한 번으로 원출처 확인.</p></div>
-    <div class="card teal"><h5>v2 — 권장</h5><p>GitHub Actions 또는 Cloudflare Worker가 하루 1회 FRED·KRX·RSS를 수집해 <code style="font-family:var(--mono);font-size:12px;color:var(--teal)">data.json</code>으로 커밋 → 대시보드가 그 파일만 fetch. <strong>API 키는 서버에 보관.</strong></p></div>
+  <h3 class="blk">분기 1회 — 판단이 바뀌는 지점</h3>
+  <p>주가나 현물가는 매일 봐도 판단이 안 바뀐다. 바뀌는 건 여기서다.</p>
+  <div class="tw">
+    <table>
+      <thead><tr><th>항목</th><th>소스</th><th>뽑을 것</th></tr></thead>
+      <tbody>
+        <tr><td>3사 실적</td><td>삼성·하이닉스 컨콜 / <strong>마이크론 SEC 10-Q</strong></td><td>Bit Growth · ASP · <strong>ASP 기여율 재계산</strong></td></tr>
+        <tr><td>밸류에이션 4종</td><td>iShares · 증권사 · Siblis</td><td class="warn">반드시 <strong>같은 날</strong> — 시점 다르면 비율 계산 안 됨</td></tr>
+        <tr><td>컨센서스</td><td>한경 컨센서스 · stockanalysis</td><td>목표주가·추정 리비전 방향</td></tr>
+        <tr><td>HBM·DRAM 점유율</td><td>Counterpoint 분기 트래커</td><td class="warn">과거 수치 소급 수정됨 — 최신 표만</td></tr>
+        <tr><td><strong>반증 신호 보드</strong></td><td>항목 06</td><td><strong>3개 이상 동시 점등 여부</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="blk">절대 하지 않을 것</h3>
+  <ul class="clean">
+    <li class="hi"><strong>추정치를 레벨 필드에 넣지 않는다.</strong> 모르면 비운다 — 오염된 시계열은 되돌릴 수 없다</li>
+    <li class="hi"><strong>규격이 다른 가격을 이어붙이지 않는다.</strong> DDR4 8Gb과 DDR5 16Gb는 다른 시계열이다. 모듈(USD/module)과 칩(USD/chip)도 마찬가지</li>
+    <li><strong>소스를 바꾸지 않는다.</strong> SOXX는 iShares, 나스닥은 Siblis로 고정. 소스가 바뀌면 시계열이 끊긴다</li>
+    <li><strong>과거 항목을 수정하지 않는다.</strong> 틀린 값을 발견하면 지우지 말고 새 항목에 정정 기록을 남긴다</li>
+    <li><code style="font-family:var(--mono);font-size:12.5px">dram_spot_history.json</code>은 임포트 아카이브다. 건드리지 않는다</li>
+  </ul>
+
+  <div class="callout" style="border-color:rgba(11,138,122,.4);background:rgba(11,138,122,.05)">
+    <div class="tag" style="color:var(--teal)">이 루틴이 지키는 것</div>
+    <p>주 5분의 목적은 정보 수집이 아니다. <strong>손가락이 근질거릴 때, 근거로 쓸 숫자가 이미 쌓여 있게 하는 것</strong>이다.<br><br>
+    항목 01은 <em>"현물가 떨어지는데요"</em> 같은 소음에 반응하는 것을 경계한다. 소음과 신호를 구분하려면 <strong>평소에 재놓은 시계열</strong>이 필요하다. 급할 때 찾아보는 숫자는 이미 늦다.<br><br>
+    기록이 쌓이면 둘이 생긴다. ① 지금 값이 비정상인지 판단할 <strong>기준선</strong> ② 과거의 내 판단이 맞았는지 검증할 <strong>근거</strong>. <strong>두 번째가 더 중요하다.</strong></p>
   </div>
 
   <div class="callout">
@@ -1329,7 +1418,7 @@ footer strong{color:var(--dim)}
   }
 
   // ── 시계열 차트 ─────────────────────────────────────
-  var TS = { data: null, days: 90 };
+  var TS = { data: null, days: 90, memDays: 400 };
   var PALETTE = {
     '005930.KS': '#0B8A7A', '000660.KS': '#6941C6',
     'MU': '#B54708', 'SOXX': '#55606E'
@@ -1477,14 +1566,41 @@ footer strong{color:var(--dim)}
       [{color:'#6941C6', name:'DXI', pts: pick(rows, 'dxi')}],
       {h:200}, 'manual.json의 dxi 필드를 채우세요');
 
-    memChart('mem-px-box', 'mem-px', 'mem-px-lgd', [
-      {color:'#0B8A7A', name:'계약가', suffix:' USD', pts: pick(rows, 'dram_contract_usd')},
-      {color:'#B54708', name:'현물가', suffix:' USD', pts: pick(rows, 'dram_spot_usd')}
-    ], {h:220}, 'dram_contract_usd · dram_spot_usd 필드를 채우세요');
+    var cut = Date.now() - TS.memDays * 86400000;
+    var p4 = pick(rows, 'ddr4_8gb_spot_usd').filter(function(p){ return p.x >= cut; });
+    memChart('mem-px-box', 'mem-px', 'mem-px-lgd',
+      [{color:'#B54708', name:'DDR4 8Gb 현물', suffix:' USD', pts: p4}],
+      {h:240}, 'ddr4_8gb_spot_usd 필드를 채우세요');
+    if (p4.length > 1){
+      var chg = (p4[p4.length-1].y / p4[0].y - 1) * 100;
+      document.getElementById('mem-px-lgd').innerHTML +=
+        '<span style="color:' + (chg >= 0 ? 'var(--teal)' : 'var(--crim)') + '">구간 '
+        + (chg >= 0 ? '+' : '') + chg.toFixed(0) + '%</span>'
+        + '<span style="color:var(--faint)">관측 ' + p4.length + '건</span>';
+    }
 
-    memChart('mem-prem-box', 'mem-prem', 'mem-prem-lgd',
-      [{color:'#D92D20', name:'스팟 프리미엄', suffix:'%', pts: pick(rows, 'spot_premium_calc')}],
-      {h:180}, '계약가와 현물가를 같은 날짜에 함께 입력하면 자동 계산됩니다');
+    memChart('mem-16-box', 'mem-16', 'mem-16-lgd', [
+      {color:'#0B8A7A', name:'DDR5 16Gb', suffix:' USD', pts: pick(rows, 'ddr5_16gb_spot_usd')},
+      {color:'#6941C6', name:'DDR4 16Gb', suffix:' USD', pts: pick(rows, 'ddr4_16gb_spot_usd')}
+    ], {h:200}, '16Gb 확정 관측치가 없습니다');
+  }
+
+  function renderNotes(){
+    var rows = (((TS.data.manual || {}).entries) || [])
+      .filter(function(r){ return r.note; })
+      .sort(function(a,b){ return a.date < b.date ? 1 : -1; });
+    var wrap = document.getElementById('mem-notes');
+    if (!rows.length){
+      wrap.innerHTML = '<div class="row"><div class="dt">—</div><div class="bd" style="color:var(--faint)">manual.json의 note 필드에 관측을 남기면 여기에 쌓입니다.</div></div>';
+      return;
+    }
+    wrap.innerHTML = rows.map(function(r){
+      var mark = /^⚠/.test(r.note) ? ' mark' : '';
+      return '<div class="row' + mark + '"><div class="dt">' + esc(r.date) + '</div>'
+           + '<div class="bd">' + esc(r.note)
+           + (r.src ? '<span class="sc">' + esc(r.src) + '</span>' : '')
+           + '</div></div>';
+    }).join('');
   }
 
   function renderValLog(){
@@ -1530,6 +1646,15 @@ footer strong{color:var(--dim)}
       + '<span><i style="background:#0B8A7A"></i>내재 EPS</span>';
   }
 
+  var mrng = document.getElementById('mem-range');
+  if (mrng) mrng.addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    Array.prototype.forEach.call(mrng.children, function(x){ x.classList.remove('on'); });
+    b.classList.add('on');
+    TS.memDays = +b.dataset.d;
+    renderMemory();
+  });
+
   var rng = document.getElementById('ts-range');
   if (rng) rng.addEventListener('click', function(e){
     var b = e.target.closest('button'); if (!b) return;
@@ -1549,6 +1674,7 @@ footer strong{color:var(--dim)}
       renderFredTS();
       renderValLog();
       renderMemory();
+      renderNotes();
       var when = (d.generated_at || '').replace('T', ' ').slice(0, 16);
       var errN = (d.errors || []).length;
       var suffix = errN ? ' · 경고 ' + errN + '건' : '';
