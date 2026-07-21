@@ -11,9 +11,29 @@
   "  ⚠ 단위가 USD/module로 현물(USD/chip)과 다르다. 스팟 프리미엄 계산에 쓰지 않는다.",
   "",
   "[신뢰도] A=TrendForce/DRAMeXchange 원문 · B=주요 매체가 원자료 인용 · B-=커뮤니티 전재",
-  "출처: TrendForce Press Center Daily Express, Tom's Hardware(Digitimes 인용), Reuters"
+  "",
+  "[DXI — DRAMeXchange Index]",
+  "dxi       : DXI 지수 포인트. 주요 DRAM 제품 가격과 생산 비중을 반영한 업황 종합지표.",
+  "dxi_wow   : 원문 리서치 표가 발표한 주간 변화율(%). 계산값이 아니라 공표값.",
+  "dxi_mom   : 원문 리서치 표가 발표한 전월 대비 변화율(%). 공표값.",
+  "dxi_grade : A=DRAMeXchange 공식 · A-=공식 원자료를 명시 인용한 리서치 표의 직접 기재값",
+  "dxi_url   : 해당 관측치의 원문 리포트 URL",
+  "  ⚠ 2021-01-04 DXI 산출모델 변경. 그 이전 값과 이어붙이지 않는다.",
+  "  ⚠ 관측 간격이 7일보다 긴 구간이 있다. 공표 WoW는 그 구간의 실제 변화율과 다를 수 있다.",
+  "",
+  "출처: TrendForce Daily Express, Tom's Hardware(Digitimes 인용), Reuters,",
+  "      유진투자증권 Memory Watch(DRAMeXchange 인용)"
  ],
  "entries": [
+  {
+   "date": "2025-07-18",
+   "dxi": 85576,
+   "dxi_wow": 2.2,
+   "dxi_mom": 11.6,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20250721_B45_swlee6591_1017.pdf"
+  },
   {
    "date": "2025-07-21",
    "ddr4_8gb_spot_usd": 5.203,
@@ -22,10 +42,55 @@
    "note": "공급이 빠듯한 가운데 DDR5 문의가 산발적으로 나타남"
   },
   {
+   "date": "2025-07-25",
+   "dxi": 86187,
+   "dxi_wow": 0.7,
+   "dxi_mom": 5.4,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20250728_B45_swlee6591_1019.pdf"
+  },
+  {
    "date": "2025-07-30",
    "ddr4_8gb_spot_usd": 5.123,
    "grade": "A",
    "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-08-01",
+   "dxi": 87517,
+   "dxi_wow": 1.5,
+   "dxi_mom": 6.0,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20250804_B45_swlee6591_1023.pdf"
+  },
+  {
+   "date": "2025-08-08",
+   "dxi": 88076,
+   "dxi_wow": 0.6,
+   "dxi_mom": 6.1,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20250812_B45_swlee6591_1025.pdf"
+  },
+  {
+   "date": "2025-08-15",
+   "dxi": 88988,
+   "dxi_wow": 1.0,
+   "dxi_mom": 5.5,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail/20250818_B45_swlee6591_1026.pdf"
+  },
+  {
+   "date": "2025-08-22",
+   "dxi": 88596,
+   "dxi_wow": -0.4,
+   "dxi_mom": 2.0,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20250825_B45_swlee6591_1027.pdf"
   },
   {
    "date": "2025-08-28",
@@ -37,7 +102,13 @@
    "date": "2025-08-29",
    "ddr4_8gb_spot_usd": 4.859,
    "grade": "A",
-   "src": "TrendForce Daily Express"
+   "src": "TrendForce Daily Express",
+   "dxi": 89324,
+   "dxi_wow": 0.8,
+   "dxi_mom": 3.3,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20250901_B45_swlee6591_1028.pdf"
   },
   {
    "date": "2025-08-31",
@@ -51,10 +122,37 @@
    "src_contract": "Reuters (B+)"
   },
   {
+   "date": "2025-09-12",
+   "dxi": 93041,
+   "dxi_wow": 3.1,
+   "dxi_mom": 5.2,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20250915_B45_swlee6591_1030.pdf"
+  },
+  {
    "date": "2025-09-16",
    "ddr4_8gb_spot_usd": 5.431,
    "grade": "A",
    "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-09-19",
+   "dxi": 101862,
+   "dxi_wow": 9.5,
+   "dxi_mom": 14.4,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20250922_B45_swlee6591_1031.pdf"
+  },
+  {
+   "date": "2025-09-26",
+   "dxi": 111217,
+   "dxi_wow": 9.2,
+   "dxi_mom": 25.8,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20250929_B45_swlee6591_1032.pdf"
   },
   {
    "date": "2025-09-30",
@@ -68,10 +166,37 @@
    "grade_16gb": "B-"
   },
   {
+   "date": "2025-10-10",
+   "dxi": 127920,
+   "dxi_wow": 5.9,
+   "dxi_mom": 40.7,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20251013_B45_swlee6591_1033.pdf"
+  },
+  {
    "date": "2025-10-14",
    "ddr4_8gb_spot_usd": 7.059,
    "grade": "A",
    "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2025-10-17",
+   "dxi": 152178,
+   "dxi_wow": 19.0,
+   "dxi_mom": 56.0,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20251020_B45_swlee6591_1034.pdf"
+  },
+  {
+   "date": "2025-10-24",
+   "dxi": 180853,
+   "dxi_wow": 18.8,
+   "dxi_mom": 69.4,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20251027_B45_swlee6591_1035.pdf"
   },
   {
    "date": "2025-10-31",
@@ -91,6 +216,15 @@
    "src": "TrendForce Daily Express"
   },
   {
+   "date": "2025-11-23",
+   "dxi": 345001,
+   "dxi_wow": 3.7,
+   "dxi_mom": 101.0,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail/20251124_B45_swlee6591_1040.pdf"
+  },
+  {
    "date": "2025-11-26",
    "ddr4_8gb_spot_usd": 14.914,
    "grade": "A",
@@ -108,7 +242,13 @@
    "date": "2025-11-28",
    "ddr4_8gb_spot_usd": 15.9,
    "grade": "A",
-   "src": "TrendForce Daily Express"
+   "src": "TrendForce Daily Express",
+   "dxi": 377457,
+   "dxi_wow": 9.4,
+   "dxi_mom": 89.4,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail/20251201_B45_swlee6591_1041.pdf"
   },
   {
    "date": "2025-12-01",
@@ -178,7 +318,13 @@
    "ddr4_8gb_spot_usd": 18.6,
    "grade": "A",
    "src": "TrendForce Daily Express",
-   "note": "제한된 공급 물량이 빠르게 소진"
+   "note": "제한된 공급 물량이 빠르게 소진",
+   "dxi": 391137,
+   "dxi_wow": 2.8,
+   "dxi_mom": 20.6,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail/20251215_B45_swlee6591_1042.pdf"
   },
   {
    "date": "2025-12-15",
@@ -201,6 +347,33 @@
    "src": "TrendForce Daily Express"
   },
   {
+   "date": "2026-01-02",
+   "dxi": 475685,
+   "dxi_wow": 7.2,
+   "dxi_mom": 24.0,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail/20260105_B45_swlee6591_1044.pdf"
+  },
+  {
+   "date": "2026-01-09",
+   "dxi": 510145,
+   "dxi_wow": 7.2,
+   "dxi_mom": 33.1,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail//20260112_B45_swlee6591_1046.pdf"
+  },
+  {
+   "date": "2026-01-16",
+   "dxi": 558301,
+   "dxi_wow": 9.4,
+   "dxi_mom": 40.4,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail/20260119_B45_swlee6591_1047.pdf"
+  },
+  {
    "date": "2026-01-22",
    "ddr4_8gb_spot_usd": 30.3,
    "grade": "A",
@@ -210,7 +383,13 @@
    "date": "2026-01-30",
    "ddr4_8gb_spot_usd": 30.76,
    "grade": "A",
-   "src": "TrendForce Daily Express"
+   "src": "TrendForce Daily Express",
+   "dxi": 586351,
+   "dxi_wow": 0.7,
+   "dxi_mom": 28.3,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail/20260202_B45_swlee6591_1049.pdf"
   },
   {
    "date": "2026-02-03",
@@ -220,6 +399,15 @@
    "ddr4_16gb_spot_usd": 77.21,
    "grade_16gb": "B",
    "ddr5_16gb_spot_usd": 38.0
+  },
+  {
+   "date": "2026-02-06",
+   "dxi": 595381,
+   "dxi_wow": 1.5,
+   "dxi_mom": 20.6,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.eugenefn.com/common/files/amail/20260209_B45_swlee6591_1050.pdf"
   },
   {
    "date": "2026-02-13",
@@ -277,6 +465,24 @@
    "note": "제한적 문의와 신중한 시장 분위기"
   },
   {
+   "date": "2026-03-06",
+   "dxi": 638072,
+   "dxi_wow": 2.7,
+   "dxi_mom": 7.2,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://file.alphasquare.co.kr/media/pdfs/market-report/%EB%B0%98%EB%8F%84%EC%B2%B4Memory20260309%EC%9C%A0%EC%A7%84%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C."
+  },
+  {
+   "date": "2026-03-20",
+   "dxi": 671366,
+   "dxi_wow": 2.8,
+   "dxi_mom": 11.9,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.bondweb.co.kr/_research/downloadPage.asp?gn=1&number=892241"
+  },
+  {
    "date": "2026-03-25",
    "ddr4_8gb_spot_usd": 34.0,
    "grade": "A",
@@ -289,10 +495,28 @@
    "src": "TrendForce Daily Express"
   },
   {
+   "date": "2026-04-03",
+   "dxi": 663856,
+   "dxi_wow": 0.0,
+   "dxi_mom": 7.1,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://file.alphasquare.co.kr/media/pdfs/market-report/%EB%B0%98%EB%8F%84%EC%B2%B4%EB%85%B8%EC%9D%B4%EC%A6%8820260406%EC%9C%A0%EC%A7%84%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C."
+  },
+  {
    "date": "2026-04-07",
    "ddr4_8gb_spot_usd": 33.5,
    "grade": "A",
    "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-04-10",
+   "dxi": 663249,
+   "dxi_wow": -0.1,
+   "dxi_mom": 2.8,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-04-c7a80309a931bc365e31782ed4e7a476"
   },
   {
    "date": "2026-04-21",
@@ -340,7 +564,13 @@
    "ddr4_8gb_spot_usd": 32.1,
    "grade": "A",
    "src": "TrendForce Daily Express",
-   "note": "DDR5·DDR4 브랜드 부품 구매 관심 회복"
+   "note": "DDR5·DDR4 브랜드 부품 구매 관심 회복",
+   "dxi": 678650,
+   "dxi_wow": 0.7,
+   "dxi_mom": 2.2,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://file.alphasquare.co.kr/media/pdfs/market-report/%EB%B0%98%EB%8F%84%EC%B2%B4Memory20260511%EC%9C%A0%EC%A7%84%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C."
   },
   {
    "date": "2026-05-11",
@@ -360,6 +590,15 @@
    "ddr4_8gb_spot_usd": 34.5,
    "grade": "A",
    "src": "TrendForce Daily Express"
+  },
+  {
+   "date": "2026-06-12",
+   "dxi": 794139,
+   "dxi_wow": 4.9,
+   "dxi_mom": 16.0,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-06-676f34a20524ec38547041a7e4a250a5"
   },
   {
    "date": "2026-06-18",
@@ -406,7 +645,13 @@
    "date": "2026-07-10",
    "ddr4_8gb_spot_usd": 37.8,
    "grade": "A",
-   "src": "TrendForce Daily Express"
+   "src": "TrendForce Daily Express",
+   "dxi": 881993,
+   "dxi_wow": 2.2,
+   "dxi_mom": 12.8,
+   "dxi_grade": "A-",
+   "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+   "dxi_url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-07-8e866f6ec919b32e99b6fb12378f5e37"
   },
   {
    "date": "2026-07-14",

@@ -32,6 +32,8 @@
     "ddr4_8gb_spot_usd  : DDR4 8Gb (1Gx8) 3200 현물, USD/chip — 가장 연속적인 공개 시계열. 주력.",
     "ddr5_16gb_spot_usd : DDR5 16Gb (2Gx8) 현물, USD/chip.",
     "ddr4_16gb_spot_usd : DDR4 16Gb (2Gx8) 3200 현물, USD/chip.",
+    "dxi               : DXI 지수 포인트. 유진투자증권 Memory Watch 주간 리포트(무료 PDF)에 표로 실린다.",
+    "  → eugenefn.com 리서치 자료실, 매주 월요일 발행. DRAMeXchange 원자료를 인용한 A−등급.",
     "grade             : 신뢰도 A/B+/B/B-/C. 출처 등급을 반드시 남긴다.",
     "  ⚠ 규격이 다른 가격은 절대 이어붙이거나 평균하지 않는다. 모듈 계약가(USD/module)와도 섞지 않는다.",
     "",

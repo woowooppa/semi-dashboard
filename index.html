@@ -633,12 +633,17 @@ footer strong{color:var(--dim)}
     <div class="tshead">
       <div>
         <div class="ct">DXI 지수</div>
-        <div class="cs">DRAMeXchange · 수기 입력 · data/manual.json</div>
+        <div class="cs">DRAMeXchange · 유진투자증권 Memory Watch 인용 · A−등급 28건</div>
+      </div>
+      <div class="rng" id="dxi-range">
+        <button data-d="90">3M</button>
+        <button data-d="180">6M</button>
+        <button data-d="400" class="on">1Y</button>
       </div>
     </div>
     <svg id="mem-dxi" viewBox="0 0 700 200" role="img" aria-label="DXI 지수 추이"></svg>
     <div class="lgd" id="mem-dxi-lgd"></div>
-    <div class="tsnote">메모리 사이클의 단일 최고 대표지표. 2021-01-04에 산출모델이 바뀌었으므로 그 이전 값과 이어붙이지 않는다.</div>
+    <div class="tsnote">주요 DRAM 제품 가격과 생산 비중을 반영한 업황 종합지표 — 메모리 사이클의 단일 최고 대표지표. 관측 간격이 7일보다 긴 구간이 있어 공표 WoW가 실제 변화율과 다를 수 있다. 2021-01-04 산출모델 변경 이전 값과는 이어붙이지 않는다.</div>
   </div>
 
   <div class="tsbox" id="mem-px-box">
@@ -668,6 +673,19 @@ footer strong{color:var(--dim)}
     <svg id="mem-16" viewBox="0 0 700 200" role="img" aria-label="DDR5 및 DDR4 16Gb 현물가 관측치"></svg>
     <div class="lgd" id="mem-16-lgd"></div>
     <div class="tsnote">관측 지점이 드물어 <strong>선은 추세가 아니라 두 점을 잇는 보조선</strong>이다. 사이에 무슨 일이 있었는지는 이 차트로 알 수 없다.</div>
+  </div>
+
+  <div class="callout" style="border-color:rgba(105,65,198,.35);background:rgba(105,65,198,.045)">
+    <div class="tag" style="color:var(--violet)">DXI가 현물가보다 더 올랐다</div>
+    <p>같은 1년 구간에서 <strong>DXI +931%(85,576 → 881,993)</strong>, <strong>DDR4 8Gb 현물 +702%</strong>. DXI가 <strong>229%p 더 올랐다.</strong><br><br>
+    DXI는 개별 품목이 아니라 <strong>주요 DRAM 제품 가격을 생산 비중으로 가중한 종합지표</strong>다. 두 지표의 격차는 <strong>DDR4 바깥에서 더 큰 일이 벌어졌다</strong>는 뜻 — 서버용 DDR5와 고부가 제품의 상승폭이 레거시 DDR4를 앞질렀다.<br><br>
+    이는 항목 06의 관측과 일치한다. 삼성의 DRAM ASP가 하이닉스보다 30%p 더 올랐고, 삼성은 범용·서버 캐파가 크다. <strong>DXI와 DDR4 현물의 격차가 곧 제품 믹스 효과다.</strong></p>
+  </div>
+
+  <div class="callout">
+    <div class="tag">교차 검증 — 4월 조정은 실재했다</div>
+    <p>두 지표가 <strong>독립된 소스</strong>인데도 같은 시점에 꺾였다. DXI 2026-04 <strong>−1.2%</strong>, DDR4 현물 <strong>−4.4%</strong>. 그리고 둘 다 5월부터 재상승해 6~7월에 재가속했다(DXI +17.0%, +11.1%).<br><br>
+    <strong>단일 지표의 노이즈가 아니라 시장 전체의 숨고르기였다.</strong> 그리고 그 조정은 추세 전환이 아니었다.</p>
   </div>
 
   <h4 class="min">월말 대표가격 · MoM</h4>
@@ -1418,7 +1436,7 @@ footer strong{color:var(--dim)}
   }
 
   // ── 시계열 차트 ─────────────────────────────────────
-  var TS = { data: null, days: 90, memDays: 400 };
+  var TS = { data: null, days: 90, memDays: 400, dxiDays: 400 };
   var PALETTE = {
     '005930.KS': '#0B8A7A', '000660.KS': '#6941C6',
     'MU': '#B54708', 'SOXX': '#55606E'
@@ -1562,9 +1580,18 @@ footer strong{color:var(--dim)}
   function renderMemory(){
     var rows = ((TS.data.manual || {}).entries) || [];
 
+    var dcut = Date.now() - TS.dxiDays * 86400000;
+    var dx = pick(rows, 'dxi').filter(function(p){ return p.x >= dcut; });
     memChart('mem-dxi-box', 'mem-dxi', 'mem-dxi-lgd',
-      [{color:'#6941C6', name:'DXI', pts: pick(rows, 'dxi')}],
+      [{color:'#6941C6', name:'DXI', pts: dx}],
       {h:200}, 'manual.json의 dxi 필드를 채우세요');
+    if (dx.length > 1){
+      var dchg = (dx[dx.length-1].y / dx[0].y - 1) * 100;
+      document.getElementById('mem-dxi-lgd').innerHTML +=
+        '<span style="color:' + (dchg >= 0 ? 'var(--teal)' : 'var(--crim)') + '">구간 '
+        + (dchg >= 0 ? '+' : '') + dchg.toFixed(0) + '%</span>'
+        + '<span style="color:var(--faint)">관측 ' + dx.length + '건</span>';
+    }
 
     var cut = Date.now() - TS.memDays * 86400000;
     var p4 = pick(rows, 'ddr4_8gb_spot_usd').filter(function(p){ return p.x >= cut; });
@@ -1645,6 +1672,15 @@ footer strong{color:var(--dim)}
       '<span><i style="background:#D92D20"></i>SOXX 후행 P/E</span>'
       + '<span><i style="background:#0B8A7A"></i>내재 EPS</span>';
   }
+
+  var drng = document.getElementById('dxi-range');
+  if (drng) drng.addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    Array.prototype.forEach.call(drng.children, function(x){ x.classList.remove('on'); });
+    b.classList.add('on');
+    TS.dxiDays = +b.dataset.d;
+    renderMemory();
+  });
 
   var mrng = document.getElementById('mem-range');
   if (mrng) mrng.addEventListener('click', function(e){
