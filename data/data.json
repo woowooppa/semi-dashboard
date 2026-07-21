@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T17:37:25+09:00",
-  "generated_at_utc": "2026-07-21T08:37:25+00:00",
+  "generated_at": "2026-07-21T18:11:46+09:00",
+  "generated_at_utc": "2026-07-21T09:11:46+00:00",
   "prices": {
     "005930.KS": {
       "label": "삼성전자",
@@ -4661,7 +4661,7 @@
   },
   "news": [
     {
-      "title": "메모리 반도체 3사, HBM4 수율 경쟁 점화…하반기 수익 판가름",
+      "title": "메모리 반도체 3사, 'HBM4 수율' 경쟁 점화…하반기 수익 판가름",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Rbkx5RGJmWW9hZmgwZHkzQ19FbkQtbHR2OE9MUGowcHZMSXJ5YmNQb25PaFBsZTVGZ2owanpiOHhLLTFMQ1Q4UGtrUmx4QQ?oc=5",
       "published": "Tue, 21 Jul 2026 07:30:00 GMT",
       "source": "전자신문"
@@ -4679,9 +4679,15 @@
       "source": "v.daum.net"
     },
     {
-      "title": "반도체공학회, AI반도체 전략 포럼…사업화 전략 논의",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IZmRsVWFUc0ltc2JVYnhPLVRJdVlieXltd294azZDV1ZiSHBBQ0cwbDJrdU5vdENKaWdJd1BPNkRWZ085Q2UwZFpNWldQYzhydkM0VW5mWUFRUGVsckpybNIBYEFVX3lxTE9IZmRsVWFUc0ltc2JVYnhPLVRJdVlieXltd294azZDV1ZiSHBBQ0cwbDJrdU5vdENKaWdJd1BPNkRWZ085Q2UwZFpNWldQYzhydkM0VW5mWUFRUGVsckpybA?oc=5",
-      "published": "Tue, 21 Jul 2026 00:41:56 GMT",
+      "title": "다시 일어선 삼전닉스 … \"반도체株 펀더멘털, 살아있다\"",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45S2ZHTThnZk05Ykh5NjlYVFVqYXlwQm9XNDN6d3VFcUJmbTNld1RMN2NGbW5tUExIemhBbFVzUmhaZDVXWGs4cDVYUXA1OUZCcHc?oc=5",
+      "published": "Tue, 21 Jul 2026 08:45:12 GMT",
+      "source": "매일경제 마켓"
+    },
+    {
+      "title": "전남광주교육청, AI·반도체 인재 특성화고·영재학교 확대(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IQ254d2Z2TFBXTk1KUVFzMm8zNG1BRjNPMy1kVm9RVzFjVy1helhrU3RULXp1YWNQWDdmZU9oSmVBU0lvS0xVU0dXZjlQQ1hqeTJDdU1oQkpYQ3fSAWBBVV95cUxNS1BLamhZb1VyRFVfQzl1NkRqcTVNUGRoMWNJSGhYbDNEanRyMVVuM1NMNFBmTTF1a19EOFBmU0Z2bmpKNVUxOGNYSEgtRU83RzhLM2NYa3RTZU0wN2NmZDc?oc=5",
+      "published": "Tue, 21 Jul 2026 06:48:23 GMT",
       "source": "연합뉴스"
     },
     {
@@ -4691,10 +4697,10 @@
       "source": "디지털데일리"
     },
     {
-      "title": "이 대통령 “영업이익 배분·호남 반도체, 노동쟁의 대상 아냐”…삼성전자 노조 겨냥",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IR2JkanhLOVEtWnN1LUJ4Sll2QllTNmphVEo5cnkydlBnZVhmZF9CenhIbDlwQ0ZwNFVvUWhwbEpabGkxV0lJTVhsRVlwbGMxUkw3WkZIajdKUdIBX0FVX3lxTE1BYmJBaDJCaFpSUlZWcTR3MmhIT2tORkQ1QVViMko3Q0lBMjRSLTlxTU1HTjN0Zmh4amE1bG13Z2c5Y3hFVDJSZ2NiWFJFd0Y1c0RiTm9xd1hDTExtTGRZ?oc=5",
-      "published": "Tue, 21 Jul 2026 05:33:00 GMT",
-      "source": "경향신문"
+      "title": "\"메모리 반도체 공급과잉 아직 아니다…2035년까지 수요가 공급 앞서\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVNS1Ta3VfalBpYzBGSmJzeHZVVUNlWi0xMUIwN2FtSEhiRUxHWlhZbVpfaXBoRmNyUVZUemhXUTA1NHU5VHpuSVhSeUdtZjdTZHlFQW05LXVCVndHM0FNTjRpVVNWX3BkNHN6T0YwNU0?oc=5",
+      "published": "Sun, 19 Jul 2026 23:57:14 GMT",
+      "source": "연합인포맥스"
     },
     {
       "title": "추미애 지사 \"반도체 소부장과 동반성장 추진\"",
@@ -4703,10 +4709,10 @@
       "source": "YTN"
     },
     {
-      "title": "\"메모리 반도체 공급과잉 아직 아니다…2035년까지 수요가 공급 앞서\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVNS1Ta3VfalBpYzBGSmJzeHZVVUNlWi0xMUIwN2FtSEhiRUxHWlhZbVpfaXBoRmNyUVZUemhXUTA1NHU5VHpuSVhSeUdtZjdTZHlFQW05LXVCVndHM0FNTjRpVVNWX3BkNHN6T0YwNU0?oc=5",
-      "published": "Sun, 19 Jul 2026 23:57:14 GMT",
-      "source": "연합인포맥스"
+      "title": "이 대통령 “영업이익 배분·호남 반도체, 노동쟁의 대상 아냐”…삼성전자 노조 겨냥",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IR2JkanhLOVEtWnN1LUJ4Sll2QllTNmphVEo5cnkydlBnZVhmZF9CenhIbDlwQ0ZwNFVvUWhwbEpabGkxV0lJTVhsRVlwbGMxUkw3WkZIajdKUdIBX0FVX3lxTE1BYmJBaDJCaFpSUlZWcTR3MmhIT2tORkQ1QVViMko3Q0lBMjRSLTlxTU1HTjN0Zmh4amE1bG13Z2c5Y3hFVDJSZ2NiWFJFd0Y1c0RiTm9xd1hDTExtTGRZ?oc=5",
+      "published": "Tue, 21 Jul 2026 05:33:00 GMT",
+      "source": "경향신문"
     },
     {
       "title": "전남대 AI 기반 반도체 개발 혁신… 연구와 창업 동시 선도",
@@ -4715,34 +4721,16 @@
       "source": "베리타스알파"
     },
     {
-      "title": "[사설] 최태원 ‘반도체 역풍론’, 기업에 앞서 정부가 고민해야",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcFRlblo4Z3hocW44Uk1kQnU2dElTSjc0NnJWWUJHSGFpVVlfdl85MkQwS1BqbHc1a244aG9LUl9ta3haY3RrSTZibUVVNWFOMGVMY3NLRFV5M2hFLTVMc1lPUGh2NlRUc1B3cWNyVjdGMmcwSXRqQUR5bDdNMHBMaDhlUHpLdw?oc=5",
-      "published": "Mon, 20 Jul 2026 15:20:00 GMT",
-      "source": "조선일보"
+      "title": "반도체 수출 호조에 코스피 3%대 반등…6700선 회복[마감시황]",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92T0R1TFlVd0ZBWW10c0JLM0loSUJRVTZvcWd6cGZ1MDRiQk9mZ3UteFVzNTFTc0dZNVhrRFg4OUJCQlc5SDhKME0yanRvR1hXV09faW5uYkVIemc?oc=5",
+      "published": "Tue, 21 Jul 2026 07:52:14 GMT",
+      "source": "에너지경제신문"
     },
     {
-      "title": "과기정통부, 핵심 기업들과 반도체·양자 ‘K-문샷’ 협력 논의",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvYzJXRlhGUU56ZG1hLU9HTUJCTDJLeldkYTRsVWUxbS1uVHlHeFhKMVRFQnNVUmJTU0lveXpEQ3pzcVVQVU01NjBvSkU0Y0JV?oc=5",
-      "published": "Tue, 21 Jul 2026 07:58:15 GMT",
-      "source": "문화일보"
-    },
-    {
-      "title": "삼성 AI 반도체 프로젝트 이끌던 '우동혁' 수석부사장 퇴사",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8zemVRenoxVjZZTWFHUzltNHkteGRYbEh1dDhBbGE5ZDRpZXJ2d2UxR1hyV3MybHd3NjJURll1Mm5VM2pLTDVjTl8xZW9TZw?oc=5",
-      "published": "Tue, 21 Jul 2026 08:00:00 GMT",
-      "source": "전자신문"
-    },
-    {
-      "title": "전남광주교육청, AI·반도체 인재 특성화고·영재학교 확대(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IQ254d2Z2TFBXTk1KUVFzMm8zNG1BRjNPMy1kVm9RVzFjVy1helhrU3RULXp1YWNQWDdmZU9oSmVBU0lvS0xVU0dXZjlQQ1hqeTJDdU1oQkpYQ3fSAWBBVV95cUxNS1BLamhZb1VyRFVfQzl1NkRqcTVNUGRoMWNJSGhYbDNEanRyMVVuM1NMNFBmTTF1a19EOFBmU0Z2bmpKNVUxOGNYSEgtRU83RzhLM2NYa3RTZU0wN2NmZDc?oc=5",
-      "published": "Tue, 21 Jul 2026 06:48:23 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "민형배호 청사진 공개···반도체 '전폭 지원', 대형 교통 SOC엔 '신중 모드'",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9IX0lyQlpWd01pcEZiMnV5TFRIX3JJTFZVS2VLbmhTQUlsR0twaE4xejhUVzdXYmhWTS1tU2oyOUlWWWNkYW9Zb1Q5SUNucXM?oc=5",
-      "published": "Tue, 21 Jul 2026 05:11:45 GMT",
-      "source": "v.daum.net"
+      "title": "민형배호 청사진 공개···반도체 ´전폭 지원´, 대형 교통 SOC엔 ´신중 모드´",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBxS3lPT3lZOW5nVUpSbk0yN2h6R1k4dlFfWGxxTmZ6M3dvcGVDd0Ixd1N6QXdRbVZWeDEzWDVvV0x4NlJiSTlIVXp5OTE?oc=5",
+      "published": "Tue, 21 Jul 2026 05:11:00 GMT",
+      "source": "무등일보"
     },
     {
       "title": "\"반도체값 더 오를까 걱정, 주요국이 가만 안둘 것\"",
@@ -4751,9 +4739,27 @@
       "source": "조선일보"
     },
     {
-      "title": "AI 훈풍에 반도체 장비시장 2년 뒤 340조원 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52QW9YWXN2dWs3UFhua2h4Z3BqZUJqS1FsMjlQN0x5LWpmUm50NTVjWWJDZHkxMjJxcTF0UHRlRnhvMmhjMi16eGZLb1lxZG8?oc=5",
-      "published": "Tue, 21 Jul 2026 05:12:11 GMT",
+      "title": "삼성 AI 반도체 프로젝트 이끌던 '우동혁' 수석부사장 퇴사",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8zemVRenoxVjZZTWFHUzltNHkteGRYbEh1dDhBbGE5ZDRpZXJ2d2UxR1hyV3MybHd3NjJURll1Mm5VM2pLTDVjTl8xZW9TZw?oc=5",
+      "published": "Tue, 21 Jul 2026 08:00:00 GMT",
+      "source": "전자신문"
+    },
+    {
+      "title": "반도체공학회, AI반도체 전략 포럼…사업화 전략 논의",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IZmRsVWFUc0ltc2JVYnhPLVRJdVlieXltd294azZDV1ZiSHBBQ0cwbDJrdU5vdENKaWdJd1BPNkRWZ085Q2UwZFpNWldQYzhydkM0VW5mWUFRUGVsckpybNIBYEFVX3lxTE9IZmRsVWFUc0ltc2JVYnhPLVRJdVlieXltd294azZDV1ZiSHBBQ0cwbDJrdU5vdENKaWdJd1BPNkRWZ085Q2UwZFpNWldQYzhydkM0VW5mWUFRUGVsckpybA?oc=5",
+      "published": "Tue, 21 Jul 2026 00:41:56 GMT",
+      "source": "연합뉴스"
+    },
+    {
+      "title": "삼성전자, 평택 P5 하이브리드 본딩 양산 라인 구축 시작",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43MWZ4ODN6NUFrdHRKMFBxeDF4QlRETXY2dUE0WWxuNTRWNk5RZElaMmJOcG1QUmQxYVhhckF6LUhNZEJCbjRFdXplc0NESzFOdUZZaENxd29XX1lHMXBCTzZuajdaQQ?oc=5",
+      "published": "Tue, 21 Jul 2026 08:49:20 GMT",
+      "source": "디일렉"
+    },
+    {
+      "title": "전남광주통합시교육청, AI·반도체 인재 양성 비전 제시",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iako3MHhMMk5HcFlfak5YaklldGFTQVhQemU0RXFhdFVRdlJKWmU4RWYxRjVYWUhLZUlYdlE5LWZkLTdTZHhMdDQwMTVVTjA?oc=5",
+      "published": "Tue, 21 Jul 2026 06:31:13 GMT",
       "source": "v.daum.net"
     },
     {
@@ -4769,22 +4775,28 @@
       "source": "전자신문"
     },
     {
-      "title": "전남광주통합시교육청, AI·반도체 인재 양성 비전 제시",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iako3MHhMMk5HcFlfak5YaklldGFTQVhQemU0RXFhdFVRdlJKWmU4RWYxRjVYWUhLZUlYdlE5LWZkLTdTZHhMdDQwMTVVTjA?oc=5",
-      "published": "Tue, 21 Jul 2026 06:31:13 GMT",
-      "source": "v.daum.net"
-    },
-    {
       "title": "UBS \"AI·반도체 매도세 막바지…재진입 기회\"",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MZjloZmJKY09MS0QzSkZtOFlRM0dqUGxCQ2hrZ2tFVWphSDlRbG84QVlKR2tKaXRlRGV3cUFYdDVLNEUtSzBHdkhpWURxOEVTS2xLeTRFalJCbUd6dkZ6RdIBYEFVX3lxTE5MZjloZmJKY09MS0QzSkZtOFlRM0dqUGxCQ2hrZ2tFVWphSDlRbG84QVlKR2tKaXRlRGV3cUFYdDVLNEUtSzBHdkhpWURxOEVTS2xLeTRFalJCbUd6dkZ6RQ?oc=5",
       "published": "Tue, 21 Jul 2026 02:09:51 GMT",
       "source": "연합뉴스"
     },
     {
-      "title": "반도체 수출 호조에 코스피 3%대 반등…6700선 회복[마감시황]",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SemhtRV9NV0dIQXZzeF9EaGhNcW5GUmpnWk1ueGpFNkhRdm1nMElPcWJSQ3BzV3VJZF9WX3ZFcTJRTUhtanBtZXNBU2hlUjU1QmMyblpKU1ppTlNlNnVOLW53?oc=5",
-      "published": "Tue, 21 Jul 2026 07:52:14 GMT",
-      "source": "에너지경제신문"
+      "title": "AI·반도체에 93조 쏜다··· KB금융, '은행의 역할' 바꾼다",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEb3JaVHlUYUpIeTczeFlHNFBaUlZ4VjhidzduMmxFTnp4QjRhM3FNRzQzMEI2ZnNMX1VvS2E0QU5jVWRMM1JBRS1IS1hxYk9YWHVwWHRXSzZlZTYwZUI4NVZLM05BLWZieHl6RVE4ZXVTYUdlNmfSAXpBVV95cUxPS0tITFh1eGRpdmVHOXpvUG1yNDJsT0REZVZvZG5nWldZYWRpUnFEODBPTWJiN0RXekU5dmN4NzNKbEJkZk9XcVRkZnhrMGVzN2oxQVdER3ZBZ2ZEZjhndWtBY01Fa2UybTUyMkp4YVlMdjBDcV9XdFoxdw?oc=5",
+      "published": "Tue, 21 Jul 2026 04:53:15 GMT",
+      "source": "그린포스트코리아"
+    },
+    {
+      "title": "[사설] 최태원 ‘반도체 역풍론’, 기업에 앞서 정부가 고민해야",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcFRlblo4Z3hocW44Uk1kQnU2dElTSjc0NnJWWUJHSGFpVVlfdl85MkQwS1BqbHc1a244aG9LUl9ta3haY3RrSTZibUVVNWFOMGVMY3NLRFV5M2hFLTVMc1lPUGh2NlRUc1B3cWNyVjdGMmcwSXRqQUR5bDdNMHBMaDhlUHpLdw?oc=5",
+      "published": "Mon, 20 Jul 2026 15:20:00 GMT",
+      "source": "조선일보"
+    },
+    {
+      "title": "과기정통부, 핵심 기업들과 반도체·양자 ‘K-문샷’ 협력 논의",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvYzJXRlhGUU56ZG1hLU9HTUJCTDJLeldkYTRsVWUxbS1uVHlHeFhKMVRFQnNVUmJTU0lveXpEQ3pzcVVQVU01NjBvSkU0Y0JV?oc=5",
+      "published": "Tue, 21 Jul 2026 07:58:15 GMT",
+      "source": "문화일보"
     },
     {
       "title": "'반도체 투 톱' 급등에 코스피 6700선 회복…3% 넘게 뛰었다",
@@ -4811,22 +4823,34 @@
       "source": "v.daum.net"
     },
     {
-      "title": "코스피, '반도체 투 톱' 반등에 3.6% 상승…6,700대 회복",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fTFhYMUlYLW9zWXhRdHZDYUxSelFzM20yV2FYUEdtN3gyeWFTWndDYlNvNG9ULWl0bmhBcUtxWFpJbTV2a1lhd1F0VUoxZUE?oc=5",
-      "published": "Tue, 21 Jul 2026 06:39:00 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "TK, ‘호남 반도체 특례’ 공세…구자근 “20년 규제 특정지역 위해 푸나”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYcFFtWHVUMkVhcTNCNXZSc1gtXy1SQ2s1Sk1IZ2l1YTVwcWVBODR1NnBPaHB0c0loVzlueE45T01DOTdQbmdpUXRmVkRuMU0?oc=5",
-      "published": "Tue, 21 Jul 2026 05:35:02 GMT",
-      "source": "v.daum.net"
+      "title": "AI·반도체 폭등에 닛케이지수 2000엔 폭등… 6만 6000엔선 기습 회복",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV3dzUGkxeWFCV0FIbXRVeU83Q2VEenlJaXJmRm9lcWRKUHVtS2JtZG9FTkk5STBEcmFzZTVDTmlpWFg3S3ZJVXBSejZPYmFyRUhZTThvZDZuRDhsY2t6X2xJQTBzZTVfOFNwS0sxRnhFRE9yMlV0TFdYTnhtSlowRndHSk9pSWc?oc=5",
+      "published": "Tue, 21 Jul 2026 08:45:36 GMT",
+      "source": "글로벌이코노믹"
     },
     {
       "title": "전남광주교육청, AI·반도체 인재 양성 프로젝트 추진",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BZzZZRHh0WjdmVWxYYzhYbnYwbUp1cVJvT2xwZnNKb3ozZHVUTTFib3JRLVB4MjhqSno4WkkwMXdTWXY2UnpablVyaGtGSWM0?oc=5",
       "published": "Tue, 21 Jul 2026 05:51:06 GMT",
       "source": "문화일보"
+    },
+    {
+      "title": "코스피, '반도체 투 톱' 반등에 3.6% 상승…6,700대 회복",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fTFhYMUlYLW9zWXhRdHZDYUxSelFzM20yV2FYUEdtN3gyeWFTWndDYlNvNG9ULWl0bmhBcUtxWFpJbTV2a1lhd1F0VUoxZUE?oc=5",
+      "published": "Tue, 21 Jul 2026 06:39:00 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "7월 수출 뜨겁지만 … 반도체 수출 전월 대비 13% 줄어",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOZGMtTXRWcTNFcVF1Y3hHOEl1VG4ta2pQRG9ocDgyQXhZVnFtOTFPVXR3YmFfNkZacV9pWlB2Z2RpVHpJWGFTWVFQcXdyM0N2LVE?oc=5",
+      "published": "Tue, 21 Jul 2026 08:35:36 GMT",
+      "source": "매일경제 마켓"
+    },
+    {
+      "title": "“이번엔 다르다”던 AI 반도체…시장이 갑자기 겁먹은 까닭은",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96cVhoaUR5aWM3YVl6OXV2YWdhS3ZMTEphaXZJUGVvYmpjNHN4aXFwS2dXcFAxTnBKMC1wclZYNFVJZ0RYaTZqT1pQS2FXMm1mcDhicE56TW1GQQ?oc=5",
+      "published": "Tue, 21 Jul 2026 07:27:58 GMT",
+      "source": "한국경제"
     },
     {
       "title": "가스안전공사, ASML 감사패 수상…EUV 장비 검사 혁신 '반도체 경쟁력' 뒷받침",
@@ -4841,10 +4865,10 @@
       "source": "v.daum.net"
     },
     {
-      "title": "“이번엔 다르다”던 AI 반도체…시장이 갑자기 겁먹은 까닭은",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96cVhoaUR5aWM3YVl6OXV2YWdhS3ZMTEphaXZJUGVvYmpjNHN4aXFwS2dXcFAxTnBKMC1wclZYNFVJZ0RYaTZqT1pQS2FXMm1mcDhicE56TW1GQQ?oc=5",
-      "published": "Tue, 21 Jul 2026 07:27:58 GMT",
-      "source": "한국경제"
+      "title": "7월 반도체 수출 역대 최대 기록에 코스피 반등 성공",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnUXRRTUNBTmlmS0kxdVdfd3QwSjdlT0R0TWczcG95ZjIwU3NRejJfdEZyT25RRmNZa3hXbm1rWUZnc1pmVmU1R3RSNlJBZTE3NkE?oc=5",
+      "published": "Tue, 21 Jul 2026 08:06:49 GMT",
+      "source": "매일경제 마켓"
     },
     {
       "title": "추미애, 반도체 장비기업 ASM 방문···“반도체 초격차 유지하며 동반성장”",
@@ -4865,44 +4889,35 @@
       "source": "뉴스토마토"
     },
     {
-      "title": "뉴욕증시, 반도체, 8월까진 하락을 조심해야 합니다.",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa1JsOWhYdmNqZ19mc2FIVmFZUzNPZlJGRWVoS2xxT0xZczM1QkE1dmpFZHFPWWlYVGViSTBNTUlBNXEtNE43bzUtNlNQbnBQbFBXSk0tNkJTcnAtZklNZmxFRGVzY3l4U0JnUWlscld6RThmYzNQb19TVFZTWXpqenVIMA?oc=5",
-      "published": "Tue, 21 Jul 2026 04:07:00 GMT",
-      "source": "네이버 프리미엄콘텐츠"
+      "title": "돌아온 외국인…반도체 '투톱' 뛰자 빨갛게 물들었다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFeGVxSVY5RjFRdEN6a2tBR3JIOFc1NDFNUm95bXJfaFc2RnAtdXR0UEZySExTa3h1dThGNEF2WVk1dTFkREpxRmsxaHpPcFU?oc=5",
+      "published": "Tue, 21 Jul 2026 07:07:29 GMT",
+      "source": "v.daum.net"
     },
     {
       "title": "코스피, '반도체 투 톱' 반등에 3.6% 상승…6,700대 회복(종합)",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40NW1DakhZZlE3ZHZVc3pFNThEd244UUhaN1RYVkNiLTZDaHprQWNxOGhZOVZZUndOOFBYRThVVFo0c3Y2Nlc4eGpvS192UWM?oc=5",
       "published": "Tue, 21 Jul 2026 07:20:53 GMT",
       "source": "v.daum.net"
-    },
-    {
-      "title": "김대중 전남광주교육감, '반도체 인재 양성' 시동",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xWEpVaWRMeVFzMGxjSVo1c252N1pUSGNnRjNiSjNlLTZNamMtS1N0RUxrTVd3RXVjMVkwZXBieThoOElRWnZmTW5fUFdNZVVfQUlhZzdBanN3TVlw?oc=5",
-      "published": "Tue, 21 Jul 2026 05:32:00 GMT",
-      "source": "뉴스핌"
-    },
-    {
-      "title": "이 대통령 “반도체 투자·영업이익 배분, 쟁의 대상 아니라고 생각”",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4wbXV0Q1JibXJIV05JMFA3SEY3eXNNTkNTLTc4ZjQwTi12OC1Nc19xUWxLTVkxOG9OcEJ2LXUtU1VSaWhZMWJXVm9DaVJLT3JETWtUcEoyVldaN0Z2Q0ZCWUZPZHlVeTR5UW1V?oc=5",
-      "published": "Tue, 21 Jul 2026 05:52:00 GMT",
-      "source": "한겨레"
-    },
-    {
-      "title": "[더벨][비엠티 줌인]반도체 UHP로 키운 체급, 시스템 기업으로 확장 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vd3hWTG9RRDJRNE5uTVZXcGFfa3hXNTFwTkN2RnpOWHJrd0ZzbWwwQkNYZXB3RHZxZEt3Q1J6NWl4bThNRHZRUkItSS16eWphTlU1Q1UwdHhQalp4eFJTaXNnZ1JNZmEt0gFuQVVfeXFMTkNpbVZ6VzV6OUtBdDJpRGwzRENwMzluZ0ZOUUV6ZnNlNmhmMUFzS3NvTTBLcXh3SjhiQ2hiVmRrNnQ0TElTY1BiYVhfSi1UWm9FZGJIeVVWcXVINHF6SEZUeHZCMHZqb25XeEk0T1E?oc=5",
-      "published": "Tue, 21 Jul 2026 04:11:54 GMT",
-      "source": "머니투데이"
-    },
-    {
-      "title": "모건스탠리·JP모간 \"반도체 저가매수 기회\"…삼전닉스 반등",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05eGdPZV96Rnc3UHNfM3NYVW45blVOWnplTTVVZVV5b1VhWmdKeWdMMVJMOE9ZVE5hMEdVYzAwVUNMUF9Jc29GSVNrN3cweU5jN2YxN2ZjbGc2UQ?oc=5",
-      "published": "Tue, 21 Jul 2026 07:30:16 GMT",
-      "source": "한국경제"
     }
   ],
   "manual": {
     "entries": [
+      {
+        "date": "2025-07-18",
+        "dxi": 85576,
+        "dxi_wow": 2.2,
+        "dxi_mom": 11.6,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20250721_B45_swlee6591_1017.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 246.73,
+        "implied_eps": null
+      },
       {
         "date": "2025-07-21",
         "ddr4_8gb_spot_usd": 5.203,
@@ -4917,6 +4932,21 @@
         "implied_eps": null
       },
       {
+        "date": "2025-07-25",
+        "dxi": 86187,
+        "dxi_wow": 0.7,
+        "dxi_mom": 5.4,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20250728_B45_swlee6591_1019.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 241.54,
+        "implied_eps": null
+      },
+      {
         "date": "2025-07-30",
         "ddr4_8gb_spot_usd": 5.123,
         "grade": "A",
@@ -4926,6 +4956,66 @@
         "rel_fwd": null,
         "spot_premium_calc": null,
         "soxx_close": 247.95,
+        "implied_eps": null
+      },
+      {
+        "date": "2025-08-01",
+        "dxi": 87517,
+        "dxi_wow": 1.5,
+        "dxi_mom": 6.0,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20250804_B45_swlee6591_1023.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 237.24,
+        "implied_eps": null
+      },
+      {
+        "date": "2025-08-08",
+        "dxi": 88076,
+        "dxi_wow": 0.6,
+        "dxi_mom": 6.1,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20250812_B45_swlee6591_1025.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 242.87,
+        "implied_eps": null
+      },
+      {
+        "date": "2025-08-15",
+        "dxi": 88988,
+        "dxi_wow": 1.0,
+        "dxi_mom": 5.5,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail/20250818_B45_swlee6591_1026.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 248.32,
+        "implied_eps": null
+      },
+      {
+        "date": "2025-08-22",
+        "dxi": 88596,
+        "dxi_wow": -0.4,
+        "dxi_mom": 2.0,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20250825_B45_swlee6591_1027.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 249.09,
         "implied_eps": null
       },
       {
@@ -4945,6 +5035,12 @@
         "ddr4_8gb_spot_usd": 4.859,
         "grade": "A",
         "src": "TrendForce Daily Express",
+        "dxi": 89324,
+        "dxi_wow": 0.8,
+        "dxi_mom": 3.3,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20250901_B45_swlee6591_1028.pdf",
         "fwd_over_ttm": null,
         "rel_ttm": null,
         "rel_fwd": null,
@@ -4976,6 +5072,21 @@
         "implied_eps": null
       },
       {
+        "date": "2025-09-12",
+        "dxi": 93041,
+        "dxi_wow": 3.1,
+        "dxi_mom": 5.2,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20250915_B45_swlee6591_1030.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 255.64,
+        "implied_eps": null
+      },
+      {
         "date": "2025-09-16",
         "ddr4_8gb_spot_usd": 5.431,
         "grade": "A",
@@ -4985,6 +5096,36 @@
         "rel_fwd": null,
         "spot_premium_calc": null,
         "soxx_close": 258.58,
+        "implied_eps": null
+      },
+      {
+        "date": "2025-09-19",
+        "dxi": 101862,
+        "dxi_wow": 9.5,
+        "dxi_mom": 14.4,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20250922_B45_swlee6591_1031.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 265.86,
+        "implied_eps": null
+      },
+      {
+        "date": "2025-09-26",
+        "dxi": 111217,
+        "dxi_wow": 9.2,
+        "dxi_mom": 25.8,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20250929_B45_swlee6591_1032.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 268.83,
         "implied_eps": null
       },
       {
@@ -5011,6 +5152,21 @@
         "implied_eps": null
       },
       {
+        "date": "2025-10-10",
+        "dxi": 127920,
+        "dxi_wow": 5.9,
+        "dxi_mom": 40.7,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20251013_B45_swlee6591_1033.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 271.99,
+        "implied_eps": null
+      },
+      {
         "date": "2025-10-14",
         "ddr4_8gb_spot_usd": 7.059,
         "grade": "A",
@@ -5020,6 +5176,36 @@
         "rel_fwd": null,
         "spot_premium_calc": null,
         "soxx_close": 279.03,
+        "implied_eps": null
+      },
+      {
+        "date": "2025-10-17",
+        "dxi": 152178,
+        "dxi_wow": 19.0,
+        "dxi_mom": 56.0,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20251020_B45_swlee6591_1034.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 288.17,
+        "implied_eps": null
+      },
+      {
+        "date": "2025-10-24",
+        "dxi": 180853,
+        "dxi_wow": 18.8,
+        "dxi_mom": 69.4,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20251027_B45_swlee6591_1035.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 295.86,
         "implied_eps": null
       },
       {
@@ -5058,6 +5244,21 @@
         "implied_eps": null
       },
       {
+        "date": "2025-11-23",
+        "dxi": 345001,
+        "dxi_wow": 3.7,
+        "dxi_mom": 101.0,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail/20251124_B45_swlee6591_1040.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 270.83,
+        "implied_eps": null
+      },
+      {
         "date": "2025-11-26",
         "ddr4_8gb_spot_usd": 14.914,
         "grade": "A",
@@ -5088,6 +5289,12 @@
         "ddr4_8gb_spot_usd": 15.9,
         "grade": "A",
         "src": "TrendForce Daily Express",
+        "dxi": 377457,
+        "dxi_wow": 9.4,
+        "dxi_mom": 89.4,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail/20251201_B45_swlee6591_1041.pdf",
         "fwd_over_ttm": null,
         "rel_ttm": null,
         "rel_fwd": null,
@@ -5218,6 +5425,12 @@
         "grade": "A",
         "src": "TrendForce Daily Express",
         "note": "제한된 공급 물량이 빠르게 소진",
+        "dxi": 391137,
+        "dxi_wow": 2.8,
+        "dxi_mom": 20.6,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail/20251215_B45_swlee6591_1042.pdf",
         "fwd_over_ttm": null,
         "rel_ttm": null,
         "rel_fwd": null,
@@ -5280,6 +5493,21 @@
         "implied_eps": null
       },
       {
+        "date": "2026-01-02",
+        "dxi": 475685,
+        "dxi_wow": 7.2,
+        "dxi_mom": 24.0,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail/20260105_B45_swlee6591_1044.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 313.69,
+        "implied_eps": null
+      },
+      {
         "date": "2026-01-05",
         "dram_spot_premium": 90.0,
         "src": "TrendForce / 증권사",
@@ -5289,6 +5517,36 @@
         "rel_fwd": null,
         "spot_premium_calc": null,
         "soxx_close": 318.06,
+        "implied_eps": null
+      },
+      {
+        "date": "2026-01-09",
+        "dxi": 510145,
+        "dxi_wow": 7.2,
+        "dxi_mom": 33.1,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail//20260112_B45_swlee6591_1046.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 328.78,
+        "implied_eps": null
+      },
+      {
+        "date": "2026-01-16",
+        "dxi": 558301,
+        "dxi_wow": 9.4,
+        "dxi_mom": 40.4,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail/20260119_B45_swlee6591_1047.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 342.47,
         "implied_eps": null
       },
       {
@@ -5308,6 +5566,12 @@
         "ddr4_8gb_spot_usd": 30.76,
         "grade": "A",
         "src": "TrendForce Daily Express",
+        "dxi": 586351,
+        "dxi_wow": 0.7,
+        "dxi_mom": 28.3,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail/20260202_B45_swlee6591_1049.pdf",
         "fwd_over_ttm": null,
         "rel_ttm": null,
         "rel_fwd": null,
@@ -5328,6 +5592,21 @@
         "rel_fwd": null,
         "spot_premium_calc": null,
         "soxx_close": 345.64,
+        "implied_eps": null
+      },
+      {
+        "date": "2026-02-06",
+        "dxi": 595381,
+        "dxi_wow": 1.5,
+        "dxi_mom": 20.6,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.eugenefn.com/common/files/amail/20260209_B45_swlee6591_1050.pdf",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 348.51,
         "implied_eps": null
       },
       {
@@ -5434,6 +5713,36 @@
         "implied_eps": null
       },
       {
+        "date": "2026-03-06",
+        "dxi": 638072,
+        "dxi_wow": 2.7,
+        "dxi_mom": 7.2,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://file.alphasquare.co.kr/media/pdfs/market-report/%EB%B0%98%EB%8F%84%EC%B2%B4Memory20260309%EC%9C%A0%EC%A7%84%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C.",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 323.51,
+        "implied_eps": null
+      },
+      {
+        "date": "2026-03-20",
+        "dxi": 671366,
+        "dxi_wow": 2.8,
+        "dxi_mom": 11.9,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.bondweb.co.kr/_research/downloadPage.asp?gn=1&number=892241",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 332.51,
+        "implied_eps": null
+      },
+      {
         "date": "2026-03-25",
         "ddr4_8gb_spot_usd": 34.0,
         "grade": "A",
@@ -5469,6 +5778,21 @@
         "implied_eps": null
       },
       {
+        "date": "2026-04-03",
+        "dxi": 663856,
+        "dxi_wow": 0.0,
+        "dxi_mom": 7.1,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://file.alphasquare.co.kr/media/pdfs/market-report/%EB%B0%98%EB%8F%84%EC%B2%B4%EB%85%B8%EC%9D%B4%EC%A6%8820260406%EC%9C%A0%EC%A7%84%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C.",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 339.61,
+        "implied_eps": null
+      },
+      {
         "date": "2026-04-07",
         "ddr4_8gb_spot_usd": 33.5,
         "grade": "A",
@@ -5478,6 +5802,21 @@
         "rel_fwd": null,
         "spot_premium_calc": null,
         "soxx_close": 347.76,
+        "implied_eps": null
+      },
+      {
+        "date": "2026-04-10",
+        "dxi": 663249,
+        "dxi_wow": -0.1,
+        "dxi_mom": 2.8,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-04-c7a80309a931bc365e31782ed4e7a476",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 386.6,
         "implied_eps": null
       },
       {
@@ -5563,6 +5902,12 @@
         "grade": "A",
         "src": "TrendForce Daily Express",
         "note": "DDR5·DDR4 브랜드 부품 구매 관심 회복",
+        "dxi": 678650,
+        "dxi_wow": 0.7,
+        "dxi_mom": 2.2,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://file.alphasquare.co.kr/media/pdfs/market-report/%EB%B0%98%EB%8F%84%EC%B2%B4Memory20260511%EC%9C%A0%EC%A7%84%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C.",
         "fwd_over_ttm": null,
         "rel_ttm": null,
         "rel_fwd": null,
@@ -5616,6 +5961,21 @@
         "rel_fwd": null,
         "spot_premium_calc": null,
         "soxx_close": 541.51,
+        "implied_eps": null
+      },
+      {
+        "date": "2026-06-12",
+        "dxi": 794139,
+        "dxi_wow": 4.9,
+        "dxi_mom": 16.0,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-06-676f34a20524ec38547041a7e4a250a5",
+        "fwd_over_ttm": null,
+        "rel_ttm": null,
+        "rel_fwd": null,
+        "spot_premium_calc": null,
+        "soxx_close": 596.25,
         "implied_eps": null
       },
       {
@@ -5723,6 +6083,12 @@
         "ddr4_8gb_spot_usd": 37.8,
         "grade": "A",
         "src": "TrendForce Daily Express",
+        "dxi": 881993,
+        "dxi_wow": 2.2,
+        "dxi_mom": 12.8,
+        "dxi_grade": "A-",
+        "dxi_src": "유진투자증권 Memory Watch (DRAMeXchange 인용)",
+        "dxi_url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-07-8e866f6ec919b32e99b6fb12378f5e37",
         "fwd_over_ttm": null,
         "rel_ttm": null,
         "rel_fwd": null,
@@ -5817,7 +6183,9 @@
       }
     ]
   },
-  "errors": [],
+  "errors": [
+    "news:전자신문 — <urlopen error timed out>"
+  ],
   "notes": {
     "manual_fields": [
       "밸류에이션·메모리 가격은 data/manual.json에 수기로 누적한다",
