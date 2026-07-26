@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T15:06:05+09:00",
-  "generated_at_utc": "2026-07-25T06:06:05+00:00",
+  "generated_at": "2026-07-26T16:13:49+09:00",
+  "generated_at_utc": "2026-07-26T07:13:49+00:00",
   "prices": {
     "005930.KS": {
       "label": "삼성전자",
@@ -3158,12 +3158,16 @@
     "SOXX": {
       "label": "SOXX",
       "unit": "USD",
-      "close": 527.01,
-      "prev_close": 551.24,
-      "chg_pct": -4.4,
-      "date": "2026-07-24",
+      "close": 551.24,
+      "prev_close": 555.52,
+      "chg_pct": -0.77,
+      "date": "2026-07-23",
       "source": "Yahoo",
       "history": [
+        {
+          "d": "2025-07-11",
+          "c": 246.17
+        },
         {
           "d": "2025-07-14",
           "c": 243.83
@@ -4199,10 +4203,6 @@
         {
           "d": "2026-07-23",
           "c": 551.24
-        },
-        {
-          "d": "2026-07-24",
-          "c": 527.01
         }
       ]
     }
@@ -4661,244 +4661,244 @@
   },
   "news": [
     {
-      "title": "김용범 “국내·글로벌 빅테크 기업, 1375조원 반도체 협력”",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5aZE0tc0FOQmozNk1lOGd2RTNfcWctSlpUM1VwZ0FwREhwNWtNRHduSFdkSXRFZjdVQTEwblA4ellmVVVQN0hiNzFHWkFPSnhHYThPSE5vSG9seXN2LU1aR2pLRWtWZ3AzSl84?oc=5",
-      "published": "Sat, 25 Jul 2026 04:47:00 GMT",
-      "source": "한겨레"
-    },
-    {
-      "title": "청와대 “한미 반도체 협력 9500억달러 추진”…AI 데이터센터·피지컬AI도 확대",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aamVmSUJDaHk5aDRsMmNqVHI1SHNKS01KQU5WQ2trZU1DSGNHUmxOMTVrMGpGTXlsbEF4aGxpZWVMWHE1WXlpZnZqOXpBYnVmLXNOR1RnSW1rZUl5aUM4Rm5PRQ?oc=5",
-      "published": "Sat, 25 Jul 2026 04:28:33 GMT",
-      "source": "에너지경제신문"
-    },
-    {
-      "title": "한·미, AI 서밋서 1,375조 원 규모 반도체 협력 추진",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13bWZTaUVUYVNDT29XekV1U1dIbVZxVGd3bzVXNFFoQnRqRTgwVGZ6SXNScUEteDVPaktJTmdmamtfaWwxVTlIZk84dWpUekRVSzZadmQ1NksweFdRaUtKTQ?oc=5",
-      "published": "Sat, 25 Jul 2026 04:39:35 GMT",
-      "source": "KBC광주방송"
-    },
-    {
-      "title": "K-반도체, 빅테크와 9천500억불 협력…대체불가 초격차 만든다(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsNThNNlJRSGpFN3JPVVJDQmpKbEZQRGYyVFVtS3YxTGtGeW1MZTZBRUc3a1RabGNRRWRyNl9ucnZHektud0ZwYms0WXJ4WHM?oc=5",
-      "published": "Sat, 25 Jul 2026 05:47:00 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "美 AI 심장부에서…李 “대체불가 韓, 최고의 AI반도체 생산기지”",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KVzVITEZtbTNSNThQM1JWT3Nob3VQS2RwRWFWSjZnUU5VZnRtcWRqQzJxYnE3Zi1WTkxFLVllM3ZnOGlnRVJzLUpxVzdIRFhvRVV4YXNYbTI1S3hxTW40MEJGRV9xTE4zWEFyNTJQQm92RmI5WVFj0gFmQVVfeXFMUGtOWXV1dmJ1dWM0elh5NjN6bEpKV2NrTlVQN0Y1b0dzZkl4R2UwOTRIZlJ1NzY5UVdQYnFNT1ZMT3RxMVltNmtlY2dSVGVKdlpmaWhZMDBmc09TaUUySEJzYWhGN1RR?oc=5",
-      "published": "Sat, 25 Jul 2026 00:06:00 GMT",
-      "source": "동아일보"
-    },
-    {
-      "title": "청와대 “국내 기업-글로벌 빅테크 기업, 9천500억불 반도체 협력 추진하기로”",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45MWcyNnNDLVVuOHIwcE9EZDU3dF9UdFI5cl9IWHk3NDNFa0FYRk43X2pDTWE4VHlRQ0o2Qk1ETFRoOElNeU54dVI5eDFVa2RqSGJrWGp0a3NCd9IBX0FVX3lxTFBDXzNmc2d1QV90WnlsRWpGQ3otZDFvMU11TFBTUVB5akJaSm02S00tWHVkaTZFVExreDhLdUpNbi1BM000Vl9fN19Yd1NYanlMVFE2SzZKdUtJYXdKbnc0?oc=5",
-      "published": "Sat, 25 Jul 2026 04:31:00 GMT",
-      "source": "경향신문"
-    },
-    {
-      "title": "SSJ첨단소재, ‘K-디스플레이’서 디스플레이·반도체용 실리콘 코팅 소재 전시",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5UampfYVRQUk9HbWRBX1lMa19mY1RfWTlYREtUMDdrN1JPandzZ0FrR1dab3hFdnp2RHFMNHlfaEIwUG83?oc=5",
-      "published": "Sat, 25 Jul 2026 03:43:23 GMT",
-      "source": "산업일보"
-    },
-    {
-      "title": "靑 “국내기업·글로벌 빅테크 ’9500억달러 반도체 협력' 추진”",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU0Rod1RKMGYyQTNrUjNDd0RhRTQ5NkIxLVBRS2FyM0xaZEUxRU5fZW9QRXpZS3FHZ2EyVDJ6RVBiSEZBbXJOaHpiUDBVLWI2dkxGaWxQelhERGlYNHVUa3lseEJIRk15aXNHNVRfYjVzOThyd2lwME1XbzU0alZFX0Y2d2VqbE1pSkhvak53NUw?oc=5",
-      "published": "Sat, 25 Jul 2026 04:49:00 GMT",
+      "title": "中 반도체 규제 두고 애플-마이크론 갈등...트럼프 선택은",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNFJZNmxtanQyb0dOdjRvV3ZpWDJGTU15a0ZONjBlMjlqcFpnRHMxOGRrRXMyZmVVdE1ETWRUVGo1VkRlTktFNzlYTUg0cC1mNlhXZzBuR2dFckpFZkNMSmdST25FR0JKMkgtMDN6cFZUTmhIZDRNeElrTkIyTi1MdTVxcw?oc=5",
+      "published": "Sun, 26 Jul 2026 05:31:00 GMT",
       "source": "조선일보"
     },
     {
-      "title": "삼성전자·브로드컴, 2000억달러 AI 반도체 협력…HBM·2나노 맞손",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVWItWVZiOUE4U1FVbzhyTGZETzJOUDVkQ0Y4ZlVFektRMzdIQ3RWV3VneF9ELUNLOXJjWi1JTUF5RXJKeXhjblFuM3p3OUJXWDZLZ01BRmNTZDJLRXFuYS0xZUhLVzlxTkFhWkJrVlB4d1FpaTZzVDk0YnBOeDZ1UjNxOXZ6dw?oc=5",
-      "published": "Sat, 25 Jul 2026 05:36:42 GMT",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "title": "청와대 \"국내 기업·글로벌 빅테크, 향후 5년 9,500억 달러 반도체 협력\"",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zU2xZSUI1QUlIVUk3THA5OWo1dW1jQlFwTjR6ZUhheEphazlPeHdTNVdCVGR4STdXWTEyZXNRUUpWbWxrcy11MDhHemFMWkxqMjBwNEllbFJVZUFteVE?oc=5",
-      "published": "Sat, 25 Jul 2026 05:01:00 GMT",
-      "source": "YTN"
-    },
-    {
-      "title": "“대체불가 AI 한국” 가능할까…HBM·피지컬AI 강점, GPU·플랫폼은 미·중과 격차",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPc3c1a0JQMk1rc3RsSExWTk5GYmpCZHFHczVmbVFPVW1weDFYeTRLRnU0eHBHcldJSTB4dnI1WVB5X21PaWxMdkF3SXRxYXpw?oc=5",
-      "published": "Sat, 25 Jul 2026 04:15:57 GMT",
-      "source": "문화일보"
-    },
-    {
-      "title": "청와대 \"국내 기업-글로벌 빅테크, 9500억달러 반도체 협력\"",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5NVTNoV0x0d2psNk90NTEtTXR2R21FYUo2c084Umpad1ZhQVVfRW9hQnItaktZNmZTU0REUzBqczRBYjVPcmJvaXZpdkpWNUp1eDlsNA?oc=5",
-      "published": "Sat, 25 Jul 2026 04:04:00 GMT",
-      "source": "JTBC"
-    },
-    {
-      "title": "반도체 잘 팔아도 달러가 새는 한국…“원화 가치 잡아 먹는 서학개미?”",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85Q1JMdDZ2MFlWVTZ6ODQ1SlpNcnItejQwM1hsTUZnSzRaYVlWUXp3c2w2MU5XdkgyMU5kUEw5c29ncTRsOW9ZM3VGRi1RZw?oc=5",
-      "published": "Sat, 25 Jul 2026 02:40:00 GMT",
+      "title": "李, '샌프란 AI 선언'… 韓美, 'AI·반도체 초격차' 굳히기",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xT1VSWHNnelg5dlJBYVRWYVpsOEZpVXRJM3ZJUzY3UG1pUUFpSFVZT1lwczE0bzZZaEdlWlE1NVJIVlp3XzVmSXgtQWpnUQ?oc=5",
+      "published": "Sun, 26 Jul 2026 04:58:27 GMT",
       "source": "전자신문"
     },
     {
-      "title": "9500억 달러 반도체 동맹 … 李, 빅테크와 '샌프란 깐부회동' \"우리는 식구다\"",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SZFlpZ2lMVlNpVllYWHJqNW5ya3MxX2JfNkJDYU1majN6eU5kQlZibnB0WEFZYWlpdmJyck92aUI5V2tZUGxaR2dNeFN5akgxcE1udVhMNGx0NGIwTzFKbkxfVlpoT2I3OTN3aUJybE5OYUZHTWJoWWZWSdIBgAFBVV95cUxPZlM3QWF1My1xZTdiSWRDd0V1Y2Eza05JRVlIa2tMTVJrZzhMaW5XT1Rua1d6RUhoclZrOVRSUDd6NldVQUpRTDJKdF9hSWRieThkeW8wbldPMGx0MTVRTHRwTGZySUZMS3ZaZEg5LWpQbUFUUjUwY09GemdKbGlEbg?oc=5",
-      "published": "Sat, 25 Jul 2026 04:50:49 GMT",
-      "source": "뉴데일리"
+      "title": "UNIST, AI 반도체 성능 높이는 설계자동화 기술 개발…동작 횟수 평균 19.6% 감소",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HSGNzZ3ZCY1I5Y1lsUkpxWENaT2N4UHRlZkRhVERuRUNaZDVqaUgtZy1RMnJSaURBbWFfdnhKTDhjZ1o3bkt0eGprLWFfWGVOVlFvQmo2ell5MENUSjBj?oc=5",
+      "published": "Sun, 26 Jul 2026 03:23:55 GMT",
+      "source": "헬로티"
     },
     {
-      "title": "삼성전자, 브로드컴과 2000억달러 AI 반도체 협력",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxbXBQT0hrRUZFMURURjc0Wkd1OUtWUVprQU9CR1FXcm9PcEJzUUpCNUhiVC1RWFJwbzZ6bzduTkpCaUVfYWY3Z2xJS21MVXhSZnE3Mk14OElVVGJZck1Pc1MxWl9wbU940gFsQVVfeXFMTS1fYlhzRVU5WkZJRXFrcEFiOG4yNlpLVzRHdHRzU3ExekNPNDhxUDN6Tk1NbXlnNWktMjd6V05xa0trWVJ0VDJWZHBJZkhuT0VWa1VYNDNrV1BOR0tCVDBZazdKOWhoWW5jYzA5?oc=5",
-      "published": "Sat, 25 Jul 2026 05:34:17 GMT",
-      "source": "블로터"
+      "title": "9500억달러 반도체 공급·생산 협력... 샌프란시스코 AI서밋 성과는?",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xRk1rOGlwYzZjTWNJeG5ualUyWmlSWXdzSzk3TUZBSW8xaTJuOXFyZG0ydnhiRWQtRnZyeXQ2dERvNHduSldQRHVjWjNKd3R3ZUNoOFFkLWF0R3h5cF9wZjI2U09rZVU1?oc=5",
+      "published": "Sun, 26 Jul 2026 01:59:00 GMT",
+      "source": "보안뉴스"
     },
     {
-      "title": "외국인은 코스피, 개미는 월가…국경은 달라도 종착지는 반도체",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rTFRralhINTZCRUY1R0JlcU9CdXVTUF9qY1VocjA0andOODc0cTJHZmtBcV8zVVJIVnpPVnlHSkJOX3RFYTQ2UTZyNlhnbVRoUF9sOUZQamdaWk5iUDFCUm12aw?oc=5",
-      "published": "Sat, 25 Jul 2026 06:00:00 GMT",
-      "source": "에너지경제신문"
+      "title": "트럼프, 애플-마이크론 '중국산 메모리' 갈등에 샌드위치 신세",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NTUVxTGVxWGEtNnlOd3pXUTZHMThzVVctWWFBMFRCX1dlV3IyTmpWV2c3eTNvbm82anpRcHlUQXB4YVo4eGs0b2RYY29HcEVHTl81a2x0RXJZZ0YtZVRYcGJkN3VLNFJYTHc?oc=5",
+      "published": "Sun, 26 Jul 2026 03:02:36 GMT",
+      "source": "AI타임스"
     },
     {
-      "title": "메모리 4배 더 필요한 자율주행 시대…완성차 ‘반도체 대란’ 비상",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pRXFrSzRhQWhhaldWWlEtcEkweS1HVm9EU3FiNzRPNWFYMDRuY2hwU0VrdkJUald0RjI2dXIwblRUdkJHLVZqSTVVQl8zY0U?oc=5",
-      "published": "Fri, 24 Jul 2026 22:02:12 GMT",
+      "title": "삼성 이재용, 오픈AI 샘 올트먼과 AI·반도체 협력 논의",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqWmNza25IWnF3RjdMaE0wOTR2ZlZvZUNTMDNjUkNWSXdFNHF6Zl8xRVFfNEVpNHlvTlpsa1RXbm1MdGtkQlE2X09SQzdyam8?oc=5",
+      "published": "Sun, 26 Jul 2026 06:44:49 GMT",
       "source": "v.daum.net"
     },
     {
-      "title": "중국 CXMT 서버용 D램 가격 상승…삼성전자 상회",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS2NfaWJJc3BNTkJDNWpReWFSUFRZN0MwMmVUN3NIMGR1dnJKM2p4bzRIWnFJbHdkQnBVWFZpUHBsektYZnQ2OExQeFlNbl9yUk1wYmtQazMyZEZ0TjFvSDNJbW94RGJxOW5ZSGJfWWQ0R2NGRWRVMHhkUThPWHdMLXUzV0VsQ2c?oc=5",
-      "published": "Fri, 24 Jul 2026 22:13:46 GMT",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "title": "삼성전자·SK하이닉스, 美 빅테크와 ‘반도체 빅딜’… 이재명 대통령 방미 계기 타결",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeVRmZkpOT1dwU2VKT25XLUFuMks1MjZiTDAzQVZxdnJoeERjMC1WZGlSNS1Sb01hN1VUcE92anhYekRiY0ZIV29TZDlGWmw4YWhhMjhGTzR5UFRGUlFFdEQ4dTJCUThNOURud2p6dnVSc05MR3FZaFZEUkIwLXBCVnY5X25DMUtq?oc=5",
-      "published": "Fri, 24 Jul 2026 23:34:34 GMT",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "title": "[속보] 靑 “한·미 9500억 달러 반도체 협력”… 국내 기업·글로벌 빅테크 ‘AI 맞손’",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yWkFOSGU2MXBGbnptY2lyd25Rd3lRT2ZoSmx2eTVEYWpfZ2h1MEdvQml3T2NoWHFLbDFIWU5QRmV1M2Z6ODJwMVAwZEJMMFE?oc=5",
-      "published": "Sat, 25 Jul 2026 05:06:09 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "이재용 회장 \"美 AI 기술과 韓 반도체 결합하면 더 빠르게 혁신\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oUldHZmdvNnBidG4wdDFWRHRMYjFtWFRUVzJJcC1MTkFGWUtZZWh0ZXp0b25GTjV3akU5ME5rcDl4TUhFQkNrdWpaWHN3V2Vya0ZUQmpYVVZxNkJjSzA2NWt6ZUdZY3VhYXJYb2pRLWo?oc=5",
-      "published": "Sat, 25 Jul 2026 01:13:17 GMT",
-      "source": "연합인포맥스"
-    },
-    {
-      "title": "청와대 “국내 기업, 글로벌 빅테크와 9,500억 불 반도체 협력 추진”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52VW1USHptTGdtc0VLdWRUeGlxd1NFb09IbFpLTG1vcHEtdU8wQXRqbVZiT3FrRTUyLXFReFo4OVBDbUplU3Q1QkFfWTJMREE?oc=5",
-      "published": "Sat, 25 Jul 2026 04:06:48 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "엔비디아·오픈AI도 불러모은 K반도체…\"韓없이 AI혁명도 없어\"",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SdWx3UXZCaWItczV4bkdDZndtYmszeDZZRW9sTFktc0l2TEtsLXdEUDFVSDlyZDFoQ2ZDNWxDR3I0MkpNU3NON0FIRzN6b2ktR0ZTWlQ5bk5iYWvSAWBBVV95cUxQLV83MkRKdmdtZkt5OFRfbzFuaWs5M3o2U3NVMzFlRTR4Qld2MUQ0cjcwREp0UDNlUVpxbkJNdE1BNEl0TEFNbHBFOWJLeGs2TkxZZDdXSnl6RTNLdE1nYkY?oc=5",
-      "published": "Sat, 25 Jul 2026 03:12:28 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "靑 \"글로벌 빅테크 기업들과 9500억 달러 반도체 협력 추진\"",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QRWh5WnYyU0Nwa0RLX2pLWDZxUklNQU5BN1FHbTBHTnliM1JzM1lpMUtXN20zd3l2Z0hETG9uSnlFQkFTWmRpWFIyM21qRF9jTEptdVB2Zy1VeVE4U0J1M2VIMjcyTEU0NEZlQ2JXbS0?oc=5",
-      "published": "Sat, 25 Jul 2026 04:46:07 GMT",
-      "source": "신아일보"
-    },
-    {
-      "title": "\"메모리 반도체 주가 급락은 '단기 발작'...내년 수급 불균형 더 심화\"",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHNBUjhPU0ducGc1SW9MdUwyZ2xyUllPbHJwLU5MaUpDR3pkNl91SC1vY1NCQTZKMXFZTzJhZk5YUTl0MEJWeGxpRHlDYm14RHlMS0tNLTVNZVJTeGIxQ1NKSXhhRU13WkgwTng2S0U5aTNuTHJ5eTVPNEpMSTFyZWtQM3E2ZWg1?oc=5",
-      "published": "Fri, 24 Jul 2026 22:34:31 GMT",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "title": "靑 \"국내 기업·글로벌 빅테크, 9500억달러 반도체 협력\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55WFNSdVJleGphVGxvcGFQUzNSSjhoR21IRXd2cnVtdlMzSm5yb01TZnEtdWoyb3JMUEthRDZ5anc1R2xBeVFNaEF1akZmLVJld3A3NTllMU9COWlzMXRHeW5ITnA?oc=5",
-      "published": "Sat, 25 Jul 2026 04:40:42 GMT",
-      "source": "서울경제TV"
-    },
-    {
-      "title": "靑 \"국내 기업·글로벌 빅테크, 9500억달러 반도체 협력 추진\"",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01VE14LVFqajVZYnAwYXJmcERZNXVhZDRsT1gxZk1kNVYzeXNRb3NIelJKdHA3UE9STUFKV2wzYlpiMWhMZFZER1hpOUViUHZIWkpOYWM5Z285QUh2RXlUSE0taXhPMllPRHc?oc=5",
-      "published": "Sat, 25 Jul 2026 05:14:45 GMT",
-      "source": "hidomin.com"
-    },
-    {
-      "title": "靑 “9500억불 반도체 협력 추진…SK·엔비디아 7500억 달러, 삼성·브로드컴 2000억 달러”",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03UUpSZ2pCNUV1M0VjTUNrV3Yzbm1IZXJLTGJmRGJwODZqOTZFQUllM2RjS203TlU3b28tbWg5NF9OWGZoX3BIQTVuRWZiSy1ZY0VBLWRjdUFESEhhNTdyVEdNcW1vREU4dlFweGdhczBvTlRTN3JN0gFmQVVfeXFMTklJMmNPQnJyLTNPVGNyd0NaeWw1TWJyRkE0LTlHRUxuUWNKLUFOc0pPNzVWSlpRWUZIUU9HYnhfRTFaeC1saUNpT2hTOGFwVktIV3pOQ3ZoSUpyNGZrRi1SRHJqWnRB?oc=5",
-      "published": "Sat, 25 Jul 2026 04:20:00 GMT",
-      "source": "동아일보"
-    },
-    {
-      "title": "[그래픽] 국내 기업-글로벌 기업 반도체 분야 등 협력 추진 주요 내용",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44XzQtS2pZVlhvbDd5elVNdXZJekg4cVlONDUtV09KYkc1aEwxb2JuUVBxcFhOazRoeElta1pfYlVUYVRhSlNEak03Q1l4UGs?oc=5",
-      "published": "Sat, 25 Jul 2026 05:19:00 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "'HBM 1위' 한국, AI 3강 노린다…샌프란 선언 현주소는",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qZkdKcG91Z2hLVW01Q0JQTTVncGNCQ2Fsdy1Fa3FwdXZDTTI5Y3dfRGprYzk3aE81ekhMTHFvbEc3bGp4b0QteWQwaG1FSHM?oc=5",
-      "published": "Sat, 25 Jul 2026 02:19:02 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "삼성전자, 브로드컴과 AI 반도체 2000억달러 규모 협업",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DcDYxNkF1WUtTWEp1Q29nMVpKVHJMLVI5WUU0OGVBVEVweFZYT3M5Qmt3RUZOdmMzZUJjaVVVWnhmOTZ4XzVkd01nN21Mak1rYmoxYWZRNklqU2thUjh4RnlJVHRQbmlZb3QwU0tPb0bSAXRBVV95cUxNaWFUQjJMcGtrZ1g3YWhGZHE3TVZfcGpmaFh5R2RPS3BLUzUwMXhSSG53TmFzVnIwMlVhNlppamVESXZRRFhtd3hJS3ZNZ19RcHNjcEVFaU9LdzdqTEFxRFBKTjhlNmRvZFJUanVqM2lDOXVPcw?oc=5",
-      "published": "Sat, 25 Jul 2026 05:24:14 GMT",
-      "source": "IT조선"
-    },
-    {
-      "title": "[속보] 靑 \"국내 기업·글로벌 빅테크 기업, 9,500억불 반도체 협력\"",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LLXgyWWFhQ3ZIdVNUNlYzSzQtZ1h6OUl4d0lGLXNpSTIwYm0tNVNyQmtHZDB6T0FWRjl2Z1JkajB0aUZmNFVDTWtGZ2xyc0NETGd2OERfV3R4MVdOYlVjcFlnYTFqUFk?oc=5",
-      "published": "Sat, 25 Jul 2026 04:10:00 GMT",
-      "source": "연합뉴스TV"
-    },
-    {
-      "title": "이재용 회장 “美 AI 원천기술·인재 + 韓 반도체·첨단제조 시너지 필수”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xY05fNHFQQmFfSjYybEpJSjd0alp6NlhkNHo5TFlabFk2M014VUI2VHdVaUxrSVJqa1lPLVR2ODVmRkRRSWlDdjc2Q0h3cGM?oc=5",
-      "published": "Sat, 25 Jul 2026 04:58:50 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "삼성·SK, 美빅테크와 1372조 반도체 협력…삼성파운드리 브로드컴 칩 생산",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLWnBLRHk1c29oMGpPLXRCR0R0aFpxbXJSeERGMHJzdHZqODFMN3lxUU5Wekk0enU4SlFlMVNhMkRIdjN3eVJMQXhLV0duSVY3ak9RVXZLQS10d3c?oc=5",
-      "published": "Sat, 25 Jul 2026 04:35:15 GMT",
-      "source": "뉴스1"
-    },
-    {
-      "title": "靑 \"국내 기업-글로벌 빅테크 기업, 9500억불 반도체 협력\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JbWUxXzJpdHZZNV82Rmd5M3AtZE5pbkRMTUZzMnVIRkZ1WjJZV05OSG5Sa0xCME9QWDdodFFVUV90aVllWmhRdWc2Y2xtbGdFQnZkbGdBTzNMZw?oc=5",
-      "published": "Sat, 25 Jul 2026 04:03:44 GMT",
-      "source": "한국경제"
-    },
-    {
-      "title": "삼성전자, 브로드컴과 2000억달러 AI 반도체 동맹",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRRk5kbGkwSFcxUEVnLWpZYjhBTTFLOVgwUGxUU25WR05ocGVqRHVZb3hYWnBRTG5fUV9LekRuVVFnUUt2ZEpGS1V1ZHdBNG9ESTJGeUQ5WEMxSU5fVUlJdWNNaWpheWc2VGRtd0lzMFQ?oc=5",
-      "published": "Sat, 25 Jul 2026 05:35:35 GMT",
-      "source": "신아일보"
-    },
-    {
-      "title": "[속보] 靑 “국내 기업과 글로벌빅테크, 9500억불 반도체 협력”",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TR0t1R0x4aEVuQVFzZzNaRFE5ajYyOFJpSllxVmhncUFaMkRITFJ6RmY1MjI4WGppM2x4Y2hMUWJPRGdLVXF2b09MMWpxZG5mOFhDZmZn?oc=5",
-      "published": "Sat, 25 Jul 2026 04:06:10 GMT",
+      "title": "이재용, 오픈AI 본사서 샘 올트먼 만났다…AI·반도체 협력",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ya3RZaFlYdmxmUktpWW9YaWNJQ2R6Q2hqY0RZOElod0dqT2N4NHN3U0E4NGxDYTZPdFBieUh0WTU1TXJVdnk5bVgwMG5hU1FndVJSNEtn?oc=5",
+      "published": "Sun, 26 Jul 2026 05:20:43 GMT",
       "source": "중앙일보"
     },
     {
-      "title": "삼전닉스, 美빅테크들과 9500억弗 반도체 협력",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85SzN5c1Q4UUV6am1xVU5MT053Tm41NXZWUWZ4OTFLQzZtbFlOb2ZxTzJMLUZpQkl5ZWN4OE1wYURNcVFxMzRZZFpFazZTTHc?oc=5",
-      "published": "Sat, 25 Jul 2026 05:51:00 GMT",
+      "title": "美동포 만난 李대통령 \"韓 반도체공장 없인 세계산업 안 돌아가\"(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sVmQ2WUg1c1JjV0RES1FwNHdMMFozZWJVUk1Cc0VXTUF2QjlaaGhUQkExZFlOYndyX1dGdVBZalhZeXRZQ0pfY2sxcktzYXZjaW42VGRDc1F6ZUJJenl0Z9IBYEFVX3lxTE1sVmQ2WUg1c1JjV0RES1FwNHdMMFozZWJVUk1Cc0VXTUF2QjlaaGhUQkExZFlOYndyX1dGdVBZalhZeXRZQ0pfY2sxcktzYXZjaW42VGRDc1F6ZUJJenl0Zw?oc=5",
+      "published": "Sat, 25 Jul 2026 22:22:47 GMT",
+      "source": "연합뉴스"
+    },
+    {
+      "title": "젠슨 황 \"코스피, 다시 오를 것\"…'맥주 회동' 반도체 업황 호조 언급도",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFa3JsaVdlbGpFdG9nTFM0cmFLRDNBdlZTNHpfVDZTZ3JYdTl5a004dG9UNGVEU004TUt1TjQ2OTlsYnhUTHVHOWtmNEpUZE05TmZtZzNyMWRCTTZNeWRqUU5B?oc=5",
+      "published": "Sun, 26 Jul 2026 05:03:05 GMT",
+      "source": "이코노미스트"
+    },
+    {
+      "title": "삼성전자, 브로드컴과 HBM 기반 차세대 AI 가속기 만든다",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhbHhFRURUa01qM2phQTI0ZHVQd1B6MjYzcVBreWlKaVl2UThOU1FVU1JuQkVKQTZkYkJiUGtFZWFGRk96MDlCNExjTWdFa2JyS1RvYXdYZEFsdzZyMUlabnpUSlFYUQ?oc=5",
+      "published": "Sun, 26 Jul 2026 02:28:25 GMT",
+      "source": "디일렉"
+    },
+    {
+      "title": "수원시, 산·학·연 협력으로 첨단 반도체 연구기반 구축…국비 100억 원 확보",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PbnlrNmtMSGx5d3lKcHA5VUlzRGJ6VGRIUzFlMXNMSDNBeW5Gc3R0bExyc1A2LTVuWWs5dXBPOUpMU2t1dzNkYUdmZW5MUktvRnliZVJCMFNheENwNU0waXhn?oc=5",
+      "published": "Sun, 26 Jul 2026 06:17:26 GMT",
+      "source": "경기신문"
+    },
+    {
+      "title": "애플-마이크론 '중국산 메모리' 신경전에 삼성·SK도 예의주시",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1yRGlGRDMxZDdkY0VIYV9QemlidWtGYjNoRnBkQ1pEWGRwOVFRN01mRjk5d1JqQWp6WUd6U2M2VDBVc2tmUEV2SkxGRFBpcm9JWUdzRHpuUVhITmdiR256enlkN29mSlVlSjluR0lBS3lPVXBhd0dJYWNzQdIBgAFBVV95cUxNY0ZSZmY1ZTRiQWJwLUtZQlZiYmplamU4VDBCRHRwLU1uM0lBcFdmaVRFWUdGVmNCXy1SWkdXeUlxaTcwaFVSenNnWEc5cE16Y1ptZHBDTzhhRHFGMTNsN1FTTGNvUl8tS0RuMkFPNjVaMFZjOXVIa1VyNzBnVmJ1Ng?oc=5",
+      "published": "Sun, 26 Jul 2026 04:30:47 GMT",
+      "source": "뉴데일리"
+    },
+    {
+      "title": "박홍근 \"반도체 호황, 과거 사이클과 달라…장기·구조적 변화\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kS2xCV3pFZDZXN0poWHNSWVJGS29KTDBWeEluTWh4c1huLWpJbFU2UzViSk1hX1B0S3k2N09SbVVxTTk1WGNQSUgxa0dnWjh3bElTa2pRUVRvNjRRUEVhb0U2dE12dGhjcVRTR1J6YUI?oc=5",
+      "published": "Sun, 26 Jul 2026 00:20:52 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "[글로벌이코노믹 사설] 반도체에 기댄 3% 성장 문제없나",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcGlIbVVfa1FkLVk4YUxHX3Vyem9UUlZXV2ZBMzVVRnNIc2ZoQTRXclIyX2I3MnRpWGRLM0d2Y3JpY1d5ZGgzVmlUNjlBNkV3QzBVNTVjbnd1M2gxbnJjY3YzQjF6bENycXY0bXFfWWdtSWR1clo3cFRXLTBuV3kxTG9uREc?oc=5",
+      "published": "Sun, 26 Jul 2026 06:32:49 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "SK하이닉스 실적·한미 반도체 협력에 'AI 투심' 살아날까 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mcEcxX0xqZ0pXdDVGbXQ5Z3FnbmZLSmNBbU1ncmJCLThsZjdTTF9vY2g0MGU2Y3IxNDNqd3ItZXU1MFVxSHBfcTdpYUZYZDJpVHlPa1RsbmNDZjdrWmp6NXRyRWM0V05o0gFuQVVfeXFMTUhKb2x0OE0xSW8zdVM3eG92a09hcG5MNDFGcU9QM0dlQ08tVmJaRHlLa1N3bWd0c1hRXzBHekZzY1gyUEIzQV83cFBfLVBWR1E5QWpLVDl6ME1BT1RTNXM5SURuWENuNzFMT1lvY3c?oc=5",
+      "published": "Sun, 26 Jul 2026 05:13:34 GMT",
+      "source": "머니투데이"
+    },
+    {
+      "title": "이재용·최태원·정의선, 美 반도체·피지컬 AI 연쇄 회동",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE44UDZ3b1pvMVRJalgybXVYSXJOT19BT2NQbExoN3hickw2N0dNYVY1OGU5bWhMWURGQmo1Q2VHT3VCR3dYR1UxUEFjZGZHdw?oc=5",
+      "published": "Sun, 26 Jul 2026 05:12:21 GMT",
+      "source": "전자신문"
+    },
+    {
+      "title": "[게시판] 에이피알, '반도체 첨단산업 기술개발 사업' 착수 회의",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyVkRDTkJTbzQ0eFlrM1RCOWtuUHlKQW1BUWMwZGxtcUtRaU5ZVFkxd1VNNEJWYml4blNkR181dTlESmhPcU5oZ1Naa0pDZXZaSmlUOEwycHdSMEN5bmVFU9IBYEFVX3lxTFAyVkRDTkJTbzQ0eFlrM1RCOWtuUHlKQW1BUWMwZGxtcUtRaU5ZVFkxd1VNNEJWYml4blNkR181dTlESmhPcU5oZ1Naa0pDZXZaSmlUOEwycHdSMEN5bmVFUw?oc=5",
+      "published": "Sun, 26 Jul 2026 00:59:43 GMT",
+      "source": "연합뉴스"
+    },
+    {
+      "title": "靑 “국내 기업-글로벌 빅테크 기업, 9,500억불 반도체 협력”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kak5fdVQyVWsySWs2S0lqTU5WM2pTZTlPSVNwMjZOYnJDdV85S1V3c1FsZ1NXUy1lMzR1OGlZcDd0UUloT0VVR1l1cHI3X1E?oc=5",
+      "published": "Sun, 26 Jul 2026 04:55:15 GMT",
       "source": "v.daum.net"
     },
     {
-      "title": "트럼프, 중국 메모리 반도체 놓고 애플·마이크론 테크놀로지 충돌 직면 - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UZmVqZXppcEt5UWo3Vk1MMzdwZ01KRFZNbWlBQTNJdHY5NkhfTkRldmJ4V1pBNDJPcEVyR3R0Tzc4M2ZhV29OdzhwZGVHZ280OWFmNm5OanBQQi10c0RkeTBVUTFMblpudVE?oc=5",
-      "published": "Sat, 25 Jul 2026 02:39:00 GMT",
-      "source": "Investing.com 한국어"
+      "title": "[사이언스게시판] 샌프란시스코 AI 서밋 개최…韓美 9500억달러 반도체 협력 外",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5fLWNmbl84U2Jobm55dzczd0dkTFoxLVBFc2Z1Y2JlX09TYkZXQ2lCTnlNUUpScE11a3BydDZkLUNtS1NtTldVSEc1UDVMTjQ?oc=5",
+      "published": "Sun, 26 Jul 2026 03:20:09 GMT",
+      "source": "v.daum.net"
     },
     {
-      "title": "[속보] 삼성전자-브로드컴, 2천억불 반도체 공급 업무협약",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kc3JIcTZEeEV6QmdKLUtrNnAydHpUT2VnMkU3YWN1UVB2MnFIb2tLTnJEbWtMejRfOE9sV09id3B4TU96VlI2dEpLRC04dFdrT0NjTXlVVVR6NHZfcnhaZWx1aDNmR3l4ZXhYUjVwMTIwUENZ?oc=5",
-      "published": "Sat, 25 Jul 2026 04:07:20 GMT",
-      "source": "연합뉴스 한민족센터"
+      "title": "엔비디아·AMD·인텔 상반기 AI 반도체 승자는 누구일까?",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSlBCTjh3Y2xSc1dpS0RycVhJVXdPYnB5aUtOTlBRb0RQS2xvV1RmZW9QTkMxU2lnb3RMZUN0NFZLOUM5M1NHM0tXaF9idE5KVzlCa3FhTEo0ZlZZalhyRnFRdU83aHQ0VTJiLWY1R1VVZC10VUhISVdKdk5lWUs0X2NPbGJpRXo0?oc=5",
+      "published": "Sun, 26 Jul 2026 03:40:41 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "[속보]“1400조원 반도체 협력”…삼전·SK하닉, 글로벌 빅테크에 초대박 수주",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14SEU3RFdaOWZpMTJiYVRXREE1UnoyTmppaE9TVExDLVZPdHl2ZnhNTkp5Q290RHIyVlExZ2JGWVRLUHJsTktsWDYyeXlNNEZ6?oc=5",
+      "published": "Sat, 25 Jul 2026 04:55:20 GMT",
+      "source": "문화일보"
+    },
+    {
+      "title": "애플 中 메모리 도입 추진에 마이크론 반발…삼성·SK '촉각'[IT썰] - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE82WmNoVlZGWHUzYnJmamdRU3JEVmpQc2dTQkxWSkE2RXIwX2FWeW5wRFNSREZKSmwzOHZOWms5dC1SMzJHa05xVEFydEJDamVIemQxeW5PbXliRnJJOXZFR3U3S1lmdWvSAWxBVV95cUxOaGVNb0Z6UE9VNmRqaUQ3dmRYT3BLWXVjMEN2ZGxKVXZGZ0hOcFFsaTB6ak9VeEhMeDdVZWxTbXozYi03Y0lOMHpfS2NWN1ZiYXozUFlfa2JqcVNiSTRzQnBOTGdiLWVVZnBBTDg?oc=5",
+      "published": "Sun, 26 Jul 2026 00:12:02 GMT",
+      "source": "머니투데이"
+    },
+    {
+      "title": "K-반도체, 글로벌 빅테크와 9500억 달러 협력 추진",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qbzl6MmF4QThuZXJ2WHFuU1lzQzZtd2x1TmFsMmMtYmRXZE15cHQzb3h4eWYzQUlIQ3NsdzFUc1BUSy1JR1o3Sk9VNnZYUndVY3pFZ1doam8?oc=5",
+      "published": "Sat, 25 Jul 2026 20:40:00 GMT",
+      "source": "경북신문"
+    },
+    {
+      "title": "광주 광산구, 8개 국·소 전체 '반도체 특별 업무팀' 운영",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEeGN2NDNDRjMwZ1dDM3RVLTZJWVNTUkJVdWZOTG80QVNnWkFpOGZ3aUoteTBrZFh2TFh3a2FqMjhKNEU4dHFTejFZbklhVG5CMWFzd0VhMzBSS2o5NGRIbWZodmxMUklFOThVajBtQQ?oc=5",
+      "published": "Sun, 26 Jul 2026 05:24:36 GMT",
+      "source": "진일보"
+    },
+    {
+      "title": "8월 제조업 전망 3개월만에 다시 ‘부정적’...반도체 빼고 체감경기 부진",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95V05iNFdwZVhRcGRJU0pJVFktUHl1dDFyZ25lZXJTMzVDVm5KRlpmcVU3eDl3bWxZUGJyWTJJUHl1bGpkaUhMaXFLVGh2TGc?oc=5",
+      "published": "Sun, 26 Jul 2026 06:44:53 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "글로벌 반도체 시장, 2026년 1조5000억 달러 돌파 전망… 변동성 넘어 회복 기대",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPamJGQXJidXlUbjVYdURmaVgtS1RpX2Ntb3pRVjYyMkpuenlrbFdDSkR0NFhZdXctM1BWOGxjekxIRjh5ODZyenMwa3pYYk9kYmd1ME00UUwzWHVRNGpCOEs5Q2JidGRLbXd2YlczZDlYQWoyQVRPSnp2MGI5UFN1bzNISkZYQVZW?oc=5",
+      "published": "Sat, 25 Jul 2026 18:05:00 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "수원시, 반도체 연구기반 구축 ‘산업혁신 공모’ 선정… 국비 100억 확보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oZ3hVR1VhMFBhS3NldU9kZzdfLW1xaVFZT0tCcG1PbkpwM05rdUxOUTh4cWVGbDlTZklNTklBMmhQaS1DTFBlSW83QzBWcVBsZGJMSG5uaHNqaXMyX01WS2E2dGFMQVRkSWc?oc=5",
+      "published": "Sun, 26 Jul 2026 04:36:51 GMT",
+      "source": "천지일보"
+    },
+    {
+      "title": "\"AI 시대, 쿠데타 이긴 경험 자산…韓 반도체 선도자로\" 李 대통령, 국정 비전 밝혀",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rSVpZZUhwUkJJV0ZOSjI2ekdNaS1iYmp3enVpWUhFY0gyY1RSVlUtMnFETldxcEFNOVhjY2ppd0RfVnltUHhxVzNVT2Z2RWpsYk5HTmpZMkpHV21zNzNsN0Rn?oc=5",
+      "published": "Sun, 26 Jul 2026 00:22:00 GMT",
+      "source": "이코노미스트"
+    },
+    {
+      "title": "한·미 빅테크 ‘AI 동맹’ 맺었다…靑 “1400조 규모 반도체 협력”",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JQ1ltbUxWUFZvVXRHSS1WMnhPZHM4aGNkRzRUV09rZUZucktWTmhkSkZlS0pTNzEwS2w2ei14dzFLUEJER05fa1Ryd1E0RW5yN2tRT213?oc=5",
+      "published": "Sat, 25 Jul 2026 05:46:57 GMT",
+      "source": "중앙일보"
+    },
+    {
+      "title": "해외 반도체 시장 탐구 ② 일본, 왜 반도체를 포기하지 않았나",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QVkU3SmgzcHVyV085c1dhTTIydENOdWl2VEdUVmlIVTFyZUJHYkhnTUZzbk9fd3pCNWhOYnF4eWtmOGdkNjdMZ3FNUEs3UGNER0U3cEpWNmhxWGxlVjlJLWFSRE5aX0ZxYXc?oc=5",
+      "published": "Sun, 26 Jul 2026 05:08:44 GMT",
+      "source": "전북도민일보"
+    },
+    {
+      "title": "수원시, ‘차세대 반도체’ 승부수…양자·AI 패키징 국비 100억 확보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82VklsUU5UZ3NSbVJBeHVBU3NVZEVXR3pjVkRmbGlvYUZ0QWQtdlJ0YUw5ZHp6aGhuXzNJNng1LUk3cmRCNndWZjZjcUM2cE16dEhiR1NWZ0RpcFNTSjhReVNVNHBwTmhKQjhjVnFIelA?oc=5",
+      "published": "Sun, 26 Jul 2026 00:27:00 GMT",
+      "source": "인천일보"
+    },
+    {
+      "title": "'AI·반도체 외교' 마친 李대통령, 브라질로…핵심광물·공급망 보폭 넓힌다",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yRjhRdEJtZ3hyWld5RkY4NDJzR1NpWXhYSm1zS2VHbnZpT2YxakZidFFvS2xjYk1NTmxYNWE2WmlUMi1YdEJaNllUYVQ5UQ?oc=5",
+      "published": "Sun, 26 Jul 2026 05:43:49 GMT",
+      "source": "전자신문"
+    },
+    {
+      "title": "이재용, 오픈AI 본사서 샘 올트먼 회동… AI·반도체 협력 확대 주목",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JZmtvdlg1R3hJWmxON3JFX3NMMnYteHpHOU1TdmtFdmpuZXhMcldlYkpaUHIzVWg2cmVlMS1YMzI2QmJFT3dGeERuNjVyWHY3RjlmeXNqb2c2UlFqdzVINkI3R2REVXlYemc?oc=5",
+      "published": "Sun, 26 Jul 2026 03:37:17 GMT",
+      "source": "천지일보"
+    },
+    {
+      "title": "마이크론 1000달러선 흔들, 목표가 괴리 커져",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVFdoM1ljcUgwcENyM0F6UzRZcExaTHBpWS1uU2t2ejdsZ2VPcno3U1NZWG84WHE5R1VKeW4tZTV1MkxBbnlzdmZQTlNQN0FCYWw3Mm1CMkdzb2tFTGp5ampoT1IzNEthUjRxN0ZwWFpBZ2ZMR05JcHA1bjlCdHVuUktOQjR1SHpJ?oc=5",
+      "published": "Sat, 25 Jul 2026 20:00:00 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "범용 D램 급등에 달라진 HBM 공식…SK하이닉스 셈법 복잡 : 네이버 블로그",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM0VMa05CMzBrZGV3cGxrMlpuMnJKd1hzeVh0LW1OWnpsaW1DdnZoQUxvNjlnM0dGM2lUSlk2V0ZlVG5WM0RrMkNlMWN1bDFxcURGQkRocFFMVzhYT1Nrc2Yzc080LU5LbjdKbzVKWXpLTzlUOVgyLVZDWWtQSUJiNlFvaU11ZzlvUjlBX055MA?oc=5",
+      "published": "Sun, 26 Jul 2026 06:13:54 GMT",
+      "source": "Naver Blog"
+    },
+    {
+      "title": "기능성 필름부터 반도체 기판까지… 세경하이테크 부품 라인업 공개",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE84UWNHMlYyRmZFZ0NkVjVEZHFQdnVzN3ZoQWlLbVozYUpnelRjV0NOM0F3bFBob2l5M2RtZHZTRjJMUEVD?oc=5",
+      "published": "Sun, 26 Jul 2026 02:03:58 GMT",
+      "source": "산업일보"
+    },
+    {
+      "title": "중국 메모리 허용 놓고 애플·마이크론 로비전⋯트럼프 ‘딜레마’",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42Y21tYm1MT0RNRnBOeG9UWUFTTXBKTmFxbzRmTHd6dzFRYkxVdE5vWmRWeXkyZnk1X0pfcHJiX1I5X2lBWmY2dmp0TWVYYk9zcElhRg?oc=5",
+      "published": "Sun, 26 Jul 2026 03:40:00 GMT",
+      "source": "이투데이"
+    },
+    {
+      "title": "에티포스, 국방 통신반도체 개발 착수…한화에어로·TTA 참여",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIU1NLaUZfcTVVY0lxNUNreEtiazVkam1jcExOYnI0ZktaSXY4VW13WHFHS2dQQlJEOUFFZ2VfbWpIdzR4cG5nbDJVVmJNQQ?oc=5",
+      "published": "Sun, 26 Jul 2026 01:32:39 GMT",
+      "source": "전자신문"
+    },
+    {
+      "title": "수원특례시, 미래 반도체 연구 거점 확보 나서",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJZGNFVUs4Mi1JdTBQSmw2dkZRM0lQT2gxcDFzb0dZNWhvc2cwZjNSLUhoYmRJTld3RWxQMmZHOHlFMy1zZ1ZWQWktME80YU1ua1M1UWk2X05CU3dnMmpJbzZXZWhKZTR0RGNtVg?oc=5",
+      "published": "Sun, 26 Jul 2026 05:28:42 GMT",
+      "source": "중도일보"
+    },
+    {
+      "title": "이재용·샘 올트먼, 샌프란시스코서 회동...AI 반도체·인프라 협력 논의",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UQS1iR3dUejNNMmdLUXhKbFNFc3ZobDZpTGpjeXhxb0dudFBJS0xJVzB1T1EydmItTlR0R2ZKcVBSVjA5MnBEalJXeExxQ2RTbzlPTDlxZUtWQ3Q4Uk0yeW1kYmdFRk0?oc=5",
+      "published": "Sun, 26 Jul 2026 05:37:37 GMT",
+      "source": "M이코노미뉴스"
     }
   ],
   "manual": {
@@ -6178,7 +6178,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 527.01,
+        "soxx_close": 551.24,
         "implied_eps": null
       }
     ]
