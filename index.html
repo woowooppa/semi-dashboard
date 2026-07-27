@@ -249,10 +249,18 @@ footer strong{color:var(--dim)}
 
 @media(max-width:860px){
   .shell{grid-template-columns:1fr}
-  .rail{position:static;height:auto;flex-direction:row;overflow-x:auto;padding:14px 18px;border-right:none;border-bottom:1px solid var(--line);gap:4px;align-items:center}
+  .rail{
+    position:sticky;top:0;z-index:900;height:auto;flex-direction:row;overflow-x:auto;
+    padding:11px 16px;border-right:none;border-bottom:1px solid var(--line);gap:4px;align-items:center;
+    background:rgba(247,248,246,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+    box-shadow:0 1px 8px rgba(22,32,43,.06);
+    scrollbar-width:none;-webkit-overflow-scrolling:touch;
+  }
+  .rail::-webkit-scrollbar{display:none}
   .rail .mark,.rail .foot{display:none}
-  .rail a{margin-left:0;padding:7px 13px;border-left:none;border-bottom:2px solid transparent;white-space:nowrap}
+  .rail a{margin-left:0;padding:8px 13px;border-left:none;border-bottom:2px solid transparent;white-space:nowrap;font-size:13px}
   .rail a.on{border-left-color:transparent;border-bottom-color:var(--teal)}
+  section{scroll-margin-top:58px}
   .liturgy{grid-template-columns:1fr}
   .lit-gauge{border-right:none;border-bottom:1px solid var(--line);flex-direction:row;gap:18px}
   main{padding:0 20px 80px}
@@ -456,22 +464,6 @@ footer strong{color:var(--dim)}
     <p>선행 P/E는 애널리스트 추정치다. 항목 05에서 확인했듯 컨센서스는 <strong>연속 상향 중</strong>이라 낙관 편향이 들어 있다. 그리고 항목 06-B에서 확인했듯 <strong>이익 성장의 거의 100%가 ASP(가격)에서 나온다.</strong><br><br>
     <strong>ASP가 꺾이면 선행 EPS 추정이 무너지고, 선행 P/E는 순식간에 후행 P/E로 수렴한다.</strong> 그 순간 SOXX의 진실은 42가 아니라 67.70이 된다.<br><br>
     <strong>추적할 것: 0.62가 1에 가까워지는 속도.</strong> 0.8을 넘으면 이익 성장 약속이 축소되고 있다는 뜻이고, 이는 P/E 절대값보다 훨씬 먼저 켜진다.</p>
-  </div>
-
-  <div class="tsbox" id="val-box" hidden>
-    <div class="tshead">
-      <div>
-        <div class="ct">밸류에이션 측정 로그</div>
-        <div class="cs">data/manual.json · 잴 때마다 한 줄씩 누적</div>
-      </div>
-    </div>
-    <div class="tw" style="margin:0"><table id="val-tbl">
-      <thead><tr><th>기준일</th><th>SOXX 후행</th><th>SOXX 선행</th><th>선행÷후행</th><th>내재 EPS</th><th>출처</th></tr></thead>
-      <tbody></tbody>
-    </table></div>
-    <svg id="val-chart" viewBox="0 0 700 200" role="img" aria-label="SOXX 후행 P/E와 내재 EPS 추이"></svg>
-    <div class="lgd" id="val-lgd"></div>
-    <div class="tsnote">내재 EPS = SOXX 종가 ÷ 후행 P/E. <strong>실현 이익의 성장 속도</strong>를 본다 — 애널리스트 추정에 의존하지 않는 유일한 이익 지표다.</div>
   </div>
 
   <h4 class="min">데이터 조달의 함정 — 넷</h4>
@@ -1630,49 +1622,6 @@ footer strong{color:var(--dim)}
     }).join('');
   }
 
-  function renderValLog(){
-    var d = TS.data; if (!d) return;
-    var box = document.getElementById('val-box');
-    var rows = ((d.manual || {}).entries) || [];
-    if (!rows.length) { box.hidden = true; return; }
-    box.hidden = false;
-
-    var tb = document.querySelector('#val-tbl tbody');
-    tb.innerHTML = rows.map(function(r){
-      var n = function(v, s){ return (v === null || v === undefined) ? '<span style="color:var(--faint)">—</span>' : (s ? v.toFixed(s) : v); };
-      var ratio = r.fwd_over_ttm;
-      var rc = ratio === null || ratio === undefined ? ''
-             : (ratio > 0.8 ? ' class="num warn"' : ' class="num"');
-      return '<tr><td class="num">' + esc(r.date) + '</td>'
-           + '<td class="num">' + n(r.soxx_pe_trailing, 2) + '</td>'
-           + '<td class="num">' + n(r.soxx_pe_forward, 2) + '</td>'
-           + '<td' + (rc || ' class="num"') + '>' + n(ratio, 3) + '</td>'
-           + '<td class="num">' + n(r.implied_eps, 2) + '</td>'
-           + '<td style="font-size:11.5px;color:var(--faint)">' + esc(r.src || '') + '</td></tr>';
-    }).join('');
-
-    var pe = rows.filter(function(r){ return r.soxx_pe_trailing; })
-                 .map(function(r){ return {x: ymd(r.date), y: r.soxx_pe_trailing}; });
-    var eps = rows.filter(function(r){ return r.implied_eps; })
-                  .map(function(r){ return {x: ymd(r.date), y: r.implied_eps}; });
-
-    var svg = document.getElementById('val-chart');
-    if (pe.length < 2 && eps.length < 2){
-      svg.innerHTML = '';
-      document.getElementById('val-lgd').innerHTML =
-        '<span style="color:var(--faint)">측정값이 2회 이상 쌓이면 추이가 그려집니다. 현재 후행 '
-        + pe.length + '회 · 내재 EPS ' + eps.length + '회</span>';
-      return;
-    }
-    drawLines(svg, [
-      {color:'#D92D20', pts: pe},
-      {color:'#0B8A7A', pts: eps}
-    ], {h:200});
-    document.getElementById('val-lgd').innerHTML =
-      '<span><i style="background:#D92D20"></i>SOXX 후행 P/E</span>'
-      + '<span><i style="background:#0B8A7A"></i>내재 EPS</span>';
-  }
-
   var drng = document.getElementById('dxi-range');
   if (drng) drng.addEventListener('click', function(e){
     var b = e.target.closest('button'); if (!b) return;
@@ -1708,7 +1657,6 @@ footer strong{color:var(--dim)}
       renderNews(d);
       renderPriceTS();
       renderFredTS();
-      renderValLog();
       renderMemory();
       renderNotes();
       var when = (d.generated_at || '').replace('T', ' ').slice(0, 16);
