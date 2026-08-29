@@ -1,16 +1,20 @@
 {
-  "generated_at": "2026-08-28T14:02:48+09:00",
-  "generated_at_utc": "2026-08-28T05:02:48+00:00",
+  "generated_at": "2026-08-29T11:59:39+09:00",
+  "generated_at_utc": "2026-08-29T02:59:39+00:00",
   "prices": {
     "005930.KS": {
       "label": "삼성전자",
       "unit": "KRW",
-      "close": 259000.0,
-      "prev_close": 266000.0,
-      "chg_pct": -2.63,
-      "date": "2026-08-28",
+      "close": 266000.0,
+      "prev_close": 261500.0,
+      "chg_pct": 1.72,
+      "date": "2026-08-27",
       "source": "Yahoo",
       "history": [
+        {
+          "d": "2025-08-01",
+          "c": 68900.0
+        },
         {
           "d": "2025-08-04",
           "c": 69700.0
@@ -1046,22 +1050,22 @@
         {
           "d": "2026-08-27",
           "c": 266000.0
-        },
-        {
-          "d": "2026-08-28",
-          "c": 259000.0
         }
       ]
     },
     "000660.KS": {
       "label": "SK하이닉스",
       "unit": "KRW",
-      "close": 1683000.0,
-      "prev_close": 1730000.0,
-      "chg_pct": -2.72,
-      "date": "2026-08-28",
+      "close": 1730000.0,
+      "prev_close": 1688000.0,
+      "chg_pct": 2.49,
+      "date": "2026-08-27",
       "source": "Yahoo",
       "history": [
+        {
+          "d": "2025-08-01",
+          "c": 258000.0
+        },
         {
           "d": "2025-08-04",
           "c": 258000.0
@@ -2097,26 +2101,18 @@
         {
           "d": "2026-08-27",
           "c": 1730000.0
-        },
-        {
-          "d": "2026-08-28",
-          "c": 1683000.0
         }
       ]
     },
     "MU": {
       "label": "마이크론",
       "unit": "USD",
-      "close": 935.39,
-      "prev_close": 938.4,
-      "chg_pct": -0.32,
-      "date": "2026-08-27",
+      "close": 932.86,
+      "prev_close": 935.39,
+      "chg_pct": -0.27,
+      "date": "2026-08-28",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-08-15",
-          "c": 120.87
-        },
         {
           "d": "2025-08-18",
           "c": 123.55
@@ -3152,22 +3148,22 @@
         {
           "d": "2026-08-27",
           "c": 935.39
+        },
+        {
+          "d": "2026-08-28",
+          "c": 932.86
         }
       ]
     },
     "SOXX": {
       "label": "SOXX",
       "unit": "USD",
-      "close": 525.43,
-      "prev_close": 515.4,
-      "chg_pct": 1.95,
-      "date": "2026-08-27",
+      "close": 508.62,
+      "prev_close": 525.43,
+      "chg_pct": -3.2,
+      "date": "2026-08-28",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-08-15",
-          "c": 248.32
-        },
         {
           "d": "2025-08-18",
           "c": 249.05
@@ -4203,6 +4199,10 @@
         {
           "d": "2026-08-27",
           "c": 525.43
+        },
+        {
+          "d": "2026-08-28",
+          "c": 508.62
         }
       ]
     }
@@ -4661,94 +4661,40 @@
   },
   "news": [
     {
+      "title": "미 트럼프 정부, 또 반도체 관세 카드 만지작... \"단기적 자승자박, 장기적 위협\"",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWVM4Um5jVDJkYllSeFVvYXdTajRQT1Q0VFNNU3NocFJOazRsSFZha1hNNmw4SHFDVjRkSms1TzFld3J3aE9WZkVzcHZoeDY5bTNZWEdhZllTejJiSV95VUU1eU1pRGJUTUdXRUxOQmgtUmhiTzVra28wWHJuWTNNT0RsYw?oc=5",
+      "published": "Fri, 28 Aug 2026 06:03:32 GMT",
+      "source": "조선일보"
+    },
+    {
       "title": "\"트럼프, 반도체 고율관세 검토...SK하이닉스 \"미국산 HBM 생산\"",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80ZW1SY0laQ1U4d1RmZVY1Rks3NDV1RFg0cWtVUVdvb3ZZVE5BcklXaW9jZXBiY2Y0cEVoQmtGN1pGMU41VE1RNUE2YlA5Tmlxa3VzUmdFdTAyOFo4RGc?oc=5",
       "published": "Fri, 28 Aug 2026 01:54:00 GMT",
       "source": "YTN"
     },
     {
-      "title": "日언론 \"韓, 반도체 대호황에 들떠 있을 때 아냐\" 진단",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR0JHellLUm9ySERUOTYtLUNzMzRFMEFDLW1Eb1JDdmxIaGdlb2hmQWd1ajdlMUtyMGk4cG5hVXQwbmIzSnlsSHNkNGJpYWl0VGZmTDU1ZktmQXRVSnVHSVIyMzh1cmoyemVNT2tNX3RhT193QkJmQTZUS3RSVWU2YQ?oc=5",
-      "published": "Fri, 28 Aug 2026 03:41:54 GMT",
-      "source": "edaily.co.kr"
+      "title": "삼성·SK하이닉스 성과급 체계 요구한 대만 마이크론…메모리 노사 갈등",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeGJ2OUlkZW9TSzlLM1JhZ1VnM1g0YnR1QTRrNjFKQUM3ZW5wNFYxZVFmLUZFY2JqMGtZQTc5eDNVMW5Ga2g3dks3QVhNWmk2UHY3cjVKSm5qTjJmSzNSM0s2MW93eFBMU1Y1VHoyOXZwLTgzNXhzS0dKMXhRd1ZBcW85NzNNUVlM?oc=5",
+      "published": "Fri, 28 Aug 2026 22:12:48 GMT",
+      "source": "글로벌이코노믹"
     },
     {
-      "title": "SG, SK하이닉스 용인 반도체 클러스터에 ‘에코스틸아스콘’ 모크업 시공 완료",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MWi04S1IxM1FfT2VSUGw2Q2owSFVrckNiSVhWeElka2tDTHlKQmVoVmMxWlZ3WWVhZjY3cmJacVZGUV9rb0pPejJTU3QtWUJ2RUE?oc=5",
-      "published": "Thu, 27 Aug 2026 23:07:37 GMT",
-      "source": "매일경제 마켓"
+      "title": "오픈AI는 ‘자체 칩’ 삼성은 ‘연산 메모리’…AI반도체 병목 푼다",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xOFlydG5na2VUZEl6b1ltUXYwRjZBTGw1c3NHTWtFV1Q4TUZMU1JsaDBJb2UyWVhudzY5a01LN3NvSGV4ODk2QjdWY1JmeW12ZmcyNFl3?oc=5",
+      "published": "Fri, 28 Aug 2026 22:01:00 GMT",
+      "source": "중앙일보"
     },
     {
-      "title": "SK하이닉스, 미국산 HBM 만든다…“2029년 하반기부터 연 수십만장씩”",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Idjdvc2JiS2VXMzZzX0pqVHVQNDJsM2VJaXA1ZGd2WkRmSlNyREdaQnVGOGFCcTFRX0lCdzhWWEZIWWJzdy1RSi1xM2VyTTYxYTZKcWI2YnJpaVloZ19qUnkzQUFreVBqLTFycWppVQ?oc=5",
-      "published": "Fri, 28 Aug 2026 00:45:00 GMT",
-      "source": "한겨레"
+      "title": "제주 수출 증가율 전국 1위, 비결은 ‘반도체’",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzUEdHejJQaUlwTXYxLWMwc2oxNkZVeGJMTE5udjRrWnlrZWdmZkRIdWU4YWdxOTZoX0hvYnhtZ3piR1RRWU5pT2hkTnJsUFQwU0tjZ093czVQQkdMU19hdHJVNlFUcDJSbE5B?oc=5",
+      "published": "Fri, 28 Aug 2026 07:47:40 GMT",
+      "source": "제주의소리"
     },
     {
-      "title": "SK하이닉스, 인디애나팹 착공…최초의 ‘메이드 인 USA’ HBM 만든다",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKMzVMMDRQcktqejBjNnNlWlJnZzJiMTBoTW9KSDdQeGJLT3RJeHlFOEVVUzVpX0xfdWlSZEhvTHlFclNLd3AxejJkTmIzclBfWW9VaVBHa2hURk0?oc=5",
-      "published": "Fri, 28 Aug 2026 03:28:00 GMT",
-      "source": "KBS 뉴스"
-    },
-    {
-      "title": "5년만에 16개 광역지자체 수출 모두 증가…반도체 빼도 늘었다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwS1paWC1DaUUwTnhqUTdfaGxNSXhBVWx4Y3dUenBycGZ2WWJab1JpTjktbHZyTzM1TGJBNXZJMzJQSEdfcUk2T0VtaW9QWkFpMGRCck5faDAzOURLSjhEONIBYEFVX3lxTFAwS1paWC1DaUUwTnhqUTdfaGxNSXhBVWx4Y3dUenBycGZ2WWJab1JpTjktbHZyTzM1TGJBNXZJMzJQSEdfcUk2T0VtaW9QWkFpMGRCck5faDAzOURLSjhEOA?oc=5",
-      "published": "Fri, 28 Aug 2026 01:33:19 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "미 트럼프 정부, 또 반도체 관세 카드 만지작... \"단기적 자승자박, 장기적 위협\"",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWVM4Um5jVDJkYllSeFVvYXdTajRQT1Q0VFNNU3NocFJOazRsSFZha1hNNmw4SHFDVjRkSms1TzFld3J3aE9WZkVzcHZoeDY5bTNZWEdhZllTejJiSV95VUU1eU1pRGJUTUdXRUxOQmgtUmhiTzVra28wWHJuWTNNT0RsYw?oc=5",
-      "published": "Fri, 28 Aug 2026 01:27:00 GMT",
-      "source": "조선일보"
-    },
-    {
-      "title": "SK하이닉스, 미국에 첫 HBM 생산거점 착공…2029년 HBM4E 양산",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15ZDEyRE5QSkdZSmREQzB6cFR3ZFI1QXcyaUlYOXhUaDk5LVNwOUR4UFpuYldyQk93dGpOXzdGSkxJa3ExUDg5TkZ2RjBFWEV2VW9oZ01vUER1UdIBX0FVX3lxTE5EOVBha1BKN0pEOThPN3NKOU9TMGRKZlV3TjZ2UDlZVEtGNjRidHFidTJWaDRNS3JDY0wtOHMyOFpJUi1DcVFQWGM4YVVZZzR3NDJNOTA4VGI3Z0tzdDhF?oc=5",
-      "published": "Fri, 28 Aug 2026 01:23:00 GMT",
-      "source": "경향신문"
-    },
-    {
-      "title": "SK하이닉스, '메이드 인 USA' HBM 만든다…2029년 양산",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WUExtc0ZGUkVDSjBhZVRiU045RGgweHB2Z05Kdk9iV3JBVkZxNEVOMzBwZHNURlkzdnAzRkt5YV9kTC0zT0c1MjJQQXp1cXphV3pWeVZqM05KVUw1RXFvUTAtQ2Npcy0tM21JVV9IUWM?oc=5",
-      "published": "Thu, 27 Aug 2026 23:25:15 GMT",
-      "source": "연합인포맥스"
-    },
-    {
-      "title": "삼전닉스 실적 등에 탄 반도체 장비社들, '수주 공시' 자제하는 이유",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMGFycW9TcmFzUVlmVlhBRTRFa2tzWkZHSWgzZ2paS1JCYUo5b3hYcFBIVGJNWEhOVTE2aEI2VXlzV1lSaXo3c0tnWVVHYUtIN0lITmpRX0g3ekp1RXNrMk84SUVia3dkZTBQWEtrQjJ3OGNyTGFaTVFRbURvWXBOdDRWaw?oc=5",
-      "published": "Thu, 27 Aug 2026 22:02:21 GMT",
-      "source": "인베스트조선"
-    },
-    {
-      "title": "SK하이닉스, 美 HBM 생산거점 기공식…\"年수십만장 만들것\"",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40WEV1dGh3UjRqa2VvUXEyckVfTEpVSFhhd25lRUY5Tnp2Y29HNjlfN291aHVYZzVaMGVRTWYyeE1nLVUxQ0NXR3ZQWjVaZ2JWeWoyN0ZWdXlWaDdKeFZQbE1fY3dwNXM?oc=5",
-      "published": "Thu, 27 Aug 2026 20:36:00 GMT",
-      "source": "연합뉴스TV"
-    },
-    {
-      "title": "‘美 HBM 공장’ 첫 삽 뜬 하이닉스 “전력·인재 있는 곳 어디든 추가 투자”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Sc2V0QkNHei1zTzNqcTBwNkRzV3JiWXJTOENCZXZ6WU40SGZqcl82OHRNcXFtd0VLZXZ2NEIyY0xwUUJ5M3FlVFpKTllhVk5o?oc=5",
-      "published": "Fri, 28 Aug 2026 02:54:38 GMT",
-      "source": "문화일보"
-    },
-    {
-      "title": "SK하이닉스, 'Made in USA' HBM 만든다…2029년 7세대 양산",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TLU1HU0k3dlBqaGZMSDEyZURHbE9Dd1Bsc185cHZYZnB6ODlpNXk2VnZ6TW1Td2ZrUGtHbnk4amI0WHFRX2lpb2pKdWF2dDNUdXdReTM2U05sekFRQUxMbkY4NzZRVXBY?oc=5",
-      "published": "Fri, 28 Aug 2026 01:30:06 GMT",
-      "source": "녹색경제신문"
-    },
-    {
-      "title": "삼성전자·SK하이닉스, 글로벌 반도체 매출 ‘톱3’…AI 메모리 수요 폭발",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43cjFaa0VseUZLMy1QZmV5OXB5UUFSODdqZWo2TFZhWWhOTXBGeHRjQTIxQzNJanBMX0w5eWFSSG9FTEZSQkJEZ0pkeUZMSHkwSTJtWVBZSXpYcFo0Mm9qODk1dmw1ai1K?oc=5",
-      "published": "Fri, 28 Aug 2026 03:00:00 GMT",
-      "source": "테크월드"
-    },
-    {
-      "title": "\"트럼프, 반도체 고율 관세 검토\"...SK하이닉스 \"2029년 미국산 HBM 생산\"",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQLUFKNUFtUzMxSGtsbzJDN3BoTmZOdm1adEJBSVJKNWxWQ2VHZUlSYU41aW1VRDNxRHV5UXB1ek5nczVuTXA4QTZNV3cxaDIzQWxhQWZRc2ZKYXRVcWc?oc=5",
-      "published": "Thu, 27 Aug 2026 22:30:00 GMT",
-      "source": "YTN"
+      "title": "정부가 밀어주는 주식 따로 있다?…반도체·AI·방산에 붙는 '국가 프리미엄' [주末머니]",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zUENPN2EtcnFCVlF3NFpLVC10aDY2eU5TY003dlk3MWJlTWdMeVFVaVdwejN5X1FyQXlpVHpjS0xfbEZXOTJCZVY4clZYbXJfU2tmWmVkT2xpeFJueW94bg?oc=5",
+      "published": "Fri, 28 Aug 2026 23:44:00 GMT",
+      "source": "아시아경제"
     },
     {
       "title": "\"미 트럼프 행정부, 반도체 대상 고강도 관세 검토\"",
@@ -4757,16 +4703,28 @@
       "source": "연합뉴스"
     },
     {
-      "title": "SK하이닉스, 미국서 HBM 생산…한국기업 최초",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wUmZrQVZBbU9ZaGFyS0lEQ1J1YXJiZjJwcHNESXZrSkRJZ2NyS0hJUnd2bkNEN2t0VUdUcVVpa2pkdG1RWDZqeTZ5ZHdjNjQxX2cybTJza1VIbWowdHJwX2RIR2JoUjA?oc=5",
-      "published": "Thu, 27 Aug 2026 20:54:00 GMT",
-      "source": "연합뉴스TV"
+      "title": "인디켐, 남공주산단에 반도체 소재 공장 준공… 포토레지스트 원료 양산 돌입",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xLTR2OTNud1VHNjFTZzk0MFNaNzNfMDdhZWZHSHlrZjVOaWo1bG1lR2VIVmhUc2tqczdFM2FQdFpLZHFaV2xMS2xGVjNOTHVhLWs4aTgtQ1NwdDBTeVhaVV81ZlZkTTQ?oc=5",
+      "published": "Sat, 29 Aug 2026 02:31:52 GMT",
+      "source": "기계신문"
     },
     {
-      "title": "SK하이닉스, 美 인디애나서 차세대 HBM 첫 삽… 2029년 하반기 양산 목표 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaExERlNYbThNOVpiSlVpUGpMeXZVZDFCTDNUek8tZG56Wm83U2toSGNpX1BWQkplLWFSRV9YUEdCQm1jOWtkR25WYmhYa2RORVdHbThzTlkyOHVLTExadEFhNEdycC1Md19FaTZJa1Q2b2J0YUtva3ZOanQ1bEZYclpn0gGWAUFVX3lxTE0xWEhXbl9ZNHVucGxYZjQxcWZvcXVodGdwVGgyWXdyTUswM2RkeER0Rk4zZzV3Z3NudzdoQ1VQUWFVY241cm1TcVZMRElvZEVTME5pZ1podjQ4dUJtekhuTHVRT0FraHh5d3NQblBSbng0dUhqbE1WMHF6T2htOHhwV3g5a0JSZUtyRGwwYkhFSExIVkNLdw?oc=5",
-      "published": "Thu, 27 Aug 2026 16:18:00 GMT",
-      "source": "Chosunbiz"
+      "title": "하정우 전 수석 \"광주와 전남 산업 역량 AI 반도체로 연결해야\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XaWlYWGZnLVdIMXhySG42ZFREN1hHNzlWOFA0ZFk2dWNFVTFyX1BXWGdwNHFsOFZPX0U3dGQ5ZWpKbktkU0FabEd1UktFcmJhOGFfcWJyV1loVThLNjdVbNIBeEFVX3lxTE5SYzV5cjhoekYzbWI3aU83N25MbEJBY3dlSEMxOHhlczNfenVpVWxhbS1tNVJCTC1ZYUNJSnhEd21iOWVXeDJ2UXlvbFoxTkQza2o0TG9fb2czYVFpakVSbGk1T25YcnZSNmZpWFVuZDJiS3A2S1VuVA?oc=5",
+      "published": "Fri, 28 Aug 2026 07:41:29 GMT",
+      "source": "뉴시스"
+    },
+    {
+      "title": "현대모비스, 비핵심 자산 매각…로보틱스·반도체 키운다",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BTjJLSU1DblJUNjJLYVZtWnJvRm5Fd1Rlek1aZkY4TVJtSjQ2WUVRRnk1TGpaU1pJenp1VUEzdU1xTlJCZTlIbklWUTVIRmRIUW44MjZJWTNJSVljcXN6RDdoNG8?oc=5",
+      "published": "Sat, 29 Aug 2026 00:00:01 GMT",
+      "source": "MTN 머니투데이방송"
+    },
+    {
+      "title": "HBM만으론 부족해?...AI 메모리 신기술 뜬다",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NWXltRzdzYjF6TlVMY1lIOWRfUGhrTDMzS04weWNqRkZ3OXBXN19hT0hLZUlDUUwydkVuNUpyWjZBNG05enN3Nm0wN3R5WWJ1LUpaMm13?oc=5",
+      "published": "Fri, 28 Aug 2026 06:58:37 GMT",
+      "source": "지디넷코리아"
     },
     {
       "title": "\"미, 반도체 관세 확대 검토\"...SK 하이닉스 \"미국서 HBM 생산\"",
@@ -4775,130 +4733,172 @@
       "source": "YTN"
     },
     {
-      "title": "[그래픽] SK하이닉스 미국 인디애나 HBM 생산 공장 건설",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNRlNzNHFQTHhsaXNyajgwY0k0dGR1S1dxUkU2blRTVzJpc3MwWW50Y2NTbmRlV0pRT3JFUWRYOUNUMVVkODY4WWx0R0xjX1R2MkNDOGlwcV9mM3VwdFZaWdIBYEFVX3lxTFBNRlNzNHFQTHhsaXNyajgwY0k0dGR1S1dxUkU2blRTVzJpc3MwWW50Y2NTbmRlV0pRT3JFUWRYOUNUMVVkODY4WWx0R0xjX1R2MkNDOGlwcV9mM3VwdFZaWQ?oc=5",
-      "published": "Thu, 27 Aug 2026 23:40:49 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "[특징주] 삼성전자·SK하이닉스, 美 반도체 관세 확대 검토에 약세",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JaTdTb2FnbUNWLWFXMGtsUFQ0RHp0aW1IclVXdTRKYmtoQ2tFekFqektMV1FjSFFheFRaNFJKb1hsejJvMWJVOExKaVdqODcyaFZmZjhUaTRPRmMw?oc=5",
-      "published": "Fri, 28 Aug 2026 01:37:00 GMT",
-      "source": "뉴스핌"
-    },
-    {
-      "title": "'中 반도체 자립의 역설'…효율 낮아 삼성 메모리 더 찾는다",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vZHB1TzdTSV90aHBDRHpPZ0s5TkdmQkNlY3Rva3I0R2FaZ0ZydEMzYTRHbHExVXo3N05tTHNhMTBjMWtVbGhCTWRldnBzWTJkeWhyNUVEWmNpMWhBZkdNQ3BOUmIwdGoxRTlVdVBuMnM?oc=5",
-      "published": "Thu, 27 Aug 2026 23:42:59 GMT",
-      "source": "연합인포맥스"
-    },
-    {
-      "title": "SK하이닉스, ‘메이드인 USA’ HBM 만든다…“연간 수십만장씩”",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTZ29xckVkYnZRbm1tZEhZaWEzd2lqWG15Tl9wMEk4UDlWdkVlZ3pBbTVpNzg4T0JkUTlJZG5sUHdxZldPdzFHcTg5VmlrVzNxNGg2QWx3?oc=5",
-      "published": "Thu, 27 Aug 2026 16:26:17 GMT",
-      "source": "중앙일보"
-    },
-    {
-      "title": "SK하이닉스, 美 인디애나 HBM 생산기지 첫 삽…40억달러 이상 투자",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TeGw1eEJ2YTN6NmpnRkp0bHJkcklYbnY5Z250b1NPX21BOFdEczBQMXQtZ1RjdUF2ZnFLODFVdkNQWGRsT3NqQnUzU2ctZFBtUDdmcmc5Y1JJYk9MVDRHOXhtT3g4SGRVVkNDQURXT2RQdUnSAXdBVV95cUxPaHltV29aN2VBUEpMQVJBNHV0Y1FoTTJIRWcwc3NuNWlDaGhEUTdoaEFUVFo5Tmp0eVRBR2tobmppcXN6dFAtbFRRR1o4cF9WVHRlN2VOZTBNanc4dzBjRS1BVlJua0lxeEpqRWRveGwzbEc2cV9wcw?oc=5",
-      "published": "Fri, 28 Aug 2026 00:54:23 GMT",
-      "source": "스트레이트뉴스"
-    },
-    {
-      "title": "[르포] 옥수수밭에 첨단 HBM 기지 구축…인디애나 터잡는 SK하이닉스 팹",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GaEtBT0RRcjZSUldhYy15YnhESWRQZUV5eW1xUlNPNUlvQXc5b0JZeElQSkF3dmg3Y1RpUUdrSWF2bVdSS1hncE90U0xGQjA4UmdSYmFVcmZ0VWRlVEgyMNIBYEFVX3lxTE1GaEtBT0RRcjZSUldhYy15YnhESWRQZUV5eW1xUlNPNUlvQXc5b0JZeElQSkF3dmg3Y1RpUUdrSWF2bVdSS1hncE90U0xGQjA4UmdSYmFVcmZ0VWRlVEgyMA?oc=5",
-      "published": "Thu, 27 Aug 2026 19:28:04 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "SK하이닉스, 인디애나서 年수십만장 '메이드인 USA' HBM 만든다(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaYnJoS1YtOG5lMWZqX2lvUlpyVnVGOHd2TWpMdGRtWTZzQWFiS3Ayd3dFdXRYcEhXTzU0X0E1OUFCU1VvN2ZiQ2NGMW9yYmdsQ2RNSHBycjFzZU3SAWBBVV95cUxQVUpHWnFhZFhxd0Y0b0VFTTN3NDNSRE5nU1ZhTlg5MlhxUGNsRGJCNkxGVExMMkhBZFkwOFVCNTh6YnlZa0RBaFNPSTFOdkZHNnA2eE95M1JVZ2U5QTVJSUY?oc=5",
-      "published": "Thu, 27 Aug 2026 15:18:14 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "SK하이닉스, 이천·청주서 만든 웨이퍼 美서 후공정…HBM '한미 분업'",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zTWNIYnhENnBQa0dUQ19MM3U0QVZ1UlM4SFZkS192SDlrMXNTNDNrMG5WY3pmeWFWUlZIQ3BGWXFLcHdGNmxIWDJRTFBWbjdPSS1BYXZVTFJUTHV4?oc=5",
-      "published": "Fri, 28 Aug 2026 05:00:00 GMT",
-      "source": "뉴스핌"
-    },
-    {
-      "title": "하나마이크론, 시스템 반도체·첨단 패키징으로 성장 가속… 하반기 CAPA 확장",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtd01wT0NLV19mM2M2X3JiQ0pfN1NKT1A1SWw1NUhwYm1zdWNuYkE4YlZPZHl3N1g2MXNYWUF4OVZfdGg5ZUtHWVl1OV9VVjhUOFY5WThZOUhDYjV6bDQwc2VjQS1NUG9WWnc?oc=5",
-      "published": "Fri, 28 Aug 2026 01:14:00 GMT",
-      "source": "파이낸스스코프"
-    },
-    {
-      "title": "\"메모리 부족 2030년 말까지\"...SK하이닉스 '미국산 HBM' 2029년 양산 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5aGQ0NVA5bEtGRFpGNmg3QndNYm5VOVBKRW9vX1YyMXREWHZ5UGh1TWVMQnd4RkozRzFiT0JjdnpuZkFId21GeWdIVFVPMzBYTkFGS1BUckdCSUl0RHJEQVVnaGd0cjFoRjF5TtIBckFVX3lxTFBUUTFWWUszWXd2ZGNhcVZxRUkzb0hHR2NrTnpTeWNJSGJ3cTVXNjVqUUtER0RKanh5ZFFpOVFabVIzaTMwWHdHRkJaaURlaXBsQlVmMDF2d1hOWjRpVlVLbWlvbW50X0dQazA5UnQzRjZlUQ?oc=5",
-      "published": "Fri, 28 Aug 2026 00:37:13 GMT",
-      "source": "머니투데이"
-    },
-    {
-      "title": "SK하이닉스, 美인디애나팹 착공…'메이드 인 USA' HBM 만든다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UaEwyYjJ6LTFBQWNfTFl5a3lKOWhrS2JHMWR5XzBnWkxZdVh3N2tzOWhBZTdLZC0wWmlYT1c0OGtGSE5fc2pFejdIa05hR1h3a2tPbEhtUVlrUU1uQ2RLONIBYEFVX3lxTE1UaEwyYjJ6LTFBQWNfTFl5a3lKOWhrS2JHMWR5XzBnWkxZdVh3N2tzOWhBZTdLZC0wWmlYT1c0OGtGSE5fc2pFejdIa05hR1h3a2tPbEhtUVlrUU1uQ2RLOA?oc=5",
-      "published": "Thu, 27 Aug 2026 15:13:34 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "백악관 “美 반도체 리쇼어링 최우선”… 서버·노트북 겨냥 신규 관세 도입 예고 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeDBDNThPbUYzSy1DaDNmWHJrc2R5SC0wZ2FURWk1VVZWakNPY1VhMkl3LWkwaXh1RGFuNGlnck9kalV5RlRZTGd6R05pMG1xTk03V1FtbXk3UVNJcDVXN0lzNUpmem1GbmxKcnVGaTEwZnREeU5YS3BUdktjdEs3cHptNC02Mk10SS00SzUzWjl2R1dlZ2xyZDhXd2p5d9IBsgFBVV95cUxQRTJKMFBJMHo2S2hDNWpyMlRMOGpzdm0waUVoblp6TmlLa0JqYjhYN0VQRHl2RlNOZEVvRXZfTTB3T3l3Vy04WXVQRDZXaEc5T1RaNHVpb2owZEc1YlllaVpzYjVFNGpWc2JGZksyUmFzazIxSDhYTm1zNmIwSWNQbm5meUtwQWdlTkVjWnB0Q0V0c04tVFhNWmtvazJ3TnNNZ1FDQWRBa0xiWjJqcmlLbVRR?oc=5",
-      "published": "Thu, 27 Aug 2026 21:51:00 GMT",
+      "title": "[3040 엔지니어] AI 수혜 맞춤형 반도체 플랫폼 기업 세미파이브… 윤석현 전무 “어떤 반도체 요구해도 해결방안 제시할 수 있어야” - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUzN4RlRSZm5RODFZWGxtTm9PM2tULXFaS2xSQUlabHBFMWswVVdyU28zcTRTSHpnMC1NQWxyU1BpUFloQTRXV29KQ0MtdkhEU21JaU1XUVhrVWpZQmduNm8zOW1oYkJxNzM4UGtPX3hSQTRoTkRnUUwxVnJzSlp0S3lR0gGWAUFVX3lxTFBxMVZwdEN2VFVRQUxKZEtWSTU4ZVJuTU82a1lyd1g0N1FwYkoycm1EdlN5N29YbDZsUmFCaWg5ejlCWGREWnRTX1lRTzZYUVJ1dDloUkxEZDVzTmZQNENQZGlMRklSaldGVzRMUjI4Sk56Qmo1VWhQLXFHN3EwQVBPT1FrOWd4V29jbGJwU1VpblNRTGROUQ?oc=5",
+      "published": "Fri, 28 Aug 2026 21:00:00 GMT",
       "source": "Chosunbiz"
     },
     {
-      "title": "[단독] 미래에셋 'TIGER 반도체' SK하이닉스 770억 긴급 매수 이유는",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ERERYN3N3ZnhoZFpZY3pSNklXNmp6NVdlT0kxeUN0U0Z0VW95WEhKcFFIY05JUnR4SHktaDNnNE5pdWt6ZExzejdtMTZNY1U?oc=5",
-      "published": "Thu, 27 Aug 2026 08:00:43 GMT",
+      "title": "“반도체보다 6.5배 크다”…경북도가 찍은 역대급 미래 먹거리",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XT01Da0hSOXpxZi03NEk1OS1VYkFsQl80eWFING4zdTRISWpvenJLWVlSdlZDckhlbE5vTWdTVUF5UjBoQ3J1d1d4bkRtVzg?oc=5",
+      "published": "Fri, 28 Aug 2026 21:02:00 GMT",
       "source": "v.daum.net"
     },
     {
-      "title": "SK하이닉스, 美 인디애나 HBM 공장 착공",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLWnhXUUxkSEFqb2VPRzJmajZKaUZSdEFmSG5tcG1tQkF1YzlzRzJ1SkZZME5lbmN3WVYtYnJkcFhYOUxOaTZIZGE0aGsyMk5INzR6U1pvX01Objg5cDBkNGRONEthS3NqcUx0NTYtVjdSZnVC?oc=5",
-      "published": "Fri, 28 Aug 2026 01:08:36 GMT",
-      "source": "부산일보"
+      "title": "금리·경기 우려 속 반도체 기대…9월 코스피 7000선 시험대",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01Sml1Q1RBdkM0eVo2VGE5eWlBU0pTX29CeWs3bW5JNVNDcHZnMXp5eWFkUWNRWGVMZVptZlY2T3RQMDhIb01pbFppbVROM25jY0NCQk94aGJMYnM2bHFvLVpqR3g?oc=5",
+      "published": "Fri, 28 Aug 2026 21:02:01 GMT",
+      "source": "MTN 머니투데이방송"
     },
     {
-      "title": "KB證“中 반도체 국산화, 삼성전자엔 오히려 호재” - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORnIxY1RFNmJvbl82Wk1GRk1vYW9SeG10UG5ZLW5jWjJBeUJxMjRNMExSRUJkaDUxSU1XWk1wRHAta2FxWDN1ZWphNUJMZkI5dmJLMzQ5SWpuUkpjLUYzaHM3SkE4UUFlV3NNZC1iNGdPdE95aXRVN1dyT3VhTUVPOTJ2VkpFRVBj0gGcAUFVX3lxTE8zdURIdDBaRWQ4NXk1Y2t2YjlqbGNNV3lCVktWaGRXWU0wUC1Vb1BzT2h0YVdMTXBsN19QOGpnRXAxYlkxWUJERm5yZ0F0bFI4V3dTVnNLVHhJV1VzaVYwbU9waTU3eW9IMnQtTzhmVUx2ZHloT255eTV4ZW5YTHkzQWRCQXhyUHdZNEx4STRvTFpDUUY4VnU1cHFrcw?oc=5",
-      "published": "Thu, 27 Aug 2026 23:36:00 GMT",
-      "source": "Chosunbiz"
+      "title": "\"트럼프, 반도체 고율 관세 검토\"...SK하이닉스 \"2029년 미국산 HBM 생산\"",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQLUFKNUFtUzMxSGtsbzJDN3BoTmZOdm1adEJBSVJKNWxWQ2VHZUlSYU41aW1VRDNxRHV5UXB1ek5nczVuTXA4QTZNV3cxaDIzQWxhQWZRc2ZKYXRVcWc?oc=5",
+      "published": "Thu, 27 Aug 2026 22:30:00 GMT",
+      "source": "YTN"
     },
     {
-      "title": "SK하이닉스, 인디애나 팹 기공식…“2029년 미국산 HBM 양산”",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pMVNaYldQYUxrNjJsMWlQUzNIM3oyRG5wemJITHJUbDZ4aklVcV84dFBUZFhEZjFuWC1aanRRbE4taE9lRjczUzFlRlBRTElneUJKMmlYREVSV1d0Z3BJYg?oc=5",
-      "published": "Fri, 28 Aug 2026 01:05:17 GMT",
-      "source": "뉴스토마토"
+      "title": "“삼전닉스 금요일 팔았어야?” 반도체 공포 엄습, 월요일 비상… 1000만 개미 어쩌나",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9QdUhWSWNwTWdrWi1BdjJIRVZZNjFoRHBRbkVxYVBNdl94U00zLVY0VEYwWW9vQUJ5UzJITFVmdmR0THNQZUNoSUhMc25OQXM?oc=5",
+      "published": "Sat, 29 Aug 2026 01:41:11 GMT",
+      "source": "v.daum.net"
     },
     {
-      "title": "SK하이닉스, 美 인디애나 HBM 팹 착공…엔비디아·TSMC 잇는 'AI 삼각동맹' 완성",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83eDJnMmJVNDRfTmNoUkkySUo2SUNldF96M0E2WXM5X0hwMXV5UkJVeW0xM2NIQmdudGJLQ0lyaTdTdHJ5NF9TcDJiNjhEclotWVVqNEF6ZG5mZmVGVm12ZmVvcWtsam8xUnJvQnBfSFo?oc=5",
-      "published": "Fri, 28 Aug 2026 01:28:05 GMT",
+      "title": "퀄컴 \"삼성·SK하이닉스 HBC에 적극적...HBM과 병행 개발\"",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ySlluMzRTdlpIUTRrdEFNOThaOWpyZTN5SnEzc0JGVUJSZ0kya2pIWFBrX09VLVgxeEw1c2hNYUxhV0Mtb0xNdmxMQnhISWhUVXpqRWhHTWEtX0xWVGxTLW5fLTd6UQ?oc=5",
+      "published": "Thu, 27 Aug 2026 05:08:48 GMT",
+      "source": "디일렉"
+    },
+    {
+      "title": "삼성전자, 256메가 D램 세계 최초 개발 [김정한의 역사&오늘]",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jeTRoQzVpTlk2aU1pSFJ0YnFHVWhZUDNYSExJbG1oNUstaHVjV2NWUFoyN1Zveml0NUNGUGctRUJkWXpaaW1UWUNmMC1UdU16UDBKX2txaVFKaHJBQVRaZFZsRTJPM3FGb0HSAW9BVV95cUxOanlHMGg4Y2F1ZVRwRDRwWDFaQXNvYW5zSEw0R1RYdVZoY2NMaG14dUZSWUkzbW96NkE0Mmo0MWNGV2lZcS1iV0ktUU1HelhlS0pEdFlBdEFPaVNWbUI3TTNnWmNKM1ptajlLaElxaVE?oc=5",
+      "published": "Fri, 28 Aug 2026 21:00:00 GMT",
+      "source": "뉴스1"
+    },
+    {
+      "title": "국힘 김성원 “이재용·최태원 청문회 추진…‘호남 반도체’ 압력 여부 묻겠다”",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00SW04dmx4SDctVTFyN25BdVdURG5pREpnSkxaWl9fYWgzd2NDemdERmF0NmJjdDZjelRzaU5QT3IzYTR3LVNNcUhuQUdzbkFEdHVYd3daSTY1czIwU2lCM0VNWWg0N1B1YmotaGNndGtpTkVF?oc=5",
+      "published": "Fri, 28 Aug 2026 05:35:00 GMT",
+      "source": "한겨레"
+    },
+    {
+      "title": "[위클리 PICK 3] 삼성전자 주주환원 실망에 주가 급락부터 SK하이닉스 美 HBM 팹 기공식까지",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IdDI3VUpiVkQ5VWItVkFXV1lGcC1XeXN1dHBGNnE3QWxJcl8xelhjNTZmaWNMdmVmdE5KQk11U1JVbEdXc0tYWEl4cl9mSDUwalBkTUk3akl2VFVzTFducHBTOHJHeTNQSEVZNUR6em8?oc=5",
+      "published": "Sat, 29 Aug 2026 00:10:00 GMT",
       "source": "오피니언뉴스"
     },
     {
-      "title": "하나마이크론 \"시스템반도체·턴키 사업 확대…성장세 지속\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4taTBaVi1IYU1rZWV5VnpTZDhSWmJ3VHYzclJFd1pJeE5kNUZzWUpBdlJmcElNeG1JM2lGdDI3QzVYTUxXMm9LbVhuWkVHaFVaN0pzdWZOallWTEJhRGZpV3lIYzA?oc=5",
-      "published": "Fri, 28 Aug 2026 01:51:57 GMT",
+      "title": "中창신메모리, AI붐에 상반기 매출 10배↑…'깜짝 실적' 발표",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wLUR4dEFPWUprcTJwdHZ2WXJNa1lzdlpfSzZwb1hBeC1lcmFwa0xUMDFxZTFxR0pUQk1NVEVQVlJ4elJnWlJsaG9tUXJRd3c?oc=5",
+      "published": "Sat, 29 Aug 2026 02:39:01 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "[마켓뷰] 美, 반도체 관세 ‘복병’… 코스피 2% 가까이 하락 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNG9JZUw4clNHWEFsS3gwS3lGS0dCenlmSVlsY3NXcm9pOVZoRi1HYnlBRVd5bVBkemhONkFOVTRNNWlWVDA4SFB4VmRLRnlFakJZOWRaQi1jSllfWW1HYld5QW10UGVKVElpRFEyRmdjdlpyNXprT29KeU5MbFduWkFXR2pUU3FB0gGcAUFVX3lxTE5oM2dYc0Z0VGZrZUc4cnZ5OVpFYjRaajVQbmpQQXdhMVdSQ1ZGNmMyaklrU1pqcmxpR05TdXZDeHlORjFtNjJUTkpFNFBJRDVtS1dWSW5TS1kwSXJEUEVJckZ1cEtwRVEzMW5oWE9Bd19RdVE1cTFuYWdsY24yZ2xuU1p1Nk9LcTZQLTBqMzQ0V3FjdV9xQ3BSQ1l1cg?oc=5",
+      "published": "Fri, 28 Aug 2026 07:41:00 GMT",
+      "source": "Chosunbiz"
+    },
+    {
+      "title": "中CXMT, AI붐에 상반기 매출 10배↑…순익 16조원 흑자전환",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rYkdoaWI5eTkxOGdUVFR0bWt2dnJ4V2xTYThvWWJfQzhuOHNzT25mdEJfdlN3bVlQZlhBVjUwVDVDbGR5U1RwZHJNUGtpR0E?oc=5",
+      "published": "Sat, 29 Aug 2026 02:30:00 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "“공급부족 2030년까지”…SK하이닉스, 美 HBM 공장 착공",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qTFJqbk1OaDR6VXNETnpqTU9ZTkY4Z0tmRl91Tk1HdU9Dd3kyYml4aHZyUUM4eUJvbVZpd0Q5bkFMaXF0Z0pMeGRiTW15amp1M1p1NXhRTm5uVV9NUl9ETXFDVWU?oc=5",
+      "published": "Fri, 28 Aug 2026 08:44:57 GMT",
+      "source": "서울경제TV"
+    },
+    {
+      "title": "[26년 8월 29일(토)] 韓 반도체 대호황에 '무서운 경고' 나왔다 - 비티의 오늘 주요 뉴스 요약",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZU1UT0RIT0NJalFUbnpQMEpCNFNJQVJzUDJFSWkzVlVoamZuaVFjSHR2V1JJM0lkSDU2NWtmRXp4UnNFaXVxUWlIMTlUVTl2dEZEV2RTeUVtc3hybm1odk9GTkJLNHhmQ1dKdG5CRk5CNGJ1clJDajdLVVNROGJISg?oc=5",
+      "published": "Fri, 28 Aug 2026 21:33:28 GMT",
+      "source": "네이버 프리미엄콘텐츠"
+    },
+    {
+      "title": "국민성장펀드, 로봇·K-콘텐츠에 투자…반도체·이차전지 대출지원도",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxWmktTkFadV9jSjBiWlNNa1Vscnkxbk1ZYmxvRFNhQUxBOTNCM2hObHlnTHUyREt3blZkUmxZSk1CWlczS0s1OGFlQWdtQ3pKTGlMNEROQ19uRVZlMU53ODVuWWVCVlo2UzJRRw?oc=5",
+      "published": "Fri, 28 Aug 2026 08:48:57 GMT",
+      "source": "대한민국 정책브리핑"
+    },
+    {
+      "title": "日 아사히신문 \"韓 반도체 대호황, 양극화만 더 키울 수도\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZaDRzeXc2a1NFV0p1MlBIV3V6NHFVQUNFczB5aF9RTEljVDltN1FzUkFSR2NtQVNnTjRLYVpZNEhPWVZ2RlBxMzZZbk5nZ2cwV2dxY0dTNnA5WTlFaTFDd0tJT2trU0NoQWxzWnZGb3Y?oc=5",
+      "published": "Fri, 28 Aug 2026 07:48:08 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "SK하이닉스 美 인디애나 HBM 공장 착공…2029년 양산 목표",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxMU5BbkMxWFNfdDZzWW1GaU1qdDRiU1V5ekRNTE1aMVkzQ2tfdU8wbVhxMV9sdXNpcTFTUnU3ZW1TMmM1TTBTT3FkWDRZNjJ5VHBPcm9aRk4wMnZ4bnZkTFpVcTJpVmZv?oc=5",
+      "published": "Fri, 28 Aug 2026 23:42:57 GMT",
+      "source": "창업일보"
+    },
+    {
+      "title": "SK하이닉스, 美 인디애나서 차세대 HBM 첫 삽… 2029년 하반기 양산 목표 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaExERlNYbThNOVpiSlVpUGpMeXZVZDFCTDNUek8tZG56Wm83U2toSGNpX1BWQkplLWFSRV9YUEdCQm1jOWtkR25WYmhYa2RORVdHbThzTlkyOHVLTExadEFhNEdycC1Md19FaTZJa1Q2b2J0YUtva3ZOanQ1bEZYclpn0gGWAUFVX3lxTE0xWEhXbl9ZNHVucGxYZjQxcWZvcXVodGdwVGgyWXdyTUswM2RkeER0Rk4zZzV3Z3NudzdoQ1VQUWFVY241cm1TcVZMRElvZEVTME5pZ1podjQ4dUJtekhuTHVRT0FraHh5d3NQblBSbng0dUhqbE1WMHF6T2htOHhwV3g5a0JSZUtyRGwwYkhFSExIVkNLdw?oc=5",
+      "published": "Fri, 28 Aug 2026 04:04:00 GMT",
+      "source": "Chosunbiz"
+    },
+    {
+      "title": "中 HBM 자립의 역설…만들수록 치솟는 글로벌 D램 가격",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5VDFORTNydkwwcWtQTmtkZUtFaWVNblhkMFpxT3NGMGNDVkpTZ2FabzdfTXZDTDRxNzVDbm9oNUxWZ2JONFNEX3d2LWhGX0R1Nm5ncXNaN0plREhpOWlXUV9TTkw?oc=5",
+      "published": "Fri, 28 Aug 2026 07:08:12 GMT",
       "source": "디지털데일리"
     },
     {
-      "title": "반도체·AI 키울 ’물기술’…글로벌 협력 시동",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CSHJhTmtZeTliYXlNeWs0aWpCeDJMWTlKcVZHcFJGRDg1NVhNWFJYY0VBem5FcVduYWZrSDVxLWpUa0R5YzJjc1ZZLV9oR3pNUENwUUJBUTd6TFlnaV9CdVp1RVI4Z0U?oc=5",
-      "published": "Fri, 28 Aug 2026 00:08:00 GMT",
-      "source": "연합뉴스TV"
+      "title": "SK하이닉스, 인디애나 HBM 팹 착공‥美 첫 생산기지",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12ODN2STZVVWVwYWZoVm5xWGpJY2dZQURyX255ZUx3WDlpak1XSVIzUDE1aXlzQmFPal9TZU1fZWxaZWd0dGxKZWxETy16YXRDOTlCV0thWWxGdkxxcVZmVW9yZENtdnhTMUJyQTVsUDZ2UTRSYS1Dd9IBeEFVX3lxTE5sckk2WlJwUms4M2Y2WDBYNGg0ZEVtMWVqYkpaeVNrTGswTXpEc0luZXhrcnBTOVNIRTlSaUpUaW9UVVEtUjRCdmVCX19PX2JPdndXWms4X2tpUmFJM2FLYzh0dzdmdHNSM2x6dm5hSzFJRE5ERW9scQ?oc=5",
+      "published": "Fri, 28 Aug 2026 08:01:44 GMT",
+      "source": "MBC 뉴스"
     },
     {
-      "title": "SK하이닉스, 미국산 HBM 만든다…인디애나팹 착공",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IclFyVDFCazNnSUkxVWNyV0NBNmNYUjBaX3o0NERpX01sM2hPQjE1elRYSzNmTW9xVUlfcVhONHp4X1N0NkhvcF9POEJJYTlZUkg5WDZYc01ycnViV1RGWA?oc=5",
-      "published": "Fri, 28 Aug 2026 02:11:14 GMT",
-      "source": "프라임경제"
+      "title": "'800조 반도체'가 풀어낸 광주 군공항 이전…호남 반도체 클러스터 탄력",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94YVFkaXVrdGlmdEs5RTNvcU9mNVVDV0tETnYtMnR6MDNNZ0VzbXltY0ktZmgwc0pCQVFtR1EyXzRyaWhPZmVoMjFZLXA0UHlva2t2dnNtdFk5ZHBlclc40gFkQVVfeXFMTzZHcUduVFFHZEJlQmdYM1FJOWZWZ0pvUkt5M0ptSGJELXhMVFFxeWxzUHkySWFLRGlmOWpaMHVHQ0xUSUhtZFhXX0dEV3hGWmRUeGlkMVNpd0hyWEVGbUVsNkk3Nw?oc=5",
+      "published": "Fri, 28 Aug 2026 22:09:00 GMT",
+      "source": "뉴스1"
     },
     {
-      "title": "SK하이닉스, 美서 HBM 첫 생산…인디애나팹 2029년 가동",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56emNxWld3ajNJVVQ3dElLQ3Z5WU9wajZJWVpCVnhKOU5XUzJZTEoyOTFJSmRELXhXZjQ0RmZPNmpZWThoUUItdndmLWdzaDA?oc=5",
-      "published": "Fri, 28 Aug 2026 00:35:28 GMT",
-      "source": "v.daum.net"
+      "title": "SK하이닉스, 미국서 HBM 생산…한미 AI 공급망 잇는다",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCY2pLVTE2Vl9qZkMybF9YWG5idmtzcWNxaVNEQjR2VkltaV9vN3NNdi1pLTVIWXZ6dGtrSnROVjhuNEh2YzdTdGhYX2xGQ3R2ekVpZ0dNYTRtaDdGS3RnTmt4WTk?oc=5",
+      "published": "Fri, 28 Aug 2026 08:38:07 GMT",
+      "source": "MTN 머니투데이방송"
+    },
+    {
+      "title": "고찬석 건설교통 위원장 “반도체 도로망 예타 통과” 환영",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FQkVYVFY1WmZ2SkJxcjIteE9vNlZPM3MzRVM2Qkw1VGp3V3lRYjBiVkVwVGtTWnNvYnh0SVl4ZG4xUmJDSVVpMFRoN09GLW5FYWNyZEY2bzJQMTBrbUtqMzU1WXlSYXB0T3l2T215bEhqODQ?oc=5",
+      "published": "Sat, 29 Aug 2026 01:28:09 GMT",
+      "source": "동방일보"
+    },
+    {
+      "title": "곽노정 \"2030년말까지 반도체 공급 부족 지속\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0b0JyZzBVcUlHZF9vektpRFpITlo0aHg1VUpnX1lQaGhVTnRGVXR6UkVSdGNJM3c0cXY2ZE5wSHB2dHAtZnV6bTZrT08xVEJFdmxzMDZn?oc=5",
+      "published": "Fri, 28 Aug 2026 08:54:39 GMT",
+      "source": "매일경제"
+    },
+    {
+      "title": "반도체 팹·AIDC·원전 ‘삼각편대’… K-건설, ‘비주택 슈퍼사이클’로 실적 랠리 시동",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wVk55N0tHWDE5ZkpJNTZYQjgtcVN2ajV3bXBLY1g3VGxnSUFlNUdjbURXOXNxXzFWdk9jVEtUNVJVZlFrUG5KeWpINTdjWC1ObHo1cw?oc=5",
+      "published": "Fri, 28 Aug 2026 22:00:00 GMT",
+      "source": "이투데이"
+    },
+    {
+      "title": "반도체 산단 들어서는 광주 군 공항 무안으로···‘이전 후보지’ 확정",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15ZmlkeWZDeWRvMDZ1VHR2aDE1WEFLSVMwRzlVMEFKakQ3NFJMSmJ2ekxHelV0eUNpLVRJemhMVkltRjRIRzZleHVLRVpSaGFteTgwdEVmUGM3UdIBX0FVX3lxTE1NUi1naGU1TlRqalNnQVdfYldfeEw3Nk9oUkpIb2FxdWNGRnJaTkk4OG5WTmN5RTZkaXVDWnJ5WkZaTDVnOUx0aGQ3TG4tM3NJcmNVbjBDTmUtOFdoR3ZN?oc=5",
+      "published": "Fri, 28 Aug 2026 09:54:00 GMT",
+      "source": "경향신문"
+    },
+    {
+      "title": "'TOP10'부터 K반도체까지···월가로 번진 한국식 ETF",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PeVFIUHlwXzlaZU5qQkh3ODBxSGN6LXhEbG54c2hESW9ZazVBdVZTclBzR3k0UUhPWjNVdWVNUndkOXJzeWRHNmJybDQtcU9PVy1Semk2dFRiZV90MzFmR1pjT2tpdTJpbXc?oc=5",
+      "published": "Fri, 28 Aug 2026 23:53:00 GMT",
+      "source": "뉴스웨이"
+    },
+    {
+      "title": "2030년까지 AI·반도체 청년인력 30만명 양성... 지방 중기 가면 \"2년간 월 100만원 더\"",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT0VUMFI0b05KNUxiMHpVX19MQ2hzT0pEeDdrc3otQ01OY2pVUzFjTHVIYlh6V0xGZHp3RzVvRjJoY0RmX1g2c1pReHZtTkxBSUZUbzI0QlI1bEFRaktGUXgyQXNmblM0bkxRRlNnOGNpcWJrTkItdk1WZDR2aXNDcDIxMzV1cTZrTmY2Y3p3?oc=5",
+      "published": "Fri, 28 Aug 2026 07:42:11 GMT",
+      "source": "조선일보"
     }
   ],
   "manual": {
@@ -5000,7 +5000,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 248.32,
+        "soxx_close": null,
         "implied_eps": null
       },
       {
