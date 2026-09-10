@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-09-10T07:52:00+09:00",
-  "generated_at_utc": "2026-09-09T22:52:00+00:00",
+  "generated_at": "2026-09-11T07:53:00+09:00",
+  "generated_at_utc": "2026-09-10T22:53:00+00:00",
   "prices": {
     "005930.KS": {
       "label": "삼성전자",
       "unit": "KRW",
-      "close": 269500.0,
+      "close": 269000.0,
       "prev_close": 269500.0,
-      "chg_pct": 0.0,
-      "date": "2026-09-09",
+      "chg_pct": -0.19,
+      "date": "2026-09-10",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-08-14",
-          "c": 71600.0
-        },
         {
           "d": "2025-08-18",
           "c": 70000.0
@@ -1050,22 +1046,22 @@
         {
           "d": "2026-09-09",
           "c": 269500.0
+        },
+        {
+          "d": "2026-09-10",
+          "c": 269000.0
         }
       ]
     },
     "000660.KS": {
       "label": "SK하이닉스",
       "unit": "KRW",
-      "close": 1856000.0,
-      "prev_close": 1793000.0,
-      "chg_pct": 3.51,
-      "date": "2026-09-09",
+      "close": 1853000.0,
+      "prev_close": 1856000.0,
+      "chg_pct": -0.16,
+      "date": "2026-09-10",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-08-14",
-          "c": 276500.0
-        },
         {
           "d": "2025-08-18",
           "c": 267500.0
@@ -2101,22 +2097,22 @@
         {
           "d": "2026-09-09",
           "c": 1856000.0
+        },
+        {
+          "d": "2026-09-10",
+          "c": 1853000.0
         }
       ]
     },
     "MU": {
       "label": "마이크론",
       "unit": "USD",
-      "close": 1027.77,
-      "prev_close": 1000.26,
-      "chg_pct": 2.75,
-      "date": "2026-09-09",
+      "close": 977.41,
+      "prev_close": 1027.77,
+      "chg_pct": -4.9,
+      "date": "2026-09-10",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-08-27",
-          "c": 117.75
-        },
         {
           "d": "2025-08-28",
           "c": 122.0
@@ -3152,22 +3148,22 @@
         {
           "d": "2026-09-09",
           "c": 1027.77
+        },
+        {
+          "d": "2026-09-10",
+          "c": 977.41
         }
       ]
     },
     "SOXX": {
       "label": "SOXX",
       "unit": "USD",
-      "close": 532.0,
-      "prev_close": 528.4,
-      "chg_pct": 0.68,
-      "date": "2026-09-09",
+      "close": 517.43,
+      "prev_close": 532.0,
+      "chg_pct": -2.74,
+      "date": "2026-09-10",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-08-27",
-          "c": 251.34
-        },
         {
           "d": "2025-08-28",
           "c": 252.55
@@ -4203,6 +4199,10 @@
         {
           "d": "2026-09-09",
           "c": 532.0
+        },
+        {
+          "d": "2026-09-10",
+          "c": 517.43
         }
       ]
     }
@@ -4210,15 +4210,11 @@
   "fred": {
     "PCU3344133344131": {
       "desc": "반도체·관련소자 제조 PPI — IC 패키지",
-      "value": 20.054,
-      "date": "2026-07-01",
-      "yoy_pct": -6.76,
+      "value": 20.102,
+      "date": "2026-08-01",
+      "yoy_pct": 1.44,
       "source": "FRED / BLS",
       "history": [
-        {
-          "d": "2021-07-01",
-          "c": 21.387
-        },
         {
           "d": "2021-08-01",
           "c": 21.421
@@ -4401,21 +4397,21 @@
         },
         {
           "d": "2026-07-01",
-          "c": 20.054
+          "c": 20.049
+        },
+        {
+          "d": "2026-08-01",
+          "c": 20.102
         }
       ]
     },
     "PCU334413334413": {
       "desc": "반도체·관련소자 제조 PPI",
-      "value": 28.987,
-      "date": "2026-07-01",
-      "yoy_pct": -2.72,
+      "value": 28.472,
+      "date": "2026-08-01",
+      "yoy_pct": -3.13,
       "source": "FRED / BLS",
       "history": [
-        {
-          "d": "2021-07-01",
-          "c": 29.815
-        },
         {
           "d": "2021-08-01",
           "c": 29.981
@@ -4646,20 +4642,42 @@
         },
         {
           "d": "2026-05-01",
-          "c": 30.187
+          "c": 30.215
         },
         {
           "d": "2026-06-01",
-          "c": 29.747
+          "c": 29.855
         },
         {
           "d": "2026-07-01",
-          "c": 28.987
+          "c": 29.058
+        },
+        {
+          "d": "2026-08-01",
+          "c": 28.472
         }
       ]
     }
   },
   "news": [
+    {
+      "title": "반도체 클러스터에 시민 '힘' 보태고 기업 100억 '기부'",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhZmplOHBpa1BxdE1Ha2RMb0xPNjdFRHlmQ0k0Um5FM3VNRl8yVHlVOUZwdHpKRnFIS2ZVQTU2ekY2amlseWdzeFlNeDliQzlQUE9jVFJMNmFSbTV6QWc?oc=5",
+      "published": "Thu, 10 Sep 2026 17:50:00 GMT",
+      "source": "YTN"
+    },
+    {
+      "title": "YMTC 품은 中 우한… ‘반도체 굴기’ 선봉장",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc1pMZ2UwX3M4MXh6UWtXaTd4alQ0UlZFMHFwQTBtb09oZUhQTmlQRHhRS3Y3Q193ZWdxRHhQSkNKYnY2Z0NYUmk3REV0VnpKQnJuWmtBMG5pTTZ5T3B3WHhpbEFzNjVoMkFNWVh4allRX0FDRW5SNHlYcl9kM3hKTVdMd2NSdw?oc=5",
+      "published": "Thu, 10 Sep 2026 18:00:00 GMT",
+      "source": "조선일보"
+    },
+    {
+      "title": "“삼전닉스가 공동개발하는 격”…중국 ‘HBM 연합전선’ 무서운 까닭",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14VVJOYVZlWXBzMjlFTVRYZTJFZlF5MS03dGlZQjlNdUNSOHc1UnFfSnFGanRZMTRnUERIX1hZSUpVME9lYTNIY3pEc3FSczA?oc=5",
+      "published": "Thu, 10 Sep 2026 21:51:00 GMT",
+      "source": "v.daum.net"
+    },
     {
       "title": "월가 \"마이크론 좋지만 SK하이닉스는 더 강력… AI 메모리 승자 하이닉스\"",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOGNNaWF0a2tza1JDNGdwYWVVNmt2cTVuNlNaeXRRekxxOThqOEpoekVxT2huOGlhdC1CLUlueFY0dTQ1RXdXVUg1YWs2NDUtcUxCQVJ0Y3d0SjZWdXBBb1pleWVLMWdDZVhJa21QWE5VZWxkeDNQT1lmdWR0eU5vclNkYkhqWVhu?oc=5",
@@ -4667,196 +4685,178 @@
       "source": "글로벌이코노믹"
     },
     {
-      "title": "[오늘의 삼전닉스] 외국인 반도체 러브콜 속 삼성·SK하닉의 온도 차",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12OWVvdXJpdENDdEdKbzkxV2VhQ0UwZUxVcmhQR1pRMzctYlJfeXlKR0FVcmRGbjVqMFRYaTRoSjNwRVpnRVdhOC16TmlnNXFNSWlrbnZHSzcyWENBaklMd0JR?oc=5",
-      "published": "Wed, 09 Sep 2026 02:30:00 GMT",
-      "source": "이코노미스트"
-    },
-    {
-      "title": "\"메모리, 반도체산업의 왕…전체 매출의 50~55% 차지\"",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VVXprQ29rZUhOeVUyMTJnSTNrazFEV0trVjJVMWdLRmN3VXlub2RBTFU1Z2tWNzR5aFNaT202Und3ZXpqMDBHS1c1MUJfb1dOUUE?oc=5",
-      "published": "Wed, 09 Sep 2026 22:28:47 GMT",
-      "source": "매일경제 마켓"
-    },
-    {
-      "title": "[기자수첩] 반도체 기술 지키려면 '사람'부터 붙잡아야",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE54OWpDVGNxdVlYeTdNQVdvYXBDMmthUjRjZGMzS2VyeGo5YXAxZWNnSWR1VmlBbEUxWXR4SWRsbm0tSWZZMkZ4alNSZw?oc=5",
-      "published": "Wed, 09 Sep 2026 21:00:01 GMT",
-      "source": "아이뉴스24"
-    },
-    {
-      "title": "무라타, AI 반도체용 전력기판 'iPaS' 내년 양산",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ZX3RCMThQNklaajI3RzJLTHJRaWJ3WFlXUmUzLWxSRGFSRmpPWkdITVRiX2h2RUtUQW40ZlBKZlQzY0RRT1FNT094S3V3RjlWWEoxT3RRRnZJTGZYWWdUdVNCVEhYdw?oc=5",
-      "published": "Wed, 09 Sep 2026 20:57:20 GMT",
-      "source": "디일렉"
-    },
-    {
-      "title": "AI가 뒤집은 반도체 판…메모리, 매출 절반 넘는 ‘왕좌’",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15bGNHN3BQNTJieVByOXp6THVNT3ZaM0QzSG9QaWwtVkk4YWlGdTJaRXZESVFzdTFvdTIwcXVLRk1relBoNzZ5OVpzQ2J6VTA?oc=5",
-      "published": "Wed, 09 Sep 2026 22:45:27 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "약대 제친 '반도체 계약학과'... 굳건했던 '의치한약수' 흔들",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tSWFOYTFxMy1JdUxmUmRreTJ4TVhUZ0hvU1ZNTWd0eTBoOUhTRDlJUlZ2VXBPWWd3Skc1eXBtTXJ3a2dxMzhMVVpMVjRBelU0bnZkd3owYzdTQVZDTll0Z3c2YUNpQTNHbkpmVw?oc=5",
-      "published": "Wed, 09 Sep 2026 20:55:00 GMT",
-      "source": "kpanews.co.kr"
-    },
-    {
-      "title": "'K반도체 원팀'의 골든타임[기고]",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YSlg5blQ0dmJROFFHX3NNZmhwaDZ0YlVwMGpHRkVGVVlob0lHYjhGbnFlaGlFVzJSUGhwVEdNUVE1VjNCSVdqTjBvZnBEWXJGVDJjZXRjT3piMjVYZFU1X01uYnZwcVc4ODRKemtR0gFzQVVfeXFMUEczeWdPbnZ3R2dpVi1sZ3RIYzQ3VnBUbVgyczRxdkQtOE5SWFBaSTdRVHFJdks4V0pQaVNhdVBiNzdEWHdFSTQyRUg0TjZKY25xZHQ5Y0ZPV1ZvLVdSeDlvV2ZLdkV4TDlsSjlDMms0WXJMaw?oc=5",
-      "published": "Wed, 09 Sep 2026 19:30:00 GMT",
-      "source": "한국일보"
-    },
-    {
-      "title": "뉴욕증시 하락에도 코스피 7천선 탈환...반도체 강세",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13UHlESWY0VUxIeU9ZNW1ranp0eFJTMnlGLTV3NVhWY1BUdTM1czMxcmFwaGwtM3lyUWhLcC1falZGV21LREpDa0pmNWQ2NUdQRjlrM3JDTVp1czJ4V2c?oc=5",
-      "published": "Wed, 09 Sep 2026 09:12:00 GMT",
-      "source": "YTN"
-    },
-    {
-      "title": "코스피 7,000선 안착…AI·반도체가 견인",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RWmRBVXRnMkFHdUNjOEZrX0s0TEcyUDFlVVVud21ta1pfQUFNTzl3TktidXBmRm5tQTR4RlI5eERTbmI0ZVJrOXd3NDlBVVlCNFg0NEtTdFE2QzdlWFZ0dtIBYEFVX3lxTE1RWmRBVXRnMkFHdUNjOEZrX0s0TEcyUDFlVVVud21ta1pfQUFNTzl3TktidXBmRm5tQTR4RlI5eERTbmI0ZVJrOXd3NDlBVVlCNFg0NEtTdFE2QzdlWFZ0dg?oc=5",
-      "published": "Wed, 09 Sep 2026 07:09:41 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "[中 거인의 공급망] ①반도체 검측 장비 '정측전자' 없으면 'CXMT'도 없다",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5uZ1MxUzFtd2JZZ2ZrWEJjQlZ0MUl0WnZuOGVQQjl1c0hkWTd6OW9tbjY4Qk9SQkVlV2xUNFZqWlZfQjhvaXFNbEtJRC12Z2xqQmpFeWl4UVRoWWJx?oc=5",
-      "published": "Wed, 09 Sep 2026 22:00:00 GMT",
-      "source": "newspim.com"
-    },
-    {
-      "title": "미국 메모리주 강세…SK 하닉 ADR 7% 급등·마이크론 2.8%↑",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZT2t1S04tVTBaV1JaTGdoRlhEZ0Rnc1dzNW5VUDhEWHlTNlJOdWdyVXBETGVUOWFZSXB3bmdGUS0xNkRuQmJSMkZsblYxdHJNWU1wNy1LNE02a0lPaWszUE10Z1B0SjTSAWxBVV95cUxQNDR6WEhhVWJ4aW4xelhQSy02emgzLWVzbWZWbEtFTHhDaFNTLXp6c1d0cnlBeFlYRmJGYXlfOFNzZkNzZncxLWY1TmUwV290STFPZmNxYmZRVHpWSWc2Rm1qaXF0NTA4NlNQdGk?oc=5",
-      "published": "Wed, 09 Sep 2026 20:56:18 GMT",
-      "source": "뉴스1"
-    },
-    {
-      "title": "제프리스 \"반도체 등 AI 수혜 기업들에 투자해야\"",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fbmktT1pRWWxLYVMzVWliOE44MURtRVRYQ1dpak5peHd6T3drcER2Qk9HSGpVNnVXVWpwZkFtakk5aG1GZkYzVmxPY0kzZWM?oc=5",
-      "published": "Wed, 09 Sep 2026 22:06:00 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "반도체·2차전지 강세에 7천선 탈환...내일 예고된 변동성, 전략은? [몇층이세요]",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hTHh6MXZFLTV1ZGYwR210TUkxclBoU1BPeWtpYTV4V2ZYZ3I3aWhsSUxwNW1IUU1lY1RCSjBfSlNQRnhiMkw3aGhsSE1CQW04WHk0cTYtTld5c290REE?oc=5",
-      "published": "Wed, 09 Sep 2026 12:50:00 GMT",
-      "source": "YTN"
-    },
-    {
-      "title": "AI 돈벼락 맞은 반도체맨⋯아시아 新부유층 떴다 [AI시대 新기술귀족’ ①]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45SWp4bEpHa05vWFdlSmtGX256U08wQmpmQUc1WXJIaEdGV2k4OGtDeUJkR09yNkY4QTg5WFRCXzgxNWt2dGFqNkVYZFpTTDQ?oc=5",
-      "published": "Wed, 09 Sep 2026 20:00:00 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "반도체 호황에 기업 영업이익률 '역대 최고'…성장성·안정성도 개선",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2MkxCQjE0ajdyTk52VzF1TElQQ29lYzg3c1o0ZTM4VGwtSnBJbVpEUml3OFpTTGRrVTl1RVk0elotbGJrTC05MzRSZ0dyUk0?oc=5",
-      "published": "Wed, 09 Sep 2026 22:23:54 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "\"AI·반도체 영토 넓히는 강원\"... 우상호 지사와 김동철 한국전력공사 사장 나서",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzZVlkUGlrNjNCWkFId25HanVHRUlQRXpxOWN1ekRQX3dwTlRJNE04SWktZWdPVGV4ZkZzcC1mRWpuVUh5ZUpyWWdzWmdGWG8?oc=5",
-      "published": "Wed, 09 Sep 2026 22:23:04 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "[기업 실적 온도차] 반도체발 훈풍, 서비스·건설업까지 확산…수익성은 아직",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xLTRnV25sTDVGNHdKN0FiQk5EUzB2SXdESU1yem0wQWlJNlI2cWFBNDZubmVYS2tEQ2xyUldrUlR5SS1aZ2hJVHFBRmRKU0k?oc=5",
-      "published": "Wed, 09 Sep 2026 22:24:18 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "국도45호선 용인 반도체 도로공사, 다시 사업자 선정 나서",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DNFZhM1BEY1YyMkpucExLaVFHcXp2M3B2Z1dXbUlaZ1drbVBaSGtGTFhVOF9lWTltamI1WGlEZzhySkluZnUwazhOaEJQaXdVR1R3TXkxWmF3SlVpSE92NUdPWUk?oc=5",
-      "published": "Wed, 09 Sep 2026 20:00:01 GMT",
-      "source": "MTN 머니투데이방송"
-    },
-    {
-      "title": "마이크론, 메모리 공급부족·실적 기대…주가 2%↑",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oYXpjaFRva2VEQ2d1Q3lWYUVXem4wRTEtdDY3MGMtX3hsMjc2Z1kyRUViWkF3SGRibkxjWUljZzdYS3p0amFrelZvUnJkWXYyYzg5dURZOEEtYkZ5NUF4bTU2NnB6LVJyajlRSG9tSGZFOW8?oc=5",
-      "published": "Wed, 09 Sep 2026 17:05:39 GMT",
-      "source": "마켓인"
-    },
-    {
-      "title": "과기정통부, 프랑스와 AI·반도체·양자 협력 강화",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jZEl4WWU2cG13WkFLSTZfbXg4bDQxMHlXQU9jemFhQ011QTAzTzNsX0ZEUUM1MURjTy1yekxmS0VrMnZGSjVqOEljdw?oc=5",
-      "published": "Wed, 09 Sep 2026 13:00:01 GMT",
-      "source": "아이뉴스24"
-    },
-    {
-      "title": "삼성전자·SK하이닉스 1.4조 매물 예고…마이크론 3%↑에도 유가 100달러",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VRUo5UFJybE9VVDNFYmI3eVd0UDRvSU1pTkYwRU42TUtMb1JianFpR0FJQk5GcmNzblM5Uk1IaFREME50VEFoVEFrT3BaM1lIUE9scVBjN2JNN2xycXNsSk1QM2JkWjRt?oc=5",
-      "published": "Wed, 09 Sep 2026 19:22:44 GMT",
-      "source": "녹색경제신문"
-    },
-    {
-      "title": "[中 거인의 공급망] ②반도체 검측 장비 '정측전자' 없으면 'CXMT'도 없다",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CMklDbjZTVi1XOW1LRmhNcV81TUk2ejQ1cG80VWlpWlNwLWtBMlVtN3pkU2wxb3VIQlZqMUloVDJwZ3JXZlNLd2ZfcUpWOGQtX09WUGg3cmFqQzdx?oc=5",
-      "published": "Wed, 09 Sep 2026 22:00:00 GMT",
-      "source": "newspim.com"
-    },
-    {
-      "title": "“반도체 슈퍼사이클 아직 안끝나… AI 관련주 등 함께 가져가볼만”",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Tc1BsSG1jTHJWTmxUS2xtTmhSV3cxaTlJWk1LLVJYcXhSVjBQSk1GdWxmZUpRWkg1VWthNE9TSUM5VTd1S3hla1pUSXQzWV9NelZuQ1NubWFqX1pDaFBxLUtoT3FKSTBjOU1kT0NyR0JrVF9ZOWfSAWZBVV95cUxONzliWEh3dEVXRndGSUZSUDl6TVVjX1BFbld0M2xOckVncjRhUjhSRF9mY3FlOVhWY3UzVXVtVFltZ0wySWo5cXo4VnBKQ3hRcDRwemozUmpaNUsyNHdiVXhnV3Eyc1E?oc=5",
-      "published": "Wed, 09 Sep 2026 15:30:00 GMT",
-      "source": "동아일보"
-    },
-    {
-      "title": "비틀대는 반도체株…SK하이닉스와 마이크론 중 선택한다면? [재테크+]",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SbElabnl4bkVOZXkxVzRSaW1jeFlWOHlLX1hzRVliOG9pUzZtRTFVTnRKOXJTbTExQ3VHTU9PWGJaVzVQWGR5Q1ItMldYOVRXN3ZqZWNfZWFoZlB0dE1yN3djUjdQN0pFWm1kZlhqVQ?oc=5",
-      "published": "Wed, 09 Sep 2026 12:18:00 GMT",
-      "source": "서울신문"
-    },
-    {
-      "title": "유가 100불ㆍ국채 겹악재…그래도 SK하닉 7%·마이크론은 2.7% 달렸다 [뉴욕증시]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wdVVaeUtCdzh4WmZ1SmkzWlltV1pScUVZbWRJREtLMHE4S0o2OWl1YlcyeDk3ZnFDOElscWZoM2ZBV1ZMTTJVbU1NMWNWcTQ?oc=5",
-      "published": "Wed, 09 Sep 2026 21:03:00 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "직원은 ‘월세 꼼수’, 위원장은…삼전 반도체 노조 왜 이러나",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qZGxSakZwVlJKR3JILTFPQVhwd0NXcXRwNVdudkRUOEI2a3pEQklXSE9kYy0zeXBlZjl0X0xIMDRYajVsZUlDNGo2MlZCSHp0U0ZLLQ?oc=5",
-      "published": "Wed, 09 Sep 2026 11:02:00 GMT",
-      "source": "JTBC"
-    },
-    {
-      "title": "삼전닉스 있는데 한국이 불리? … 2030년 반도체 멸망전",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13U1czMjhMTUZiNHAxaFpfb3ZJNC0xZWRaNzNsazNrYkpEekNsTy1XYi1fOXdTQU5waDlNWHdtRng5enVHX2VJMWtuY1AwU1lSeEFlOEhn?oc=5",
-      "published": "Wed, 09 Sep 2026 19:30:00 GMT",
+      "title": "“자꾸 의심하는데, 삼전닉스 앞으로 더 좋습니다”…‘반도체의 왕’ 메모리 가격 더 뛴다",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84UnB2M0NnR3pfcG8zSlJjSnRTTDRXNnFaVFdvZ0hzLUd1TndJWXFiUnpnR0d1T3hUbGVlaWw1WnNOR3ZmcXJkTnRfZEFMNmVVWXVzVkV3?oc=5",
+      "published": "Thu, 10 Sep 2026 02:10:51 GMT",
       "source": "매일경제"
     },
     {
-      "title": "삼성·SK하이닉스도 주목한 ‘물산업’…대구서 AI·반도체와 융합",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoZUkycVlTSHB1Yl9fbnRKSVJzV3hEbWJWY0Zfc2twc3N0Ti1wanRfY25VbV9EU0dGUWstVmlhRFFaXzBvTzBwOTE2N281bE9qYjV3WDNSZ0xKcjVEYUlVa19MQkNWQ0xIZDN4R2RSWQ?oc=5",
-      "published": "Wed, 09 Sep 2026 09:42:57 GMT",
-      "source": "kyongbuk.co.kr"
+      "title": "[연재 기고] HBM 적층 공정에서의 Cu 인터커넥트와 CMP 기술의 역할과 발전 방향",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wNDNsWjY3SjBCbmNURjFxNWlJZEd6ZGFSVHZRVlk2eGszMFFxOGZWMjNLdWJqUFBBWWZvR2FRYmJ1RktnTVRIQzJlMVlyWE5NRF85WDl1alZVd2ktM0pTNmNkNmNubWpOOUp3YVpn?oc=5",
+      "published": "Thu, 10 Sep 2026 19:20:40 GMT",
+      "source": "elec4"
     },
     {
-      "title": "엔비디아·SK하이닉스 호재에도 마이크론 주가 '무반응'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY2pyQ3JOU3kzS0U1ejExc2thTXF3eU5KaGFXSTZzaUxiTlliWDdheENPYi13SFI5T21kOXQzcmYxamY4dmpkLXBsc2ZodmgtbUl5ZkJwZnZkUXl6SFIwaXdmblk0VFlfeTZYUlVhSTQ0Vi1UZnl4OGRNdko0bjJTQ0NMRDV1dWo4?oc=5",
-      "published": "Sun, 06 Sep 2026 18:00:00 GMT",
-      "source": "글로벌이코노믹"
+      "title": "외국인 삼전·하이닉스 3.2조 팔았다…마이크론 4.7%↓·유가 107달러",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xckoybFB4d3RzQU9sNVFxMEY3Z052Z2lmVENMMU91blE5MGxYTU1sSTRueUl1VlEzY0JNaUt6VE9pa1ZCRTBkVGs2UzIyR1lUZ1htOHliMzZldnVVcDhZQW50N2VHanR6?oc=5",
+      "published": "Thu, 10 Sep 2026 21:04:27 GMT",
+      "source": "녹색경제신문"
     },
     {
-      "title": "반도체 호황에 핵심소재 ‘몸값↑’…고려아연 증산",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RR0tJLUNhbDVSNldwTThXY0NZVE9oTnBmNEhRS2d0SUpPSks1bEs3eW9Sdk05OHFxMDZTNExOS1FybnNoWkUtRVItSElxYXhWS3NJeFlJVDNQMGdDei1QZmZEdGFrUQ?oc=5",
-      "published": "Wed, 09 Sep 2026 12:49:00 GMT",
-      "source": "KBS 뉴스"
+      "title": "\"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Z1c2VWJYcVJJanhlTFdvbmJ4MjFmeW1aSEUyZllDdVJOMFNKNVljV1FqQzZpT0VaZGtmbW4waEliVEVqdkwzNEYxY29xX1N1NWtta0JCZG01dw?oc=5",
+      "published": "Wed, 09 Sep 2026 22:53:18 GMT",
+      "source": "한국경제"
     },
     {
-      "title": "한-프, AI·반도체·양자 협력 강화…공동연구·투자 확대",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LU09QTUNwM3FTRkRGWWxvM3M1OWxVMGJKQkMtMmhzaVd4SUNFYmMteFhpVi1yRW9ZVlViMVg4VW9qQXViUDItbm1iUzZwYmc?oc=5",
-      "published": "Wed, 09 Sep 2026 13:02:01 GMT",
+      "title": "[속보]美 반도체주 급락, 마이크론 -4.9%·하닉ADR -5.2%",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KSUhIaEwxYWphckdISnFHM2t4RlluYWtkY2xLbUxXbFJLME1FVjhRQzMxbENPUWFNbTJmbzBlYjV6M0pIbW9KLThURVlQRFFw?oc=5",
+      "published": "Thu, 10 Sep 2026 21:11:55 GMT",
+      "source": "문화일보"
+    },
+    {
+      "title": "[패키징 발전 정책 포럼] 반도체 패키징 3대 키워드 '하이브리드 본딩·CPO·AI'",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZYmlrYTdPUm5qSGE5VVo0blJyTnJKZXhxNDZ3XzV2cGEtTUVKX0I0ZnBzOEZhV09LWDA3NE0wN1p2MEU3YUdNMjRTOFR2dw?oc=5",
+      "published": "Thu, 10 Sep 2026 08:00:00 GMT",
+      "source": "전자신문"
+    },
+    {
+      "title": "한화자산운용, PLUS글로벌HBM반도체 ETF, 상장 후 950%↑",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlMU5Eb1IyNGYtYzRjWndIOWtxaGVLT1d6Rjdac2NBNHZaMWhhLXc0LXl2bnZ0Smc1aExrekk1QU54N0x0UFkzR3ZPQ3FPdUphMURFWVpQa1cwLUU5RmphYQ?oc=5",
+      "published": "Thu, 10 Sep 2026 07:49:08 GMT",
+      "source": "메트로신문"
+    },
+    {
+      "title": "\"韓 제조·반도체 강점, AI 풀스택으로 연결해야\" 이재욱 서울대 AI연구원장",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3OTlnbm52MXJZaVZ4QS1BYk1jdk9VVkRHU01iX3R6OEFEZDF0VEl2VGsxenJ0YmdxVFpNZkM2Ym5yVUpSRnNQUXpRaW9FLS15OXBoU010RzVBXzJZcGxZVGk0b2JaZHU0ZkE?oc=5",
+      "published": "Thu, 10 Sep 2026 08:40:00 GMT",
+      "source": "헬로디디"
+    },
+    {
+      "title": "가난했던 신문 배달소년…구마모토 ‘반도체 왕국’ 세운 비결",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HbWMycnRaUUFDckVqUV9sd2xLZ21Nd1FlN3V6Z3gzOFZwcF9qNERHNTU4UXZQSUNDMFRUTlc1X0dJb3RpLWF5Ul80RGcxcF9PbHBpa0Zn?oc=5",
+      "published": "Thu, 10 Sep 2026 20:00:02 GMT",
+      "source": "중앙일보"
+    },
+    {
+      "title": "큐알티-에이아이웍스 MOU…반도체 검증에 AI 접목한다",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCa0xXR1NIMFVlQnZ2czc0bzVJXzVNblAxUFhGc29sWEtlTG5rUGlVVmJ5VkgtYzVMNzg1V3FZUmtFODFwelF4ODJvOTJISHNxejB6RXV4QjV3NTdqWFdNVlpUVll4dw?oc=5",
+      "published": "Thu, 10 Sep 2026 12:20:04 GMT",
+      "source": "디일렉"
+    },
+    {
+      "title": "“반도체 같이 하자” 최태원 제안에…일본 키옥시아가 거절한 이유는? [잇슈 머니]",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NNW1aOHhzN2Q4emJ6VThjczBrSjJPN09BUkMzNzY3VGJNME56dTQ2WWp4Tjl2c2dUUVNOS3QyaUltaTFMMUF5ZF9Eb3A5WVE?oc=5",
+      "published": "Thu, 10 Sep 2026 22:05:54 GMT",
       "source": "v.daum.net"
     },
     {
-      "title": "유가·금리 동반 상승에 뉴욕증시 하락…반도체·SW주 등락 교차",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85ZkxDYW1yR1ZyMlYzVnVQaTB2YklsY1JSVzQ1QjhwUGQxMDB5ME1MSVlBMHFMYmxnaDQ3U1ZBTHVrU1BvUGh2R2lTT2d1Nks2X3U0c0hNOWg5UjdoNHhCRG0xODg?oc=5",
-      "published": "Wed, 09 Sep 2026 20:18:49 GMT",
-      "source": "디지털데일리"
+      "title": "\"호남 반도체 부지 100만평 추가 확보 검토\"",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTHFDaF9ORDVqWDlQWEYxTDVlNzU5ckFqNDE0RW5pZVZEWTN6MERwVE9XTUE1QVdqT3JnUDVIQnpBdjRYWXlLNzJxSlpDeDVBNU5ONEdIT0NTcWdHTlM4cjZ2aHBsSEY0eDg5bnFGRC1uZ1hCSWdSZUNkWWJ5SldMSGV6U1c0YmNNU2VvMUlhdVc?oc=5",
+      "published": "Thu, 10 Sep 2026 15:40:00 GMT",
+      "source": "조선일보"
+    },
+    {
+      "title": "83개월치 보너스 충돌… 마이크론 대만 파업 위기에 HBM 수급 촉각",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMW54U29GbWVscFFOMHh3ZTVoMHl4OXY5R05vclRuZU56cDdZM0tuSGU5cl9lVG9NTmpGXy0yb2JSdnNCS2hmUXFERGM5VnU5X3BybTA3ZWdIcXFIRmxqSjZnejE3cnZ4VnZ2NEYtbHMtaWxvMzN6dXlGZ2tDajh3RlBZY09jOWs?oc=5",
+      "published": "Wed, 09 Sep 2026 00:41:18 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "“반도체 투자 정점은 2028년으로 전망… 하반기는 SK하이닉스에 기대”",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FZDlVb2JBRHhEd3RTX2NGeTJqRndEMXFQRnNaR01QWmlMSG1xZGMybFVrR3FtSFdKcHR3TGQzc3pEcGl5UjN5QU9TbG9WNTA?oc=5",
+      "published": "Thu, 10 Sep 2026 22:02:00 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "반도체 강세에 코스피 7000선 재돌파…하이닉스 3%↑",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcHlpRVRKYXg4V3lHUGpidDVFRE9BWHZWcldXRHRQa0NfVkNiWmdSTmdlT1psTFJCaGM2MHQzZlhkTy1SMXFPVUJ2OHRfYjluaTVxUXJSNXNUUktSNmRMR3EzYlE5Um9NV1I5dnhMUEh6QW5mT1pHN2dNUncwZlp3bQ?oc=5",
+      "published": "Tue, 08 Sep 2026 00:36:53 GMT",
+      "source": "조선일보"
+    },
+    {
+      "title": "같은 반도체ETF 인데… 수익률은 27%p 차이 왜?",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWR0FsTjY3Qmk3STQyaks2QzloQ1ZxQnlwc2lISFdBb1pIYjB4R2gxWTVod3ZCalBQcVFNb0RnUzJ0dFRnVW9Tc2tuMW1MS254QlhYWDlJMG5ZaUhhOEFWUXk4VDdIRmdHRjZYdTk3VWPSAXRBVV95cUxNNGJVNjAtaFN2LXI5aW54YlUteWxvRW54N0MxY3RzN3NrRlFaSUVHTUltSE5mTHZVZVByVjR3cEZqalRZYXRPWng3VllkMlY4cDBqVUtmb3QzSXZSa0NsWGRjUVFCdGpsNW5mZlB6QkVmd1RIZw?oc=5",
+      "published": "Thu, 10 Sep 2026 21:30:00 GMT",
+      "source": "it.chosun.com"
+    },
+    {
+      "title": "NXP 반도체, 피지컬 AI 중심 전략 전환… 데이터센터 매출 5억 달러 전망",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzMHh5LWRvZWpyM2txa3M1ZGtHdDJkTXNOeTRBMHM2aFViTTZTZEpQcWVnWlY2NWRwSmFEUmRfTkRwZTI3LVhqLVZaSnJSTURJM2RBYkVuUS1tVTc1dXZjT25hSHpMWUE?oc=5",
+      "published": "Thu, 10 Sep 2026 19:00:00 GMT",
+      "source": "초이스스탁US"
+    },
+    {
+      "title": "반도체·전력기기, AI 슈퍼사이클 수혜에도…금융시장發 하강 압박 경계",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUTNrZnJCWnlidUYxT2pfZ2hOZnc0ZkI0WWVsNWl2NjVlUVYwZTMwVkxHX01DVFk0UC1fRGRoNVloYXJrTnRGcm1hSEtmNWpmclFQYVRxTGVTMnVNZXlqMmEtcUE0UVBjZVFHLXFzY3ZmQVpsMVVFVFB3eW5JcjIzSUVFbw?oc=5",
+      "published": "Thu, 10 Sep 2026 07:30:00 GMT",
+      "source": "인베스트조선"
+    },
+    {
+      "title": "여야 \"AI·반도체 핵심은 전력\"…서남권 클러스터 전력공급 해법은?",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YUl9BNlNrejJhVkpKODMtQ1hPLXoxOThhNXZnRk1RRTRRb1F5X2M3ZGVQQlZPR1d1akh0YUNRbFF4M20tRFpJU1pPeEtxYmpOZXY0NUNSWFBwRHVx?oc=5",
+      "published": "Thu, 10 Sep 2026 10:04:39 GMT",
+      "source": "뉴스;트리"
+    },
+    {
+      "title": "9월 반도체 중심 15조원 판 개미…현대차·LG이노텍 '반등 베팅'",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZYy1BNXFnaDBaMFU4ZDlGMzJleWZab1NLVmk2ZW5tdFM3OTU3d09sY3RoV0d0SVhaRlNiOTNrVmtJUDhiN0NrMFRFQTNNX2stOG1hcmxLZ21kdHVlUHZr0gFkQVVfeXFMT0F6UkdDSnpRNE5XQnlJYWtjY3JaMzdvdlc3ZDlGd0FyWi1uaVA0OGdKRl9SMlpaNk9MbjBCNTI5czNGS2YxVWNUQUFEcXc4UnZLbjlKY2dfMHZsRlVvVFZwcmJtag?oc=5",
+      "published": "Thu, 10 Sep 2026 21:00:00 GMT",
+      "source": "뉴스1"
+    },
+    {
+      "title": "전남광주 농민들 “반도체 삶아 드시라”…CPTPP 가입 추진에 트랙터 시위",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1OWFFxSzY2a2ZfalQtMnVod2d5STRaWWtOMGZ4RHVBS3NmVXc1bjEzSlpCZXoyRGFNenM3ZDB6NE1fbDBhSDliOVVPd0RDTUlSdWR3RmZBY1dvUXA0enphNQ?oc=5",
+      "published": "Thu, 10 Sep 2026 13:12:00 GMT",
+      "source": "한겨레"
+    },
+    {
+      "title": "[전남광주 반도체 명암③] “팹은 광주로… 동부권엔 뭐가 오나” 소부장 기대 속 소외 우려",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jVTZYc1p5Q0tZVWJwelZwdFhfNGFWalhtVDZMd3R4RUdHTVpXRml4VkpTQU1BdXN0ZVozSGpOSVpYYTMtRHk5OG9XQ0E2cXZOSkJ2VWVpd2hxbHEwZlFXMmpkSzlqaWZDNWc?oc=5",
+      "published": "Thu, 10 Sep 2026 22:00:00 GMT",
+      "source": "천지일보"
+    },
+    {
+      "title": "[사설] 반도체 초격차 종결판은 패키징이다",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9QQUF5VXJ3Umo1Y2Z3eDdzbjF3N1JBYXczSzVVaUFXT2MyVk5oRU40VFNJN1J1cnkxa1VNS3hDdVRtM3lWRVRvRm5ub09mdw?oc=5",
+      "published": "Thu, 10 Sep 2026 09:00:00 GMT",
+      "source": "전자신문"
+    },
+    {
+      "title": "[韓 경제, 도약의 조건] 명목 성장률 급등의 명암…반도체가 키운 소득, 물가·집값도 자극",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtVF8yQUM0MDlWLTUwN0txbG9YVXBWcHJ4ZkNJSmc4SlZYc2VLY1dIYTg1NHI3b0lHVEczT01pUXQwREtPN2pCSzRBMEJXczg?oc=5",
+      "published": "Thu, 10 Sep 2026 22:44:00 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "한신평 “AI 반도체 수요 둔화, 금리·유동성에서 먼저 감지”",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UT1M5bzk4c1VCM1hTa0VVVndEczYxVUlwb3VCTkZvMExEbjU1c3p3S1ZBeWhLcFJqWkpicnRrNXNUVGdvak1QRGV5R2RUdkFkQnBJZG84eUExVEtHaFhMZTR4UDVWTE9velBhTUtaNA?oc=5",
+      "published": "Thu, 10 Sep 2026 09:45:07 GMT",
+      "source": "뉴스톱"
+    },
+    {
+      "title": "대구대, 삼성전자 협력사와 AI·반도체 인재 양성 맞손",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IT1hOdGRwWWtiRDZSa0hxMFh5TVd6enB6SDE2eC1hdy1rVTNQcnBiSjdJcFVBbklDckc3ZFdMeDNMN2NRWlVmZ2VLcURENVdJWFBlajdYX0VDVXVqQnZDSlU3MkdPblZQYWNlWjBURQ?oc=5",
+      "published": "Thu, 10 Sep 2026 09:21:23 GMT",
+      "source": "kyongbuk.co.kr"
+    },
+    {
+      "title": "[중국증시-마감] 중동 우려에 하락…AI·반도체 약세",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JTXFDTlRodWpOQnJiRWxtOWszT2lPQVktdWQ5YzhDWEljX2xlUEp3YXpxd2lYZWt3cFkweFRmQm4yb2ZTZFZSOFU2NXgxemtTNHpfa2FjbmZwSmtDV0RMQUxNbmpwTHJGaDFYcWlfUVo?oc=5",
+      "published": "Thu, 10 Sep 2026 09:23:49 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "메모리 호황에 '소모성 소재' 잘 팔린다…솔브레인·동진 실적 '쑥'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yaFBabkN4YW1faEdFeVlmZk9VTjVrS2pBTXZNS1RLN3pYOEF6WC1yX2hCZk81ZWlwN3ZRVjVOdjhxUXF5OTAxXzdidk1kNXM?oc=5",
+      "published": "Thu, 10 Sep 2026 21:11:00 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "NH아문디, ‘HANARO Fn K-반도체 ETF’ 연초 이후 수익률 1위",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JbHA3WlVMeVVjamRoRXk1ZlBUZlpKcFczSGZNcmZfa2pjN3RSMzN5YVFlaTVIZl8xN3J6WmtzTTVKOVpmMkY1ZHpfOXJUdHFjWU9LTHRDYjl4QQ?oc=5",
+      "published": "Thu, 10 Sep 2026 08:34:00 GMT",
+      "source": "농민신문"
     },
     {
       "title": "삼성전자, ASML과 차세대 반도체 제조 협력 확대",
@@ -4865,40 +4865,40 @@
       "source": "Samsung Global Newsroom"
     },
     {
-      "title": "코스피 7051, 33거래일 만에 ‘7천피’ 탈환…AI 반도체가 고유가 악재 눌렀다",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0waU5DaVItbXpNSlZUcVRFbTVPWGdFNDNWQ2JiWXVDd1NtUkNXUUZ0UjJvTTVFOWRWLVJQMnR3QXJsbjNqR3JEckpzSHkyYmNyQVBJNGN4ZVlZeE1Rd0NMYm55a2ZUc00?oc=5",
-      "published": "Wed, 09 Sep 2026 19:53:03 GMT",
-      "source": "지이코노미"
+      "title": "\"반도체 개미 설렌다\" 유가·금리 뛰어도 다시 들썩...7천피 방어 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sSzVMbng2SUoycjhYOHlscWpHcVZ1M2Nod09kWVFtSzU1SFJKNzZMVWhOQUNNSWdJVFZva1FKb2J3ZXRjdWR6YjUxeUxkdUx4bVhDTkswdkU2V1ZxRXd5OHo2Q2tNZG1w0gFuQVVfeXFMUEVhT1ItaHdWZW5rR3NoRlBxYlZFX3VCY0tLamgyWHNXV2R0cmZqYm9NNEhNMXhxdUVhXzlVNW1iXzB5aUV1aWlLN282amlITXR5Q2ZtT2c0OVJadmRMeU52ZEotSEprcXQtNm1uS2c?oc=5",
+      "published": "Thu, 10 Sep 2026 07:49:32 GMT",
+      "source": "머니투데이"
     },
     {
-      "title": "한·프랑스, AI·반도체·양자 동맹 넓힌다…공동연구 넘어 시장 진출까지",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrZXF0VUxsSUVKRnZHanY0Tmk4MGVpMGhTcGJJNE5hU0h5aVRUZ3Z6TFNFM3BFa0JWYkVnR1d3cW1nSy0wbFJDaGs4WVhrSXZXT0dqN3lhZmlJRGxqbUI5cjhjQ1c3NWs?oc=5",
-      "published": "Wed, 09 Sep 2026 20:00:23 GMT",
-      "source": "지이코노미"
+      "title": "HSBC, AI 투자처로 韓 메모리·대만 반도체·中 인프라 주목",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01bTZjdFE3RVJyYnpBY0VjQjNwTXJYZy10WkhaVkxWazJSejNDOHRzbmRCWjRjOGx5YkJhejVmbDU0VVppa1pxVU5tY0lWM09VT0FWRXA0ZGdidjZEZzRV?oc=5",
+      "published": "Thu, 10 Sep 2026 03:37:18 GMT",
+      "source": "헬로티"
     },
     {
-      "title": "[환경톡톡] 호남 반도체 클러스터, ‘지산지소’의 시험대",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kWUF3aTFoRE5yMTNHc21UZTJ4aWY2b21CNWFPNzl5OVcxa0dJMm9qVDd0TXNmUUp5WmtmalZBdS1GTWVVR0JpNWdPUE5PVE5OQS1GZ0I0NFZwbGs5a3pFeWtHQVViemhy?oc=5",
-      "published": "Wed, 09 Sep 2026 08:37:10 GMT",
-      "source": "환경일보"
+      "title": "엔비디아·SK하이닉스 호재에도 마이크론 주가 '무반응'",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY2pyQ3JOU3kzS0U1ejExc2thTXF3eU5KaGFXSTZzaUxiTlliWDdheENPYi13SFI5T21kOXQzcmYxamY4dmpkLXBsc2ZodmgtbUl5ZkJwZnZkUXl6SFIwaXdmblk0VFlfeTZYUlVhSTQ0Vi1UZnl4OGRNdko0bjJTQ0NMRDV1dWo4?oc=5",
+      "published": "Sun, 06 Sep 2026 18:00:00 GMT",
+      "source": "글로벌이코노믹"
     },
     {
-      "title": "국토부 \"광주 국제선 떠도 반도체 착공 안 늦춰\"",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sTE9vMW5HZ1BGTF9TaFYtZFJQbTA3eFJITWNUQmJTb1U3QnBkcEkxRHQtSG1QRWJEMWp3NUxZMXJFMWlfRUd1MVhFbkZFRkZZTHdjcnpmRWFhSFlGYkNhZA?oc=5",
-      "published": "Wed, 09 Sep 2026 12:30:02 GMT",
-      "source": "KBC광주방송"
+      "title": "HBM 공급부족에…화웨이도 AI칩 가격 대폭 인상",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DV0ZsMXFvVExsMjJRVVFKOGxKTTR4dVFuQ1JnZlBaWkRTOGw3R2FLT3NJbUVMeWFVOTlDUElUZ2Etd0RzY3JMWDJaYkFqOV8zcnRBcXNmanhfUQ?oc=5",
+      "published": "Thu, 10 Sep 2026 10:32:55 GMT",
+      "source": "한국경제"
     },
     {
-      "title": "한·프랑스, AI·반도체·양자 기술 협력 강화…정례회의 개최",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zWWNWYk4yVm5mY2x0UXhsNEU2bmZ3WXRkbVhSYkhWQlluLUdhZEdfV2FsbmREbFcyOXphc0dkRGpsTG9wUDA2NG1ENkZ1R21ZbFdKeGlfYkI0TVRnanY3eg?oc=5",
-      "published": "Wed, 09 Sep 2026 13:55:47 GMT",
-      "source": "아시아경제"
+      "title": "삼전닉스·마이크론 담은 'PLUS 글로벌HBM반도체'…상장 후 950%↑",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10S0pvbTVQbHR1ZUtWSFhvWnprSUUxYTZDd2htZjBpRlhZM3ZmXzA4ZmkyWDhnN0pLT2FzbEctMXhRbzVHcENQSVNCWU5XS002WWpDZGJYY2VFVWJLVThv0gFkQVVfeXFMTVgtNkpyWDU0eFJHSUl6SFZwV3RMaHdlSUl4LVFTY0dNWjM5MDR1RFcwOElucGg3LXlQZDZIWC05M3ROYjZTVXZiQjdXZlliQVhSUk1ELWVKa3ViOEF6UWVGWDdLaA?oc=5",
+      "published": "Thu, 10 Sep 2026 07:46:46 GMT",
+      "source": "뉴스1"
     },
     {
-      "title": "삼성 반도체 일부 직원, 주거지원금 부정수급 의혹…조사 착수",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ad3J6cFVMdl9lLW1NYTZka1RGN3BuU1RaZDh2RHMxQ25jbXlHV0RxVDFlTzlWTy1kckR4YjhBZXZZR3ZmaGROaDNnaGY5eXljbWU2Uk00V0x6QTDSAWBBVV95cUxQWi1zS05JbmlQVDFtVVVJYThsTjY4V2NYZF9YNUxQc1BycEJUQjd0STRCOXQ3QUJDM2xDV00tMlE3d05iVG9NeFBKc0NpZGJVeU5QaTFKejR3WmlvVXJ3eG4?oc=5",
-      "published": "Tue, 08 Sep 2026 08:45:45 GMT",
-      "source": "연합뉴스"
+      "title": "삼양엔씨켐, 반도체 PR 소재 국산화 수혜-유안타",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83QXpFWDE5TldLZDVhZTluTXBJOUF3Z01ZVEoyeXR6SEJGWkVxU3d1bTk5Y0gtMTZfbTR2Z1M5UkJ2dURzdmprMGoya2xoX2E1MC0zRk12WFNhaVo5UmlCOHcyYXl5MlhPTVNLd2kzd0Zqc0dYT3c?oc=5",
+      "published": "Thu, 10 Sep 2026 22:37:02 GMT",
+      "source": "인포스탁데일리"
     }
   ],
   "manual": {
