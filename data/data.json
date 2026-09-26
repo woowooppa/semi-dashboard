@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T08:44:40+09:00",
-  "generated_at_utc": "2026-09-25T23:44:40+00:00",
+  "generated_at": "2026-09-27T08:19:22+09:00",
+  "generated_at_utc": "2026-09-26T23:19:22+00:00",
   "prices": {
     "005930.KS": {
       "label": "삼성전자",
@@ -4661,40 +4661,154 @@
   },
   "news": [
     {
+      "title": "[반도체株 박스권②] 다시 달릴 조건은…HBM4 실적·中추격 방어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SUkJFMDA5ZUJtYWdNWVdhTnVkcm02ZG45dFpGakgxMllGZExrOGcyVDh5Z3d2M3ZhVE1MMmZ6V0NPOVg1WjVhXzllSkpOdkpGaWs5VkJNaXhXOE5XZW9lX3FEYVBXUWM1WnlmYTJVYTM?oc=5",
+      "published": "Sat, 26 Sep 2026 22:00:18 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "中, 반도체 설계자산 보호 규정 강화...韓기업, 주의 필요",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrLVVCaVA4S3dGNmNIOURjcm5pcFVwcF93cmxtaWI1RHFvdk14Mll3NG82anBZMHZ5YjRQdmJGNF84Ymk0N1FFakpVaFQwbkNLb255aUxCcVY1Nkp0cmc?oc=5",
+      "published": "Sat, 26 Sep 2026 23:04:45 GMT",
+      "source": "더구루"
+    },
+    {
+      "title": "마이크론 30일 실적 발표…월가, 내년 매출 90% 증가 전망",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWJXOEtENFAyWEdTTzJyakZOeVlual85QThQRG1TV3JURDd1Qy1Hd2p0OE5DVFlSSFBLUVdOQkRBeHBkNEZsTmFSNlo2bWFFdklCWkJuYXUwdDhxcXlJUEV6M2NmU204NDJ4RGYyZlVGbWlheXNPTE1zN2hueXlDalNFSTdIOEU?oc=5",
+      "published": "Sat, 26 Sep 2026 18:00:00 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "삼성전자, 3분기 영업익 첫 100조 넘나…D램 이익률 80% 전망도",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vanVYVkF5Z0RfM0FjZjQwelpwM2NBLU9mV0FrZTFiQ21WcVNpSzM2ZDJkX3ZyQlhweGhvWDF3WWd5MmRaY3UxR1ptUWdlcnBsVlE?oc=5",
+      "published": "Sat, 26 Sep 2026 21:01:00 GMT",
+      "source": "매일경제 마켓"
+    },
+    {
+      "title": "원료도 웨이퍼도 칩도 다 오른다…반도체 공급망 '가격 인상 도미노' - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16ZlNUMUhMNDdhOUZRdjJwSU5qT2VrcGhlU3VmYkhlSDE0QVF5WGFVc0hGSmNhUFhQTVBsMmpQRlRBTl91SkJ0NklWQzd3RmpXUkN6STluY3piZ0VHc1l3bGtZTkF2czA4WHNna9IBckFVX3lxTFAyT1BjV2tvbkdESmkzNjBrOTRZaXgtd0tPZ2xHdFRxNzdINkxwMkxIMjZFY1dKZ1k4Y21DSG5DVC0yYTJadFRlR1dYUkxrUTVuZF9McUNtWWRfVjQ1Q1hzWVp4SnhnR245ZkU3a3V3Snc0dw?oc=5",
+      "published": "Sat, 26 Sep 2026 20:34:00 GMT",
+      "source": "머니투데이"
+    },
+    {
+      "title": "“팔수록 남는다”… 삼성전자, 3분기 100조 영업익 노린다 ‘D램 이익률 80%’",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qa005MkJCTW0xZzhySk5tZjhTQkhwWk1mUGo4SV9ZRXRqMWViVWJkVFRLQnhTbXZKcE9EaXI0ekh6OTFiRW1pNTVsa0FBOHc?oc=5",
+      "published": "Sat, 26 Sep 2026 21:21:27 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "1200조 AI반도체 시장, 엔비디아 천하에 도전장 낸 K-AI칩",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jZWJxMW1kazUyRkEzTFB2UHA2UlRCRUpsSkYwTThjRVgxSUc1VmdDZ0dDcnlRVlIxaVhlVnJIdklMVkJmc2RYdXNpLUcwQkFaQl9wZnM0ZHpIUQ?oc=5",
+      "published": "Sat, 26 Sep 2026 22:56:40 GMT",
+      "source": "한국경제"
+    },
+    {
+      "title": "반도체발 세수 호조…내년 미래대응기금 재원 200조 원↑ 전망",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRdWNSaHBSbHVwTkdyUFpnc3dwbTdNU0d3SENlY3dXT0YyUDNxNmtwMExMNEFscFhwbXZoQTFiOVFMME1DOUw1QmFIcXRMaGJKTFRPSlU4cldOa2NBTS1GTlJaMVQzS0U?oc=5",
+      "published": "Sat, 26 Sep 2026 21:16:00 GMT",
+      "source": "연합뉴스TV"
+    },
+    {
       "title": "마이크론, '역대 최대' 실적 경신 임박…AI메모리 수요 굳건",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YQ1Rvc3dQbE5HNFEycDAyeEo1WV9CMlZBUmR3X0lHckZEc1B2REg2dUdtRnZWUEM4OTBRYXR0MkRTRWp2NG1aellFeG9zc09COEFCckFn?oc=5",
       "published": "Fri, 25 Sep 2026 21:28:58 GMT",
       "source": "지디넷코리아"
     },
     {
-      "title": "고적층 대신 저단 HBM…자율주행·로봇 새 수요처로 [반도체레이다]",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVSzVEM0NTY2dhZnctbC1QYkJxWF80NFVDcFEwT21FSkRqMXFITHRrb25Fa0pMaTRScUpLckpnWkZDRV93Q2JsRks5YjJHbXp5SjVmOFliVjNud1FlcjlHbGU4THU?oc=5",
-      "published": "Fri, 25 Sep 2026 22:00:00 GMT",
-      "source": "ddaily.co.kr"
+      "title": "\"AI 거품론에도 2800조 눈앞\"…반도체 호황 언제까지 갈까",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiajM3dWJZaFE2dHJJZ3d5VVlBb0ozUk9HazBLcjkzVUpBVzlLMlBJb1VoVUpmVnpLd0hGeGZaT3JJM1kyTW8yRGE2d1ZrMzVqTnUyWmthRG9kM3BFVGpETdIBeEFVX3lxTFA0RFhfS0pzLXI2amJTc3hJcV8xYXpVQlYxUGxlZ0xoMVRXRl9MYjYxakpmNVZuQ3Q3UzJ1SjBaYzJEeUZWVjl1cFVCWnhySUZMZlFBXzZ2VlVnMWw0Z2xzYTcxOExHenBtdHIyWkpjd0V5T2dvUUV0VA?oc=5",
+      "published": "Sat, 26 Sep 2026 22:00:00 GMT",
+      "source": "뉴시스"
     },
     {
-      "title": "수출 절반이 반도체인데, 그 절반은 중국행…커지는 '쏠림 리스크'",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBkNU1LcG1KQk52dVVrRmkxUFR4S3pnMDI0N2NOemFSUEk2azRnNEdnQjdwa0RfeFJBRzBXaURmOVVDUUNaSEE?oc=5",
-      "published": "Thu, 24 Sep 2026 22:01:27 GMT",
-      "source": "v.daum.net"
+      "title": "印 \"반도체에 18조 투자\" 약속....반도체 강국 비전 제시",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OSVA3REFtU2pYRlZxbWRiUUdhdlBCWVYwZHZBZkJJaWc1LVByR2s4ZWpyd2tDTmRIelBZSmhiRGNHY095Smc2OGRzZ1NPUTRpU1FmUFN2VTVhXzNBQW9mMEo1aw?oc=5",
+      "published": "Sat, 26 Sep 2026 23:03:45 GMT",
+      "source": "더구루"
     },
     {
-      "title": "모틀리풀이 꼽은 AI 반도체 5선 뒤에 놓인 한국 HBM의 무게",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQUpibnhqMTZoNDlOaUNCTDYxYkdEYndWb1I3M1BJbHA5Tkc4VmkyazF4dDFYLVE3c18wVVJFek9BY2JEcUMwSlpERE5OczBuenYyQTl2Qkd3Z1FxaWxXQzBBcTlsMWQwQVd1SG82WnV3UElKT3RfXzJlYXNjM19WZFBqYUJiQ0JC?oc=5",
-      "published": "Fri, 25 Sep 2026 07:58:37 GMT",
+      "title": "[반도체株 박스권①] 실적은 최고인데…삼전·하닉 주가는 왜 멈췄나",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GOHVHQmx3ejlmOWx2U1RaLWdTTHI5Wk1ackFKeHRWMjJwMF95QUFDRUE4LTZhSTBkVHhUSEc5emhXUy15ZjJYakh2aDBaUmE3emJ0dXlKNktxV0hHWFd4YmpGT2Y4UFFGaVM3dlRfTDQ?oc=5",
+      "published": "Sat, 26 Sep 2026 22:00:21 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "“로봇이 AI 다음 대박”… 아날로그 반도체 재평가",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFRnTEpuZTYyUXdHd3ZJNFkwZTFDc19fSTQ4b2xfWDR0S1FhNXM5YjZQeEo3VnhyNngtTVdZaWIzWWJ6NTV1TExTVDc4b2x4RzA3Szc3N0dnNzROQUR2VzA4NTZHckpDVlZraUpkb2FDMFhBMW5HZUdCMElLVEJIYmJ0TDVZVktJ?oc=5",
+      "published": "Sat, 26 Sep 2026 22:05:20 GMT",
       "source": "글로벌이코노믹"
     },
     {
-      "title": "'월가 거물' 일제히 \"한국 AI·반도체 관심\"…李 “왜 투자 안 했나 후회할 것”",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9obDVXVEQ4R3NnQXpVMU5YeVFEMW90Q3d1ajRTMHB2SkNJWXltN2hsbUVCZUZCSkY2c0NWLUE4SWs5YUdkUlRXeEF6QUE4MFFmdnpLMnVHbEstcTlmTWljNk93?oc=5",
-      "published": "Fri, 25 Sep 2026 09:15:00 GMT",
-      "source": "이코노미스트"
+      "title": "코스피 30% 반등했지만…ETF 투자자, 지수형 30% 반도체 80% 물렸다",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FYjBPWUhDOTBrMEp0c1o3aE1QbUdWd0w5bkhwdk5selRKVlVrQ3hod3g5czZuZEhzcG1yQUtqdTBIRTRQSGMyN2MxMXp3TDJJYWc?oc=5",
+      "published": "Sat, 26 Sep 2026 22:08:49 GMT",
+      "source": "매일경제 마켓"
     },
     {
-      "title": "TK는 \"왜 광주냐\" 했는데, 반도체 품은 전남광주, 실은 토허제에 한숨?",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCRjdmZE95LXJzSnk2dGtHZVBOZFFiSkNhVk16dmRLbVdhWE1DMzEwN3JMV2lBV1dYa1BaUDJjenN6VFh2Zml1eDFaT2RwYkxQaXh2WkpGUk9XdENiam5wdUhB?oc=5",
-      "published": "Fri, 25 Sep 2026 11:50:52 GMT",
-      "source": "매일신문"
+      "title": "1천조 시장 열리는 AI반도체…\"정부, 공급망 진출 지원해야\"",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHdEJ5TXA3YXU4Q2tYNEFXSEtnakZFRHR5YzZmaFpSck5RSWVlZWtxUXFsQ0xuR3gxLUVkRHlUcmhtVkR2X2RqNC1tTE5oRjQ?oc=5",
+      "published": "Sat, 26 Sep 2026 22:32:52 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "'수출 대박' 반도체만 호황…'고용없는 성장'에 청년 일자리 한파 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ORmktSmZiRWdnQkRYVlhyTmlsMEZ2aGpKM055UU5QV2lvWWlCa05NaTFNXzl5N2N2bC1kM00wT2VnWnJDQ2FxVHhuOHpfd3E4RXU5OEFmdXJPOUU2bk9tQ0xTTVQzSjRqWnVR0gFwQVVfeXFMTWNIMG80N1ZGOUhXU1J6ZGxZWUVJanJxMjVUa2d6b1NBUS1EcVY2V2g3dmhzejc1Mmk0bVFrOHlJZS12WFpYS0NoVlVDbXFfazVSWEw3eWFPNmY1T29vLTVoTVFucUYwRzl1elRTbWhucg?oc=5",
+      "published": "Sat, 26 Sep 2026 21:15:00 GMT",
+      "source": "머니투데이"
+    },
+    {
+      "title": "[칩톡]AI 반도체, 이제는 '빛의 속도' 경쟁…삼성·SK도 뛰어든 CPO",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YVFNuZFRWYzVabUxZMVJYeWExMGk1RjRaaHFXVHpjS2VLMEhNQVlXTzNzSTlkOENxYzVSWnFybmpHbVJ3N3lOVnJHS21HbDA?oc=5",
+      "published": "Sat, 26 Sep 2026 23:01:52 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "반도체부터 줄줄 샜다⋯5년간 산업기술 해외유출 107건",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LZXNaUzd2SzBrd2FRVHZuWUJTS05CNTRwX1p3U2kwcFBrY0lDWnAzWmxrQ05VNVdoU091T2ZxQmxCaVRwckpWcXFlVDVWTVE?oc=5",
+      "published": "Sat, 26 Sep 2026 22:37:05 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "K 반도체, 3분기도 사상 최대 실적 전망",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nTEdJTnFobDVFbHY0ekNEQzZzMHN0ZXZNM3pmTUlfSEg3QWZHblhYMVUyN1hzc2ZWMEo1VzdFWXBxRTZXaDduU1BwaEJIR2pKZ0hFNU9fWE55dzVLY3c?oc=5",
+      "published": "Sat, 26 Sep 2026 21:30:00 GMT",
+      "source": "동행미디어 시대"
+    },
+    {
+      "title": "마이크론, 역대 최대 매출 달성하나…K-반도체도 합산 영업익 190조 '눈앞'",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5fU25vV3FOaUEwTDhmU2FLN25qaTNpclU3SDJuR2I4aFhDVUUzTENicENHLUY4X0ZheGxwaU54S1J4V1d1dlE?oc=5",
+      "published": "Sat, 26 Sep 2026 09:01:25 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "AI 폭식에 열린 메모리 곳간… 마이크론 68조 원대 매출 정조준",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYmFqZXY3TVp6OW1vZV9udFJBblNURjF3a3ZnUHpyckN4YmFKT0oxdXZZY1dPSXhKWmliWHdYZ1RjQkpHbTBWb1BxQV9jT3JTTlpRNk5JOEk0anNRX0FMR3A0Mm9jcjk4LWpsQmI2RUZmeERyYnhWRW8wSVV4WVRfZ2tfeHlWOV9r?oc=5",
+      "published": "Sat, 26 Sep 2026 18:05:00 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "전남광주특별시 '30분 반도체 생활권'…정주여건 확 바꾼다",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpV1hKZEkyZWFDcS1CUTdsVEJWSkprSkJkaDRSRXFxMEFfOTh4RXhDM2NUYkZTVHJqbk5wV09VbFlER2JCWElCckFaWUtBNjA?oc=5",
+      "published": "Sat, 26 Sep 2026 22:09:00 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "“AI 반도체 성지 만든다”…제3판교 오피스, 후년 준공 '탄력'",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yZ2ZXZzQ4TEJ4aXU0TEFld3VHemFXUnRURThQSWdSVjl5UTB0ejNDQVlaVWpTc3lrMHAzcE43NWhaaGNUQUpNVFhJQVRvbnRNLXFTMVhvT3dNbTVyOHpsc3RwUTVXRjNPXzY5TEZEMWl1dTg?oc=5",
+      "published": "Sat, 26 Sep 2026 22:05:07 GMT",
+      "source": "마켓인"
+    },
+    {
+      "title": "두 달 번 미중 무역 휴전, 광물 틀어쥔 채 반도체 옥죈다",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd2hjMDB0Zy11aEprcVVPT284dG5LckNiaHRwNHEyZ05pME5JakNBakN0dWFMbXY5eFlBYlVOcDNlWEwxblVmZ0FGSnNROV9ybW1FMDV4UXFqWm1pUTNlN0Y0QUFTMGpiUnpNRFRMcnd1dXdGbE1sNE9rSU1xdVZ4b3VQMzhiSDNz?oc=5",
+      "published": "Sat, 26 Sep 2026 18:15:00 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "목표가 이미 도달했는데…더 오른다는 美반도체 검사장비 업체 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZREpFNzQwcThGYjR3Q3UtWXgtVC1QWEx5S2Q2bE5va2NKYmwwTk9kUm9oSWMwRHMyY1c3cmhId1NsZ083RHNjaXRBWWZuWE1DSVpGVzFBUW1KQjZNNTMxRHlqRmNjVEh30gFuQVVfeXFMUENSSE10M1lOb3dnVkRUR2wxZnAxTGF0cWVZZDlKTFdubms2T0xORjkzRzU4VHFYMFZncGZteEpoTjhydkhrdC1LRU0tMlNOX0tid19BVDROM2NBQWVScFgtMWt1R2JqbEpKVDBWUlE?oc=5",
+      "published": "Sat, 26 Sep 2026 09:28:15 GMT",
+      "source": "머니투데이"
     },
     {
       "title": "'빅쇼트' 마이클 버리, 반도체 공매도 확대…\"메모리 사이클 둔화 베팅\"",
@@ -4703,202 +4817,88 @@
       "source": "연합인포맥스"
     },
     {
-      "title": "반도체 투톱 '63만전자·430만닉스' 전망 나오는데…어디까지 갈까[추석 이후 내 돈은③]",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wdEFualRieGw0azJLRzRRbS1wT1NidU5zVy1FblNEZjkzakdMd2IyNWlMcjN0RnZ3UGN1bDZFdXVyRjRZQWFnVi1ZTWpINE5CZ0lJNmNDaHljMVR0YnF2MdIBeEFVX3lxTE8yVDg4eHRMdnJkRXNxQzBDZFNUSXFlcWpUUUZWZzVraWRpM29pdnljcXJUb3RPU2VYY1VNLVE3bUdXTGhZUFc4Zl9MSFQ5VC1XaC0tVGxLWjRkczJBMV9rV1RKNnd1cUNieHhwclVtMXJoNG9vYU1uTg?oc=5",
-      "published": "Fri, 25 Sep 2026 23:00:00 GMT",
-      "source": "뉴시스"
+      "title": "7000선 회복한 코스피…PCE 물가지수·마이크론 실적 주목 [주간전망]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sZVRaNVhCMG9tb3FESVVqUEg4TGFYUTdfc1dtRWF0eHpxSF9ITFQ1U3lDNTZodnNOcWxHa1ZwaERWeGRqU1hLZjdESmRsZWVWakdmcFhTVGxRUQ?oc=5",
+      "published": "Sat, 26 Sep 2026 23:00:12 GMT",
+      "source": "한국경제"
     },
     {
-      "title": "\"AI 속도 조절론은 기우 … 반도체 중심 상승세 계속\"",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2R0g4MzQyV1g0U2V5bm5uV0F0R09iYVhfNlJfS1paWEdvNVZjWDVXNFVxcWV0TUJzNmJWU2dDY29fSndQNlJ4QkNBMndiNGxPWHc?oc=5",
-      "published": "Thu, 24 Sep 2026 09:03:47 GMT",
-      "source": "매일경제"
+      "title": "HBM 넘어 시스템반도체로…한미반도체, AI 장비 영토 확장",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZbDlRNlg0dktEQmxYMHpfajBYU1hUZFRYS2hFalFFTENXS1p1QzF6RlFWdW5LWnZGbGJmTzNZSmpHVmVLRTh5a1FtcTk5M1paUGdzV1dVRUJoTlM0QUdSUlNSRjJCWWFuYkFzTQ?oc=5",
+      "published": "Sat, 26 Sep 2026 05:30:03 GMT",
+      "source": "비즈워치"
     },
     {
-      "title": "한국 무역흑자, 사상 최대 230억 달러 기록…반도체·자동차가 견인",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IVXppVVVnQmNsMUhJRm1hYk5TMlFTdFNvWG8ybjRfcWY0VDJnY0FsQlJJNnFnZmdVZDU2ZjlhSkRRWk5XMXJkdHdsUkZTNUd5eXpacXc2SmV3Q0V0UUh2NmkyY3lXZHNhN1E?oc=5",
-      "published": "Fri, 25 Sep 2026 23:00:00 GMT",
-      "source": "Investing.com 한국어"
+      "title": "\"직원은 수억원 주면서 우리는?\"…반도체 성과급 잔치의 그늘 [강진구의 회사법 뜨락]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjTzhjU2RHQmQ2ZkFiLTN4RDhSZzV0V3QxS1Rhc3Z6ZkZScWsyVXY0U0RaWl9NU1Z0T3N2blU3MWptU0gxdUpJaW5HaHBWSV9xOXg4Q0xsRHl1QQ?oc=5",
+      "published": "Sat, 26 Sep 2026 22:00:01 GMT",
+      "source": "한국경제"
     },
     {
-      "title": "'마이크론과 분쟁' YMTC, 특허 무효 판단 불복...항소심서 다투는 특허 15건으로↑",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYQnUyaWotbkV6eWNUV0dvc3ljeXM5QVBrQVpjX1k3NTJfZHlPNWNuaTc0QkUtYi1EVEE1em9ELW1BSTQwWDlVSHlmRE9IMHFpRzRxNUtR?oc=5",
-      "published": "Fri, 25 Sep 2026 23:13:40 GMT",
-      "source": "지디넷코리아"
+      "title": "동부·한라·코오롱글로벌 등 중견사, 반도체·AI 인프라 시장 공략",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pdHdCdzRibzJ1dDJVSUdLaWlyZEVyRWpuNll0blZhbWdELXZpdXBZclNlUDFfd2pHaGxqbHRCbmRxRlBRSEM0Y1p1TkpDZ3ItaDJIenRwbkYxQkZETk10WFZOZXYwdnpG?oc=5",
+      "published": "Sat, 26 Sep 2026 22:00:00 GMT",
+      "source": "CEO스코어데일리"
     },
     {
-      "title": "엔비디아 올라탄 SK하이닉스 HBM 점유율 50%…삼성 추격 속 74조 시장 수성",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMmh3TVBfUXdpdVpxR0FMS3VDVkc5S195NXExM0hXM3RlRjA5dUNLeEJHUWlncF9NWUFaT0VVSWZCQTE1Z180bHBqcjc1bDV3b1NQeHN3TXlIdG1vdndrS0g1M1V0ZGx3aUFWaVZ3OFNtUWl2TWE1U19xS0poNm55eWxaazdYdURU?oc=5",
-      "published": "Fri, 25 Sep 2026 08:06:46 GMT",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "title": "한숨 돌린 삼전닉스 투자자들…9월 ETF 수익률 ‘반도체 싹쓸이’",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9EOGNqZURUalpOMnp2ZkQ2blhUMTJyWGVBRy1GNXNnVGVPdDduNHU0bms1ZFdMMnJ3SUdCWTd1bFpyUlk5Smc?oc=5",
-      "published": "Thu, 24 Sep 2026 04:57:37 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "웰스파고, 마이크론 목표가 하향에도 EPS 전망치 상향",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RclBLbTZlUTlFLS1JQmhVWmVha2VkeTBVSzNqSEEzcFlwRFV5ZUpHR1UtNjNuX2VRU1dFX1pqaHQwRU0wYVpTWTQ4MXFyTTF3dTdVV19yR0NDdjNsR2dpRm1KWG11TEEtc2FmTWF0emI?oc=5",
-      "published": "Fri, 25 Sep 2026 04:33:57 GMT",
-      "source": "연합인포맥스"
-    },
-    {
-      "title": "마이크론 겨눈 넷리스트의 칼끝…글로벌 서버 공급망 흔드나",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZDRwbHZQN0Z6dnhNQXpja013bTJDck9Nc1h5aHVkZnBCS05WdUNEOENaLU0tcUFrT0x6SlVfQWlPRm5IdHBxU3BmdXFZUEJHd2hJV1NuY1Y3ZlpsMUFMRzg3RFVRU2ZnV1h0UFpBYWhEZ3J4Z0M4eUY1a1dnRDB5Qm9SWXVGYjdk?oc=5",
-      "published": "Fri, 25 Sep 2026 09:40:01 GMT",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "title": "AI·반도체에 전력수요 폭증…'탄소중립' 방정식 풀 수 있나",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FN0NGWHYzUC14eHBITDBMNkhXOWxvLWwzZmt3S05tYUc5NUcxNG5DQzhJeG5HeHJpalBaRmR5ckd4emhrTW95RmZQbVFfSEU?oc=5",
-      "published": "Fri, 25 Sep 2026 20:03:07 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "배터리도 반도체처럼…설계 따로 생산 따로 시대 오나",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xUzR4azN1Z2stMXhIODVVOTJrLVdsc2Q3SmpXUGtDbkhkNUtUVTVQTWZvLXROTE1kMGRoVmw0UllzQVMtNWEwZXpLaW1KMVl4S3liV3lB?oc=5",
-      "published": "Fri, 25 Sep 2026 21:28:39 GMT",
-      "source": "지디넷코리아"
-    },
-    {
-      "title": "[다음주 경제] 반도체 생산 얼마나 늘었나…물가·금리 지표도 발표",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMVWFMMEdhTmM4QTBwd3pXYWxXZmZIR2lQNzRqTmtHX3dIOUZ0TnhBWkdSdGNFci0zN3hmZW1YMDZjcUFsMTZyWnZMZTBGMEk?oc=5",
-      "published": "Fri, 25 Sep 2026 23:25:52 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "국공채 쏟아지는데 기관 수요는 부족…'반도체 머니' 바라보는 채권시장 [fn마켓워치]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01aEJ2eG9Yb0xBdk55YU5tMDBzVzMwTlRKb0gxRlg1VTJseUxGeWhtVlE3NG5XN3JJNENHTVNKYTFsZG5CY3pmZWJqR0I4RFk?oc=5",
-      "published": "Fri, 25 Sep 2026 22:02:44 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "광주서 키운 반도체 꿈, 광주서 펼칠겁니다",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5sMElXbVJiU29nanVJUzU5aVp0NWNKM0h5VVJacGNURE9rdWh3RnEwR1daR3ZKeUF4LVI4cDFzY1Jta1lMTHc?oc=5",
-      "published": "Fri, 25 Sep 2026 12:10:06 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "추석 끝나면 메모리 빅3 성적표 공개…AI 속도조절론 ‘반격’ 주목",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWQnNwQnFlQ3NrMU16WXhHa1Q5UjNpby1uVk5Kbm5Yc3h0YWhjZWxIUWx3ZkZXdUotNDBGcjFOcFAtLWlGb3NaZ0U5S0ZNM3M?oc=5",
-      "published": "Fri, 25 Sep 2026 21:02:34 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "[수출4강③] 반도체 47.8%·3국 51.4%…수출 절반은 '쏠림'",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MaHcxNlVkUm4yZ1BsR3NvWldPdVFKWHBJa1dJeExxV0czS2tTLTh6TFFVdXlBRzhxRURWQ1VLMmVGeDRDV3RHeEptcl9NVFlKUy1sREkwaUNKYzNGS2tLTNIBeEFVX3lxTFBWZEJSTUREMVh0MV9IOEd3ZkQ4YnhqUEViSGIwLXJmR1FEdGlWS0Z3bzA5cGd0T05fYnFRalNlOUx1TURjSkRaRGtNTUtvZWVyWG9Wb2dyS25BUGtsczJsTWcxTUdVdnk5Nlp0MFQ2RUpVdG5LTllkMg?oc=5",
-      "published": "Fri, 25 Sep 2026 22:00:00 GMT",
-      "source": "뉴시스"
-    },
-    {
-      "title": "미·이란 협상 기대+AI·반도체 강세에 美증시↑[오늘아침]",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kdVBpUVcwWjhDdlFDMHdBcEFHV1J1U1ZZYmFvZHlyN3VfWnE2NE5iMUFxWWs5c0w1SENZSkJScHJCUnpla19nMUVqOGJfUjBYMUE?oc=5",
-      "published": "Fri, 25 Sep 2026 22:10:00 GMT",
-      "source": "nocutnews.co.kr"
-    },
-    {
-      "title": "“모리스 창의 40년 리더십…대만 반도체 토대 닦았다”",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1veVlycDk3SVdYTW9vUUlWb1NMdVo0RmE4SndOVEV4SGxMdEo3T05tNndySndKSXNvSW5FeVg2cEdtWXZDWjdRY2pHS2o5amVjcFE?oc=5",
-      "published": "Fri, 25 Sep 2026 23:00:00 GMT",
-      "source": "서울경제"
-    },
-    {
-      "title": "코스피 변동성에도 반도체 실적 기대…삼성·SK하이닉스 주목",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ueU1uSTdVaHBPTTJGYWh1NXpQclVoYlV5OEtBUzdBQWZXMi1QeWhMczlqaHlvaTZOYUk1VGJXQUV5MTlGeXliYTkyajlFLVotdElkbTVnTUN4TmotUmVQSVdXWFNieXFZVmc?oc=5",
-      "published": "Fri, 25 Sep 2026 22:36:04 GMT",
-      "source": "컨슈머타임스"
-    },
-    {
-      "title": "‘6억 성과급’ 삼성 반도체, ‘200만원 의자’에 앉아서 일한다…복지 어떻길래",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE90QzRuSGhTVlk2ZVJ3eXVZYkk0SjhWZkxHY09DdUFmbDI1dkZLLUpYeGxkZDhNQ2h6VVNhLU4zbGNBMmYxMEtLTFhReWRCUGlNWDhKRWhmVnBlcTJoekh5aVptQWdsNjVMWHA4ZWtLdjhZTHBjUktXWHJpNA?oc=5",
-      "published": "Thu, 24 Sep 2026 05:01:33 GMT",
-      "source": "서울신문"
-    },
-    {
-      "title": "[CEO풍향계] '반도체 역량 강화' 최태원…'AI속도전' 구자은",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ha3dGU0hlX1p2OFRLVUhFNVotbEdiVlJvWFBNMFg3N1hiamJXcEhXZzFZcEhPSzNDeV9RWjYyNG9VWU1OUXBRd3l4dGlRTzFGS2l6NWw1OFdTbnVJUTRxWNIBYEFVX3lxTE5ha3dGU0hlX1p2OFRLVUhFNVotbEdiVlJvWFBNMFg3N1hiamJXcEhXZzFZcEhPSzNDeV9RWjYyNG9VWU1OUXBRd3l4dGlRTzFGS2l6NWw1OFdTbnVJUTRxWA?oc=5",
-      "published": "Fri, 25 Sep 2026 06:00:35 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "추석 연휴 잊은 반도체·디스플레이, 24시간 멈추지 않는다",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqN2h4amNvZHd1bmVab2QxVmFXZlQ3SGpTUjB3WXR4Ml9uOXJ3THlfaGNtTWxJdThpR3NaTTNLbEh2NTZFX1VTTGxsaDdQRUdUU3RzYy1ieEd5TEMwcGc?oc=5",
-      "published": "Fri, 25 Sep 2026 22:00:00 GMT",
-      "source": "동행미디어 시대"
-    },
-    {
-      "title": "이천시, 반도체 취업교육 7주 과정 마무리…미래기술학교 2기 수료",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0wVTdIVGpUQnhHTktyWVNwa1kwcVVpWDQ4WFhndU1ZWTdoa3Jjc3JEZk0yLVJQVDdkOFpPOUhWMFRSdWhKZXo1aFFIT3dSQQ?oc=5",
-      "published": "Fri, 25 Sep 2026 11:40:58 GMT",
-      "source": "전자신문"
-    },
-    {
-      "title": "테스, D램·낸드 '쌍끌이' 투자 수혜…올해 영업익 80% 뛴다",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qc1hIUWF6bGNySDduck81b1FGbWZZbkxaYXNNR1A5RWpaS0p6UjFEZnhfMXN6UTRDMGNlN3BxUjFsTWRpc3lnc0xhbjdlNGZFc0ZCSFBzbHljcjFYRzRRQlNyMHJwSmt3?oc=5",
-      "published": "Fri, 25 Sep 2026 21:00:00 GMT",
-      "source": "ebn.co.kr"
-    },
-    {
-      "title": "\"아파트 샀으니 그 다음은\"…2030 반도체맨 지갑 열린 곳",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qc0RHUkNZMm9DajM0ajZwRzQ3Y3VpNldyMk5LTHRxVnhnc25OSXNQTElsR2FINzE3dURrNi1qZWNFYTZjam9wV2VOSnhIRTN5UHh3aFNlb1EyQQ?oc=5",
-      "published": "Mon, 21 Sep 2026 12:00:05 GMT",
-      "source": "hankyung.com"
-    },
-    {
-      "title": "코그넥스, 반도체 제조사의 생산 확대 지원하는 새로운 웨이퍼 리더 출시",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByY2xVSlpuTFAtekt2d1R3MWpaUmFKMGYwTVdXN0JlY0VIRHRhOTVWM1hscmd5cGVfa08xU0dsNTdPZHFkbi01RDJ5dkZENUxVazk0S0V3amFnTE9paGR4RUMxNUJoUQ?oc=5",
-      "published": "Fri, 25 Sep 2026 21:40:55 GMT",
-      "source": "issuetoday.co.kr"
-    },
-    {
-      "title": "\"AI칩 잘 팔릴 줄 알았는데\"…반도체 호황 '복병' 있었다 [이슈+]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LcTNzT2JYS1dOMzlYY05NN2pwdFhwdHZndXgyTEZHMEZHMTJaa285Y0tpQU53NmJVYjdQX3E1eXBtWU1BNm1SLWg3S2VBZVNIZC1RUWpubXRSUQ?oc=5",
-      "published": "Tue, 22 Sep 2026 23:30:03 GMT",
-      "source": "hankyung.com"
-    },
-    {
-      "title": "추석 뒤 삼성 반도체 ‘6억원 성과급’ 윤곽… 200만원대 의자도 순차 도입",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tZVRHajBXZGR2QWF0NW9GTzFMZFFQLVJfWGtkTU1IOWJqU3dwazFHeE56WnctZDM0bERWVnBKUlhOR2RqS21oeU1XTUxISzFQOW1MQXhKRDV4b0Q5d3NVM01GQUp5cjNYblE?oc=5",
-      "published": "Thu, 24 Sep 2026 06:32:08 GMT",
-      "source": "천지일보"
-    },
-    {
-      "title": "[단독] 대우건설, 용인 반도체 국가산단 1공구 조성공사 잡았다",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2SDRob2ppSmV3aWdxaks3b29PRXNzek5sYlpFd2tDREk4SXNwR1dKZFBZOU1RbzU1a0ZkYkI5b001VDVpVXpUUzk3REhtS2didk5vdGRDWnVEb1Qtc28xeUhPbko?oc=5",
-      "published": "Wed, 23 Sep 2026 10:27:30 GMT",
-      "source": "MTN 머니투데이방송"
-    },
-    {
-      "title": "SK하이닉스 “대규모 부지 확보”·삼성 “투자 속도전”…호남권 반도체 클러스터 구체화",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HRWhCejFqZHRYOXd3Ukh5UWQ4bk5ONzdOcklZdy1XRFpfYnNOYUFtd0JJUmMwTWpiOUtfWk93ckJVX0lNdnVlb2RtcURLYVdVamxUNGNlR0dTeXI2Tm15ZVotQTVaRXJCS0E?oc=5",
-      "published": "Fri, 25 Sep 2026 07:53:48 GMT",
-      "source": "sisaworld.kr"
-    },
-    {
-      "title": "\"반도체 '잭팟' 같이 터졌는데…\" 한국만 썰렁한 진짜 이유 [분석+]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wRk1JZzVMZ0lhVk83THViT1RPcV9sbmpickNNWDZhUm5JN3NtNG5fVjhXUmw4Ymp0OXplS0VWZU5nX3BPUG9faTR6Qm5TRjlHSEtZUDRyZW9WQQ?oc=5",
-      "published": "Wed, 23 Sep 2026 02:24:21 GMT",
-      "source": "hankyung.com"
-    },
-    {
-      "title": "2035년 반도체 화학기상증착 장비 시장 전망: GAA·3D 낸드 수요가 성장 견인 - 뉴스 및 통계",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPV0RkN1g5WHVJaDV1RnNPVkoySXpSQ1FSQldBUG9hZFB6LXIyWnlRdnMxdVYtQlBhLVM4RGNDUFZMcFRyWVJpMmtxZVd3U1pkYVdyWTZJTTl4UzA2cEp6YWxXSkVJNjJlaFBHUkpUYTVuMjRsVlhGaUdDM0FYMEFXWVZyZmFWMEhMQjZoVWpMYm4tZFNuRW5fUEJTVHBQM2Q2Yy01UGl0a2NLNFBKMVh3ODBZZllObERpVXdaNEtYaDJvX3BVQ3luZXhMeVNtYUVlaldkUWQ1cw?oc=5",
-      "published": "Fri, 25 Sep 2026 20:56:04 GMT",
-      "source": "IndexBox"
-    },
-    {
-      "title": "SK는 '넓은 부지'·삼성은 '속도전'…구체화하는 '호남 반도체 투자'",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sRWZ1RnJDYkZQTjU4U3A3QXJXX1Y4dkdHOFhhOU1WTG5PdW9zcnNwalRkVzltNGplN3N4SUM5eGdUTjFfa080UG1Pek9ueEhPTnlzU1RmbUNhdlpzcmhwMA?oc=5",
-      "published": "Fri, 25 Sep 2026 10:15:59 GMT",
+      "title": "[기획]반도체 팹 이후 부동산 시장 들썩였지만…낙관은 어려워",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nekpPRXp2OGJfUVNIbzItM2tCWXFycXpXZ2Y5NjZrUGdfalRYTVI0NHdXLXJNVzRHZVBhaGItdElkNTdWaklZRm5XV0V5RXZOLTFCb0txTXdreDNpTzFfLQ?oc=5",
+      "published": "Sat, 26 Sep 2026 09:16:39 GMT",
       "source": "KBC광주방송"
     },
     {
-      "title": "AI 반도체 증설의 그림자에서 돈 버는 회사, 아이커 ICHR 완전 정리",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQko0VlVObWpRTjVFWEZNT3FCNlpza2U2eVQ0RllzamQzTFVwaElQVWVUOHZwMy1mc2Z6NkE4Z2pPcG43U3pLYVRKMGZmeEZYYThnR2lSNVBzNERTR2dFNjNwek5sdTlCS29fcXU3UVRUUnNtZS1CU29QT0hIa1FodTE3TlpCdjNrbUFROA?oc=5",
-      "published": "Fri, 25 Sep 2026 12:09:00 GMT",
-      "source": "네이버 프리미엄콘텐츠"
+      "title": "[영상·심층③] 임연호 교수, '전북 반도체, 소재·케미칼 넘어 센서로'",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtQk5ybi1hVFUweXlnUTkwdmxrNGhPd0xTdzhhQVFwbUNyRExScHVteFFKb1BTOS1FUUIzRk50RzAxMl8wdXNQdWg3NVFEUkhqNU5FODU3bDkycEktRlgwbXZoRFQwM1Ns?oc=5",
+      "published": "Sat, 26 Sep 2026 22:10:00 GMT",
+      "source": "todayan.com"
+    },
+    {
+      "title": "7000선 사수한 코스피…'美 물가지수·마이크론 실적' 분수령",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zTG5aNVl6UnBLel82WWlJdVQ3TnVMbUJ3R0k0cnB6ZmIta1RSREQtMkt5M3h2UEJKS3pLdmVNTXdkX2RHcEdUa252VERjQ2M?oc=5",
+      "published": "Sat, 26 Sep 2026 21:02:21 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "4분기도 반도체·조선 수출 기대감 이어간다… 원자재 가격 변수",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZNHZ2Ym56WDVGbjhOZm1KNXh1UmFfblMtV3pFc3ZxS2ZlVE9LeFFnOUthUDNoWGNHaUppRW5jUTNKN0lpRW1yM1ozUlJBem8yZkHSAVNBVV95cUxNaE5CcDlqemNuRFdYZjVoLXFEbUZucG5rMkZSZlJYbTB4RTJ2TUljSDdlUXBEQllmZ0toU01LNFR4NFE0TlF4em02aHpRVzBVYmRoaw?oc=5",
+      "published": "Sat, 26 Sep 2026 22:00:00 GMT",
+      "source": "서울경제"
+    },
+    {
+      "title": "대구시, 설계·검증부터 인재양성까지 반도체산업 경쟁력 높인다",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sRTRyckVkLVpjbGROanhoc1djQ3pGRmM4R04xcG9Zclo2WGsybW55RGpsRENkMUwzYmNqMUZ3d2tBYlRmSWRreXpqcFVrTi1NcHBpVDBmLWQzWGgwUGtJ?oc=5",
+      "published": "Sat, 26 Sep 2026 10:26:28 GMT",
+      "source": "세계환경신문"
+    },
+    {
+      "title": "[단독 인터뷰] “이번엔 다르다?\"···마이크론 AI 실적, ‘메모리 사이클’ 깰까",
+      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOWWlEQjF2SkVSTlJGNDh5bEt5azBzOVdsVG9KckdxT2RvNjhibWRtNkJHNUhJdkhGR3g0ODN4bkZWYnk2emlyWHhiQWd4ay04WU15VDQ2bW94SHlGbFlpcHYta3V2ZVAzR1RoVTNxVUZkbm5JdmxOWnZiNnBZX3FhTUMxd2tEVnNrYk5aY2dSd19yNi1EN3ItcjByZ0VsdF9WSTZONGpqSmhwcmFVWU9EcEdtMEpYSndWT0NIN0hzVE1IV1BQNDR2WFFETDNHazA2aS1pOEp6dkh6NGtydks1YTR0MEg4RFRfejFScU9pOXE1SDBXT2pfdjB2MWxqX0ZfOWh2M2VrMkRsSEF0STZrSnlQeWpZY25WX2xmWGdGemJrNno0V0FtMktsTlhBRXhnSjlR?oc=5",
+      "published": "Fri, 25 Sep 2026 01:44:39 GMT",
+      "source": "Benzinga"
+    },
+    {
+      "title": "적발된 산업기술 유출만 5년간 107건 …10건 중 4건 반도체",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE02RXhMV1lXMFdMY2hHeVlQLXZPeVRRWW53UXhpTWxVamxVQmVGWmV5SlRVQ3labnRyZzBHbjJMaVljMUh1Q3BNRnVyX0JCalV6Zmc?oc=5",
+      "published": "Sat, 26 Sep 2026 21:31:00 GMT",
+      "source": "매일경제 마켓"
+    },
+    {
+      "title": "[기획]\"반도체 팹 인재, 제때 확보\"...인재 공급망 구축 본격화",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wd1lfX3MtOWZxa1dnZ0hOaURudmFqOEw4aEVqM3NIVXB0YklBNkt1aFREUkJwTWVRZ2NrLV9kVzNyTTZTV3JsRmtCTnpiQW03LTZLU2Z0X045NE1rMHctSA?oc=5",
+      "published": "Sat, 26 Sep 2026 09:17:08 GMT",
+      "source": "KBC광주방송"
+    },
+    {
+      "title": "삼성전자·SK하이닉스, D램 생산량 HBM에 묶인 사이 中 범용 D램 시장 침투 가속 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcDRqZm51SUtvNm1DajFVSnJyOGY3MXRsNzI3UVNZdk9mYnJNLUJ6cnhQdTNvckwxclZlMjcwaFowNU5qR3RWQkRZcVV1cW1QVnkwa0tCUTZVekJJVE5lTUhIVDJOOUZtQ01NMW5rVEdVOGpXVkRxQ0JkSHBIWWJXaV930gGWAUFVX3lxTE56UURXeEg2RV9kbi1UNU5QNWxCRU8xQU1rNUJJMFQ5SkhxV2VyLWI0dVU1LU9ERTlsSFZPRzdGRmE2MnkwTzNwMEVMVGpzNHUyUTZNcTZmUUNOME51aFdRUHhmWGZfWWpXZWEyaTVfXzMyOGJpOUlSZ2J2SkJ6MVZuQlNSSjhNOWtESlBJdXZCT0c4OW1Fdw?oc=5",
+      "published": "Mon, 21 Sep 2026 21:06:00 GMT",
+      "source": "Chosunbiz"
+    },
+    {
+      "title": "美 물가·고용에 금리 향방 주목…마이크론 실적 대기[주간증시전망]",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ubFRmOGxsRWZFRkZRRE9ENkZiZmdldHBXSUQ1RjlGc0tHMGt4bl9tWEFJRFQ4ZGl0cmJ1ZjBBQVVaTmFhTU5UdGNZcXlxWFAzRkdfa2xoSkRQS0JpTUc0VdIBeEFVX3lxTE1nem9wM2NhQm1Rd0l0dWgyR245T0dMUmpTdTdrVndVTVpOR0JfWjBta0FGS0NtdkV3XzFNWi11OTd2VXhqVTVvaGJuZjBiTUlhTHh1M3dhc3dSNld6Vy1mZ0tSWUNaS1lWbWdnWFpXTUNnRXFPZ0hYZg?oc=5",
+      "published": "Sat, 26 Sep 2026 22:00:00 GMT",
+      "source": "뉴시스"
     }
   ],
   "manual": {
