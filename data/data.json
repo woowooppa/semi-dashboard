@@ -1,24 +1,16 @@
 {
-  "generated_at": "2026-10-01T09:18:15+09:00",
-  "generated_at_utc": "2026-10-01T00:18:15+00:00",
+  "generated_at": "2026-10-02T09:25:06+09:00",
+  "generated_at_utc": "2026-10-02T00:25:06+00:00",
   "prices": {
     "005930.KS": {
       "label": "삼성전자",
       "unit": "KRW",
-      "close": 268500.0,
-      "prev_close": 272500.0,
-      "chg_pct": -1.47,
-      "date": "2026-09-30",
+      "close": 272000.0,
+      "prev_close": 276000.0,
+      "chg_pct": -1.45,
+      "date": "2026-10-02",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-09-03",
-          "c": 69800.0
-        },
-        {
-          "d": "2025-09-04",
-          "c": 70100.0
-        },
         {
           "d": "2025-09-05",
           "c": 69500.0
@@ -1050,26 +1042,26 @@
         {
           "d": "2026-09-30",
           "c": 268500.0
+        },
+        {
+          "d": "2026-10-01",
+          "c": 276000.0
+        },
+        {
+          "d": "2026-10-02",
+          "c": 272000.0
         }
       ]
     },
     "000660.KS": {
       "label": "SK하이닉스",
       "unit": "KRW",
-      "close": 1776000.0,
-      "prev_close": 1765000.0,
-      "chg_pct": 0.62,
-      "date": "2026-09-30",
+      "close": 1833000.0,
+      "prev_close": 1833000.0,
+      "chg_pct": 0.0,
+      "date": "2026-10-02",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-09-03",
-          "c": 262500.0
-        },
-        {
-          "d": "2025-09-04",
-          "c": 265500.0
-        },
         {
           "d": "2025-09-05",
           "c": 273500.0
@@ -2101,22 +2093,26 @@
         {
           "d": "2026-09-30",
           "c": 1776000.0
+        },
+        {
+          "d": "2026-10-01",
+          "c": 1833000.0
+        },
+        {
+          "d": "2026-10-02",
+          "c": 1833000.0
         }
       ]
     },
     "MU": {
       "label": "마이크론",
       "unit": "USD",
-      "close": 1065.08,
-      "prev_close": 1053.98,
-      "chg_pct": 1.05,
-      "date": "2026-09-29",
+      "close": 1065.11,
+      "prev_close": 1065.08,
+      "chg_pct": 0.0,
+      "date": "2026-09-30",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-09-17",
-          "c": 159.99
-        },
         {
           "d": "2025-09-18",
           "c": 168.89
@@ -3152,22 +3148,22 @@
         {
           "d": "2026-09-29",
           "c": 1065.08
+        },
+        {
+          "d": "2026-09-30",
+          "c": 1065.11
         }
       ]
     },
     "SOXX": {
       "label": "SOXX",
       "unit": "USD",
-      "close": 567.44,
-      "prev_close": 560.79,
-      "chg_pct": 1.19,
-      "date": "2026-09-29",
+      "close": 568.64,
+      "prev_close": 567.44,
+      "chg_pct": 0.21,
+      "date": "2026-09-30",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-09-17",
-          "c": 258.53
-        },
         {
           "d": "2025-09-18",
           "c": 267.57
@@ -4203,6 +4199,10 @@
         {
           "d": "2026-09-29",
           "c": 567.44
+        },
+        {
+          "d": "2026-09-30",
+          "c": 568.64
         }
       ]
     }
@@ -4661,9 +4661,87 @@
   },
   "news": [
     {
+      "title": "“메모리 3위 마이크론이 이정돈데” 삼전·닉스에 쏠린 눈",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mN0hyT3NNOEZnUlhEZ2IydHRZaXh4VFpFLWljWnlZRmJ1Uzh4OFEybHNqZlh2elRFXzhVOUJWS0E3Q0VGNUdXeDIxbmJOd0Vq?oc=5",
+      "published": "Thu, 01 Oct 2026 23:21:33 GMT",
+      "source": "munhwa.com"
+    },
+    {
+      "title": "반도체 성능 저하 ‘계면 결함’ 원인 찾았다… 강원대·하버드대 공동연구",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR2Y5Vl9ZdzNZQmtYcVF2eFltZnVaWFZVRzNUSWIxXzUzSWh6ZU4tMDlHY21DdmRNU0doOFFORmprWVJIdUJ6MDF6aXAzQXZKRnlFSGxGZmFXRmtXQkxIYWN2aHdoVjJFNDJMejVLZjBWVFNUT1Y3WGp4UGgtcHdVODNpRC1GUQ?oc=5",
+      "published": "Thu, 01 Oct 2026 07:34:00 GMT",
+      "source": "조선일보"
+    },
+    {
+      "title": "신한운용 'SOL 글로벌DRAM반도체플러스' ETF 7일 상장",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEMzdqS3JQLXUzVzQ4QzVfSmktQVAtWkhKZHJuMV90V3FJWlVsd3UzMjdWdHlBRG9KT1FPbkl1R2tpdVpUWXNmdklHRE9hM1ZIUzhIZ3B6RVJNR1HSAWBBVV95cUxNSzJBZGFnYjkwMUlmZHp0bmVxM3F3TGNYajJDVmRvRmxPcDlTT2tHb1plQ212cW1JZk1QWElNUWhIei13ZEdpTEZkZ3FQNGkwR0FEZUQwV3pwb0VfZjdpZWI?oc=5",
+      "published": "Thu, 01 Oct 2026 23:53:54 GMT",
+      "source": "연합뉴스"
+    },
+    {
+      "title": "코스피, 마이크론·반도체 훈풍에 7,000선 회복 눈앞",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UbFBtdmtvdlpEdDdwRjJJUVJHcXNMb0NkdmIzZUFkaWo2ZS1EMUswV1pvSlNsV3luLWtnNF92X05MMEZkQ2xEQnFXOFJIMHdkLU02TDFyaHY1cXJGOEc3RWo2Uk1scVU?oc=5",
+      "published": "Thu, 01 Oct 2026 12:11:00 GMT",
+      "source": "연합뉴스TV"
+    },
+    {
+      "title": "[기업이슈] 미 마이크론이 확인한 '메모리 호황'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12Z0QxaVNQaS1iNF9odzMxS2R6UF9RUXhqWldQUDhWaFItZUwtZzEtbTdtWWJDemcteHhkbDhyelRYcVNLckJfSzdTZ0R5Vjg?oc=5",
+      "published": "Thu, 01 Oct 2026 23:24:00 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "마이크론 실적에 쏠린 눈…'메모리 호황' 지속성 시험대",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JQ1FQWGZCUVd2VlpxLW5MbXB1LTJyM3JXSjJnSFo4ZTFjZkpwNmE1LVhXaFVQTElOclgzdmhtZXdtRkhqR3pRZWVOekJ4WkNkQjZlemhNVlV4U2VhQjFPN2pna2s5ZHRWODVqcHdlQ3A?oc=5",
+      "published": "Tue, 29 Sep 2026 23:38:38 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "[단독]산업부, 1666억 ‘AI반도체 개발’ 예산 한푼도 안썼다",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9oOEVCUXE3cTI3Ynd2RGkyX1NGRW1JUWJuRklJWnVTTE1ybFhCcnRVMmsxelNZUVp6cnJxTDRSbUVEMnhWU0ptV1BYM0xpV1lscjFZZTFJbTk5UFp6VmhjcjV3RGpMYl9DNG50R0w4Z0w1cEx5Z1E40gFmQVVfeXFMUG94emxEd2U0VGUwQl9Rc29zQ09SSzRDUWxNeTB1X2VyTlN5S2hmX013RW1LdEU5dzAwdm0wQkxNUmswcFpJUDVhVUdVbHFUQkN4QlZ4TkdmNG9mVUhBMV84M2RRV05R?oc=5",
+      "published": "Thu, 01 Oct 2026 21:00:00 GMT",
+      "source": "동아일보"
+    },
+    {
+      "title": "석 달 만에 '사상 최대'…'60조' 마이크론, 다음은 '190조' 삼전닉스",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OTEJlZ0dQeVZJczBXNVhvTVNlTlE3Z3NmUzdyM1lYT3h4c0xIUEZPMGdDOVdsekRGcDhJRXhMUlhtbE9hamFwZ3hTUFhvZw?oc=5",
+      "published": "Thu, 01 Oct 2026 23:35:00 GMT",
+      "source": "전자신문"
+    },
+    {
+      "title": "\"압도적 매수 의견\"…'반도체 훈풍' 삼전닉스 투자전략은?",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aMkx2VVRuTmRmNGlpdzc5X2FGcld6LWEzcDVnVDZ6bjRaT0lFaVA2cTRmd3MwYUw2TU1nZFVwU21BUjBtcmhxeUdqWnBDeDJ3LWdNYTZWU0lQdw?oc=5",
+      "published": "Thu, 01 Oct 2026 23:00:05 GMT",
+      "source": "hankyung.com"
+    },
+    {
+      "title": "[마켓 프리뷰] 마이크론 실적·수출 '훈풍'에 코스피·코스닥 상승",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmTm02SUlLNW9oRkkzeDZ6VTZNRW4xSWZWR21HOGw4cnM5UzJ4dkNkb0toSnhFaG9MZm5TNGQ2UGdkLTc4RVYzUkhNUXppWjk2QTJn0gFYQVVfeXFMTmpyR1N0TUcxdWVaNVYtX0dHRzI0bFhDUjNybHhBY1lWblVmTE93ZkxZVGFZZG5TZlJSQmxDS2lRb3cwWDRKNTNRVmJmbUxQZDJQY043MG9ZeQ?oc=5",
+      "published": "Thu, 01 Oct 2026 21:56:00 GMT",
+      "source": "SBS Biz"
+    },
+    {
+      "title": "마이크론 \"NVHBM, 자체 베이스다이 빠져도 수익성↑\"",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00WTgySnFOa1FlcTlpZzNwOFowZGN2cS1yUnZsSklwMkttQVB2RTRFQmNSTFB0MFdUUnFkcmNmODZVRTJDVGQ2NmI5UzZJMGcyZllfYndHU0twM1FUQ2dHTkNxaGRLdw?oc=5",
+      "published": "Thu, 01 Oct 2026 09:25:11 GMT",
+      "source": "디일렉"
+    },
+    {
+      "title": "마이크론, AI 수요에 사상 최대 실적…4Q 매출 542억달러 By EBN",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYRWJhamgyejRNdS02MFVEdXAtT1VLcXhhSlRkbXhCXy1VclNQY0JKYzVfbk1ldnlja0E2MkRKNHNjYkVtX0ljUk9OV2lJYVNpVGM2QUVZWjN5ZXlZcnU4UC1wY0M3VmtwdEZuY2laTkc?oc=5",
+      "published": "Thu, 01 Oct 2026 17:28:20 GMT",
+      "source": "Investing.com 한국어"
+    },
+    {
+      "title": "[점선면]‘반도체 굴기’의 빛과 그림자…대만 가서 직접 물어봤습니다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IU1F3eENOQUZSQl9lU2l3YzZURnVZZEVPRGZqMFd2Z1NhUEdoWkYydXFfR2hDbERTSGV6V1dOajFJalRQTWFVYXp1bUZQcnh6RGNJSktVMEQ1UdIBX0FVX3lxTFBCQTk0OGFfdkJKUU1BWTY5NFBKQlo5RWxGclZ0U2tWVHdkc3dpbEo2MTVLdGhMRU1udzA5U1I2SzI1ZmRIc1dFZkpvM256cW5WSUJicGJVY3JBQmNzTkg4?oc=5",
+      "published": "Thu, 01 Oct 2026 22:00:00 GMT",
+      "source": "경향신문"
+    },
+    {
       "title": "美 마이크론, ‘AI 붐’ 타고 실적 5배… 韓 반도체도 청신호",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNanduUjFZT0hXTzNmcnpUS1UzSDJzd1UyTFExUTI2UXFwWUNsVGVhQjJoRkRqNWhsd3FLRk1UOGFRT1lHbjVKVENvU0lkem1DcjJiM3VuSE8wMC1NZEptcDVhQ0gtUW4xR0ZHVC15NmJjNXh5R3NJbE9PUHFpMGgzdHo4aw?oc=5",
-      "published": "Wed, 30 Sep 2026 22:09:00 GMT",
+      "published": "Wed, 30 Sep 2026 22:13:04 GMT",
       "source": "조선일보"
     },
     {
@@ -4673,10 +4751,34 @@
       "source": "연합뉴스"
     },
     {
-      "title": "마이크론 실적·전망 예상 상회…AI 데이터센터 매출 11배 폭증(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtemRxekZNSXpLeE5wNXJIOFR6alBxMUpxa1JnV1RGcXU3cl80b3YxbzJDc3JaRkJpRXU5Z3FpNDczUjdkeFIwLXdZNEVFSTJJYzZLc3kyTkRkTEl3bFd6OW5uNFBYTjDSAWxBVV95cUxQaTV4ZDdXN3I4OEQxenJ4LTBKNDJlYldELU1DQjlOdC1QZEF6bHRFVktJM2hvQVdIaVItWkFlYUJDU0R1MENMRWFGZFB1QWRwZG4tRmlhMVhQZG5fdDZieXZPWkxPY3BXREUzM3Q?oc=5",
-      "published": "Wed, 30 Sep 2026 21:20:53 GMT",
-      "source": "뉴스1"
+      "title": "[속보]SK하이닉스ADR 5%급등, 마이크론도 3%↑…금리 상승에도 반도체 강세",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5bnNfeWdERHdjV3FnZXhQYlZoU3k1Y3pHQnpBNVpOQkFjd2d5UG1OUTZFc3FzUG8tcTBjQXFfcmRoTTMzX0tvdW5LbThWa2d1?oc=5",
+      "published": "Thu, 01 Oct 2026 22:05:59 GMT",
+      "source": "munhwa.com"
+    },
+    {
+      "title": "HBM 다음은 eSSD…AI 메모리 투자전쟁 속 솔리다임의 '성장 방정식'",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02eVdVUFQ1TGhaS0hJVDN6YmNHdnBobHF3YmpQNWZKbTZJTTI2MlZHRWNqZTVoeERleURxdUxVQU1SREVCNF9KWHJUWXBaYU0?oc=5",
+      "published": "Thu, 01 Oct 2026 23:35:05 GMT",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "멈추지 않는 반도체 소부장의 랠리 지금도 늦지 않았나?",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxbWt2eTVtN3ZOM1RyNDhqZ0R5SmgwYVhjNExFSDBlVDd0RjctM3VLaXU1WGd4bHh1NlFkd2kyc3lvOHRjaC04bTFac0NwdjREV0wwcmoyWTdSMW5vS2VzNlJWRXBwOXIzb3pHbGtOQV_SAXRBVV95cUxQMnVaR2h1RTRjdk9VeVRHeDZOckY0VUM2Y0NfWU0xSWxkS2c0Wk9NUExFRm1iY011VnJfMWpwQXd2RmpqZDI5VU5OMHNPUm1lRkxEczV2WXd5ek1VMkR1aHZDZVp2bnMzS0tzaGctN28tY3djNQ?oc=5",
+      "published": "Thu, 01 Oct 2026 23:54:57 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "‘반도체 풍향계’ 마이크론, 영업익 1097% 증가한 59조원",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRm5GRVJYbVBwYXlybHR5US1uQVVDQlJLTXEyTW1TMzhOOVBoLWtpWHdKUERUc0RLQ2d5ajl0QTdPX2tlS3czeDktbVAtVVEtUUpTeURoMlh5Qm9rUjV0S3pPYlMyZW5nM3NyZ0pDdGF3Q3hUUGpjRmhUOTM0S3BHOEVWZw?oc=5",
+      "published": "Thu, 01 Oct 2026 15:31:00 GMT",
+      "source": "조선일보"
+    },
+    {
+      "title": "‘반도체 풍향계’ 마이크론, 역대 최대 분기 실적…AI 수요 급증 덕",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YMHFPQktPS09IMWgwMTYxbUV3djBqWVZHaUd4SU4wd2N0WDdNVmhrdU9GVlE0VzZmMnlLN0RidGdsclR0cjNkcGJpQi1makdVa3FGY1VFQXFRd240dk5PWnlyM1pJeE12Zmc?oc=5",
+      "published": "Thu, 01 Oct 2026 11:30:00 GMT",
+      "source": "한겨레"
     },
     {
       "title": "마이크론이 쏘아 올린 AI 메모리 질주… 예상을 깬 615억 달러의 경고장",
@@ -4685,118 +4787,16 @@
       "source": "글로벌이코노믹"
     },
     {
-      "title": "마이크론, 예상 뛰어넘는 실적에도 주가 약세…너무 높은 기대치 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tTHVLRUxLV3o2eWlJLVpjTEhwZFEwNU9JODEzcDdDTkdSSGZQelNQZVFUMFN4dzY4LU1BZHlDSDVuSU9OUnN0TEtPeWRPODJxZ0hpdmx1MTFKTk1ERTlsdTBxMDlac1I20gFuQVVfeXFMTWpjOUpxV0tNUFM5M05fSjFvVWZQR203OFFpNDhkeVN2SkJYMHl0WmlwZ20yaFNjTkoyamhKU0ZpMTlpRkM1OUNWaUxPajJWcG1EbkNnU0VDTmZqZXhUaHo4VlBKNGZPY2hQN251Z3c?oc=5",
-      "published": "Wed, 30 Sep 2026 22:08:02 GMT",
-      "source": "머니투데이"
+      "title": "삼전닉스 실적 ‘풍향계’ 마이크론 또 사상 최고 실적…성과급 지급으로 이익률은 감소 전망",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KckJBOS1PQkh2T2l6OGJWTnNLSGRIYUVXYVNNNmNvNGxKRlF0NGczZ1ZWeEFIbkZ6aUd6MVRJcXBRSWhnMXEzNl8yVWxDbWhIWnl2UHRpRWZMUdIBX0FVX3lxTE50U1JlWHUydXQzMmZISGZUT2c0clBDZDBYeEtqZkhtWXl1TVZvNmJFZ2p1aE9MdTE1ZVlJZ2hibFk2c3BvT3BuSzJPWktfVUJMMVBIc2tQSFJYRm5uMUE4?oc=5",
+      "published": "Thu, 01 Oct 2026 07:31:00 GMT",
+      "source": "경향신문"
     },
     {
-      "title": "마이크론 테크놀로지, AI 수요에 힘입어 4분기 실적 예상치 상회…2027 회계연도 강세 전망",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82RkJNdHpKMjNVTldMNmVSVlQybFd0d2xKRWhtMlUtbzBESGZ4d3BLVXF0N1F3UllJRHZwQ1JpMV91MENyXzFMYmRTX2tZUUxYTzVOOGUwMDJTUnczVVpRelV6TlI?oc=5",
-      "published": "Wed, 30 Sep 2026 20:10:00 GMT",
-      "source": "Investing.com 한국어"
-    },
-    {
-      "title": "마이크론, 매출 135.8조·영업이익률 74.6%…내년 실적 더 높다",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5YWGs2Z0ZSbTgxU3ZWckR4aEU3Z0gwTTNGSEdhV3JXaWd2eC02TGwzejFqcUJvNzhGMTdoNEFtRUktWnBUbmpaSG1qSEZEY2lfZUtlQV9vY2lEY1NkMUdRWGJxWFRoUQ?oc=5",
-      "published": "Wed, 30 Sep 2026 23:34:12 GMT",
-      "source": "디일렉"
-    },
-    {
-      "title": "마이크론도 어김없이 어닝 서프라이즈…증시 이끌 월가 선호주는",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84bDVETG5zRnRoTFlWVlNwcXZjVUF6QURJdHc4MEJ3ZmFMUTV5OGJpU2J4bzRCcTQ0cHhybElwRFpIRnIzQWZxaEVmQ01PWUEzb3pVZVRNSU5CMGQ5UERoN0dGbnpQMEZ0MVczWk9GNWE?oc=5",
-      "published": "Wed, 30 Sep 2026 23:11:05 GMT",
-      "source": "연합인포맥스"
-    },
-    {
-      "title": "분기매출 73.5조원 ‘사상최대’ 기록 마이크론…“내년 실적 더 강력 기대”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EdE1jcFZHUkxnUXkyUkswTlF1X010anlfRUZOYUd0dDRrR2Rkd0ZPU181d1JfMjkyOHN2UTBCWTVmYjhPREpiWS0xb3ZkckFZ?oc=5",
-      "published": "Wed, 30 Sep 2026 22:14:48 GMT",
-      "source": "문화일보"
-    },
-    {
-      "title": "마이크론, 분기매출 73.5조 원 '사상최대‥\"내년 실적 더 강력\"",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41VjVHcTJCcl84MjhMYjFYMWRRelpEX1BuOTZ4X3RXbEtVankxWjBSaGdRVkwyRVlHWEU2bk1QRHRjZzJFT2NpVGVqMUl5cXRyTXVuSkk0RnVGWmcwc0FEdGpTSG10S1NyWkpSWlg1TG9mcVVL0gF0QVVfeXFMTjVWNUdxMkJyXzgyOExiMVgxZFF6WkRfUG45NnhfdFdsS1VqeTFaMFJoZ1FWTDJFWUdYRTZuTVBEdGNnMkVPY2lUZWoxSXlxdHJNdW5KSTRGdUZaZzBzQUR0alNIbXRLU3JaSlJaWDVMb2ZxVUs?oc=5",
-      "published": "Wed, 30 Sep 2026 21:17:16 GMT",
-      "source": "MBC 뉴스"
-    },
-    {
-      "title": "마이크론 실적 예상 상회…AI 메모리 호황에 가이던스도 '서프라이즈'(상보)",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXX1dVeGxhR0duT0dIQl90SXFBOXlhRjBWbl9SeFk0WUxMSVhzNVF4SjNrYlhkM0FuUWVoZWJlQzZzU3k1NjFBYllqZEwxaDFDNFBxX2xwal9WOThlQWswTTZ6cFVoSmPSAWxBVV95cUxQUjFCZjVreUxPcG50Z1RQdEJKUWpCSTh4ZERBTF9mZE5wcVV4Vl9EdWpBX2d5QXNTWE5xakRhcjFLMkczNXhIQzFBZGlJejgycTFYMHdsc2J0OGtPVU9ubE9IMzJLTkI4WU5EZWQ?oc=5",
-      "published": "Wed, 30 Sep 2026 20:20:58 GMT",
-      "source": "뉴스1"
-    },
-    {
-      "title": "마이크론, 실적 호조에 가이던스도 예상치 상회…시간외서 주가 소폭↑(상보)",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40SEtfZEZVRHNUVm13a2ZlcWRIWjRCUFZrWTluRFZVS0tDZG4tTlZkNEVNeW5JaFduazdZZ25WNEo2X25rbjhnMGRFQmlUZGpLUDB1UFRWODRvSWlFaGFDS0FxV2FxN0cwQlRfd2hqZC0?oc=5",
-      "published": "Wed, 30 Sep 2026 23:27:12 GMT",
-      "source": "연합인포맥스"
-    },
-    {
-      "title": "D램·낸드 가격 9월에도 사상 최고…상승폭은 감소",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vREJhdXJaOWtNQTdQU2hsSTFGTlRFTkVWNFRJR25Ub2gwSUNsOVo4YVlRcFl4ek9VOE5MeGg5ZUZTMHZWdklhUVhlSHJpOWdzLTVWeDVEdUZIb21OZklGM29kdHlSUQ?oc=5",
-      "published": "Wed, 30 Sep 2026 22:41:07 GMT",
-      "source": "디일렉"
-    },
-    {
-      "title": "마이크론, 4분기 매출 542억달러…AI 메모리 수요에 ‘어닝 서프라이즈’",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKYVJqelVjem40ejdQTXdsbDJsOHQ4VGpGN3luVjQ4WDNxSUlHd2dLbjQ0d2xVdjFvcWd3VFB6aWNVRUVDTTdTeFJ3WmJFNHc?oc=5",
-      "published": "Wed, 30 Sep 2026 20:49:44 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "AI 서버 수요에 4분기 메모리값 상승세…D램 최대 20%↑",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zeHlVWi1nQWpWRVVoWEQ0QnU3TEttc1paOHJfb3VoLWgzR1hOSjNycnBhenNtWmNGazRsdGEwTF9jSk95QzRkQmhHQkZZZVQ1YmpjLXd2cW5zYkdyckpLR9IBYEFVX3lxTE0zeHlVWi1nQWpWRVVoWEQ0QnU3TEttc1paOHJfb3VoLWgzR1hOSjNycnBhenNtWmNGazRsdGEwTF9jSk95QzRkQmhHQkZZZVQ1YmpjLXd2cW5zYkdyckpLRw?oc=5",
-      "published": "Wed, 30 Sep 2026 09:18:34 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "마이크론 실적에 쏠린 눈…'메모리 호황' 지속성 시험대",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JQ1FQWGZCUVd2VlpxLW5MbXB1LTJyM3JXSjJnSFo4ZTFjZkpwNmE1LVhXaFVQTElOclgzdmhtZXdtRkhqR3pRZWVOekJ4WkNkQjZlemhNVlV4U2VhQjFPN2pna2s5ZHRWODVqcHdlQ3A?oc=5",
-      "published": "Tue, 29 Sep 2026 23:38:38 GMT",
-      "source": "연합인포맥스"
-    },
-    {
-      "title": "\"내년 물량 75% 벌써 찼다\"…마이크론이 본 '메모리 품귀'의 끝",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1heFZtVVVTamlDMFBwY1JyQXY0cUd0anlKbHc4MUNyTkJacHc3N21JdmZLQUR1bC1rcEkwV2IxOG9Md3NhcHpxQ1RWNXpPNmM?oc=5",
-      "published": "Wed, 30 Sep 2026 22:35:14 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "9월 D램·낸드 가격 또 역대 최고…상승폭은 둔화",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zeVJGenloazJnRm1SZEdvVHFzMlVzNmpjXzV5b2VGMm54YzFSYzgyNmU2Y1U0NTlQMUl1bVZDWTdDZWUzSG15cFN6QTdGa0lsSnR6YlJhVzJTbmNXZXhXRdIBYEFVX3lxTE8zeVJGenloazJnRm1SZEdvVHFzMlVzNmpjXzV5b2VGMm54YzFSYzgyNmU2Y1U0NTlQMUl1bVZDWTdDZWUzSG15cFN6QTdGa0lsSnR6YlJhVzJTbmNXZXhXRQ?oc=5",
-      "published": "Wed, 30 Sep 2026 10:37:07 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "마이크론 \"메모리 공급난 2028년까지\"…2027년 HBM 물량 대부분 계약",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MZEo0TTJNVjBnNVJtMDduZ2tZNGRhM0hvR29hQk51WmhuUjZiOTd4UmthdEctRm5mZUZnaWZLMHlES2w3dEc2bC1xb1NxM0twZ0d2MlpJTHBteXhWaVdXanRuR1FLZHpQ?oc=5",
-      "published": "Wed, 30 Sep 2026 21:06:18 GMT",
-      "source": "ebn.co.kr"
-    },
-    {
-      "title": "반도체 불패론 여전…마이크론, HBM 앞세워 `어닝 서프라이즈`",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XNElDZXBLNTd3VmNlMUZjTzkyT2dwM0FScl9ybWtxb2wyRGxURy1aV2VSZ1c3MFVabFdBQUpuQU9HYTlfSERvWTIzandnMHRKUkMxSWRJdEdpd3RBeTR1V3BtU3M?oc=5",
-      "published": "Wed, 30 Sep 2026 21:00:11 GMT",
-      "source": "디지털데일리"
-    },
-    {
-      "title": "마이크론 테크놀로지 Q4 실적, 수익 예상치를 넘어",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Db0d4Y2xBb0lLdWtjZTB2S1pHcDhFR00yYmpGRlh2ZGQybjZDaHdZRElJV3lNVFRWc1BGV1VJdUdyeVdQdE0xSjhrRXhKVFg5TG9lcXVnT19oakhNRDBSQ0wxVW8?oc=5",
-      "published": "Wed, 30 Sep 2026 20:07:00 GMT",
-      "source": "Investing.com 한국어"
-    },
-    {
-      "title": "마이크론, 4분기 매출 4배 급증 깜짝 실적...1분기 전망도 호조",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQnVZVkRrWUNWS1ZHLXRtY0ZNSmdEYWlRX1daM055SDFzR1lxQlRpbnozWm5IM0d5aUFGcXdxX0xWMU9UdFFVWnBGT3ptWC1hMUZhVGxJSnR4M242ZFBCOVc1Y090UDdtRy1rbnVaSTRkTW5Ocnh5XzFpaXpXdjBDS1Vrd1ZWUjJB?oc=5",
-      "published": "Wed, 30 Sep 2026 20:58:03 GMT",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "title": "D램 품귀에 돈 쌓이는 삼성전자…“주주환원 4배 전망” [오늘 나온 보고서]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2bVEzVmgycDlCNzBGU0h1Q3BPSVZILWU1QXEtdnRISU1KSi1tZzEzbFpQanRwbnBFeEJDN3B6Mnd0YjdQQWdGNG9CRkV4Wkk?oc=5",
-      "published": "Thu, 01 Oct 2026 00:03:01 GMT",
-      "source": "v.daum.net"
+      "title": "원자 비대칭으로 쌓아올려 소재에 물성 추가…반도체 넘어설 '초전도 다이오드' 기반",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UamEwR3hTdTRMdWtDbjVfR283ZlFELWdsc0p3S3lIVVNHcFAtU2R1Nnh6MGlYN3NpbllraDhxaWRNV0dUQ3dfT1FocWdmcDVsdE00Vg?oc=5",
+      "published": "Thu, 01 Oct 2026 22:00:00 GMT",
+      "source": "dongascience.com"
     },
     {
       "title": "마이크론 매출 73조원·영업이익률 80%…메모리 호황 이어진다",
@@ -4805,100 +4805,100 @@
       "source": "중앙일보"
     },
     {
-      "title": "호실적 마이크론 시간외 거래 강세…삼전닉스도 달릴까",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1NFFIZzJNRDVzRFozb3V2RWxkUHU3eU9vV3d2U0NfcGFTT3NUamRubXQtcVRvMGhWbXVTV0tpRmpvRG10dHVDTFpIOHlFY2c?oc=5",
-      "published": "Wed, 30 Sep 2026 20:45:13 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "마이크론, 실적 호조에 가이던스도 예상치 상회…시간외서 주가 소폭↑",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02ZWFPWkhvUktyNXh3bktKZ0s5NXpWR3laQ1ExcHk4QUl1V3R4RWhxWFpEZ21pM193bFlodFpuN2pVamZYOWliUmprcE5qZDc1Zm9wYjFCZ0RURU9aSnpHTHNfa1AzcF84akZRU1lhMmk?oc=5",
-      "published": "Wed, 30 Sep 2026 21:05:53 GMT",
-      "source": "연합인포맥스"
-    },
-    {
-      "title": "마이크론, 4Q 매출 542억 달러⋯ 시장 기대치 넘었다",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sajd6SnlpTWR5b1NLLXNham9KX3JFQWczcmo3U3VqM3ZRUlc0TXk3MVBneUhXRXFNcnZVSzVKX0FELU5Eam9iSzltb3ZDSGZ5TW55SzVRcU1sZw?oc=5",
-      "published": "Wed, 30 Sep 2026 20:31:00 GMT",
-      "source": "브릿지경제"
-    },
-    {
-      "title": "마이크론 매출 73.5조원 역대 최대…“메모리 공급난 더 심해진다”",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yM3hkMWNGR2NPdDc2SWNNLTZLdms3VVRWX3UwdjdHR0dCbERHbTVJSGN2Y1owV1RwVnk2RG5JbV9yM3lYaE1hSkJEWXNUdUxlY2dFLTU1dE0zRVdPZmpZWHJhbnVOckhQTlpZLWEwRVVGTkh1Wm1IUVF5RQ?oc=5",
-      "published": "Wed, 30 Sep 2026 22:49:39 GMT",
-      "source": "서울신문"
-    },
-    {
-      "title": "마이크론, AI 메모리 타고 ‘역대급 실적’…삼성·SK하이닉스에도 시선",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mY0RfY20xQ1oxWVhPMVpzM0w3elpQalVhVEhQZEZmdUlnSXgteWxQd3lSN2tnencwNzNRM3FvQUNoOTQtR2I3MlBMQktaM24wSGtqOENYaHBOaXc4N1J3?oc=5",
-      "published": "Wed, 30 Sep 2026 21:04:41 GMT",
-      "source": "joseilbo.com"
-    },
-    {
-      "title": "“내년 HBM도 벌써 팔렸다”…마이크론 데이터센터 매출 11배 폭증",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aSnNlM0pwcHI2aWtpQW1tTEJOdVN1d2huTDJJOGpuQXpRQm1FQjJlSnk5aDdqelR6alNQd2VFQlJBbFVlY0RqR1F3RDJ5b3c?oc=5",
-      "published": "Wed, 30 Sep 2026 22:27:01 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "마이크론 '메모리 슈퍼사이클' 재확인…삼전닉스 '훈풍' 계속",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qaHFwM2RJTmJiWmtUNHZMUkdBZmxsMG5FYkZoeFIwUlA2SnR0YlR4UnVmcU40VEROc2tEYWxyazdrbE5FOFBYM1lLdkJFbEE?oc=5",
-      "published": "Wed, 30 Sep 2026 23:57:00 GMT",
-      "source": "v.daum.net"
-    },
-    {
-      "title": "\"삼성전자, 내년 HBM 판매가 100% 넘게 오를 듯\"-KB",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBOY1ZZRC1GVmgyektLS1RjZVVvRzlQV0FuTDJWOVVoS3ZhUW14M2h2b25Sc2kyZlhaUGNJVFlFTjdfSUIxVlplZnpmQ3FLQnRfODVnZEFnc3c4dw?oc=5",
-      "published": "Wed, 30 Sep 2026 22:27:47 GMT",
-      "source": "한국경제"
-    },
-    {
-      "title": "PCE 예상 하회에도 10년물은 왜 뛰나...마이크론 주가까지 눌렀다",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IZkdjZUktUjFBVGx2Y3YwenFnbk81YWIyWG9hc1dGLVJWWi1lMFZVZmQ1dmZEd3daYkV0WVpXWmdSMkFHSU1fZ09YUWNET09lbVpMMkR6RlBBOHNQZVE?oc=5",
-      "published": "Wed, 30 Sep 2026 21:00:00 GMT",
-      "source": "YTN"
-    },
-    {
-      "title": "[속보] 마이크론 실적 예상 상회…AI 메모리 호황에 매출 5배 급증",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XTTNlSEc1WGQyTG13Skh6UW5IY05JTUIxREJCajBMQzBTZVZoOFN2WXFVVExzN0NHazJVMWl5ZmtiZENvOVlzV3lROTZIbF96WHlFRmZySkR1NE4yX3FWdGJGN05zSmvSAWxBVV95cUxON3JJcUtDVG1RUTl2Q1AtTXdwM2p3WVRLRFlQMXotbEtUSGVzM2xvM0FEUnNKaUx3bXlvcnVzRFg3NnhIY0FZSFp3TXVwQXRIcld4ZUQ1Y0hmd1poZFY0Z1gzZVdjRkNoam1KeWU?oc=5",
-      "published": "Wed, 30 Sep 2026 20:13:16 GMT",
+      "title": "마이크론 실적·전망 예상 상회…AI 데이터센터 매출 11배 폭증(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtemRxekZNSXpLeE5wNXJIOFR6alBxMUpxa1JnV1RGcXU3cl80b3YxbzJDc3JaRkJpRXU5Z3FpNDczUjdkeFIwLXdZNEVFSTJJYzZLc3kyTkRkTEl3bFd6OW5uNFBYTjDSAWxBVV95cUxQaTV4ZDdXN3I4OEQxenJ4LTBKNDJlYldELU1DQjlOdC1QZEF6bHRFVktJM2hvQVdIaVItWkFlYUJDU0R1MENMRWFGZFB1QWRwZG4tRmlhMVhQZG5fdDZieXZPWkxPY3BXREUzM3Q?oc=5",
+      "published": "Wed, 30 Sep 2026 21:20:53 GMT",
       "source": "뉴스1"
     },
     {
-      "title": "LB세미콘, 구미 전력반도체 후공정 설비 증설",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aTmdaZk1sa2V3ME8wTWQ3d3Voc0l1d2YxQkRZVERkWGJMNXllU0lVN0hWUlJZa05OOENiT3lTeEhjQVRXbURoVWlFR3M0UmxIc21laXlsNzFMc3pFQTJhemppU1RDUQ?oc=5",
-      "published": "Wed, 30 Sep 2026 22:37:49 GMT",
-      "source": "디일렉"
+      "title": "마이크론, 예상 뛰어넘는 실적에도 주가 약세…너무 높은 기대치 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tTHVLRUxLV3o2eWlJLVpjTEhwZFEwNU9JODEzcDdDTkdSSGZQelNQZVFUMFN4dzY4LU1BZHlDSDVuSU9OUnN0TEtPeWRPODJxZ0hpdmx1MTFKTk1ERTlsdTBxMDlac1I20gFuQVVfeXFMTWpjOUpxV0tNUFM5M05fSjFvVWZQR203OFFpNDhkeVN2SkJYMHl0WmlwZ20yaFNjTkoyamhKU0ZpMTlpRkM1OUNWaUxPajJWcG1EbkNnU0VDTmZqZXhUaHo4VlBKNGZPY2hQN251Z3c?oc=5",
+      "published": "Wed, 30 Sep 2026 22:08:02 GMT",
+      "source": "머니투데이"
     },
     {
-      "title": "[외신 헤드라인] '깜짝실적' 마이크론, 매출 5배·EPS 10배 급증",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uMUhITmJsOVZGSXJpRXFabXdrRVhxcklJZWlDOUpQR2tqRDlqQV9oeG9ZWW5tLTZaQVh6Z19pY0ZhZEVLZkxieDJVdEdHUjg?oc=5",
-      "published": "Wed, 30 Sep 2026 21:34:18 GMT",
-      "source": "v.daum.net"
+      "title": "“DS 웃고 DX 울고”… 마이크론이 예고한 메모리 공급난에 삼전 희비",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02VlhvWlV6a2NNemdVaVBiSEF2Qi0zaWZ0NFRrUnRQVWE2Yk93ampoZlpMVjg0VTZFVGZKamxvNXVQNjdqVEFxNkdGekc5THhBamUxNWxKTkhWb3ZxV3B5WThZRDBZT3ljOFV1SWs1YUbSAXRBVV95cUxPQ3g4cmhmNW12RDhfbS00Vnlqelk4eTZqUDM2eThqZWpuNGlhNGZtMVZVYmdZa3VHSlZFaGlVMEFuS3IyRURMY21ZRXNNb1NCMkJYNFc2eS01TUh2bGZScFhEcTZWOUVjaXozbEdrUDBORnRkRg?oc=5",
+      "published": "Thu, 01 Oct 2026 21:00:00 GMT",
+      "source": "IT조선"
     },
     {
-      "title": "마이크론, 4분기 매출 542억달러…AI 수요에 사상 최대 실적",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFVFBILU05a1dvZkpmLTY1cU1nOUtoTXpmMEVhQ0lQbldsNVdpOGg3ZHdaNkc0MXJiWEJ6bmlqdlpGMEdDTzNEVVh2emFzTklCWU5xeDA0VVZidHVjY0c1Yw?oc=5",
-      "published": "Wed, 30 Sep 2026 20:50:20 GMT",
+      "title": "\"삼전닉스도 오를까\"…마이크론 사상 최대 실적에 반도체주 훈풍 [1분 브리프]",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TVFVGZmY3WFZXTGVzQk5VaVVnT1RwYUsyamRKMkF5cG8wSUJmYk9nX29CX3cxSkx5bVpRLVprTzlsZXdNSzJEVS04Yk1kSjRMZXV4UTJzdGhlMV9nd1dfbw?oc=5",
+      "published": "Thu, 01 Oct 2026 23:00:00 GMT",
       "source": "아시아경제"
     },
     {
-      "title": "사상 최대 찍었는데 더 번다…마이크론 \"다음 분기 매출 83조3천억원\" 전망",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WZWNZNnR5a2Z1ZXJtQTdJUUNLdGVkelNJaG5ndlEwUnNEOWVWQUlBTU5WUC1zS2QzRG4wR1RhTFFEMXlkTG9Zd3Q5Ymg2cDA?oc=5",
-      "published": "Wed, 30 Sep 2026 21:48:31 GMT",
+      "title": "주형철 경기도 경제부지사 반도체산업 현장행보…삼성전자 평택캠퍼스·방류수 관리현장 점검",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSTNzdUFKQWlvWEF5d0NPQWdJeThveEZJR2Yydlpjak1fUkNKN0dNWE9iM3FpM3dVWm9wY1NoYTRrd3lJb0E3Y1dMTW5hd3RsSDNJc0NBSVRuQ0llWklvSF9NTWxPM3hpWGxwbGs3cExBOWVuQWxnbTRJQ0xMM2dnY0E2aFU?oc=5",
+      "published": "Fri, 02 Oct 2026 00:07:00 GMT",
+      "source": "경기도뉴스포털"
+    },
+    {
+      "title": "뉴욕증시, 마이크론 호실적에도 불안한 투심…하락 출발",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uR3FORnVoLVVzbzRpMVh2Q3FwOWZrNWFsZ1lHRm1BS0ZUU29UbUtpREkycnhuZEczQXlGMkEySU9NZC0yN2o3eWZ2T0JfSk9SX1d5ZzgtazlPNGZkei1KMlJka2xQcHp4UXNUcWU5a2Y?oc=5",
+      "published": "Thu, 01 Oct 2026 14:45:18 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "한전, K-반도체 생산 경쟁력 강화 뒷받침한다",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zMzNOcmVhd3dhX1lsTFp2amZMNGgtS1Y1R0JERVVWQURrQ2VwODRaMXFtMmFuWFd4eVlralYxellaR3Z1MFYtbi12TERIWjhJR3NPMk81bnM3eG92eGFSdGlBci03dTN5R2I1T1dwRmLSAXBBVV95cUxNczMzTnJlYXd3YV9ZbExadmpmTDRoLUtWNUdCREVVVkFEa0NlcDg0WjFxbTJhblhXeHlZa2pWMXpZWkd2dTBWLW4tdkxESFo4SUdzTzJPNW5zN3hvdnhhUnRpQXItN3UzeUdiNU9XcEZi?oc=5",
+      "published": "Thu, 01 Oct 2026 08:25:04 GMT",
+      "source": "전기신문"
+    },
+    {
+      "title": "[1002개장체크] 美 증시, 마이크론 호실적에 따른 AI 테마 강세 By 인포스탁데일리",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOOTFIek5fcHNIajFqemFsMTF0bFE2ZENGdm13X3lHMloyRHl1SFhPbnZVQU5oU3IwZlBqWUxGejE2Y1lTU0x1TUU3WTdxMUJoMm1lVGJSSDRJSTFEbWhMWVJ4Sl9GR0FRMXBmM1A5NFQ?oc=5",
+      "published": "Fri, 02 Oct 2026 00:07:00 GMT",
+      "source": "Investing.com 한국어"
+    },
+    {
+      "title": "마이크론, 33조 투자 폭탄 던지며 로봇 두뇌 선점…삼성·SK 판가 방어벽 더 높아진다",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdXZld0NuZndDa3Fud3hwdGQyd3pRbHozZGpTcUpmaDR3akstXzIxd2dxUWo5WGlyRWg5SzlvMFJWdmc0a2kxaUNSczd1b21JTXpxMHZrWUhDbzNpanZVcmtkeDVXaUE4bGEteUZxZXJNdXlrX3dOeVNwVzlWSUg3aTljS1huSzEz?oc=5",
+      "published": "Thu, 01 Oct 2026 17:30:00 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "미국의 반도체 관세 협박 왜?… 미국 내 투자 끌어내려는 협상 수단",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDaTd3THBnRWtXa1pWVzB2QW5vZlRfeC0wLXFJc3lRRjcteExpZjVzQlZGNnE2WkFOdEJ4SWF2Zk5zS3I0T2xUSHRabDc0WGs?oc=5",
+      "published": "Fri, 02 Oct 2026 00:06:59 GMT",
       "source": "v.daum.net"
     },
     {
-      "title": "[증시키워드] D램 공급부족 장기화에 반도체 재부각…원전·전력주도 검색 상위권",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUMHVuTkpSeTdMN2YtdUh5YjI3ZklyaDVhMGRpR2N2WmlRWlF6R1k4VW5YTDd4YlR0WXFZTk91OUE4a280NkQ0Ty16LXlybWc?oc=5",
-      "published": "Wed, 30 Sep 2026 23:12:04 GMT",
-      "source": "v.daum.net"
+      "title": "美 마이크론, 또 최대 실적… 삼전닉스 영업익 200조 육박",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONTZEMHVRUVB0REV2RDJHcnhpdlFjelhZM1FjRm1mN1BreGYzR3JiMzBCWEFpdGZiTmd6d3U4SHZCblgtcnFIOHVxLWxFR056dVV6VTdxQnZhWm9QbG5VZzRhY0Vvc3V4SzlPMmROMEhMUkcwb1pGWkNTRnRTa1dlZUg4WQ?oc=5",
+      "published": "Thu, 01 Oct 2026 07:18:10 GMT",
+      "source": "조선일보"
     },
     {
-      "title": "[속보] 9월 반도체 수출 603억달러…사상 첫 600억달러 돌파",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OQTRTb2dDV3ZxYjVpbzRtUGtZXy1EU1F5OG5xVDlVa2ZPeHVYMEtCa1loUk9ENUdkX1RnRWxiUVM1cWo5VDRaZ2h3NzYzZWZNWUlhdnZBeWhqaDDSAWBBVV95cUxQVGpqMFpQaHVXWE1TVTNNOGNLZURMM1Q4bmV5YldteVBKaVFnajU3cW5NLWw3QWtRVFhHLUgyT01zUUdlWlFSZWxHNFN6RlA5SmU1M2xzVlMzcFJOci1FSVo?oc=5",
-      "published": "Thu, 01 Oct 2026 00:00:15 GMT",
-      "source": "연합뉴스"
+      "title": "메모리 '더블 호재'… 삼전닉스 실적 날개 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYdXRJSldOd1Byci1jX0lURkNvLVZOYjc2UHpJbFAxMmhNSTVIMWtUbFpoRXAwbHBhSk5OSzBUNTJmclc5WWdFSnN5YXN5VGo4YTZ3NEhfU2RmS3d2ZGtfN0VtZnllVDlhZFhBZNIBckFVX3lxTE1ZZlUzR0NldllTZGNuSEhGZ19YdXhJVktNeUVlVkUwQnVYTldKeG9XUXZxZ0xqNENzNmk5dlVXN2Jmb3VUT0NrT2xoRnV3aXNydjc5ZGgzVGwycHRUV1hrcGpmbkwxc2t2Q0tPRWg4MWhVQQ?oc=5",
+      "published": "Thu, 01 Oct 2026 19:00:00 GMT",
+      "source": "머니투데이"
+    },
+    {
+      "title": "[광화문에서/장윤정]반도체 클러스터 조성… ‘마지막 퍼즐’은 결국 사람",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vRFBnN3l3WFd0cmtPS2syX2R3R1U4VzJHbWM2WDh3R2hqNS1LSzJpcjhjZFZIV3dzTUtpeXNCdUVwRUxqaFdWdm13a01mQkoxT1NneTM0ZzdxVi1Ed2Z6SjhhVGpCbDdlMlhfNUN0ZG9HUlRDc0HSAWZBVV95cUxQVDh6V3hIRFhaWThKWWVueWpneXJWOGJTSTRMUXR6MFh2Q3pPYlBwdWU3aFpvSE4yTVFmYmVVVkdGbm9ZWE4xbmNxRV9yWTlSa0JFMENmV2x0Y2ZYOXBGODY2Qk5iVlE?oc=5",
+      "published": "Thu, 01 Oct 2026 14:09:00 GMT",
+      "source": "동아일보"
+    },
+    {
+      "title": "마이크론 ‘깜짝 실적’에도 美금리 5.3%…반도체 강세, 삼전·하닉 외인 수급 주목",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UeDJidnhLNzZ1TzdaZlMzYTU4MVdkTlltS3B1N2l0Sk1SYWJweDlKT0JpZmVZZ283cnlQbWJuUGRyNWFaOWZSLUNvTUJVZUx0M054VUdpSUlRRU93cGtNYUFOZ3ZlMXFj?oc=5",
+      "published": "Thu, 01 Oct 2026 18:37:22 GMT",
+      "source": "녹색경제신문"
+    },
+    {
+      "title": "반도체가 半했다… 한국수출 사상 첫 1조달러 시대 눈앞 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYRGFPVFJ6QzlVc0FDODlISFMtNUtaZ2ZXR1YwazFfeHNfVkF6YUQzdnFXU1lvNldJRHU2a3NXR3hFNTlqazhYcm5qZGRmTlRaZkNIZ3pUOFpfbmJRR3VpUng5cnBNc055RGFR0gFwQVVfeXFMUENjRXc3YXpwUXZ1b3R4MmVycXZVT0FMREtnR1hmU2tma1MxdHhoQkZmNDZBSklSc0p5cEdUaGNjRFp5WXZ2ZDhIbTRiWkt5MzhpclJvS2JwVm56WjE0VDlKenRwbGNWYVdjWGNtaFpsNQ?oc=5",
+      "published": "Thu, 01 Oct 2026 18:47:00 GMT",
+      "source": "머니투데이"
+    },
+    {
+      "title": "[마켓뷰] 마이크론 호실적에 반등한 코스피, '7천피' 탈환하나",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuMGdheFIzUktYRnU0NE1QQUY0bk4tQ0liN0lhZllqNU1ZTnZCd0V2dV9hNzBydHh4QmlrME5fMjhxSzVCU0w4MEZrWkpkcE0?oc=5",
+      "published": "Thu, 01 Oct 2026 23:03:48 GMT",
+      "source": "v.daum.net"
     }
   ],
   "manual": {
