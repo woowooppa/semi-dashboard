@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-11-05T10:13:23+09:00",
-  "generated_at_utc": "2026-11-05T01:13:23+00:00",
+  "generated_at": "2026-11-06T10:18:54+09:00",
+  "generated_at_utc": "2026-11-06T01:18:54+00:00",
   "prices": {
     "005930.KS": {
       "label": "삼성전자",
       "unit": "KRW",
-      "close": 206250.0,
-      "prev_close": 218000.0,
-      "chg_pct": -5.39,
-      "date": "2026-11-05",
+      "close": 183100.0,
+      "prev_close": 201500.0,
+      "chg_pct": -9.13,
+      "date": "2026-11-06",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-10-15",
-          "c": 95000.0
-        },
         {
           "d": "2025-10-16",
           "c": 97700.0
@@ -1049,23 +1045,23 @@
         },
         {
           "d": "2026-11-05",
-          "c": 206250.0
+          "c": 201500.0
+        },
+        {
+          "d": "2026-11-06",
+          "c": 183100.0
         }
       ]
     },
     "000660.KS": {
       "label": "SK하이닉스",
       "unit": "KRW",
-      "close": 1291000.0,
-      "prev_close": 1396000.0,
-      "chg_pct": -7.52,
-      "date": "2026-11-05",
+      "close": 1120000.0,
+      "prev_close": 1264000.0,
+      "chg_pct": -11.39,
+      "date": "2026-11-06",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-10-15",
-          "c": 422500.0
-        },
         {
           "d": "2025-10-16",
           "c": 452500.0
@@ -2100,23 +2096,23 @@
         },
         {
           "d": "2026-11-05",
-          "c": 1291000.0
+          "c": 1264000.0
+        },
+        {
+          "d": "2026-11-06",
+          "c": 1120000.0
         }
       ]
     },
     "MU": {
       "label": "마이크론",
       "unit": "USD",
-      "close": 855.1,
-      "prev_close": 833.59,
-      "chg_pct": 2.58,
-      "date": "2026-11-03",
+      "close": 795.23,
+      "prev_close": 855.1,
+      "chg_pct": -7.0,
+      "date": "2026-11-04",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-10-22",
-          "c": 198.47
-        },
         {
           "d": "2025-10-23",
           "c": 206.71
@@ -3152,1049 +3148,1049 @@
         {
           "d": "2026-11-03",
           "c": 855.1
+        },
+        {
+          "d": "2026-11-04",
+          "c": 795.23
         }
       ]
     },
     "SOXX": {
       "label": "SOXX",
       "unit": "USD",
-      "close": 465.0,
-      "prev_close": 453.65,
-      "chg_pct": 2.5,
-      "date": "2026-11-03",
+      "close": 450.41,
+      "prev_close": 465.0,
+      "chg_pct": -3.14,
+      "date": "2026-11-04",
       "source": "Yahoo",
       "history": [
         {
-          "d": "2025-10-22",
-          "c": 284.13
-        },
-        {
           "d": "2025-10-23",
-          "c": 291.06
+          "c": 97.02
         },
         {
           "d": "2025-10-24",
-          "c": 295.86
+          "c": 98.62
         },
         {
           "d": "2025-10-27",
-          "c": 304.08
+          "c": 101.36
         },
         {
           "d": "2025-10-28",
-          "c": 304.45
+          "c": 101.48
         },
         {
           "d": "2025-10-29",
-          "c": 309.6
+          "c": 103.2
         },
         {
           "d": "2025-10-30",
-          "c": 305.41
+          "c": 101.8
         },
         {
           "d": "2025-10-31",
-          "c": 306.55
+          "c": 102.18
         },
         {
           "d": "2025-11-03",
-          "c": 308.38
+          "c": 102.79
         },
         {
           "d": "2025-11-04",
-          "c": 296.26
+          "c": 98.75
         },
         {
           "d": "2025-11-05",
-          "c": 305.47
+          "c": 101.82
         },
         {
           "d": "2025-11-06",
-          "c": 297.5
+          "c": 99.17
         },
         {
           "d": "2025-11-07",
-          "c": 294.38
+          "c": 98.13
         },
         {
           "d": "2025-11-10",
-          "c": 302.0
+          "c": 100.67
         },
         {
           "d": "2025-11-11",
-          "c": 295.15
+          "c": 98.38
         },
         {
           "d": "2025-11-12",
-          "c": 299.67
+          "c": 99.89
         },
         {
           "d": "2025-11-13",
-          "c": 289.38
+          "c": 96.46
         },
         {
           "d": "2025-11-14",
-          "c": 288.52
+          "c": 96.17
         },
         {
           "d": "2025-11-17",
-          "c": 283.56
+          "c": 94.52
         },
         {
           "d": "2025-11-18",
-          "c": 276.98
+          "c": 92.33
         },
         {
           "d": "2025-11-19",
-          "c": 281.61
+          "c": 93.87
         },
         {
           "d": "2025-11-20",
-          "c": 268.1
+          "c": 89.37
         },
         {
           "d": "2025-11-21",
-          "c": 270.83
+          "c": 90.28
         },
         {
           "d": "2025-11-24",
-          "c": 282.7
+          "c": 94.23
         },
         {
           "d": "2025-11-25",
-          "c": 283.58
+          "c": 94.53
         },
         {
           "d": "2025-11-26",
-          "c": 291.39
+          "c": 97.13
         },
         {
           "d": "2025-11-28",
-          "c": 296.74
+          "c": 98.91
         },
         {
           "d": "2025-12-01",
-          "c": 296.92
+          "c": 98.97
         },
         {
           "d": "2025-12-02",
-          "c": 302.84
+          "c": 100.95
         },
         {
           "d": "2025-12-03",
-          "c": 309.36
+          "c": 103.12
         },
         {
           "d": "2025-12-04",
-          "c": 306.28
+          "c": 102.09
         },
         {
           "d": "2025-12-05",
-          "c": 309.4
+          "c": 103.13
         },
         {
           "d": "2025-12-08",
-          "c": 312.76
+          "c": 104.25
         },
         {
           "d": "2025-12-09",
-          "c": 312.18
+          "c": 104.06
         },
         {
           "d": "2025-12-10",
-          "c": 316.33
+          "c": 105.44
         },
         {
           "d": "2025-12-11",
-          "c": 314.52
+          "c": 104.84
         },
         {
           "d": "2025-12-12",
-          "c": 299.48
+          "c": 99.83
         },
         {
           "d": "2025-12-15",
-          "c": 298.01
+          "c": 99.34
         },
         {
           "d": "2025-12-16",
-          "c": 296.2
+          "c": 98.73
         },
         {
           "d": "2025-12-17",
-          "c": 285.23
+          "c": 95.08
         },
         {
           "d": "2025-12-18",
-          "c": 292.04
+          "c": 97.35
         },
         {
           "d": "2025-12-19",
-          "c": 299.81
+          "c": 99.94
         },
         {
           "d": "2025-12-22",
-          "c": 303.84
+          "c": 101.28
         },
         {
           "d": "2025-12-23",
-          "c": 304.96
+          "c": 101.65
         },
         {
           "d": "2025-12-24",
-          "c": 306.14
+          "c": 102.05
         },
         {
           "d": "2025-12-26",
-          "c": 306.04
+          "c": 102.01
         },
         {
           "d": "2025-12-29",
-          "c": 305.32
+          "c": 101.77
         },
         {
           "d": "2025-12-30",
-          "c": 304.92
+          "c": 101.64
         },
         {
           "d": "2025-12-31",
-          "c": 301.15
+          "c": 100.38
         },
         {
           "d": "2026-01-02",
-          "c": 313.69
+          "c": 104.56
         },
         {
           "d": "2026-01-05",
-          "c": 318.06
+          "c": 106.02
         },
         {
           "d": "2026-01-06",
-          "c": 328.35
+          "c": 109.45
         },
         {
           "d": "2026-01-07",
-          "c": 324.89
+          "c": 108.3
         },
         {
           "d": "2026-01-08",
-          "c": 319.58
+          "c": 106.53
         },
         {
           "d": "2026-01-09",
-          "c": 328.78
+          "c": 109.59
         },
         {
           "d": "2026-01-12",
-          "c": 330.35
+          "c": 110.12
         },
         {
           "d": "2026-01-13",
-          "c": 333.3
+          "c": 111.1
         },
         {
           "d": "2026-01-14",
-          "c": 331.9
+          "c": 110.63
         },
         {
           "d": "2026-01-15",
-          "c": 337.22
+          "c": 112.41
         },
         {
           "d": "2026-01-16",
-          "c": 342.47
+          "c": 114.16
         },
         {
           "d": "2026-01-20",
-          "c": 337.35
+          "c": 112.45
         },
         {
           "d": "2026-01-21",
-          "c": 348.14
+          "c": 116.05
         },
         {
           "d": "2026-01-22",
-          "c": 348.67
+          "c": 116.22
         },
         {
           "d": "2026-01-23",
-          "c": 344.71
+          "c": 114.9
         },
         {
           "d": "2026-01-26",
-          "c": 343.07
+          "c": 114.36
         },
         {
           "d": "2026-01-27",
-          "c": 351.08
+          "c": 117.03
         },
         {
           "d": "2026-01-28",
-          "c": 360.46
+          "c": 120.15
         },
         {
           "d": "2026-01-29",
-          "c": 361.13
+          "c": 120.38
         },
         {
           "d": "2026-01-30",
-          "c": 346.3
+          "c": 115.43
         },
         {
           "d": "2026-02-02",
-          "c": 352.69
+          "c": 117.56
         },
         {
           "d": "2026-02-03",
-          "c": 345.64
+          "c": 115.21
         },
         {
           "d": "2026-02-04",
-          "c": 330.38
+          "c": 110.13
         },
         {
           "d": "2026-02-05",
-          "c": 330.83
+          "c": 110.28
         },
         {
           "d": "2026-02-06",
-          "c": 348.51
+          "c": 116.17
         },
         {
           "d": "2026-02-09",
-          "c": 352.77
+          "c": 117.59
         },
         {
           "d": "2026-02-10",
-          "c": 351.43
+          "c": 117.14
         },
         {
           "d": "2026-02-11",
-          "c": 360.2
+          "c": 120.07
         },
         {
           "d": "2026-02-12",
-          "c": 351.5
+          "c": 117.17
         },
         {
           "d": "2026-02-13",
-          "c": 354.66
+          "c": 118.22
         },
         {
           "d": "2026-02-17",
-          "c": 354.1
+          "c": 118.03
         },
         {
           "d": "2026-02-18",
-          "c": 357.92
+          "c": 119.31
         },
         {
           "d": "2026-02-19",
-          "c": 355.84
+          "c": 118.61
         },
         {
           "d": "2026-02-20",
-          "c": 359.43
+          "c": 119.81
         },
         {
           "d": "2026-02-23",
-          "c": 356.82
+          "c": 118.94
         },
         {
           "d": "2026-02-24",
-          "c": 362.04
+          "c": 120.68
         },
         {
           "d": "2026-02-25",
-          "c": 368.0
+          "c": 122.67
         },
         {
           "d": "2026-02-26",
-          "c": 356.8
+          "c": 118.93
         },
         {
           "d": "2026-02-27",
-          "c": 352.29
+          "c": 117.43
         },
         {
           "d": "2026-03-02",
-          "c": 352.05
+          "c": 117.35
         },
         {
           "d": "2026-03-03",
-          "c": 334.78
+          "c": 111.59
         },
         {
           "d": "2026-03-04",
-          "c": 341.54
+          "c": 113.85
         },
         {
           "d": "2026-03-05",
-          "c": 337.76
+          "c": 112.59
         },
         {
           "d": "2026-03-06",
-          "c": 323.51
+          "c": 107.84
         },
         {
           "d": "2026-03-09",
-          "c": 336.37
+          "c": 112.12
         },
         {
           "d": "2026-03-10",
-          "c": 338.81
+          "c": 112.94
         },
         {
           "d": "2026-03-11",
-          "c": 342.09
+          "c": 114.03
         },
         {
           "d": "2026-03-12",
-          "c": 330.19
+          "c": 110.06
         },
         {
           "d": "2026-03-13",
-          "c": 331.32
+          "c": 110.44
         },
         {
           "d": "2026-03-16",
-          "c": 337.83
+          "c": 112.61
         },
         {
           "d": "2026-03-17",
-          "c": 340.25
+          "c": 113.42
         },
         {
           "d": "2026-03-18",
-          "c": 338.29
+          "c": 112.76
         },
         {
           "d": "2026-03-19",
-          "c": 340.2
+          "c": 113.4
         },
         {
           "d": "2026-03-20",
-          "c": 332.51
+          "c": 110.84
         },
         {
           "d": "2026-03-23",
-          "c": 336.59
+          "c": 112.2
         },
         {
           "d": "2026-03-24",
-          "c": 341.02
+          "c": 113.67
         },
         {
           "d": "2026-03-25",
-          "c": 345.25
+          "c": 115.08
         },
         {
           "d": "2026-03-26",
-          "c": 328.85
+          "c": 109.62
         },
         {
           "d": "2026-03-27",
-          "c": 323.48
+          "c": 107.83
         },
         {
           "d": "2026-03-30",
-          "c": 309.79
+          "c": 103.26
         },
         {
           "d": "2026-03-31",
-          "c": 328.66
+          "c": 109.55
         },
         {
           "d": "2026-04-01",
-          "c": 338.54
+          "c": 112.85
         },
         {
           "d": "2026-04-02",
-          "c": 339.61
+          "c": 113.2
         },
         {
           "d": "2026-04-06",
-          "c": 344.1
+          "c": 114.7
         },
         {
           "d": "2026-04-07",
-          "c": 347.76
+          "c": 115.92
         },
         {
           "d": "2026-04-08",
-          "c": 370.4
+          "c": 123.47
         },
         {
           "d": "2026-04-09",
-          "c": 378.63
+          "c": 126.21
         },
         {
           "d": "2026-04-10",
-          "c": 386.6
+          "c": 128.87
         },
         {
           "d": "2026-04-13",
-          "c": 393.34
+          "c": 131.11
         },
         {
           "d": "2026-04-14",
-          "c": 401.24
+          "c": 133.75
         },
         {
           "d": "2026-04-15",
-          "c": 401.86
+          "c": 133.95
         },
         {
           "d": "2026-04-16",
-          "c": 405.95
+          "c": 135.32
         },
         {
           "d": "2026-04-17",
-          "c": 415.71
+          "c": 138.57
         },
         {
           "d": "2026-04-20",
-          "c": 417.55
+          "c": 139.18
         },
         {
           "d": "2026-04-21",
-          "c": 420.7
+          "c": 140.23
         },
         {
           "d": "2026-04-22",
-          "c": 431.77
+          "c": 143.92
         },
         {
           "d": "2026-04-23",
-          "c": 441.0
+          "c": 147.0
         },
         {
           "d": "2026-04-24",
-          "c": 461.6
+          "c": 153.87
         },
         {
           "d": "2026-04-27",
-          "c": 455.41
+          "c": 151.8
         },
         {
           "d": "2026-04-28",
-          "c": 438.71
+          "c": 146.24
         },
         {
           "d": "2026-04-29",
-          "c": 449.99
+          "c": 150.0
         },
         {
           "d": "2026-04-30",
-          "c": 461.44
+          "c": 153.81
         },
         {
           "d": "2026-05-01",
-          "c": 465.75
+          "c": 155.25
         },
         {
           "d": "2026-05-04",
-          "c": 462.06
+          "c": 154.02
         },
         {
           "d": "2026-05-05",
-          "c": 482.73
+          "c": 160.91
         },
         {
           "d": "2026-05-06",
-          "c": 506.87
+          "c": 168.96
         },
         {
           "d": "2026-05-07",
-          "c": 492.36
+          "c": 164.12
         },
         {
           "d": "2026-05-08",
-          "c": 520.3
+          "c": 173.43
         },
         {
           "d": "2026-05-11",
-          "c": 532.76
+          "c": 177.59
         },
         {
           "d": "2026-05-12",
-          "c": 515.99
+          "c": 172.0
         },
         {
           "d": "2026-05-13",
-          "c": 528.29
+          "c": 176.1
         },
         {
           "d": "2026-05-14",
-          "c": 530.03
+          "c": 176.68
         },
         {
           "d": "2026-05-15",
-          "c": 508.52
+          "c": 169.51
         },
         {
           "d": "2026-05-18",
-          "c": 495.87
+          "c": 165.29
         },
         {
           "d": "2026-05-19",
-          "c": 496.74
+          "c": 165.58
         },
         {
           "d": "2026-05-20",
-          "c": 520.31
+          "c": 173.44
         },
         {
           "d": "2026-05-21",
-          "c": 524.71
+          "c": 174.9
         },
         {
           "d": "2026-05-22",
-          "c": 537.33
+          "c": 179.11
         },
         {
           "d": "2026-05-26",
-          "c": 570.09
+          "c": 190.03
         },
         {
           "d": "2026-05-27",
-          "c": 563.98
+          "c": 187.99
         },
         {
           "d": "2026-05-28",
-          "c": 569.47
+          "c": 189.82
         },
         {
           "d": "2026-05-29",
-          "c": 569.08
+          "c": 189.69
         },
         {
           "d": "2026-06-01",
-          "c": 571.93
+          "c": 190.64
         },
         {
           "d": "2026-06-02",
-          "c": 605.02
+          "c": 201.67
         },
         {
           "d": "2026-06-03",
-          "c": 615.68
+          "c": 205.23
         },
         {
           "d": "2026-06-04",
-          "c": 602.72
+          "c": 200.91
         },
         {
           "d": "2026-06-05",
-          "c": 539.77
+          "c": 179.92
         },
         {
           "d": "2026-06-08",
-          "c": 571.45
+          "c": 190.48
         },
         {
           "d": "2026-06-09",
-          "c": 562.14
+          "c": 187.38
         },
         {
           "d": "2026-06-10",
-          "c": 541.51
+          "c": 180.5
         },
         {
           "d": "2026-06-11",
-          "c": 586.93
+          "c": 195.64
         },
         {
           "d": "2026-06-12",
-          "c": 596.25
+          "c": 198.75
         },
         {
           "d": "2026-06-15",
-          "c": 628.45
+          "c": 209.48
         },
         {
           "d": "2026-06-16",
-          "c": 591.24
+          "c": 197.08
         },
         {
           "d": "2026-06-17",
-          "c": 599.73
+          "c": 199.91
         },
         {
           "d": "2026-06-18",
-          "c": 639.45
+          "c": 213.15
         },
         {
           "d": "2026-06-22",
-          "c": 655.01
+          "c": 218.34
         },
         {
           "d": "2026-06-23",
-          "c": 603.39
+          "c": 201.13
         },
         {
           "d": "2026-06-24",
-          "c": 601.5
+          "c": 200.5
         },
         {
           "d": "2026-06-25",
-          "c": 625.2
+          "c": 208.4
         },
         {
           "d": "2026-06-26",
-          "c": 589.94
+          "c": 196.65
         },
         {
           "d": "2026-06-29",
-          "c": 614.35
+          "c": 204.78
         },
         {
           "d": "2026-06-30",
-          "c": 640.76
+          "c": 213.59
         },
         {
           "d": "2026-07-01",
-          "c": 599.7
+          "c": 199.9
         },
         {
           "d": "2026-07-02",
-          "c": 566.32
+          "c": 188.77
         },
         {
           "d": "2026-07-06",
-          "c": 581.51
+          "c": 193.84
         },
         {
           "d": "2026-07-07",
-          "c": 551.69
+          "c": 183.9
         },
         {
           "d": "2026-07-08",
-          "c": 562.03
+          "c": 187.34
         },
         {
           "d": "2026-07-09",
-          "c": 581.7
+          "c": 193.9
         },
         {
           "d": "2026-07-10",
-          "c": 581.34
+          "c": 193.78
         },
         {
           "d": "2026-07-13",
-          "c": 553.61
+          "c": 184.54
         },
         {
           "d": "2026-07-14",
-          "c": 567.92
+          "c": 189.31
         },
         {
           "d": "2026-07-15",
-          "c": 555.27
+          "c": 185.09
         },
         {
           "d": "2026-07-16",
-          "c": 530.5
+          "c": 176.83
         },
         {
           "d": "2026-07-17",
-          "c": 521.81
+          "c": 173.94
         },
         {
           "d": "2026-07-20",
-          "c": 524.14
+          "c": 174.71
         },
         {
           "d": "2026-07-21",
-          "c": 552.69
+          "c": 184.23
         },
         {
           "d": "2026-07-22",
-          "c": 555.52
+          "c": 185.17
         },
         {
           "d": "2026-07-23",
-          "c": 551.24
+          "c": 183.75
         },
         {
           "d": "2026-07-24",
-          "c": 527.01
+          "c": 175.67
         },
         {
           "d": "2026-07-27",
-          "c": 516.23
+          "c": 172.08
         },
         {
           "d": "2026-07-28",
-          "c": 491.46
+          "c": 163.82
         },
         {
           "d": "2026-07-29",
-          "c": 465.0
+          "c": 155.0
         },
         {
           "d": "2026-07-30",
-          "c": 504.53
+          "c": 168.18
         },
         {
           "d": "2026-07-31",
-          "c": 504.89
+          "c": 168.3
         },
         {
           "d": "2026-08-03",
-          "c": 507.68
+          "c": 169.23
         },
         {
           "d": "2026-08-04",
-          "c": 542.21
+          "c": 180.74
         },
         {
           "d": "2026-08-05",
-          "c": 530.7
+          "c": 176.9
         },
         {
           "d": "2026-08-06",
-          "c": 532.52
+          "c": 177.51
         },
         {
           "d": "2026-08-07",
-          "c": 543.27
+          "c": 181.09
         },
         {
           "d": "2026-08-10",
-          "c": 529.39
+          "c": 176.46
         },
         {
           "d": "2026-08-11",
-          "c": 534.2
+          "c": 178.07
         },
         {
           "d": "2026-08-12",
-          "c": 546.61
+          "c": 182.2
         },
         {
           "d": "2026-08-13",
-          "c": 550.74
+          "c": 183.58
         },
         {
           "d": "2026-08-14",
-          "c": 550.42
+          "c": 183.47
         },
         {
           "d": "2026-08-17",
-          "c": 559.12
+          "c": 186.37
         },
         {
           "d": "2026-08-18",
-          "c": 531.39
+          "c": 177.13
         },
         {
           "d": "2026-08-19",
-          "c": 519.67
+          "c": 173.22
         },
         {
           "d": "2026-08-20",
-          "c": 522.35
+          "c": 174.12
         },
         {
           "d": "2026-08-21",
-          "c": 520.05
+          "c": 173.35
         },
         {
           "d": "2026-08-24",
-          "c": 506.18
+          "c": 168.73
         },
         {
           "d": "2026-08-25",
-          "c": 514.06
+          "c": 171.35
         },
         {
           "d": "2026-08-26",
-          "c": 515.4
+          "c": 171.8
         },
         {
           "d": "2026-08-27",
-          "c": 525.43
+          "c": 175.14
         },
         {
           "d": "2026-08-28",
-          "c": 508.62
+          "c": 169.54
         },
         {
           "d": "2026-08-31",
-          "c": 511.04
+          "c": 170.35
         },
         {
           "d": "2026-09-01",
-          "c": 500.31
+          "c": 166.77
         },
         {
           "d": "2026-09-02",
-          "c": 501.44
+          "c": 167.15
         },
         {
           "d": "2026-09-03",
-          "c": 502.2
+          "c": 167.4
         },
         {
           "d": "2026-09-04",
-          "c": 519.86
+          "c": 173.29
         },
         {
           "d": "2026-09-08",
-          "c": 528.4
+          "c": 176.13
         },
         {
           "d": "2026-09-09",
-          "c": 532.0
+          "c": 177.33
         },
         {
           "d": "2026-09-10",
-          "c": 517.43
+          "c": 172.48
         },
         {
           "d": "2026-09-11",
-          "c": 527.07
+          "c": 175.69
         },
         {
           "d": "2026-09-14",
-          "c": 497.4
+          "c": 165.8
         },
         {
           "d": "2026-09-15",
-          "c": 498.85
+          "c": 166.28
         },
         {
           "d": "2026-09-16",
-          "c": 502.06
+          "c": 167.35
         },
         {
           "d": "2026-09-17",
-          "c": 519.1
+          "c": 173.03
         },
         {
           "d": "2026-09-18",
-          "c": 533.07
+          "c": 177.69
         },
         {
           "d": "2026-09-21",
-          "c": 559.34
+          "c": 186.45
         },
         {
           "d": "2026-09-22",
-          "c": 572.78
+          "c": 190.93
         },
         {
           "d": "2026-09-23",
-          "c": 565.72
+          "c": 188.57
         },
         {
           "d": "2026-09-24",
-          "c": 566.07
+          "c": 188.69
         },
         {
           "d": "2026-09-25",
-          "c": 572.68
+          "c": 190.89
         },
         {
           "d": "2026-09-28",
-          "c": 560.79
+          "c": 186.93
         },
         {
           "d": "2026-09-29",
-          "c": 567.44
+          "c": 189.15
         },
         {
           "d": "2026-09-30",
-          "c": 568.64
+          "c": 189.55
         },
         {
           "d": "2026-10-01",
-          "c": 576.33
+          "c": 192.11
         },
         {
           "d": "2026-10-02",
-          "c": 588.9
+          "c": 196.3
         },
         {
           "d": "2026-10-05",
-          "c": 589.51
+          "c": 196.5
         },
         {
           "d": "2026-10-06",
-          "c": 589.45
+          "c": 196.48
         },
         {
           "d": "2026-10-07",
-          "c": 582.82
+          "c": 194.27
         },
         {
           "d": "2026-10-08",
-          "c": 563.28
+          "c": 187.76
         },
         {
           "d": "2026-10-09",
-          "c": 559.4
+          "c": 186.47
         },
         {
           "d": "2026-10-12",
-          "c": 544.85
+          "c": 181.62
         },
         {
           "d": "2026-10-13",
-          "c": 543.9
+          "c": 181.3
         },
         {
           "d": "2026-10-14",
-          "c": 519.42
+          "c": 173.14
         },
         {
           "d": "2026-10-15",
-          "c": 514.71
+          "c": 171.57
         },
         {
           "d": "2026-10-16",
-          "c": 493.39
+          "c": 164.46
         },
         {
           "d": "2026-10-19",
-          "c": 501.93
+          "c": 167.31
         },
         {
           "d": "2026-10-20",
-          "c": 500.01
+          "c": 166.67
         },
         {
           "d": "2026-10-21",
-          "c": 510.36
+          "c": 170.12
         },
         {
           "d": "2026-10-22",
-          "c": 475.69
+          "c": 158.56
         },
         {
           "d": "2026-10-23",
-          "c": 478.2
+          "c": 159.4
         },
         {
           "d": "2026-10-26",
-          "c": 491.83
+          "c": 163.94
         },
         {
           "d": "2026-10-27",
-          "c": 511.06
+          "c": 170.35
         },
         {
           "d": "2026-10-28",
-          "c": 521.94
+          "c": 173.98
         },
         {
           "d": "2026-10-29",
-          "c": 513.86
+          "c": 171.29
         },
         {
           "d": "2026-10-30",
-          "c": 471.51
+          "c": 157.17
         },
         {
           "d": "2026-11-02",
@@ -4203,6 +4199,10 @@
         {
           "d": "2026-11-03",
           "c": 465.0
+        },
+        {
+          "d": "2026-11-04",
+          "c": 450.41
         }
       ]
     }
@@ -4661,244 +4661,244 @@
   },
   "news": [
     {
-      "title": "[단독]카페 대표·의사가… 호남 반도체 6조 지원금 심의",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONnFKRGI4ZjRXWllaSnZBSlBTaHZQYllZQmU3UVV5OGdiWGNrYUFqYVVjaTNKVHRlLXJqdU51bTRJa1VZb3B0LUNHeXFuMlhGR2pVNE45RGExbnZnbEd6aGJOSEY1aEtyNDVocUotREJYWVBWdUNOcWFsRTQ4TThHNU1vQU9ZQQ?oc=5",
-      "published": "Wed, 04 Nov 2026 15:45:00 GMT",
-      "source": "조선일보"
+      "title": "마이크론 테크놀로지 주가, 오늘 왜 급락했나?",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vTzNHNVplMU5YSVZ2c2ZWSVZVbmpLTXp3V0lnSld1MlNlYnVZaG1obzhCRUp6UHVzZGxvbW43UHQ3elFfSnN5d3hWMEExYWIxV0JEZGctWG5fd0ZkZjNLcl83ZEVQQ0l6ek1IUTRnZUNTeDFLak04?oc=5",
+      "published": "Thu, 05 Nov 2026 15:37:00 GMT",
+      "source": "Investing.com 한국어"
     },
     {
-      "title": "9월 경상흑자 600억달러 사상 첫 돌파…반도체 수출 260%↑",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CRlVzYmp5UEpBWDZaY2Z4b0xsOTA3Q1R0N0lwdng5OGlrSWFKaVV0N0ZKRlJOZExnX08xalA4eHpZVHktNEEyRXY1WnRJdlB5ekFNUHNabUFFYjTSAWBBVV95cUxNT3hLREJhbEdGbDh6RGhQUXljRndfLURxN0cxRWNZcXUzMUVObmdZekJkZmoyNlRLOUQ5Z3FoR2FCLTQ4SGw0ZEhKRDhOenpiMHNEcTVZdmEtc3RaNTYwWkU?oc=5",
-      "published": "Wed, 04 Nov 2026 23:00:00 GMT",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "월간 경상흑자 600억달러 첫 돌파…반도체 수출 260% ‘껑충’",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CMW1fZkg0TzBXa1FlY0ktYzlMXzNvRk9OV0xFck1qVEJZZkc2YUhqdnRlMmZWQXFzWUczNHd6b3drWmp0NGp2cFBWNzhmdHJsQWpXYVZsN3R1Z9IBX0FVX3lxTE9SWlJOQUgyMjBWNjkyVnZiTkxRZ2RkenloRXJ3LUVscEJFTHpMaXlzR09oOGVVam4yeEE2NnZRYnRaeEE1V25QbFlsUFZ4b2xGWnVIaGhCbUFMLU1lcVRZ?oc=5",
-      "published": "Wed, 04 Nov 2026 23:18:00 GMT",
-      "source": "경향신문"
-    },
-    {
-      "title": "공급난에 갇힌 마이크론…한국 메모리 고정거래가 지지선 다진다",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQXzNvdDMxU2dBeW9VZHh3UGJ2N1BNclo1Mkx4NHFNT0xSQWV1Vmh1bWZVVC0yVjV6ei1kR2JGX05vQVVkUkFYMzdzZDBUdEd1WXBzUVo0WlN2QTBhYUZvOGo1NWl4QmNjUDBYWUlWSHlIZmFxT20zcTlPRjJ3TDBxeDhCR2pIVXhY?oc=5",
-      "published": "Wed, 04 Nov 2026 21:50:43 GMT",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "title": "트럼프 참패 영향은? 전문가가 보는 반도체 전망 [Y녹취록]",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KcHFBZFdPblA0UnZDODlVNGFBT3oyZ1o4cTF0OG9wN2VwSURqVWZCX3NZclE0NFhlYmtZUnFHQWZMZEFmR2VObzVxTzB1MUprTmhCWm42NlhFS0RhbWc?oc=5",
-      "published": "Thu, 05 Nov 2026 00:20:00 GMT",
-      "source": "YTN"
-    },
-    {
-      "title": "블룸버그 \"미국 선거서 민주당 승리하면…한국 반도체 수익성 ‘빨간불’\"",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1YU2lENThzdnpOckhLYkt2UTJSaFRma1hoV2VmcUpqY2FvQW51aVJJemFhMU02YmJlMk9SMTA5bzNiV3ZIV2VrcldUX2JfMXRoUGh0Rg?oc=5",
-      "published": "Wed, 04 Nov 2026 08:27:00 GMT",
-      "source": "JTBC"
-    },
-    {
-      "title": "[속보] “반도체만 급락” 하이닉스 -6%…코스피 5600 무너졌다",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TUWlFaU94Q3ItMHpwMXVQT1ZldDFGeFFiOXZGZ0szY2x3TGlDblhfY2ptdzRyQWxURXhhRXN4dzdaT1VZSFBfZC1GWGtyQUEyY2R4ZFFHaDB6bU9BNm96S1A1ak1LaGh2eWYwd1E3Mm1PbWZQb3V3c1R1TmFwUQ?oc=5",
-      "published": "Thu, 05 Nov 2026 00:01:39 GMT",
-      "source": "서울신문"
-    },
-    {
-      "title": "中 관영매체 \"韓 반도체, 美 압박에 중국생산 희생 말라\" - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mLUtyMFphSXhscEltaXlXckdzRGJpa0FDVXFfWVFfb2xNakxDSWZEVkpEY3NBVXhaVE4tU1FUamxDVXZMV3VTMXJKcFM4bEd3N2VlMmE2SEZwR2NZR3Q0blZCbHJrRzJx0gFuQVVfeXFMTnpYT0Rtb0FHckJYTklEdjZvUzJjaTNpSkxEYnNlRGZhRVM2UU5fUWpvMk5VUGxqZ19mRXdRQ3o5UHM3X2JJaGwyUm9lc05CLW80RVZsR2lvNkRmcnNyNXhpNzRXTTRlLWdRS0wxZVE?oc=5",
-      "published": "Thu, 05 Nov 2026 00:09:18 GMT",
+      "title": "마이크론, 대만 신규 공장 건설 중단…성과급 갈등에 HBM 증설 제동 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAweXNGbnhOcFM0RFNrNklwZE9VQWVsbkhHQWNwNUg3ZUJvb2VmZzNQZ0lwOTdDaXFMYUVhVy1ibS0zeU9yV21UZ1dvZVJCVmI2aXdTY2tLRnN3NXZGWWJRalJHc04wWFdB0gFuQVVfeXFMT3V6Q0U2d3YtVzJmYmdMcUVkWURkT2FLeE54Zkh5QWctRnNuSVczQllLVWxsTTY4XzI5bzdiMG9ZWk0xZVVnU2trZGp4NmQ5T05FOWJGZWFjdEI4eFI5a05WaEczbHc4dmtobENyMWc?oc=5",
+      "published": "Thu, 05 Nov 2026 13:36:10 GMT",
       "source": "머니투데이"
     },
     {
-      "title": "현대차·기아, 차량용 반도체 개발 절차 국제표준 인증",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FRGVxME1OcFdEaUx4aTBpem9GaHMtVVNNbmFhVXM3b3Mzbl9jT05MTGNXNTIwNTh6N1g1eFVsRTVlekFyNmRTR0tZQU1hMzEyZlY0SEExOXdkM3FjSGNGVmM5RXFKMUVWYVJNVTdJTHI?oc=5",
-      "published": "Thu, 05 Nov 2026 00:57:46 GMT",
-      "source": "연합인포맥스"
-    },
-    {
-      "title": "'HBM의 아버지' 김정호, AI 에이전트로 반도체 기술 혁신 나서",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NU3owTnJ5NFFPQUZmbS1tUWh4NlU1VnpqcGdDaE8yZnhvUDVoU3AzbUVXb2p6a19KQV9nZnJUTUFpZDU0WXo0NzVGQzVOSHRDWUxrWDEzSW9nV09jVko4Tw?oc=5",
-      "published": "Thu, 05 Nov 2026 00:00:34 GMT",
-      "source": "아시아경제"
-    },
-    {
-      "title": "美 중간선거 끝나자 반도체 '울상'…데이터센터 규제 우려",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wR0lLVkxJbkFpVkNZVmdwTVRLUV9sZ1dVOUlMR2NoOHFERU1UWVRybHVVV0NvSXJSODRHZ2gxYTVnbmVDTUVEcGFOWjVEVDJKYkdjaUhnSWxtUVFDd3N2TVA3QXhPT2daRnc?oc=5",
-      "published": "Thu, 05 Nov 2026 00:48:09 GMT",
-      "source": "비즈워치"
-    },
-    {
-      "title": "“조립했다 떼어내면 돼” 韓 HBM 밀수 ‘기상천외’ [여의도 Pick!]",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVVNQV2lLbHE2TXFHZGl0QWZCaGRnQmVjSWhDODVhbnlNM1AxeHFUWTRkM3ZTWEFDZVhfWHdLcFhqbWpYeElidHFKMjN4aWZKRmluS05NM0FBUDA3S1pj?oc=5",
-      "published": "Thu, 05 Nov 2026 01:00:23 GMT",
-      "source": "MTN 머니투데이방송"
-    },
-    {
-      "title": "현대차·기아, 차량용 반도체 관리 체계 ’국제 인증’",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IVzgtV01jSHVkS2ZMdnJFemdMdEJiRk81SE1uajBwQ2NUQ3FudUlBWE9mdkRQWjRrUDlSdGtqay0zM0lMWng5dG9zNzExczhKSi1UQy1qQkRmVUhpanR3ZHV3SjlIZEk?oc=5",
-      "published": "Thu, 05 Nov 2026 00:46:00 GMT",
-      "source": "연합뉴스TV"
-    },
-    {
-      "title": "SK하이닉스, HBM4 수율 60% '업계 최고'…서버 D램 증산 여력 넓혀",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Yc3ZYX013a0MzZkdBLUJ4bGNsU0N0RFBILXpzRnh2MVFVcHh5Q3pGRkFMcV9qYTJfWkQ4OXhhOUh1bW9vQnRVdGlINk1TZWM?oc=5",
-      "published": "Wed, 04 Nov 2026 22:00:00 GMT",
-      "source": "딜사이트"
-    },
-    {
-      "title": "[중간선거] 美 휩쓴 '블루웨이브'…韓 반도체에 불똥 튀나",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE05YVhjckJabWtBajhNLUNreE1fTzhYbWpwam9qQ2JGVnFxdm5XY1VRZi0xQWRRUmx6S1ZJWnk0M3NocFluU2VQME55VUgyUXFTbFFtbFZwQTdJV2JQbEktRmhPaEQ4OGYwVjhSQ0FTeWxsQQ?oc=5",
-      "published": "Thu, 05 Nov 2026 01:08:31 GMT",
-      "source": "KB Think"
-    },
-    {
-      "title": "[조간브리핑]美·中 석학들 \"반도체·제조업 강국 韓, AI 시대 주도권 잡을 기회\"",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMT0Z3dW1NYXVQV0dKaWpuaWdkTWFrWGhiblk0bWtBTmJlcFNvb2ZqX3FCSFZRaG04Z1BsTHU2dko2c1JfLTIzUWNqc08wMUNabXpUV1ZLazdxRjRsaG15U0xnV09yMnFDdlE?oc=5",
-      "published": "Wed, 04 Nov 2026 23:52:31 GMT",
-      "source": "헬로디디"
-    },
-    {
-      "title": "반도체 수출 호황이어도 다른 수출기업은 웃지 못하는 이유",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Hb25NZ2p5aTk0WG56Ty1sTDhTNlEzejNZalRMZmRjM1p4bGxkMWhMOVVzMFFfMlh5Qzh1VFd2SU9qMlBPd0sxekdRaTl1M0RrdmFMeDR0a295dW42aWlJb29TZlY?oc=5",
-      "published": "Wed, 04 Nov 2026 22:00:02 GMT",
-      "source": "주간동아"
-    },
-    {
-      "title": "3분기 세계 반도체 매출, 1년 전의 2.5배로 역대 최대",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNS1NLdVpsUGppOE5MSFh0NllvY25lY1RRT3BITG9UT295WDc3d0hhZzc5M3ZOTXJmdXlyVWlITTJuOXlfQjBiclZNVGFYenl5dE5LM3NJTTRKMkg0Vno0ZlBUemROeDVvaDllLVBOM1hSOGlqMDF3anBjekt4Ny1uZkFIQQ?oc=5",
-      "published": "Thu, 05 Nov 2026 01:03:00 GMT",
-      "source": "조선일보"
-    },
-    {
-      "title": "AI 규제에 반도체 업계 ‘긴장’…‘트럼프 심판’ 한국 경제 영향은",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9GZFdSRG9fcllpVG9DNXVENk9kM1UwaXBkQzVsczR6cmJvM3JuV0U0dk1iQTFSMTZEXzc0RWNnRjhjUzFrZDJJWGMtbi1SOHZwdmY3NQ?oc=5",
-      "published": "Wed, 04 Nov 2026 22:58:00 GMT",
-      "source": "JTBC"
-    },
-    {
-      "title": "한국이 아직 못 만드는 이 반도체, 인생 걸고 도전한 삼성전자 부사장",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOWdtOWRldmNma1Qta2xkQnBuSzYtdFZ2d2lXU28xdHprU1NMcS1qUTRvbmRWbzRFSmJIeWhqX3BwRU9mYnlPcXNSVmg0ZUVNQVM3c0g1cmE4MFlGSzVUbExrWGVXZnJ6R3Fhb1JkM1E1bDVEZE4zRXZPbVpjZ0htcTd5WWlMZ293SWw0?oc=5",
-      "published": "Wed, 04 Nov 2026 19:45:00 GMT",
-      "source": "조선일보"
-    },
-    {
-      "title": "차세대 반도체, 이제 10장씩 한 번에 만든다!",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1weDZKOGlTWkZZUTQ3VUszN1I1Tm1sdU9LOG5mQzFpdjdVSDNmbUowUUU1ODNETFBrZEYyMDhvSnpKNS1kNEtaMU5RRXJjeUhJRjd3WUMwSXc5RUt0ZC1pbWR1bnE2aWYwQWwtdtIBcEFVX3lxTE1vcEkyaWt1M2FnS043RHlNdlFIbHhrRHdubElCdmpFU3Y3MVluSFh0S3ZVRm0tV2hJUUtTLVJpXzhuTWI0OFhIdG1RQ1QtSkJfQTctMzhTeGRyeGlmS1Zqa2UwTF8weFFTZU9IaTJiU0k?oc=5",
-      "published": "Wed, 04 Nov 2026 14:17:17 GMT",
-      "source": "전기신문"
-    },
-    {
-      "title": "美 증시 반등에도 반도체 뒷걸음...위태로운 '20만전자'",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1meFpFdVJ1ZDI3ZGFsUDFtcUhzakFJQkNDenIyZElmQ084SG15dnY4al9QLTdiYTBRdFN3LWUzSHJTS1FNLVIxRThGTnZDZ0VUZ0ZPWm4yVk53NXJvaGgyamlJNWhBbERpNUE?oc=5",
-      "published": "Thu, 05 Nov 2026 01:04:02 GMT",
-      "source": "비즈워치"
-    },
-    {
-      "title": "'블루 쓰나미'에 AI 제동 공포...마이크론 7% 급락·애플은 5.3% 폭등",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdkRPdWZTNE5Nak5BNXpMMXVGeGFTYmtkMC1va3NjMlJOMlFTajJQWlQ3aWVZUGlqOEJMQjhEWnYwY1pPV1hBSFBfOFdGY0sxa0R5c3Z1RDFwenhOTmtVbF96YV8wV3F0WktSVkJIRDl5UlAyVTdGeDV5amRVWXdRQUhKQUJycWk1?oc=5",
-      "published": "Wed, 04 Nov 2026 22:59:21 GMT",
+      "title": "마이크론 주가 17% 폭락…대만 공장 증설 차질에 AI 수요 우려까지",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdERiRGM4N1haVFRZSzJRbk1tZHpzLTd0aG96U3llaGg3N2lPbDdNUlVMV0dpakRJRmRfS3pkZVpteDV2SGlqTndYa0NCeW5pdDY5WkxISVh5R2FuOXpQMkJOa1FCUFpORktTWkVRT05oZVJXdE5JOXczRWpjMkZCTl81ZGlTUDkz?oc=5",
+      "published": "Thu, 05 Nov 2026 23:06:07 GMT",
       "source": "글로벌이코노믹"
     },
     {
-      "title": "'회색지대 전략', 한국의 중국 반도체 대응법 [아침을 열며]",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83azgtUkdxcWktaFpvUHhPQUh0cUJraXlWMWotMUhiQVRaaUR5YjJLWHMyZGFKc3h2S3FTQzA5c2RVUllWZ1hWdFFYdEszRjRhbDFMZ2NocjFySWdNUU5qVW01SzBpQjQ2U3BfV3hB0gFzQVVfeXFMT1cxcFhJYVhBUnFVOG1mSEt5ZE1wSTFWRUNFUVhEekt0dFAzYl9qbEpyRUo3MWRqb1hDYzJLWUIzY0YzZmw5bC1DeTRiU1d0NnF1RWFScjJ5MnZrS19oNmhGeTlUcEdHYW5kRW9mWW5rdVhqMA?oc=5",
-      "published": "Wed, 04 Nov 2026 15:00:00 GMT",
-      "source": "한국일보"
+      "title": "마이크론 대만 신공장, 노사 갈등에 건설 '올스톱'…6일 노사 5차 교섭",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9lanZRa3RVSlNRaXlNZ3VXUjZRRHkwSGtQVVFkdC1DRDQyaDVSMjI1SGRuMEIzZ1ZiLU90VC1GMUF4Q0t4RENVVDQxOGhiQQ?oc=5",
+      "published": "Thu, 05 Nov 2026 22:47:18 GMT",
+      "source": "전자신문"
     },
     {
-      "title": "9월 경상수지 흑자 600억 달러 사상 첫 돌파…반도체 수출 260%↑",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qUmdaS013My1FZTZuZzhLeWZLNGdxX2hyWmd0blozczltOEgzd3hQMzNINmR0MVFqanpfRlA3emVzSFc4S2hWYXUyM2Z1WEJ5R3FSVHBkN2pwejVmT3ZBTTRSbTE?oc=5",
-      "published": "Wed, 04 Nov 2026 23:51:13 GMT",
-      "source": "서울경제TV"
+      "title": "\"SK·삼성처럼\"…마이크론, 노사 갈등에 45억달러 대만 반도체 공장 건설 중단",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzMExPT3FfRXN4amp6THNDWktvSG12Qm9PbTJNd2lGTmNkWEp4SV9OTlY2Yjh3NVJwTE8xX0tDTm5fdG1XQ2N5SmZBZXpqUlk4cGQtVHE4Q3BqN3N5dE9qYS1KaDg?oc=5",
+      "published": "Thu, 05 Nov 2026 23:58:23 GMT",
+      "source": "디지털데일리"
     },
     {
-      "title": "현대차·기아, 차량용 반도체 개발 전 과정 국제표준 인증",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORTZlT21Ob0xSaG1weUhqQ1liWXlRV1hBMUcxLVBBeEo4RVRJQjVnYlpjbXhZQkoyUFM4NmpPX0doX3RVMENDZVhDVmtFQnQzQ2JUeDhTX2RiRE5SbVFqWkdhVXNCN2ZDeW5CU0tFSi1qYnJ4b2FVcHRwZkZtanNqclJPWHVLZw?oc=5",
-      "published": "Wed, 04 Nov 2026 23:58:09 GMT",
-      "source": "글로벌이코노믹"
-    },
-    {
-      "title": "국가 돈 퍼부어 탈중국 막기… 전기차·반도체 넘어 ‘모든 것’ 지배[차이나 쇼크 3.0]",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GT0UtTHpKOHpBdkJLV0NWM1hpcDBvcUFDWmdnWHRMWHNjVHhVX1VKVTZ5NzdmaV9GX2JwTkhlYnFsT3p3bHZFU29GUHhia0RI?oc=5",
-      "published": "Thu, 05 Nov 2026 01:00:30 GMT",
-      "source": "문화일보"
-    },
-    {
-      "title": "\"한국 경제에 큰 충격줄 수도\"…美 '블루웨이브', K반도체에 불똥? - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94dGs5TkF2c2tMOXFVQjltaTYySVlfM3JxdzlxQy12STk2bkxldkZlODlzdTMyZHZycHk5S1R4WnQ5OVVzcWxWQ1pZbFZnUWFFMkU1VzkzdzI4dFBMcldUT2lSZHJ5MkZ40gFuQVVfeXFMUEtnWkhvcHVaa0J0N2ZjaDNMTHYtOFBJS0FnX3JsdXdtTmZjLXBXTkVBSk1HVjRKdG4yUElTa1hrbkN6bGh6dWtVc2M1ekN6TlE1Tkp2SW5BbkdyUUR0QnlmMHphZlhkX0VpTTV1Wnc?oc=5",
-      "published": "Thu, 05 Nov 2026 00:45:24 GMT",
-      "source": "머니투데이"
-    },
-    {
-      "title": "반도체 산업단지 효과… 용인 처인구 집값 '연중 최고'",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BbFY2cTVPdkNPb2JxQ1pndnBnUDA2Tm9uSG1PbEJraFowbTJCNVZjT3d3V3k5YlJlS3ZqMENDTFVkZlVkcjByOURjZzlpRGpqRWRXOXRtYVo0VWRaWDdBVl9OYw?oc=5",
-      "published": "Thu, 05 Nov 2026 00:38:44 GMT",
-      "source": "국토일보"
-    },
-    {
-      "title": "9월 경상흑자 614억 달러로 사상 최대‥ 반도체 수출 260% 증가",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIRm1oUmFjalNaOFJ5RjJkcVQ3ekJ2R3NWNEN4cW1RMXhuZ1BXTW9GaVo2d2Y5SzBQMVlLMXo5LWdLc0xQNDdTSkYzdjVqX1pUWG4tMXZvX3dsZkNUVGxzTFVqa0Z4dDg0ak80Qm1RaWZIbnpS0gF0QVVfeXFMTU9HcXF0QnE0aGJIeHFNRTg4Z3JKaGhXREV0NkYwMHV4aWM0b2hzZ1owb01yX1J5RGhnMC1QNEM2RHBYLU9Hc2p4QzZrUkxuSWk5dU1zM090bWJuV01sc0ptbV8waDR1U0Zsc2xBNkc2djZ4dmM?oc=5",
-      "published": "Thu, 05 Nov 2026 00:00:38 GMT",
-      "source": "MBC 뉴스"
-    },
-    {
-      "title": "[마켓라이브] 반도체 급락에 눌린 코스피…바이오·인터넷·자동차로 매수세 확산",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzS3VuRW5JenIzbWNPMEhkVVlRU0p2eU5sampXazNIMU1FTDFha1pPMGJEdDFVR2lqVXpJMEtLWkhiMHZSWldreXloTm1xMjQtY05JZHRldlE0Zw?oc=5",
-      "published": "Thu, 05 Nov 2026 00:15:42 GMT",
-      "source": "한국경제"
-    },
-    {
-      "title": "美 민주당 의회 장악에 긴장하는 中… \"대만·반도체 압박 거세질 것\"",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSFJMQUNSSzFHOWRBM1l0MHNsUGt6eEtEODQ5WVJyZGRTcDV6UTR6a1hyQlhCeGFwU3kyREVXazZENk9VRm1BTF91Xy1TR2hHTmpsdTdpYlN2VGVESHhxV1ZXSE9mZWtndFBaRHpkR01Gbjg0TC00ZGlrRVljVkFfWWhMMHBlem1UWnNUVXl1QTZFSF83Z2VLMEo5cW54QQ?oc=5",
-      "published": "Thu, 05 Nov 2026 00:17:00 GMT",
-      "source": "조선일보"
-    },
-    {
-      "title": "6조 호남반도체 예산 심의하는데…민간위원에 디저트카페 사장",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oWFdEQzBEcFB1Ml9tUnl0UjNiVjZqbk8zaFB2ZTQxcFBCMllRS3RLdnZPZGdkNnJybmw1RXNGeTQ2eUdFYVNCaXdmT093NjRBSndxVDhzWGRqdw?oc=5",
-      "published": "Wed, 04 Nov 2026 22:49:47 GMT",
-      "source": "한국경제"
-    },
-    {
-      "title": "현대차ㆍ기아, 차량용 반도체 개발 프로세스 ISO 국제표준 인증",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8ydmgzN0lhcS1jNnUxNGRmT1VzVnd3b1VSOVpmWU4ydFpmWVFQcTFBbkE2czhkeXBMbkI3eDlBRng1SUt1YlVSazFLZHMySEZyUm0wdC16UGJnYmZXMF8tZEM3blhsVktiaEJ3bEI0anZhLU0?oc=5",
-      "published": "Thu, 05 Nov 2026 00:02:44 GMT",
-      "source": "대한경제"
-    },
-    {
-      "title": "반도체가 이끈 '수출 폭발'…9월 경상흑자 614억달러 '역대 최대'",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwaEtPS09DSWtqaHIxUlJ3dVZhMWQxbGVSRzRkUDAzYkJfMW5sUFhKR2tqSnpPU0hwQ0FpYXlLYlhiN2Rjc3pFMkREQWJ0bUlZRUVOMEF1MlpWa3FM?oc=5",
-      "published": "Wed, 04 Nov 2026 23:00:00 GMT",
+      "title": "AI 반도체 '삼전닉스' , 中 수입박람회서 메모리 신 성장판 과시",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGdHQwcnJRM0JpeU9LcHpsSXNsOGdOSm80UDFmMG5iMkZCMUtiQ1VLbkNwdmNtUHBHaUFaQ0RORjMxREZvVGZtcW5qd2J4RjFzb3p3RTBxR05HTElU?oc=5",
+      "published": "Thu, 05 Nov 2026 22:00:00 GMT",
       "source": "뉴스핌"
     },
     {
-      "title": "美 민주당 '블루웨이브'에 다우 3.03% 급등... 반도체는 약세 [뉴욕증시]",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52Q2o3ZEhDdU16VnFNVzZBYm9BSnFLSGpsdTF5V09oQVZmNElZRWJhb1pMT2JIdjEyTjRlaDBSNkJFM2ZkWVNPR0hBUmFwM3UySHdpUmlhN05GeEhnOGh1d0ZKM3I?oc=5",
-      "published": "Wed, 04 Nov 2026 23:15:33 GMT",
-      "source": "매일일보"
+      "title": "반도체 고점론 다시 고개…낸드 가격 하락은 경고 신호일까",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtVUp3QnRwQ1h1VXR0RVVYRUVpZXktVVB5ZFZIOU9CMlNtaG05ZXRRdjdEQzZFRzI5czdGR1RkMm1vV1ZQUmRnYmhkbzFJWm13ZHlYNnFuUVBuY3ZGNTNQWGQtU3p5cHdZTUctaFg1WG4?oc=5",
+      "published": "Thu, 05 Nov 2026 23:50:25 GMT",
+      "source": "연합인포맥스"
     },
     {
-      "title": "‘역대 최대’ 中企 수출, 반도체·화장품이 이끌었지만…곳곳 ‘한파’",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9BMTBJV2ROZGljNFo4YXVGZ2NGc3lrcXFrQjMydXdldldVWHlSUXpxWFVLRUYtaWk3aFRkcjVzN1ZiZHZuMmFwSll4YURGUnpYVEhCdEc5LUJsZFE?oc=5",
-      "published": "Wed, 04 Nov 2026 21:00:00 GMT",
-      "source": "에너지경제신문"
+      "title": "[조간브리핑]美 반도체 봉쇄 우회로 찾는 中···유럽서 엔비디아 칩 임대 추진",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1UTlSblYycXh1VU8zX1Z3ZkY5X3VneDhmblBNdFZOdnFfR0YyaHVnaUJMeDQ0dkdEWVVOX1YtcGRYYXhieTJVbkVGMU5hRG1oTUFXVzBVWUV3eWhPdU5TVXRVOEY1ME5BTFE?oc=5",
+      "published": "Fri, 06 Nov 2026 00:19:56 GMT",
+      "source": "헬로디디"
     },
     {
-      "title": "[포토] 미 반도체 지수 하락에 삼전닉스도 하락",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15NmdGcmdvWGM2cWN6MkxEWjNNSmtQVmd1bTllVjZraUZzN005SWJlalRuMl9mMTU5U0htcVZuNUQ5OXVPWEhSU1RlZV9Tb1haenBuSDd2Tlc5NlFpay1WUg?oc=5",
-      "published": "Thu, 05 Nov 2026 01:01:16 GMT",
-      "source": "아시아경제"
+      "title": "마이크론 17%, 삼성 10%, 하닉 13% 줄폭락 … 美 민주당 AI 규제에 반도체주 '추풍낙엽'",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuZXhRRS1jeGJ2MnQzSkxWR1F3OUlMc3RkVVpvc3JvRlU3NldodVBlWGpSX0l3ZW80cjNuTXlHS3EzYmNYWFVyblgzQ3R4YnN5SmxjY3d6VVNaQ3p1dy1KZFYwVVh0cDFMbkxhdEVFREt4aG5jeExWOHY4UdIBgAFBVV95cUxQS1pRMUhwQTlXRm03RFE0dVFBZFdadHl5QWhGRG9XRFk2U1REZzN4NEZ1Y1Z2dVQyLWQ1VTg4dXpteWhVUFdWNUVUa3ZfVEhqODBtcllKNUdhTUEwQUlRQ0wxSlo5N2NoQjhjVjBDeEwwWXM3OVk5TzQ3TFZMSlJtbA?oc=5",
+      "published": "Thu, 05 Nov 2026 23:32:00 GMT",
+      "source": "뉴데일리"
     },
     {
-      "title": "현대차·기아, 차량용 반도체 개발 프로세스 국제표준 인증 획득",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52X1k3UDl2S19hLTFxaXBTVGxQXzBpYTZ4VllLRzI3bFlveEF4cjRCS3h1VlBsa2VSZDJ0M0M1cEFuR1VON0pFSzB3aG5fekVaSWxETGkxZkdKT21Na3ZJTlhQRVU?oc=5",
-      "published": "Thu, 05 Nov 2026 00:25:02 GMT",
-      "source": "서울경제TV"
+      "title": "삼성, 10월 中서 특허 568건 승인…'3D 반도체·차세대 힌지 메커니즘' IP 눈길",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFOWhPMkhTVThidk5VUWIzcmowMmxlaW5pSEt2M1FxVmFxdjJIUXoxWHdOYzdXS2RzRlVnVEM5NFloNjI5Q1pWUFFVeXlieGlhWThCLVhoT2dIdUtuTUtUY2JfNA?oc=5",
+      "published": "Thu, 05 Nov 2026 23:15:55 GMT",
+      "source": "더구루"
     },
     {
-      "title": "9월 경상수지 사상 첫 600억 달러 돌파…“반도체 수출 증가”",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54dmp5NEZkRXdQdldTVVllcUlOdHdsYWlwRWRZc01pa1V1dlNIeVhsRHdyX1ROSkZrZGNLeE1WY1dPR3Y2SDVXS095djJ4ZV9hZ29wbEhQSkM2MzA?oc=5",
-      "published": "Wed, 04 Nov 2026 23:02:00 GMT",
-      "source": "KBS 뉴스"
+      "title": "마이크론, 대만 HBM 공장 건설 중단…삼성·SK하이닉스 수혜 촉각 By EBN",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HSWl3WTVORFZ4Z0oxSDNTMnNSNkxNdXlITDJVVk5oQlhtbUZuX3puM2g4WkNabzRjbXJUZTBjTlZydno0SGtIU1FOR1FWS2Z6QUwxdjlONHRJQjRaTUpMOEVXTkVBOXlQaUtwYldhWG0?oc=5",
+      "published": "Thu, 05 Nov 2026 10:59:00 GMT",
+      "source": "Investing.com 한국어"
+    },
+    {
+      "title": "마이크론 대만 신축 공장 중단…한국 HBM '반사이익·리스크 교차'",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ0dBVU5xR054YjNJdnU2eWpLYlBoTlduNG9tUlZfdjBRVFJtSXB4RnhYQVoteU1uOVQyOGM2VjJzMmxDUHlJSmthS0FyWE54aUNZRkdqNlBDX0F3RUxWSEtFamNiWG5MREtIWm14YmlVU3JBNFBQN21HTWpKTVhkdUxvN2t6dlZK?oc=5",
+      "published": "Thu, 05 Nov 2026 23:17:13 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "[블루쓰나미 긴급진단] \"주도주 전환기…반도체 선행PBR 1배 분할매수 유효\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JV0o3akJzczgwbGYxN1F2LVNqazVDZkIxRHUwWC1lSDBtZWx1SmpxMlNIR0xWa3NZUC05ZHRHQ1FlcEdOZVZkX3JJQTZLeXJvaE5femFCUDFFdFdwMEhaNHp1Q3RiV3FMWE5nWlREUE8?oc=5",
+      "published": "Thu, 05 Nov 2026 23:53:33 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "[특징주] 반도체 대형주 급락에 소부장株 '와르르'…재료·부품 13%↓",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EbHBwOVBsLXdqcU5MRXZSc2p4UkprRVRhLWVPS09aMTE2ZHNfaWVPYVpFd0U0cE4zRGtGQ0JMdmp0eHBUQVNJSlVDQVNoaUhJSHptOEZjQ09VVjI2?oc=5",
+      "published": "Fri, 06 Nov 2026 00:56:00 GMT",
+      "source": "뉴스핌"
+    },
+    {
+      "title": "[김대호 진단] 데이터 센터와 반도체의 운명",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdkpmWnR0ZlZnWlVXTnRReUNab0VKSHBNSjdrR29YM3J1LWpmb2twSVF6RVZSdXZSc0Z4bHFlY2xCeUpQWldkb3FFRE1YZ2VJc2ptVHRmQnpETlFUa3ZVY05kWElpNHBvRHRPME10aGlSWEZGWU8wYTVaYnlKWkJyb3Q5Tm8?oc=5",
+      "published": "Thu, 05 Nov 2026 23:29:44 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "\"AI 반도체 조정은 매수 기회\"…BMO, 아스테라랩스 '아웃퍼폼' 커버리지 개시",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpMjRSS3kxRENJRXloRlhIM3BIMkFkaWhPWDNsb2dOQi1YcGQ3RDFVMEZBZTJZalJfaVFjdHpsa0JjXzdhZ05GdkNPVVlYUXptQi1hMzR4TmtDTGo0RldUQVFTQURaWDZBMmlMQ0ZvbVjSAXRBVV95cUxPN2IwWmFpUzVFbHhHMUJZSXI3OEI0ejE1UXQ5bTdJRGFoT0FzbXdESEhIVjl2MVMwMEpRRmVhUkd4dlB0MHFvSEZydlE2QUMxVC1fVm93RzJDdnVQejlEX2t4cnFoaWRXbFZjcmZWM0NIbWxYNg?oc=5",
+      "published": "Thu, 05 Nov 2026 23:08:05 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "[증시바닥 진단] iM증권 고태봉 \"심리적 패닉 상황…반도체 산업은 문제없어\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0Z3lTQm9DVUZpYnVXNjM0b2l5TWNsNU5BNjdPRk02YmM5V3Q0SEJ5NTZWQTFiSDB4R1hwaERTQ0VDbE1BRVBBQW1RTmxEd1ZhS00tZFZ3U0Qwbk5TdDdPZm0yUWhvb003UUR3TEVCaUc?oc=5",
+      "published": "Fri, 06 Nov 2026 00:55:16 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "SK하이닉스 ADR 13% 폭락…반도체 수요 '절벽' 공포",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlo2ZjRfWXNXQUFHX1hYLXJMYm5DTFBTWEZzWGxPbUpuU2QyeGVFZ0kzdE42ZDJoN2dKMklqOXV4UlBtSkJ1WU11MThRTVd4VkNzeFRwRTZ6ak0tU1lfVEZMeU9xRXNPSF9HMlV5NVNJOUU2aGptV0swVmNhdW1DS2ZjVGxuNmJQ?oc=5",
+      "published": "Thu, 05 Nov 2026 22:37:45 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "[증시바닥 진단] 하나證 황승택 \"과매도 국면…韓 반도체 우려 과도\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OTUZXamZzLUhjemtaSWhqX0RIRjBTdVFCVmVRVi01M28za21CM1JoUEEwTVhjS3dzNFUzSkRMcUtxZ0RrOHVhQ1h0UUI5QWs2Ri13YlVTUTVfdEJyZG5OdkVvYURGalpKNk9iQ0ZQcm4?oc=5",
+      "published": "Fri, 06 Nov 2026 01:03:42 GMT",
+      "source": "연합인포맥스"
+    },
+    {
+      "title": "[반도체주 대참사] 엔비디아 시총 4500억 달러 증발…AMD·마이크론 두 자릿수 추락",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSUFhS2s0VGJpVUFud2VmNUF6SFNRa2RrdC1NRjNvRVVzbG43WkNfMjJWdEpvZWt4MFZ6SEhJYTdleVFzWlJXclJPY191bVEwbmtsQnlscko3Sk9aVndmODMxUXdPSGVscWVKUXViSU9sTTRMcXJ4WkVmMUZMaWVsU3JSUXNkLVhM?oc=5",
+      "published": "Thu, 05 Nov 2026 22:16:55 GMT",
+      "source": "글로벌이코노믹"
+    },
+    {
+      "title": "[속보] 필라델피아 반도체 12.25% 폭락…마이크론 -17%·SK하닉 ADR -13%",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IVm1QZ2V3clhfaU02aFRSRnI0YzFta3NvQ3dqckhuOWVhUkZiTmw0aXUzeUJjbk5OWDZaSWI3NHhFbUJjcWdLSkN0NUk5UC1zeXNoczc5LWZWbklaeDhBS0JEWm1URU0?oc=5",
+      "published": "Thu, 05 Nov 2026 21:05:00 GMT",
+      "source": "뉴스1"
+    },
+    {
+      "title": "미국 민주당 압승이 반도체 위기? 우린 훨씬 유리해졌다",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTFhpUWZFUGpzMWhxYWxmZ01iT09RclF1Mk9fU3dYckFmS2pvNGJ5X1ZEU0FGTTJKT0YweU1FV1VqcXNOdTJyTWhJb0xJRmhxTGExOXlqT2xlb3FjVzBNTVhHUUYtakR1X21SODJ4eDMwR1BpVXp2aWJuUFQ1Y0Y2MmxiZS1kamJ2NFE?oc=5",
+      "published": "Thu, 05 Nov 2026 22:29:00 GMT",
+      "source": "OhmyNews"
+    },
+    {
+      "title": "美메모리주 투매… 샌디스크 22%·마이크론 17% 뚝",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EXzdrN3VHalRxUUw0ZUhINDRoaktVYXRMdWpXd2FvUUh0ZkdBVVlIQjNUNWttZFNYME1RQ1FVUHRPT19mTlBuT1pMeHFsWGV0SzV5SFJTSlhCOGp2SWE5dkpJbkJ2TXhqV3ZkRTAwMnTSAXRBVV95cUxPQ1h2dDVWejRJTW8wXzdTdVJqQTY2S2RlY0I3MGJBNG9GUzg2NHpHZWpELVBUanVPNEY0NnhWLTdUdEJNVzNfSDJaM3RwQlpNTkxCZmV1SC1ZTHFVTl9fMEZMMWh6cllVZHVyX290Q3VnQVQ5Tw?oc=5",
+      "published": "Thu, 05 Nov 2026 22:57:40 GMT",
+      "source": "IT조선"
+    },
+    {
+      "title": "[속보] ‘미 반도체 쇼크’ 코스피 5천선 붕괴…개장 직후 8% 급락",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xbVpLbUEzNGN5eEFDeVgwMW1sWjJSbmp4Q0FpcE9na212NjB3bm5ic1FnSVZ1bHJ3dUE5aFUwdVAwVG5Ybzhfd0tQMGpHSnRmX0JLeGZIaWJETGVfLTJCWHYwY0FQanc?oc=5",
+      "published": "Fri, 06 Nov 2026 00:49:00 GMT",
+      "source": "한겨레"
+    },
+    {
+      "title": "'반도체 쇼크'에 코스피는 서킷 브레이커, 코스닥은 매도 사이드카 발동",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uN3BMVXV2QlQxaEhtZGx2c3VaYzV3WnZOU2FfbXl1WDRPdHlnS0VEejlxZlFOUTIta0JUM1VpZVdhTUc4eTRVaWUzM2Z6LUFvOWh5bjNSMXNtN2tCMlJmTA?oc=5",
+      "published": "Thu, 05 Nov 2026 23:54:35 GMT",
+      "source": "메트로신문"
+    },
+    {
+      "title": "삼성전자 D램 시장 점유율 '38%'…1위 수성",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhT2ZhaTFjczJqU3pvd2UxcHBzeDhodGtENlg5TVhNUExKek1VbjBjNUlqbGVSdGRrcWJmb2Q4alVuUzk0S0VzblpkdUdVQQ?oc=5",
+      "published": "Thu, 05 Nov 2026 07:56:23 GMT",
+      "source": "전자신문"
+    },
+    {
+      "title": "생기원, 평택대학교에 ‘반도체 환경설비 오픈랩’ 개소",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tYkF5X1N4OTEwaGRMUzFIaXR5UWttVi1wdTF3SDREd2V1eHZOT2ZhN0NFeUdkbGJ4d0lIbkV1eDVRaXN4TzRza3F2OGttY1hJdzA5aWtQUlVtVndyUDdGMzdPR3dYOUdmZFE?oc=5",
+      "published": "Thu, 05 Nov 2026 23:55:22 GMT",
+      "source": "철강금속신문"
+    },
+    {
+      "title": "\"더 떨어질까 겁나는데\"…반도체주 급락에 증권가 '깜짝' 전망 [분석+]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tTXhFS0wtbzZnTVBuVXQwSjFmbVRiOGRHbElsVGpwVGVMbVo3ZXltTDBvbEhYSFExZ2tNZ2JGY0JteVFuX2lPZ09MRWhjZE43WFVJOG9Oc19Xdw?oc=5",
+      "published": "Thu, 05 Nov 2026 13:00:06 GMT",
+      "source": "한국경제"
+    },
+    {
+      "title": "美 중간선거 민주당 승리에 엇갈린 주가... 반도체·데이터센터 주식은 떨어지고 자동차·태양광은 올랐어요",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN3VlMUEyWkwtS0t3aWxTbDZLWlFKaW5aVG9QUW95bTdnSllGQ21TMzdCVDg0Tm91dmVXdHJtVEUxWUw3TU1lcHp3OU9VUVRha0Y0T3BKOTVMaGlOblloajlnNE1xbExDaXlzZnhHbGRDQlFmbTlVZHdfTDdodjFrU1FfQQ?oc=5",
+      "published": "Fri, 06 Nov 2026 00:33:00 GMT",
+      "source": "조선일보"
+    },
+    {
+      "title": "AI·반도체, 시장의 공포를 이기는 방법 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01M0dFZGxERE44THhGQzBJT1JhbmducHFMcGlrVENiRFVjZmFpR21VZDdaOHZBMnFpQnFfMm1KZ1hQT0tkZENuRURtLXpfOWJaOVhWUmtIUm9TNW9sWWdUanlIc25YbDN2RkNj0gFwQVVfeXFMTkxOWE9OVG10Nk1vUGoxbE4tdnlLUVF0a0N3U3FwZEVtb09SdlhRYzlWcEFycl9xS3g0engtMHczV2U2RUdJc015VHR0QUs2ZnpvRW1qUTBIYVQ4MXRqRDFUekNrWFRMTlQyTFZwdGpWVA?oc=5",
+      "published": "Thu, 05 Nov 2026 20:30:00 GMT",
+      "source": "머니투데이"
+    },
+    {
+      "title": "AI 반도체 급락에 짐 쌌다…투자자들 대거 몰린 종목",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96eG1nWHg4V3RfYXp1RFNEaGw5QTA5UXlCdWlqUm5mMmcxWEV0Nkg5UlBGUVctemo1ZEdEMEFmX2FZVXV1RzZrU3F5aVVDWXlURkIzMGpXMVhuQQ?oc=5",
+      "published": "Thu, 05 Nov 2026 23:38:51 GMT",
+      "source": "한국경제"
+    },
+    {
+      "title": "“반도체 현장인력 키우고…군소음 피해보상 현실화 해야”",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkLTBDVEhKOVBqQ29QdURNdllwZW4xaVdNYzVaSk9DRU53UGtYZXpJbGVtSDVXWTlHNWRSV3lFemFNRXM4TUNCUXRZWXVSY18xVVRjMWpFdnd0S3dIbFdFc2JUUEFhOUdYZjRuaDB2bm9iUQ?oc=5",
+      "published": "Fri, 06 Nov 2026 00:29:49 GMT",
+      "source": "굿모닝충청"
+    },
+    {
+      "title": "평택시, 청소년 대상 반도체 진로체험 운영",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hWXFRSGJodFZ3SU9Pc3BBa2psX18zd0F0S3A0OTdRbkhSMl9EMGNqdnVwV3BXZ0o3cXhVZl9mcmU1ekVaZjVucUtjZHdWMkFPUk91Rm16ZlFERjBzM1JHcw?oc=5",
+      "published": "Thu, 05 Nov 2026 23:32:58 GMT",
+      "source": "메트로신문"
+    },
+    {
+      "title": "IPO 전략 바꾸는 SK…반도체·AI 중심축은 유지",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56dGRDeWxiWm03Y29rbXhuTWxRa09aSm5oXzVfYWp2dF9VQlhUbTJ4aFRISWx4aWViQ0tTdU12X0kxSEgxT3otc0NJbklSYjQ?oc=5",
+      "published": "Thu, 05 Nov 2026 22:00:00 GMT",
+      "source": "딜사이트"
+    },
+    {
+      "title": "윤상현 \"6조 호남 반도체 지원 정부 심의위원에 카페 대표와 정형외과 의사\"",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EZzBhalBCM3J6OWctN0ZfYy1XaV9zeTFRNUhFUWhZSXBlLUNScmhBUFRuUElNNEtYTWotWTNxMU5PMHZrUlJCWHRoZ2pTUWtOLTFHa2FVcG1kYUh6?oc=5",
+      "published": "Fri, 06 Nov 2026 00:14:00 GMT",
+      "source": "뉴스핌"
+    },
+    {
+      "title": "[종합] 나스닥 5%대 급락, 조정 진입…AI·반도체 투매에 하루 만에 반전",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XOGR5MDZxTG91OTRzcGtBZXRfZnlvWXk4NjZ5eGFMeTJYLTVfN1FkY2V1S0VUOUd2dDhyb0tsd0FNeGhVOE80TnlHTFphc0VPSW1za05KRzVLVGhW?oc=5",
+      "published": "Thu, 05 Nov 2026 16:07:00 GMT",
+      "source": "뉴스핌"
+    },
+    {
+      "title": "[속보] 마이크론 16% 이어 삼성전자 11%, SK하이닉스 14% 폭락",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5sR0dyeDVqeWdjc1pTUjlVSWVvbE5EMHpQQjlvQjFmSU55bVdwSkpTZVJtcDVsWm9WS0pLM1RJNHRWbG04SnAtRmYzTjk2R3NFR19VRFBZUWkta193Q1lDMTNWMlZtbHBpLXUySEZzUXRRVkJ6QzNFU0E5WdIBgAFBVV95cUxPYTdXRGNWNHNvNXBuLXEyQkVvcDRSejdZOVZ2S2VHRnEzMzNDZF9FV2VseDVPd3RkaVpIM1ZEeVBETTJXQTVaSTJGcGxSYWx1MWdMZE9VWTRMTVJocVhyLTlmaE5MTGVUcTlZTXlvUXBlZEQ5T2VKWUNfeGliWDZ5VQ?oc=5",
+      "published": "Thu, 05 Nov 2026 23:06:00 GMT",
+      "source": "뉴데일리"
+    },
+    {
+      "title": "美 주지사 당선인 절반 이상 'AI·데이터센터 규제' … K-반도체 어떤 영향 받나",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAxMTNManMzMkNMMzlINWlEbmFFd243WGM5Z0NMd0N6Uk1XYzhWdVhBT29wTlJyRXpwb1VuTUZQeWs1OWdwaS1QOVoyU0FOc1l0QXRCQVFvZEN6YjlNUWQxMTBhUEZIVXJfSjZ6YlVBUU01NS1iQmZ2clZn?oc=5",
+      "published": "Fri, 06 Nov 2026 00:53:00 GMT",
+      "source": "뉴데일리"
+    },
+    {
+      "title": "[초점] 美 의회 권력 교체…삼성·SK 'AI 반도체 방정식' 꼬이나",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CS3VsMDc5TGpURWtEdkpLNUs5SW9xa29fTnRGVUR0eXZLSUpidVBlVTdmSWlpYm9kZ0NjbUs1M0w1YnpLcjU4Z3h5a2JtTUhiWV9mSVozWkM1cXhIanZSZ25FdFRwdU8waGQxcw?oc=5",
+      "published": "Thu, 05 Nov 2026 22:00:59 GMT",
+      "source": "뉴시안"
+    },
+    {
+      "title": "[르포] 삼전닉스·마이크론, 중국 수입박람회서 '메모리 모듈' 경쟁",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91aXVBbzVhODNkX0NZVmkyd3JtN3JoaDhiMk1UZGpoNVBtTnFFZzdnNmd4WXg2SFlQRlVGSjhkZjc1TlNtUVZsMFFrZFBCakdOZEVIZmpCeWRpNEnSAWBBVV95cUxNYVJVeTdDSzJiLV9Pb2tuaGRoQ01qNWN3VVhlOVNLSmVSY2YzQWRkNzg5Ny1DanlIMGNTQVBycy1GZVZXanVBaVY3TnRKb0pDVGotUXlGMGJzRnFoUWs4X0E?oc=5",
+      "published": "Thu, 05 Nov 2026 11:50:04 GMT",
+      "source": "연합뉴스"
     }
   ],
   "manual": {
@@ -5205,7 +5205,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 295.86,
+        "soxx_close": 98.62,
         "implied_eps": null
       },
       {
@@ -5217,7 +5217,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 306.55,
+        "soxx_close": 102.18,
         "implied_eps": null
       },
       {
@@ -5228,7 +5228,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 306.55,
+        "soxx_close": 102.18,
         "implied_eps": null
       },
       {
@@ -5240,7 +5240,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 295.15,
+        "soxx_close": 98.38,
         "implied_eps": null
       },
       {
@@ -5255,7 +5255,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 270.83,
+        "soxx_close": 90.28,
         "implied_eps": null
       },
       {
@@ -5268,7 +5268,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 291.39,
+        "soxx_close": 97.13,
         "implied_eps": null
       },
       {
@@ -5281,7 +5281,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 291.39,
+        "soxx_close": 97.13,
         "implied_eps": null
       },
       {
@@ -5299,7 +5299,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 296.74,
+        "soxx_close": 98.91,
         "implied_eps": null
       },
       {
@@ -5312,7 +5312,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 296.92,
+        "soxx_close": 98.97,
         "implied_eps": null
       },
       {
@@ -5325,7 +5325,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 302.84,
+        "soxx_close": 100.95,
         "implied_eps": null
       },
       {
@@ -5338,7 +5338,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 309.36,
+        "soxx_close": 103.12,
         "implied_eps": null
       },
       {
@@ -5351,7 +5351,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 306.28,
+        "soxx_close": 102.09,
         "implied_eps": null
       },
       {
@@ -5364,7 +5364,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 309.4,
+        "soxx_close": 103.13,
         "implied_eps": null
       },
       {
@@ -5377,7 +5377,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 312.76,
+        "soxx_close": 104.25,
         "implied_eps": null
       },
       {
@@ -5390,7 +5390,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 312.18,
+        "soxx_close": 104.06,
         "implied_eps": null
       },
       {
@@ -5403,7 +5403,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 316.33,
+        "soxx_close": 105.44,
         "implied_eps": null
       },
       {
@@ -5416,7 +5416,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 314.52,
+        "soxx_close": 104.84,
         "implied_eps": null
       },
       {
@@ -5435,7 +5435,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 299.48,
+        "soxx_close": 99.83,
         "implied_eps": null
       },
       {
@@ -5448,7 +5448,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 298.01,
+        "soxx_close": 99.34,
         "implied_eps": null
       },
       {
@@ -5461,7 +5461,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 296.2,
+        "soxx_close": 98.73,
         "implied_eps": null
       },
       {
@@ -5475,7 +5475,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 301.15,
+        "soxx_close": 100.38,
         "implied_eps": null
       },
       {
@@ -5489,7 +5489,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 301.15,
+        "soxx_close": 100.38,
         "implied_eps": null
       },
       {
@@ -5504,7 +5504,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 313.69,
+        "soxx_close": 104.56,
         "implied_eps": null
       },
       {
@@ -5516,7 +5516,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 318.06,
+        "soxx_close": 106.02,
         "implied_eps": null
       },
       {
@@ -5531,7 +5531,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 328.78,
+        "soxx_close": 109.59,
         "implied_eps": null
       },
       {
@@ -5546,7 +5546,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 342.47,
+        "soxx_close": 114.16,
         "implied_eps": null
       },
       {
@@ -5558,7 +5558,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 348.67,
+        "soxx_close": 116.22,
         "implied_eps": null
       },
       {
@@ -5576,7 +5576,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 346.3,
+        "soxx_close": 115.43,
         "implied_eps": null
       },
       {
@@ -5591,7 +5591,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 345.64,
+        "soxx_close": 115.21,
         "implied_eps": null
       },
       {
@@ -5606,7 +5606,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 348.51,
+        "soxx_close": 116.17,
         "implied_eps": null
       },
       {
@@ -5619,7 +5619,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 354.66,
+        "soxx_close": 118.22,
         "implied_eps": null
       },
       {
@@ -5632,7 +5632,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 356.82,
+        "soxx_close": 118.94,
         "implied_eps": null
       },
       {
@@ -5645,7 +5645,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 362.04,
+        "soxx_close": 120.68,
         "implied_eps": null
       },
       {
@@ -5658,7 +5658,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 368.0,
+        "soxx_close": 122.67,
         "implied_eps": null
       },
       {
@@ -5670,7 +5670,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 356.8,
+        "soxx_close": 118.93,
         "implied_eps": null
       },
       {
@@ -5683,7 +5683,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 352.05,
+        "soxx_close": 117.35,
         "implied_eps": null
       },
       {
@@ -5696,7 +5696,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 334.78,
+        "soxx_close": 111.59,
         "implied_eps": null
       },
       {
@@ -5709,7 +5709,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 341.54,
+        "soxx_close": 113.85,
         "implied_eps": null
       },
       {
@@ -5724,7 +5724,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 323.51,
+        "soxx_close": 107.84,
         "implied_eps": null
       },
       {
@@ -5739,7 +5739,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 332.51,
+        "soxx_close": 110.84,
         "implied_eps": null
       },
       {
@@ -5751,7 +5751,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 345.25,
+        "soxx_close": 115.08,
         "implied_eps": null
       },
       {
@@ -5763,7 +5763,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 328.66,
+        "soxx_close": 109.55,
         "implied_eps": null
       },
       {
@@ -5774,7 +5774,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 338.54,
+        "soxx_close": 112.85,
         "implied_eps": null
       },
       {
@@ -5789,7 +5789,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 339.61,
+        "soxx_close": 113.2,
         "implied_eps": null
       },
       {
@@ -5801,7 +5801,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 347.76,
+        "soxx_close": 115.92,
         "implied_eps": null
       },
       {
@@ -5816,7 +5816,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 386.6,
+        "soxx_close": 128.87,
         "implied_eps": null
       },
       {
@@ -5828,7 +5828,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 420.7,
+        "soxx_close": 140.23,
         "implied_eps": null
       },
       {
@@ -5841,7 +5841,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 461.44,
+        "soxx_close": 153.81,
         "implied_eps": null
       },
       {
@@ -5854,7 +5854,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 462.06,
+        "soxx_close": 154.02,
         "implied_eps": null
       },
       {
@@ -5867,7 +5867,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 482.73,
+        "soxx_close": 160.91,
         "implied_eps": null
       },
       {
@@ -5880,7 +5880,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 506.87,
+        "soxx_close": 168.96,
         "implied_eps": null
       },
       {
@@ -5893,7 +5893,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 492.36,
+        "soxx_close": 164.12,
         "implied_eps": null
       },
       {
@@ -5912,7 +5912,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 520.3,
+        "soxx_close": 173.43,
         "implied_eps": null
       },
       {
@@ -5925,7 +5925,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 532.76,
+        "soxx_close": 177.59,
         "implied_eps": null
       },
       {
@@ -5937,7 +5937,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 569.08,
+        "soxx_close": 189.69,
         "implied_eps": null
       },
       {
@@ -5949,7 +5949,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 571.93,
+        "soxx_close": 190.64,
         "implied_eps": null
       },
       {
@@ -5960,7 +5960,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 541.51,
+        "soxx_close": 180.5,
         "implied_eps": null
       },
       {
@@ -5975,7 +5975,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 596.25,
+        "soxx_close": 198.75,
         "implied_eps": null
       },
       {
@@ -5987,7 +5987,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 599.73,
+        "soxx_close": 199.91,
         "implied_eps": null
       },
       {
@@ -6000,7 +6000,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 639.45,
+        "soxx_close": 213.15,
         "implied_eps": null
       },
       {
@@ -6013,7 +6013,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 655.01,
+        "soxx_close": 218.34,
         "implied_eps": null
       },
       {
@@ -6026,7 +6026,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 603.39,
+        "soxx_close": 201.13,
         "implied_eps": null
       },
       {
@@ -6039,7 +6039,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 601.5,
+        "soxx_close": 200.5,
         "implied_eps": null
       },
       {
@@ -6052,7 +6052,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 625.2,
+        "soxx_close": 208.4,
         "implied_eps": null
       },
       {
@@ -6064,7 +6064,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 589.94,
+        "soxx_close": 196.65,
         "implied_eps": null
       },
       {
@@ -6075,7 +6075,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 640.76,
+        "soxx_close": 213.59,
         "implied_eps": null
       },
       {
@@ -6093,7 +6093,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 581.34,
+        "soxx_close": 193.78,
         "implied_eps": null
       },
       {
@@ -6105,7 +6105,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 567.92,
+        "soxx_close": 189.31,
         "implied_eps": null
       },
       {
@@ -6117,7 +6117,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 555.27,
+        "soxx_close": 185.09,
         "implied_eps": null
       },
       {
@@ -6129,7 +6129,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 530.5,
+        "soxx_close": 176.83,
         "implied_eps": null
       },
       {
@@ -6140,8 +6140,8 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 521.81,
-        "implied_eps": 7.71
+        "soxx_close": 173.94,
+        "implied_eps": 2.57
       },
       {
         "date": "2026-07-20",
@@ -6152,7 +6152,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 524.14,
+        "soxx_close": 174.71,
         "implied_eps": null
       },
       {
@@ -6167,7 +6167,7 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 552.69,
+        "soxx_close": 184.23,
         "implied_eps": null
       },
       {
@@ -6178,12 +6178,14 @@
         "rel_ttm": null,
         "rel_fwd": null,
         "spot_premium_calc": null,
-        "soxx_close": 527.01,
+        "soxx_close": 175.67,
         "implied_eps": null
       }
     ]
   },
-  "errors": [],
+  "errors": [
+    "news:전자신문 — <urlopen error timed out>"
+  ],
   "notes": {
     "manual_fields": [
       "밸류에이션·메모리 가격은 data/manual.json에 수기로 누적한다",
