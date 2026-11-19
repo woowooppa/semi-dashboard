@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-11-18T11:40:53+09:00",
-  "generated_at_utc": "2026-11-18T02:40:53+00:00",
+  "generated_at": "2026-11-19T11:10:32+09:00",
+  "generated_at_utc": "2026-11-19T02:10:32+00:00",
   "prices": {
     "005930.KS": {
       "label": "삼성전자",
       "unit": "KRW",
-      "close": 189800.0,
-      "prev_close": 190300.0,
-      "chg_pct": -0.26,
-      "date": "2026-11-18",
+      "close": 191100.0,
+      "prev_close": 194700.0,
+      "chg_pct": -1.85,
+      "date": "2026-11-19",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-10-28",
-          "c": 99500.0
-        },
         {
           "d": "2025-10-29",
           "c": 100500.0
@@ -1049,23 +1045,23 @@
         },
         {
           "d": "2026-11-18",
-          "c": 189800.0
+          "c": 194700.0
+        },
+        {
+          "d": "2026-11-19",
+          "c": 191100.0
         }
       ]
     },
     "000660.KS": {
       "label": "SK하이닉스",
       "unit": "KRW",
-      "close": 1121000.0,
-      "prev_close": 1098000.0,
-      "chg_pct": 2.09,
-      "date": "2026-11-18",
+      "close": 1134000.0,
+      "prev_close": 1144000.0,
+      "chg_pct": -0.87,
+      "date": "2026-11-19",
       "source": "Yahoo",
       "history": [
-        {
-          "d": "2025-10-28",
-          "c": 521000.0
-        },
         {
           "d": "2025-10-29",
           "c": 558000.0
@@ -2100,7 +2096,11 @@
         },
         {
           "d": "2026-11-18",
-          "c": 1121000.0
+          "c": 1144000.0
+        },
+        {
+          "d": "2026-11-19",
+          "c": 1134000.0
         }
       ]
     },
@@ -4661,244 +4661,244 @@
   },
   "news": [
     {
-      "title": "[단독] 호남 반도체 공장 ‘南전北닉’으로 결정",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZkZ4VUJ5YzNPem5Gb0dET3p5TjBxRHhtMXhFZGZuVV9VcDZqWWVNbmwxU1hUMTM0dWJQQnVRUGRZUDFmU1lzTEtuZnVZbVBJWk9tMmJxMmZ5RkJubV8xbzdMSW5FdW56WU4ydHU5c1MxRUlfWW42RVd1bVNuWHRnVmVsRnNYQXVlbG5JODY2aw?oc=5",
-      "published": "Tue, 17 Nov 2026 20:04:25 GMT",
-      "source": "조선일보"
+      "title": "삼성화재, AIDC 포럼 개최…AI 데이터센터 위험관리·보험 역할 논의",
+      "link": "https://www.etnews.com/20261119000067",
+      "published": "Thu, 19 Nov 2026 09:37:41 +0900",
+      "source": "전자신문"
     },
     {
-      "title": "[용인 반도체 국가산단] 첫 삽 떴지만…시험대 오른 실행력",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfd01VbUtlTGpJTEJzekRvbWNad2RJTGFNMFhXeHBrMTRnWmdRenhOaGU4RzMzQUd1MFlKbTcwV1hFVjQwTnpFTm1zRGhQMC01V1c1VnJGamRkbGl6WjJiSmUxSjRjX1Z1R2RkNDZMbkE?oc=5",
-      "published": "Wed, 18 Nov 2026 01:49:19 GMT",
-      "source": "연합인포맥스"
+      "title": "美 국토안보부 “AI 활용 사이버 공격 확대…핵심 인프라 위협”",
+      "link": "https://www.etnews.com/20261119000015",
+      "published": "Thu, 19 Nov 2026 08:51:02 +0900",
+      "source": "전자신문"
     },
     {
-      "title": "AI 인프라 투자 확대에 메모리반도체 2026년 1조 달러 시대 개막",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Zc3ZjLW82V1FoN3d3U3Zjbkx6MERHdG5KWHVyQXVYRnBlOE1TNi0yUG9fdl9MN25MeVBOYUpBemttWTFFXzgxNTFCTGItVmdwemxiRjFZV3JhSnA4QUlWRndjaVJwZw?oc=5",
-      "published": "Wed, 18 Nov 2026 01:20:31 GMT",
-      "source": "기계신문"
+      "title": "엔비디아 전사회의서 조직 수습 총력…'포스트 젠슨 황' 체제 준비",
+      "link": "https://www.etnews.com/20261119000005",
+      "published": "Thu, 19 Nov 2026 08:37:27 +0900",
+      "source": "전자신문"
     },
     {
-      "title": "임무 성공률 99% ‘스팟’ 이어 ‘아틀라스’까지···자동차 넘어 반도체 공장 첫 실증",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtOFFmS0hMdUNpS0NheWo5WmQ1d1U0RXIzdWhCcUQxYXBjVzRnN29wT3FWeEpCcy1kbDRYSTg3N3RXLTN5TjcyWFV4XzE5Qm1LSl9fTF9EMm9oQdIBX0FVX3lxTE1INEFaUm5jVjhaemhFVWJrTkFYOENNbndjRjNGNXBlM0xTdnNYcmNBZ0ZkcGVfVHhmZVhRakl1NUhpNGhtWmY3WHJCdUhpN00wMjFGOWJvcnhQQ3hHMXVn?oc=5",
-      "published": "Wed, 18 Nov 2026 00:27:00 GMT",
-      "source": "경향신문"
+      "title": "5톤 중장비가 두 바퀴로 묘기…조종사는 'AI'",
+      "link": "https://www.etnews.com/20261118000449",
+      "published": "Thu, 19 Nov 2026 06:00:00 +0900",
+      "source": "전자신문"
     },
     {
-      "title": "美, 제3국 데이터센터 통한 中·北 AI 반도체 접근 차단…수출통제 강화",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJcWJ4TEdOdWYwWjYzcWE5SmJ6U2tlaDlQY0NPMTRMdDI5WG93SEc5T0tRMU8tUjZvNEJsZnE4TmxyT1p0NWZoLWtvNW1LM2FscVc4bkd5OV9FVzdBUGswTmhGSkNGaUV0TXpJ?oc=5",
-      "published": "Tue, 17 Nov 2026 22:44:48 GMT",
-      "source": "SPN 서울평양뉴스"
+      "title": "“수능날 단추 달린 옷 입으면 연행?”…정부 AI 커닝 대책 비웃는 '풍자 밈' 확산",
+      "link": "https://www.etnews.com/20261118000446",
+      "published": "Wed, 18 Nov 2026 20:45:00 +0900",
+      "source": "전자신문"
     },
     {
-      "title": "현대차 그룹 휴머노이드 로봇 '아틀라스' 반도체 공장 첫 투입",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WT05QMUtUd1RfMXJvQlZ2S1JCUmlHN2hZcTlyQVlVS3JkMkYySHdJMENQcDF4VTExZUJQdnh6UlFVTnVSMnR1NHJDSnJnSF9INlFqWjFB?oc=5",
-      "published": "Wed, 18 Nov 2026 02:14:37 GMT",
-      "source": "중앙일보"
+      "title": "AI가 결제하고 은행 업무까지…글로벌 금융시장 대전환",
+      "link": "https://www.etnews.com/20261118000434",
+      "published": "Wed, 18 Nov 2026 17:10:37 +0900",
+      "source": "전자신문"
     },
     {
-      "title": "초고수들, 반도체 다시 사들여…제약·바이오 차익실현",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wTi1XTjRqNmp3Yk5WRm03V0NpTUI4dUVMWHpKWjgxcVRILUV6TmtTd2d3YTBieGthaXZGTTZVZ2ZrdUNYOFZfWnNrQXBxNlUtX1lFV3NIMWtNdw?oc=5",
-      "published": "Wed, 18 Nov 2026 02:00:03 GMT",
-      "source": "한국경제"
+      "title": "코스피, 5000선 탈환 마감…엔비디아발 불확실성은 여전",
+      "link": "https://www.etnews.com/20261118000402",
+      "published": "Wed, 18 Nov 2026 16:00:19 +0900",
+      "source": "전자신문"
     },
     {
-      "title": "엔비디아 깜짝 실적에 반도체 반등 … 이제 공은 앤트로픽으로",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4VjA3dkNWT3h3bExxYXJzcWZ1YU5LdkJ0MnhVdjF5amp0U1dINmRzeFpkUVJFLTZhUHgyZGw4N1Budl9wMUtGZUVzYm13TlYtMWc?oc=5",
-      "published": "Wed, 18 Nov 2026 00:58:28 GMT",
-      "source": "매일경제"
+      "title": "1년전 AI도 수능 수학 만점 …교육·시험평가체계 낙제",
+      "link": "https://www.etnews.com/20261118000364",
+      "published": "Wed, 18 Nov 2026 16:00:00 +0900",
+      "source": "전자신문"
     },
     {
-      "title": "현대차 아틀라스, 자동차 공장 넘어 반도체 공장으로",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FcU5xUlRhVjRGNHEtVWp2dmdDWkk3cjlTZVJHanBRUThCeks3RVhDUlpYUXlLeDRMblFXcU1IVWlZN29nOExtTHFuXzhtSG5JeVJmSFFkNExRekkzWGZLSGF3?oc=5",
-      "published": "Wed, 18 Nov 2026 01:14:00 GMT",
-      "source": "이코노미스트"
+      "title": "네이버, AI 투자 확대에 R&D 역대 최대…카카오는 효율화 기조 유지",
+      "link": "https://www.etnews.com/20261118000253",
+      "published": "Wed, 18 Nov 2026 16:00:00 +0900",
+      "source": "전자신문"
     },
     {
-      "title": "LG엔솔, 나트륨 배터리와 반도체 변압기 결합",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByS3l0THplTU9JT0owWTZyN1c3bzY2YjVrdDZwWC1wT0lNc21PUHNLMjJHOGFDUDZwNUxxdlVaQ0Z3c1VsLXpXNUNPM3lPOGdqUHVfbXVzSTF0TGFudFJsZ0dmV05EZw?oc=5",
-      "published": "Wed, 18 Nov 2026 01:55:37 GMT",
+      "title": "삼성 스마트싱스도 챗GPT 연동…AI로 가전 제어 확산",
+      "link": "https://www.etnews.com/20261118000237",
+      "published": "Wed, 18 Nov 2026 16:00:00 +0900",
+      "source": "전자신문"
+    },
+    {
+      "title": "[차이나 브리프] TSMC, 대만 7개 협력사와 선단공정 및 패키징 협력",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=58522",
+      "published": "2026-07-20 07:26:14",
       "source": "디일렉"
     },
     {
-      "title": "신한씨에스, 반도체·AI 데이터센터 공략 가속…“2030년 매출 1200억원 목표”",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfNWc1OS1NR0otX19fNTJFTzFwNjg5UjVMWUl6VmI2QXNhby1vVHJxM2VSUnh4OEdwajQyQzEyNDlUSFBhdWZSSlZodlRGdw?oc=5",
-      "published": "Wed, 18 Nov 2026 02:14:11 GMT",
-      "source": "전자신문"
+      "title": "[차이나 브리프] SK하이닉스의 웨이퍼 캐파 확대…공급과잉 우려 없다",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=58126",
+      "published": "2026-07-10 08:51:21",
+      "source": "디일렉"
     },
     {
-      "title": "보스턴다이나믹스, 아틀라스 산업 확장 시동…반도체 공장서 검증",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11YWs4M3FEMUM5M2JUTklSeG9uQzc4Z0p4d3JuMlVTZmRXR1BLaFZNRGF2YVk5QWlJbmg5T3dLS0psQ2FuRnNwWUQ4ZGhYSXRvMG1OeF92T1pEWHh0T05zaFcxTDM?oc=5",
-      "published": "Wed, 18 Nov 2026 00:13:23 GMT",
-      "source": "매일일보"
+      "title": "[차이나 브리프] 화웨이 반도체는 앞만 보고 달린다",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=57499",
+      "published": "2026-06-26 08:30:20",
+      "source": "디일렉"
     },
     {
-      "title": "부산서 전력반도체 산학연 국제심포지엄…연구 성과 공유",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41TlNWYnVqODJtUzlvdXlsZTJnRWY5T2Q1Tml4UVZLQncxTWVwbHpIeTB3SDdJdDJTU3pHTHk3TWZUclJzWk12bHdzbTkxX2YzZTdwWlNzLXF6ODTSAWBBVV95cUxNQ19wdmc2SUo3S2dKNGZ2OTZqMnhHRjBLWG9JZWRlSXpmRUtFcjUwdThkQTdtZGpaanphaVVZMi1HNWFmTzdMMEhRUDV0emhUQkpfVHB4Smg4R0V6eXpYUVk?oc=5",
-      "published": "Tue, 17 Nov 2026 23:04:17 GMT",
-      "source": "연합뉴스"
+      "title": "[차이나 브리프] TSMC, CoPoS 협력사 통제 강화",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=56702",
+      "published": "2026-06-05 07:44:35",
+      "source": "디일렉"
     },
     {
-      "title": "반도체 ‘호황 지도’…엔비디아 쏠림 줄고 중국 비중 커졌다",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVRVBIb1VvX3R1bHk4aE16YXNrcjZYdlFlWmtPLUVxSmltY0lGRGpKSU1xek5ZZWZHRVpjM1Q4bFBibW9wdUlZTDE4WTdxLW1NQzg3UnBzandUazdyaDBvV0pUcnRQMzVadGc?oc=5",
-      "published": "Mon, 16 Nov 2026 17:18:00 GMT",
-      "source": "한겨레"
+      "title": "[차이나 브리프] SK하이닉스 지원으로 급성장하는 중국 메모리 기업",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=43133",
+      "published": "2025-11-26 09:35:13",
+      "source": "디일렉"
     },
     {
-      "title": "[용인 반도체 국가산단] 특별법 동원까지…전력·용수 인프라 '적기 공급'",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HdHBvZUdPQjV5aE9zLW8waGdhRlF4ZmYydkJqMV9GUi1HalpfclNXZkhLa2tzeHUzczE0MUljRElUS2YzbWxXSlUwQjFlLVNmUU0zelI3cmhUR2swUVhiMDZTQTZDaG9tbFRrYzY1Rlc?oc=5",
-      "published": "Wed, 18 Nov 2026 01:49:21 GMT",
-      "source": "연합인포맥스"
+      "title": "[차이나 브리프] TSMC, 미국에 대규모 투자 논의",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=33034",
+      "published": "2025-03-18 09:44:11",
+      "source": "디일렉"
     },
     {
-      "title": "특징주, 원익머트리얼즈-반도체 재료/부품 테마 상승세에 6.05% ↑",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BYVdydS1wM2tpOVlPRzVwRElxWWZQSmE4bTVmdHdtcFVoVW5tbG1PNFdEbmdkWXdKU3dVNEFpYnREN0ZpVS1kSWl6djJjLUdJeWc?oc=5",
-      "published": "Wed, 18 Nov 2026 00:28:37 GMT",
-      "source": "매일경제 마켓"
+      "title": "[차이나 브리프] TSMC, 2나노 고객사로 애플·엔비디아 이미 확보",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=26018",
+      "published": "2024-03-18 09:37:32",
+      "source": "디일렉"
     },
     {
-      "title": "현대차그룹 휴머노이드 ‘아틀라스’, 내년부터 반도체 공장 첫 투입",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQT2hoUHJWSHNtSUcxTUFQTVVjbjRSYThBQ3pDck8tb2xRSUdaVmRTYk9jRVlsOTd3T25SMGhOWXFSTUN6UnJ6RU1LUVF1UkVJSDh1YU9n?oc=5",
-      "published": "Wed, 18 Nov 2026 01:44:28 GMT",
-      "source": "중앙일보"
+      "title": "[차이나 브리프] TSMC 미국 공장 난항 원인",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=25357",
+      "published": "2024-02-20 09:32:32",
+      "source": "디일렉"
     },
     {
-      "title": "美 법원, 삼성·SK하이닉스·마이크론 DRAM 담합소송 각하 기각",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwcFVuRDFpbFRtd3lTMnpZOUJsSEhzTTNrQTJENC1OQkFxUFBOM0tvbkNjd1JFSy00ekRvUEgzWDI3UVlCb3Z2Q3dqR0ZDdXdhQVJQNTh0eU1BbnRoakRHLVFCMHd2MVI3aDkzcEtfMmU?oc=5",
-      "published": "Mon, 16 Nov 2026 08:34:00 GMT",
-      "source": "연합인포맥스"
+      "title": "[차이나 브리프] TSMC도 중국 장비 수출 허가",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=23466",
+      "published": "2023-11-17 12:05:18",
+      "source": "디일렉"
     },
     {
-      "title": "특징주, 에프엔에스테크-반도체 재료/부품 테마 상승세에 5.04% ↑",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZDhhVGhrYUJaZkViRFN1aDk0T1NUYzRiVVY1SXg4a01KcWw4bEd0YzI4NlI2RGlrVi15aERRV2h4NUtxdEJNWVVzS3RSTFVmUkE?oc=5",
-      "published": "Wed, 18 Nov 2026 00:28:06 GMT",
-      "source": "매일경제 마켓"
+      "title": "[차이나 브리프] 삼성전자의 AMD 파운드리 수주",
+      "link": "https://www.thelec.kr/news/articleView.html?idxno=22711",
+      "published": "2023-09-25 09:02:53",
+      "source": "디일렉"
     },
     {
-      "title": "[용인 반도체 국가산단]'보상 속도전' 나선 LH…연내 마무리 총력",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KZkJ0S2IyeWFXWnN5eHFOOENmZWt1ZmVHZHJXdXpsWlpWZVFRSzVsT3FQTzVJcmhUMkNkSDc3LVUxWERYRlU1QkdZRUdYVlIyQXhRcU1SSmdmdjhIY0N5dnpVZnJYRklDYjdyVkt2Vzk?oc=5",
-      "published": "Wed, 18 Nov 2026 01:49:17 GMT",
-      "source": "연합인포맥스"
+      "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
+      "link": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "published": "Tue, 16 Sep 2025 17:38:01 +0000",
+      "source": "SemiAnalysis"
     },
     {
-      "title": "보스턴다이나믹스, 반도체 공장에 '아틀라스' 투입…피지컬 AI 실증 확대",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ0FYRzNVcHVNMDFESGpGQmIyN3FGMUV1MVdMRDdmMkJTRHlDQ3BtbEw2NHdva1gzLXVmSXo4YXJGZ3o3WTVHazBVanlzb2Q0dWhId2VneUFjSTlJSmtrVHlHbEtadTNySnF2bzhMVGt4M05BZGZIQVRnSmFZWFdCem9nSU9ZUQ?oc=5",
-      "published": "Wed, 18 Nov 2026 00:10:06 GMT",
-      "source": "글로벌이코노믹"
+      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
+      "link": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "published": "Mon, 08 Sep 2025 09:54:57 +0000",
+      "source": "SemiAnalysis"
     },
     {
-      "title": "건설근로자공제회, SK 용인 반도체 클러스터 건설현장 방문",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MeWxPNl9mNjlDcVVxb2s5R25hMnJISXJhUGVNMnhGZDhITGZTcGJZc2lyTTAtZmlQa2h2Nm9XSUs5dHRFRXJfY21jQ0syejhhOFFhcHQ1eFFsTEgwRjhPM1QxOUUyWm9Ta1BodHJsSDlLTU0?oc=5",
-      "published": "Wed, 18 Nov 2026 01:01:45 GMT",
-      "source": "대한경제"
+      "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
+      "link": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "published": "Wed, 03 Sep 2025 20:55:46 +0000",
+      "source": "SemiAnalysis"
     },
     {
-      "title": "엑사이엔씨, 반도체 공사 확대에 3분기 누적 영업익 397% 증가",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwdjQ5WWQxaml0WGpaTHlhYktRZko1MlNtdkdaNktkc0FsQThBWHRBVFUteG0xQlNwOG90ZmpYYklqRDhuSkJYbWFZSU1LQndMeWF6THJWQTlCdw?oc=5",
-      "published": "Wed, 18 Nov 2026 00:38:25 GMT",
-      "source": "한국경제"
+      "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
+      "link": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+      "published": "Wed, 20 Aug 2025 04:56:35 +0000",
+      "source": "SemiAnalysis"
     },
     {
-      "title": "대만 우수 AI 제품에 한국산 반도체…딥엑스 NPU 기술력 입증",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iUUFEQTNFZE5pdUg2aTVqUWRhQWpXTGUxOGZsLVZlYmkzUUpITWtOVXlEWjdVNVFwTXp5MTBBRXNqd2FUMnlOb25GWHBZaTFuRVBZbTNoNEdPd0pacGVtT2FsWW90NEk2?oc=5",
-      "published": "Wed, 18 Nov 2026 01:41:42 GMT",
-      "source": "테크월드"
+      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
+      "link": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
+      "published": "Tue, 12 Aug 2025 01:16:06 +0000",
+      "source": "SemiAnalysis"
     },
     {
-      "title": "현대차 아틀라스, 자동차 밖 첫 시험대는 ‘美 반도체 공장’",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR1Y5TjZpdExDN2pLYzEwZmRpa2V5YjNZOVhpNkNkV1FFaGxrMkpnc0RsZTlsaXNwa1ZKVWR5Z3gyeXA1MUFwNWIzcFRGaU5ENlhGWFl0dFA1T0pNUW5lV2hqLXVNYXdnelFfaG5YdTh3UjA5eDh2MUR2aGJZbFdTRkN4ZzhiSlROU3VSVmVYVQ?oc=5",
-      "published": "Wed, 18 Nov 2026 01:43:00 GMT",
-      "source": "조선일보"
+      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
+      "link": "https://semianalysis.com/2025/07/21/vlsi2025/",
+      "published": "Mon, 21 Jul 2025 14:23:37 +0000",
+      "source": "SemiAnalysis"
     },
     {
-      "title": "보스턴다이나믹스, 반도체 제조 현장서 아틀라스 첫 검증",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE13OF9oaEdzcjc2SUVJZS1Vb1MtVUR6eXdJSC1kX1FWVUhXRU93SHpFLXRCZER5X3JSSTFQTFgyaWptSlhNOXNRU0o3dFdWUQ?oc=5",
-      "published": "Wed, 18 Nov 2026 00:56:36 GMT",
-      "source": "전자신문"
+      "title": "Nvidia GeForce driver bug reportedly hammers SSDs with up to 30GB of writes per hour",
+      "link": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected",
+      "published": "Wed, 18 Nov 2026 21:00:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "삼성전기, 엔비디아 AI 반도체 공급 확대…기판·MLCC 동시 공략",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PNXk4XzhwMTlJekJsSndlYzd5eUR2RFhtSXlER29DdXF4aFU5ZGozUDFrNVY5OTNCTVduTTRrUXFGeEZQZnhHODBFR1ByNVpnVWlqS3RaUDA?oc=5",
-      "published": "Wed, 18 Nov 2026 00:30:29 GMT",
-      "source": "더트래커"
+      "title": "Nvidia promises employee pay raises, equity before December to quell unrest in wake of Jensen Huang scandal",
+      "link": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-promises-employee-pay-raises-equity-before-december-to-quell-unrest-in-wake-of-jensen-huang-scandal-at-first-all-hands-meeting-since-ceos-departure-staff-offered-perks-told-were-going-to-be-fine",
+      "published": "Wed, 18 Nov 2026 18:40:28 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "월가 \"엔비디아 AI 반도체 수요 건재\"…\"아직 신중해야\" 의견도",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NWEQyOEVOYmpkcHFfT0Rva1RkbnZuSzlrS1NjamtEUzJ2bmEwT3VGMXVCZU04a0s1aVQ5WGNEc0hnVy1lMUhucnEybnhIVjAxMGV2WGxsWVI3QQ?oc=5",
-      "published": "Tue, 17 Nov 2026 22:53:55 GMT",
-      "source": "한국경제"
+      "title": "Leaked Ohio bill could allow AI data center companies to seize private land for their buildouts using eminent domain law",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/leaked-ohio-bill-could-allow-ai-data-center-companies-to-seize-private-land-for-their-buildouts-using-eminent-domain-law-proposed-law-would-expand-list-of-beneficiaries",
+      "published": "Wed, 18 Nov 2026 15:30:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "[단독] 삼성전자·애플, D램 장기공급계약 ‘초읽기’",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qbmFzeUw0X1VNVlJGOE1ITjhGaXNGZ05SS2ptMmE4OFBZTkxGQ0xYWXNuZ2tLRVhkTkxEcFZNYTdGSkJTRDVLckVuUmpabFRjM1E3X2xn?oc=5",
-      "published": "Tue, 17 Nov 2026 08:00:00 GMT",
-      "source": "매일경제"
+      "title": "Nvidia says it’s ‘absurd’ to assume it predicted the agentic moment during Vera’s development",
+      "link": "https://www.tomshardware.com/pc-components/cpus/nvidia-says-its-absurd-to-assume-it-predicted-the-agentic-moment-during-veras-development-product-intuition-helped-drive-cpu-design-superior-memory-bandwidth-will-play-critical-role-in-future-ai-agents-cpu-boss-claims",
+      "published": "Wed, 18 Nov 2026 15:00:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "반도체 공장 가는 아틀라스…보스턴다이나믹스, 글로벌파운드리와 협력",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MSW5zS1JLNnRWWHhZdUFZQk9EUzRHbWtrd0toMGJqbmlMeE9JRDJjUnZveGsyVVFiX0E3RDFFQk5kd1pRMGlfVjdsazhmZnBlajlSTUtR?oc=5",
-      "published": "Wed, 18 Nov 2026 01:06:22 GMT",
-      "source": "지디넷코리아"
+      "title": "Elon Musk’s SpaceXAI suffers chemical spill at Mississippi AI data center",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-suffers-chemical-spill-at-mississippi-ai-data-center-up-to-6-000-gallons-of-propylene-glycol-heat-transfer-fluid-lost-environment-agency-says-no-threat-to-residents",
+      "published": "Wed, 18 Nov 2026 14:30:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "경기도, 안성 등 8개시와 반도체 클러스터 지정 공동 추진...“세계 최고 기술과 기업 인재가 모이는 반도체 핵심 거점, 경기도에 만들겠다”",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOZksxTW5jYnJCbTBXS3MtT0NJVUVuUUF3ckk2OHZyX2pIMGZJMDZBLXNHWU84Z210NkNrMml2Z01rQzJBYjhveU5zanZBMFdpa3hRMHFtMnhxbHNKN0VyQjBCYVFEamJBOHdSQQ?oc=5",
-      "published": "Tue, 17 Nov 2026 22:32:38 GMT",
-      "source": "시사안성"
+      "title": "The Downfall of Jensen Huang — a timeline of allegations and scandals that brought down the king of AI infrastructure",
+      "link": "https://www.tomshardware.com/tech-industry/the-downfall-of-jensen-huang",
+      "published": "Wed, 18 Nov 2026 14:10:32 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "반도체 인재 키운다…전남광주시교육청·앰코·대한상의 '맞손",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Sb0FaQjN1eG85Q2hINml2SThfVWpkSHZ6eUxtT0hVQklhaDNVdHE4MXRDT09fZUZLeXBZN0NoenhwLXFyNi1LVi1zY3NJU2pzT3VHdXZ3RzlhMHRhRW5WaUdpWlI5RnZOMk9HdGMwOA?oc=5",
-      "published": "Wed, 18 Nov 2026 01:41:52 GMT",
-      "source": "진일보 | 전남일보"
+      "title": "Nvidia board faction angling for Jensen Huang return as CEO, report claims",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-board-faction-angling-for-jensen-huang-return-as-ceo-report-claims-company-defiant-at-earnings-calls-says-no-possibility-of-reinstatement",
+      "published": "Wed, 18 Nov 2026 13:30:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "美 보스턴 다이내믹스 '아틀라스', 2027년 반도체 공장서 현장 시험",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NUnAwa3ItR3lyM2tDYzdRRURBdmMzYXNlR2RyNUhpNk53SGQ4ODhYc0tkRXRIVUREbjhjaUVqNzZ2X2V0cnViT0h3YlFTUFIxbHQ2YjRjejVUYWluaXB0WWpYRmMtYnYxMDVReg?oc=5",
-      "published": "Wed, 18 Nov 2026 01:50:57 GMT",
-      "source": "로봇신문"
+      "title": "Nvidia's revenue hits $115.8 billion as Vera Rubin generates $20 billion in another record-setting quarter",
+      "link": "https://www.tomshardware.com/pc-components/gpus/nvidias-revenue-hits-usd115-8-billion-as-vera-rubin-generates-usd20-billion-in-another-record-setting-quarter-commitments-increase-to-usd390-billion-fy28-forecast-raised",
+      "published": "Wed, 18 Nov 2026 13:00:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "[오전 시황] 코스피 상승폭 0.74%로 축소…반도체 초반 급등 반납",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51VVJnZDNyVk1zek5VOEJPUzc0eUdleG9jNzhiWVpOdjVIaWRLdXB6bG5jVDNPOG8xUjdJY2hNRHdROGhnS0F2cjRGLVNiZW5kMVVBSGRTSEpRUQ?oc=5",
-      "published": "Wed, 18 Nov 2026 01:48:51 GMT",
-      "source": "한국경제"
+      "title": "SSDs, laptops, and phones may get cheaper as consumer NAND spot pricing drops 20%",
+      "link": "https://www.tomshardware.com/pc-components/ssds/ssds-laptops-and-phones-may-get-cheaper-as-consumer-nand-spot-pricing-drops-20-percent-bank-of-america-expects-contract-price-drops-report-cites-oversupply-in-consumer-market-amid-declining-demand-and-growing-chinese-competition",
+      "published": "Wed, 18 Nov 2026 12:00:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "[정책의 맥]반도체 호황, 그 성과는 어디로 가는가",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PT0R3YmVCVHdpU2l6endhdmI1bXJRNEFtN2MzRXFjVWRUN3h6eFdCU3Y2b2EzRW5hTlg5S01uUzlYVVJkbmxUTUw2a2d2MjFZeXh1a1gtSW9ZY0lOcVZjNA?oc=5",
-      "published": "Wed, 18 Nov 2026 02:00:00 GMT",
-      "source": "아시아경제"
+      "title": "China threatens 'countermeasures' in the face of new AI GPU rental and export restrictions",
+      "link": "https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season",
+      "published": "Wed, 18 Nov 2026 11:00:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "한국, 세계 4번째 수출 1조달러 초읽기...'AI 열풍 반도체가 견인'",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fVWc4LWUyZ3RmSW1ZNW5YdnBiVjdPREE2aXR0S0NhcWdLUnpUbHJXSmtJbnBlcmlzdVFRRXcyQjdSWW5fLXNrRXBGdVpLY0F0bjBiRG04TXg?oc=5",
-      "published": "Wed, 18 Nov 2026 00:49:20 GMT",
-      "source": "경북신문"
+      "title": "$3.26 million in SpaceX AI data center revenue will be pumped back into the City of Memphis",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/usd3-26-million-in-spacex-ai-data-center-revenue-will-be-pumped-back-into-the-city-of-memphis-up-to-usd25-000-on-offer-to-low-income-residents-for-repairs-and-home-improvements",
+      "published": "Wed, 18 Nov 2026 10:00:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "[AI MY 뉴스] 18일 중국증시 'AI 반도체 전운 속 APEC 개막…기술주 반전 모멘텀 될까'",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9mZ19TMENMM1NrOUQ1ekJvU1l0WnhoSGRldGxZbVg0b2dHS1FZWWIwdXJzaWR3Smx2Y3VUZldZODJvbjEyNklhcnNFNG1CRm9NQ3lQdlozWC0tQ1pX?oc=5",
-      "published": "Tue, 17 Nov 2026 23:10:00 GMT",
-      "source": "뉴스핌"
+      "title": "Nvidia employee warns of 'irreplaceable' talent exodus if Jensen Huang not reinstated",
+      "link": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-employee-warns-of-irreplaceable-talent-exodus-if-jensen-huang-not-reinstated-cautions-board-and-top-brass-that-talent-at-nvidia-is-now-contemplating-departing",
+      "published": "Tue, 17 Nov 2026 21:00:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "삼성전기-엔비디아, AI 반도체 기판 협력 확대…MLCC 공급 추진",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MWVFwMXppbGZDQzZBdFFpQlpNSmRPRjVJenNDakd5R3NhbTVjWWlVcUx6MnE1LVV1LTl3dkh3NFZBalM5emoxSUJvOVF4OFhyZmZMSnlkSjBiakxoRmluN2Vn?oc=5",
-      "published": "Wed, 18 Nov 2026 00:57:51 GMT",
-      "source": "디지털데일리"
+      "title": "Nvidia claims its Vera CPU can gain up to 39% performance boost via software optimization at SC26 — architectural fine-tuning is needed to fully unleash custom Olympus cores",
+      "link": "https://www.tomshardware.com/pc-components/cpus/nvidia-claims-its-vera-cpu-can-gain-up-to-39-percent-performance-boost-via-software-optimization-at-sc26-architectural-fine-tuning-is-needed-to-fully-unleash-custom-olympus-cores",
+      "published": "Tue, 17 Nov 2026 17:30:00 +0000",
+      "source": "Tom's Hardware"
     },
     {
-      "title": "현대차 아틀라스, 반도체 공장 간다…자동차 산업 넘어 첫 시험대 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nbEZpYWxWRlQ3UHZiV2FyTjNKcEE2MXBlRklndmVWWU5qamxQNm1LbnlHNVJmbS1zbE5BaDdSQ09abXUwd3pxX0NEeEtCQ0ptRDlmSFRxOFk4aFNyUjFuUHllUWdlY29HMWoxRdIBckFVX3lxTFBxS2NrZVZORWZWRjF2ZjdFdndlYjctRzFMVzZ3aUwzQm5lUTc5UDZNV1ZVQTBUOHFmbWJ5YzFfVlF0bjlFUVNEX0lraFBQdFNCOGR1TEUya3hWcnk5V2JIbXJNRFRoVEptYXQ3TWpmLWR0UQ?oc=5",
-      "published": "Wed, 18 Nov 2026 00:23:11 GMT",
-      "source": "머니투데이"
-    },
-    {
-      "title": "특징주, 엑시콘-반도체 장비 테마 상승세에 5.44% ↑",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YZEV3cXR5aDNVTnVtZ1l6NXo3MFU5QWkyRXFQeERqUFNmRkNMdVgxZWF1MFRrbVFNRnlHS0g1T21WNEcxdGNRQUppckM5dDBDblE?oc=5",
-      "published": "Wed, 18 Nov 2026 00:28:26 GMT",
-      "source": "매일경제 마켓"
+      "title": "Jensen Huang says he would be ‘honored’ to return as Nvidia CEO",
+      "link": "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo-first-statement-since-resignation-follows-support-from-billionaires-investors-and-some-employees",
+      "published": "Tue, 17 Nov 2026 16:33:23 +0000",
+      "source": "Tom's Hardware"
     }
   ],
   "manual": {
@@ -6183,7 +6183,10 @@
       }
     ]
   },
-  "errors": [],
+  "errors": [
+    "news:Google News — HTTP Error 503: Service Unavailable",
+    "news:Google News — HTTP Error 503: Service Unavailable"
+  ],
   "notes": {
     "manual_fields": [
       "밸류에이션·메모리 가격은 data/manual.json에 수기로 누적한다",
